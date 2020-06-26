@@ -1,0 +1,16 @@
+---
+layout: default
+title: Tags
+---
+
+<div class="arhive-head">
+  <div class="container">
+    <h1 class="archive-title"><span>{{ page.title }}</span></h1>
+    <p  style="text-align: justify;">
+  	{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+  	{% assign tags = site_tags | split:',' | sort %}
+  	{% include tagcloud.html %}
+  	</p>
+
+  </div>
+</div>

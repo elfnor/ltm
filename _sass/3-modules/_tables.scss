@@ -1,0 +1,34 @@
+table {
+	font-size: 0.9em;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ccc;
+}
+table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+table.redtable {
+	background-color: red;
+}
+
+
+div.test th {
+  color: #711;
+  background-color: #c14c4c;
+}
+div.test td {
+	background-color: #ccc;
+}

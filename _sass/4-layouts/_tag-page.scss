@@ -1,0 +1,26 @@
+.arhive-head {
+  padding: 20px 0;
+  margin-bottom: 10px;
+
+
+  .archive-title {
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $light-red;
+    span {
+      font-weight: 700;
+    }
+  }
+
+.tag {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: $light-red;
+  text-transform: uppercase;
+
+}
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 10px;
+  }
+}
