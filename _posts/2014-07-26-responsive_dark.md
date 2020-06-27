@@ -38,7 +38,7 @@ Other settings I also used:
 
 ### Image Page
 
-![image screen shots](%7B%7B%20site.baseurl%20%7D%7D/images/image_screen.png)
+![image screen shots]({{ site.baseurl }}/images/image_screen.png)
 
 ## Demo Album
 

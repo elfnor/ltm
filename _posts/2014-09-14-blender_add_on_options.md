@@ -103,7 +103,7 @@ if __name__ == "__main__" :
     register()
 ```
 
-![drop down 02](%7B%7B%20site.baseurl%20%7D%7D/images/Screenshot-drop_down_02.png)
+![drop down 02]({{ site.baseurl }}/images/Screenshot-drop_down_02.png)
 
 Within the draw method quite complex layouts can be defined if necessary. See these [examples](http://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Cookbook/Code_snippets/Interface) on the blender site.
 
@@ -152,7 +152,7 @@ if __name__ == "__main__" :
     register()
 ```
 
-![drop down 03](%7B%7B%20site.baseurl%20%7D%7D/images/Screenshot-drop_down_03.png)
+![drop down 03]({{ site.baseurl }}/images/Screenshot-drop_down_03.png)
 
 ## Dynamic Lists
 
@@ -194,7 +194,7 @@ if __name__ == "__main__" :
     register() 
 ```
 
-![drop down 04](%7B%7B%20site.baseurl%20%7D%7D/images/Screenshot-drop_down_04.png)
+![drop down 04]({{ site.baseurl }}/images/Screenshot-drop_down_04.png)
 
 The callback should return a list of tuples. The above example will update the list of objects every time the user changes the selection. This may not be what you want if the add-on adds lots of new objects to a scene. For the Copy2 add-on I wanted the list to only contain objects that were in the scene when the user started the add-on.
 

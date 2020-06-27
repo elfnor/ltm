@@ -43,7 +43,7 @@ The input vector is assigned to *P* if no input is connected to this socket. *P*
 
 The above shader describes a sphere at the origin. In the image below, the circles on each face vary in radius, depending on where the face intersects the texture sphere at the origin. Notice how the texture also intersects the cube on the right just a little.
 
-![noodle + render](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-b2b2a.png)
+![noodle + render]({{ site.baseurl }}/images/blender_osl_shaders-b2b2a.png)
 *A series of cubes (Dimensions = (1.0, 2.0, 2.0))\
 with the circle shader applied in world coordinates.\
 The texture radius has been increased to 1.2*
@@ -52,17 +52,17 @@ We can connect different texture coordinates to the *Vector* input to map the te
 
 The *Generated* coordinates range from 0 to 1 on the three axes of the object bounding box. This is the default for the built in Cycles texture nodes. Each sphere starts at (0, 0, 0) of bounding box and extends halfway (Radius=0.5) along the box edge.
 
-![noodle + render](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-d3538.png)
+![noodle + render]({{ site.baseurl }}/images/blender_osl_shaders-d3538.png)
 *Generated coordinates on cubes*
 
 *UV* needs a UV map assigned to the object and works as usual. Here is a torus with the default *Unwrap* map applied. The *Offset* x-value was set to -0.5 to move the texture relative to the quads on the torus.
 
-![noodle + render](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-63118.png)
+![noodle + render]({{ site.baseurl }}/images/blender_osl_shaders-63118.png)
 *Default UV map on torus*
 
 The *Object* coordinates are centered on the object center and are not scaled by the object\'s bounding box. The texture now moves with the object and is scaled by the *Scale* values of the object. Below, the left and middle cubes have *Scale* = (0.5, 1.0, 1.0), *Dimensions* = (1.0, 2.0, 2.0). The circle pattern appears elliptical on the side faces because the texture is applied before the scale. The cube on the right has the scale applied (*Scale* = (1.0, 1.0, 1.0), *Dimensions* = (1.0, 2.0, 2.0)). Its pattern stays circular on all faces.
 
-![noodle + render](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-79d3d.png)
+![noodle + render]({{ site.baseurl }}/images/blender_osl_shaders-79d3d.png)
 *In object coordinates the texture is centered on each object and is affected by the scale of the object*
 
 To draw an array of spheres we don\'t want to calculate the distance to every center point in the array and then decide which center point is the closest. This would be really inefficient. Instead we map each input point to a single unit of our pattern, and then do a minimum number of distance calculations.
@@ -100,26 +100,26 @@ shader sphere_pack_cubic(
 
 An easy way to confirm the shader is correct is to plug it into a volume shader.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-337c5.png)
-![](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-363a9.png)
+![]({{ site.baseurl }}/images/blender_osl_shaders-337c5.png)
+![]({{ site.baseurl }}/images/blender_osl_shaders-363a9.png)
 *Using the shader for a volume shader*
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-1b914.png)
+![]({{ site.baseurl }}/images/blender_osl_shaders-1b914.png)
 *Using the shader on a plane*
 
 This fairly simple shader can be used to do some interesting things.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-fc058.png)
+![]({{ site.baseurl }}/images/blender_osl_shaders-fc058.png)
 *altering the mapping coordinates*
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-7ab75.png)
+![]({{ site.baseurl }}/images/blender_osl_shaders-7ab75.png)
 *overlapping copies at different scales*
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-d5201.png)
+![]({{ site.baseurl }}/images/blender_osl_shaders-d5201.png)
 *add a random texture to the radius*
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-d8d0d.png)
+![]({{ site.baseurl }}/images/blender_osl_shaders-d8d0d.png)
 *Starting to play*
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/blender_osl_shaders-2cb67.png)
+![]({{ site.baseurl }}/images/blender_osl_shaders-2cb67.png)
 *more overlapping copies*

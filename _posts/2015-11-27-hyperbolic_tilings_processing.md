@@ -20,7 +20,7 @@ If you do want to run the sketch you\'ll need to [install Processing](https://pr
 
 Download a copy of the [Hyperbolic Coral](https://github.com/elfnor/hyperbolic_coral) files from github and unzip them somewhere. Run Processing and change the mode to Python. Open the file `hyperbolic_tiling.pyde` and create a new folder when prompted. Move a copy of `hyperbolic_tiling.py` into the same folder. Run the script and you should see a window displaying the tiling unfolding.
 
-![screenshot hyperbolic unfurling](%7B%7B%20site.baseurl%20%7D%7D/images/processing_unfurl_ht_734.png)
+![screenshot hyperbolic unfurling]({{ site.baseurl }}/images/processing_unfurl_ht_734.png)
 
 There\'s no fancy interface for this. Edit the `p, q, layers` parameters in the `setup()` function and re run. The tilings are described with two numbers, `p` the number of sides to the polygons used and `q` the number of polygons that meet at each vertex. The number of `layers` describes how many rings of polygons to include. Each polygon face is divided into triangles and the polygons are not so obvious in the mesh.
 
@@ -48,6 +48,6 @@ My best advise if playing with this is lower the drag and increase the negative 
 
 Here to follow up on the previous posts is the hyperbolic football with friends.
 
-![plane, sphere and hyperbolic footbal](%7B%7B%20site.baseurl%20%7D%7D/images/hexagon_sphere_plane_hyp_processing_019.png)
+![plane, sphere and hyperbolic footbal]({{ site.baseurl }}/images/hexagon_sphere_plane_hyp_processing_019.png)
 
 ------------------------------------------------------------------------

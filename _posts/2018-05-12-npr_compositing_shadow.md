@@ -35,33 +35,33 @@ Sampling can be set very low (10) and light path bounce need to be set low or ze
 
 Here\'s a normal render layer and the same scene using the compositor to only show the diffuse color pass. In the first image the background is transparent. In the second the diffuse color pass as been superimposed over a yellow background using the *Alpha Over* node.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-edadd.png)
+![]({{ site.baseurl }}/images/npr_compositing-edadd.png)
 *render layer*
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-2c93d.png)
+![]({{ site.baseurl }}/images/npr_compositing-2c93d.png)
 *compositor nodes*
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-d2ec1.png)
+![]({{ site.baseurl }}/images/npr_compositing-d2ec1.png)
 *diffuse color pass*
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-90051.png)
+![]({{ site.baseurl }}/images/npr_compositing-90051.png)
 *how to make the diffuse color pass available*
 
 Most NPR styles will use freestyle lines. It\'s best to render these on a separate layer so that separate effects can be applied to the rest of the image without changing the lines.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-bf0c6.png)
+![]({{ site.baseurl }}/images/npr_compositing-bf0c6.png)
 *remove any Freestyle Line Sets from the RenderLayer and add one to the LineLayer*
 
 Also turn off the *Use Surfaces* etc. under *Layer* only for the *LineLayer*.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-59687.png)
+![]({{ site.baseurl }}/images/npr_compositing-59687.png)
 *Use Surfaces disabled for the LineLayer*
 
 In the Compositor, add another *RenderLayer* node, select the LineLayer and use another *Alpha Over* to combine this with the diffuse color pass and the background.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-94d4d.png)
+![]({{ site.baseurl }}/images/npr_compositing-94d4d.png)
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-1b352.png)
+![]({{ site.baseurl }}/images/npr_compositing-1b352.png)
 *diffuse color mixed with yellow background and freestyle layer*
 
 ## Two Color
@@ -70,40 +70,40 @@ Having achieved a one color style, we\'ll now do two colors like a typical toon-
 
 A typical toon look is a two-colour shader with a sharp separation between the two colours. This can be achieved by using the shadow pass to add a single darker version of the diffuse color into the shadowed areas.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing_shadow-4635d.png)
+![]({{ site.baseurl }}/images/npr_compositing_shadow-4635d.png)
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing_shadow-91858.png)
+![]({{ site.baseurl }}/images/npr_compositing_shadow-91858.png)
 *diffuse color and shadow pass with low value (more gray) diffuse color*
 
 There is still some fuzziness between the shadow color and the main color on the sphere. If you want a really hard edge us a black/white constant color ramp node on the shadow pass to sharpen this.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing_shadow-4f80d.png)
+![]({{ site.baseurl }}/images/npr_compositing_shadow-4f80d.png)
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing_shadow-9c194.png)
+![]({{ site.baseurl }}/images/npr_compositing_shadow-9c194.png)
 *using a color ramp to sharpen the edge of the shadow*
 
 A softer line can be achieved by increasing the size of the sun,
 
 Use the same node setup to mix a cross hatching image or texture with a flat color instead of mixing the two shades of the diffuse color.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing_shadow-5b485.png)
+![]({{ site.baseurl }}/images/npr_compositing_shadow-5b485.png)
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing_shadow-0bba7.png)
+![]({{ site.baseurl }}/images/npr_compositing_shadow-0bba7.png)
 *using a texture in the shadow pass areas*
 
 Unfortunately, we\'ve lost any detail of the color bands on the hat or kite.
 
 The below method fixes that by using the black/white color ramp to pick light and dark values from the original image, rather than just using the shadow pass. This picks up the darker red shades on the kite and ball. Use the *Gamma* node to adjust where the boundary of the cross-hatching occurs.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-16c42.png)
+![]({{ site.baseurl }}/images/npr_compositing-16c42.png)
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing-c21f0.png)
+![]({{ site.baseurl }}/images/npr_compositing-c21f0.png)
 *using a texture in the darker areas of the rendered image*
 
 Combining the two last techniques:
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing_shadow-976b8.png)
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_compositing_shadow-995a1.png)
+![]({{ site.baseurl }}/images/npr_compositing_shadow-976b8.png)
+![]({{ site.baseurl }}/images/npr_compositing_shadow-995a1.png)
 *apply a texture in the shadow areas, same texture at 90° in the dark areas*
 
 We\'re now past my 12 node limit so I\'ll leave other ideas for another post. Then I\'ll concentrate more on pencil and watercolor styles.

@@ -22,7 +22,7 @@ It allows you to draw on a canvas that automatically completes the chosen symmet
 
 ## Kali
 
-![kali](%7B%7B%20site.baseurl%20%7D%7D/images/kali.png)
+![kali]({{ site.baseurl }}/images/kali.png)
 
 This on-line Java applet can be used [here](http://www.scienceu.com/geometry/handson/kali/). Its much easier to do straight lines in this app. It uses the orbifold notation for the symmetry groups.
 
@@ -80,249 +80,138 @@ The symmetry groups that can be made with rectangular or square cells can be def
 The 32 strings here are this produced by the Symmetry Tile plugin when \"all square cells\" is selected and \"Multiple\" is set to \"Yes\". When \"Multiple\" is set to \"No\" only one string from each symmetry group is used.
 
 <table>
-<tr>
-<th>
-Symmetry Group
-</th>
-<th>
-bdpq string
-</th>
-</tr>
-<tr>
-<td>
-p1
-</td>
-<td>
-b
-</td>
-</tr>
-<tr>
-<td>
-p2
-</td>
-<td>
-bq
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-b\|q
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bq\|qb
-</td>
-</tr>
-<tr>
-<td>
-pm
-</td>
-<td>
-bd
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-b\|p
-</td>
-</tr>
-<tr>
-<td>
-cm
-</td>
-<td>
-bp\|pb
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bd\|db
-</td>
-</tr>
-<tr>
-<td>
-cmm
-</td>
-<td>
-bdpq\|pqbd
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bd\|qp\|db\|pq
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bqpd\|pdbq
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bd\|pq\|db\|qp
-</td>
-</tr>
-<tr>
-<td>
-pg
-</td>
-<td>
-bp
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-b\|d
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bd+\|d+b
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bp+\|p+b
-</td>
-</tr>
-<tr>
-<td>
-pgg
-</td>
-<td>
-bp\|dq
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bq\|dp
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bp\|qd
-</td>
-</tr>
-<tr>
-<td>
-pmg
-</td>
-<td>
-bd\|qp
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-b\|p\|d\|q
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-b\|q\|d\|p
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bdpq
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bqpd
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bq\|pd
-</td>
-</tr>
-<tr>
-<td>
-pmm
-</td>
-<td>
-bd\|pq
-</td>
-</tr>
-<tr>
-<td>
-p4
-</td>
-<td>
-bb+\|q+q
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bq+\|b+q
-</td>
-</tr>
-<tr>
-<td>
-p4g
-</td>
-<td>
-bdp+b+\|pqq+d+\|p+b+bd\|q+d+pq
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bdd+q+\|b+p+pq\|d+q+bd\|pqb+p+
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bb+p+d\|q+qpd+\|p+dbb+\|pd+q+q
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-bq+d+d\|pp+b+q\|d+dbq+\|b+qpp+
-</td>
-</tr>
+  <tr>
+    <th>Symmetry Group</th>
+    <th>bdpq string</th>
+  </tr>
+  <tr>
+    <td>p1</td>
+    <td>b</td>
+  </tr>
+  <tr>
+    <td>p2</td>
+    <td>bq</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>b|q</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bq|qb</td>
+  </tr>
+  <tr>
+    <td>pm</td>
+    <td>bd</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>b|p</td>
+  </tr>
+  <tr>
+    <td>cm</td>
+    <td>bp|pb</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bd|db</td>
+  </tr>
+  <tr>
+    <td>cmm</td>
+    <td>bdpq|pqbd</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bd|qp|db|pq</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bqpd|pdbq</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bd|pq|db|qp</td>
+  </tr>
+  <tr>
+    <td>pg</td>
+    <td>bp</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>b|d</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bd+|d+b</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bp+|p+b</td>
+  </tr>
+  <tr>
+    <td>pgg</td>
+    <td>bp|dq</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bq|dp</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bp|qd</td>
+  </tr>
+  <tr>
+    <td>pmg</td>
+    <td>bd|qp</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>b|p|d|q</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>b|q|d|p</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bdpq</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bqpd</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bq|pd</td>
+  </tr>
+  <tr>
+    <td>pmm</td>
+    <td>bd|pq</td>
+  </tr>
+  <tr>
+    <td>p4</td>
+    <td>bb+|q+q</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bq+|b+q</td>
+  </tr>
+  <tr>
+    <td>p4g</td>
+    <td>bdp+b+|pqq+d+|p+b+bd|q+d+pq</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bdd+q+|b+p+pq|d+q+bd|pqb+p+</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bb+p+d|q+qpd+|p+dbb+|pd+q+q</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>bq+d+d|pp+b+q|d+dbq+|b+qpp+</td>
+  </tr>
 </table>
 
 ------------------------------------------------------------------------

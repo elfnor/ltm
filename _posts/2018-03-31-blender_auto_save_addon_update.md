@@ -40,7 +40,7 @@ If the markdown file is opened in an editor with in-line markdown images or mark
 
 The add-on is intended to be unobtrusive and deliberately doesn\'t prompt the user for a comment or automatically save the text file externally to Blender.
 
-![addon screen shot](%7B%7B%20site.baseurl%20%7D%7D/images/auto_save_screenshot.png)
+![addon screen shot]({{ site.baseurl }}/images/auto_save_screenshot.png)
 
 On the first render with the Auto Save on Render add-on enabled, and \"with log file\" checked, the add-on will add a text-data-block called \"save log\" to the Blender file. To see this after the first render, use the \"Browse text to be linked\" drop down below the text editor to make the \"save log\" the active text block. Add any comments desired. To save a copy externally to Blender use the \"Text \> Save As\" menu. The default save name has been set to \"blendfilebasename\_log.md\". This can be changed but the markdown file link format requires the log file be in the same folder as the auto-saved images.
 

@@ -22,7 +22,7 @@ The layers have been renamed to something like `walkways_ivy_015.png(100ms)(comb
 
 I wanted to set the final image in the GIF to a longer display time than the others. To do this open the GIF file back into GIMP and change the delay in the layer attribute as above and re-export. I used 2000 ms.
 
-![walkways gif](%7B%7B%20site.baseurl%20%7D%7D/images/walkways_05.gif)
+![walkways gif]({{ site.baseurl }}/images/walkways_05.gif)
 
 The sequence above shows the texturing and lighting for a scene. The geometry was developed using my [Generative Art node](%7Bfilename%7Dblender_pipe_generator.md) for [Sverchok](https://github.com/nortikin/sverchok). Also used is the Ivy Gen add-on included with Blender.
 

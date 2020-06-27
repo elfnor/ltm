@@ -19,8 +19,8 @@ I\'m trying to push the output away from climbing plants but haven\'t got as far
 
 In the meantime here are my tests. In the top image the ivy was grown (with no leaves) over a spherical wireframe that isn\'t included in the image. The image below is the same render with the Ray Visibility for the ivy turned off so only the shadows remain. The last image is similar to the first with some more sculpting around the supporting sphere.
 
-![ivy1](%7B%7B%20site.baseurl%20%7D%7D/images/ivy_test24.png)
+![ivy1]({{ site.baseurl }}/images/ivy_test24.png)
 
-![ivy1](%7B%7B%20site.baseurl%20%7D%7D/images/ivy_test35.png)
+![ivy1]({{ site.baseurl }}/images/ivy_test35.png)
 
 ------------------------------------------------------------------------

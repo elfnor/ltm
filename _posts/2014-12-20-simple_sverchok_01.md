@@ -27,7 +27,7 @@ My preferred layout for working in Sverchok is to start with the Compositing scr
 
 Here is the first node set up we\'re going to look at.
 
-[![centers polygons node example](%7B%7B%20site.baseurl%20%7D%7D/images/centers_polygons1.blend_low_res.png)](%7B%7B%20site.baseurl%20%7D%7D/images/centers_polygons1.blend.png)
+[![centers polygons node example]({{ site.baseurl }}/images/centers_polygons1.blend_low_res.png)]({{ site.baseurl }}/images/centers_polygons1.blend.png)
 
 This is a very simple node diagram (click for a larger image). All it does is copy one object from the scene onto the centers\' of the polygons of another object in the scene.
 
@@ -37,7 +37,7 @@ The two green \"Objects\_in\" Scene nodes allow access to the data from objects 
 
 Each of the connections on the right side of the \"Object\_in\" node outputs some of the mesh data for its object. To see what this data looks like connect a \"Viewer\_text\" Text node to one of the outputs. Change one of the panels in the blender window to a text editor and select the \"Sverchok\_viewer\" from the data block selector. When the \"VIEW\" button on the \"Viewer\_text\" node is pressed the data stream connected to the node will be written to this panel.
 
-![Viewer text node](%7B%7B%20site.baseurl%20%7D%7D/images/centers_polygons1a.blend.png)
+![Viewer text node]({{ site.baseurl }}/images/centers_polygons1a.blend.png)
 
 A blender mesh is described as the (x, y, z) coordinates of the vertices of the object. These are given relative to the origin of the object.
 
@@ -60,7 +60,7 @@ Rotations affect the 3 x 3 top left corner of the matrix. If you\'re interested 
 
 To separate out the various parts of the transform matrix use the \"Matrix out\" node from the \"Matrix\" node set. This takes a matrix (or many matrices) and outputs separately the location, scale, rotation and angle represented by that transform matrix.
 
-![Matrix out node](%7B%7B%20site.baseurl%20%7D%7D/images/centers_polygons1b.blend.png)
+![Matrix out node]({{ site.baseurl }}/images/centers_polygons1b.blend.png)
 
 The rotation output of the node is a list of three numbers which correspond to the X, Y, Z values of the rotation given in the transform panel of the 3D view when the \"Axis Angle\" display option is selected. The Angle output of the node is the W value (in degrees) from the transform panel. In the \"Axis Angle\" mode, X, Y, Z describe an axis and W describes a angle that the object is rotated about this axis.
 
@@ -70,7 +70,7 @@ Also play with moving, rotating or scaling the mesh in \"EDIT\" mode. You will f
 
 Getting back to the \"Centers Polygons\" node from the \"Analysers\" node set. It takes a set of vertex coordinates and a list of polygon connections as its inputs and outputs data about the centers of each of those polygons.
 
-![centers polygon nodes only](%7B%7B%20site.baseurl%20%7D%7D/images/centers_polygons1.blend_diagram.png)
+![centers polygon nodes only]({{ site.baseurl }}/images/centers_polygons1.blend_diagram.png)
 
 The \"Centers\" output of the node is colored blue, meaning its going to output matrices.
 In the node diagram the \"Centers\" output from the \"Centers Polygons\" node is connected to the matrix input of a \"Viewer Draw\" node. Connecting another mesh to the \"Vertices\" \"Edge pol\" inputs produces a copy of the second mesh at the center of each polygon on the first mesh.

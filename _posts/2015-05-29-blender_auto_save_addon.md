@@ -20,7 +20,7 @@ My version available [here on github](https://github.com/elfnor/blender_auto_sav
 
 After the add-on is installed, the settings are found on the Render panel.
 
-![screenshot](%7B%7B%20site.baseurl%20%7D%7D/images/screen.png)
+![screenshot]({{ site.baseurl }}/images/screen.png)
 
 With \"Auto Save Image\" and \"with .blend\" set and the file \"\\Documents\\test.blend\" open, after rendering the following files will be created
 

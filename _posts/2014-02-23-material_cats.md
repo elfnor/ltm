@@ -16,11 +16,11 @@ Here\'s the collection so far:
 
 The original cat is the grey and brown cat shown here. She was modeled in clay, burnished and saggar fired in an electric kiln.
 
-![raku cat](%7B%7B%20site.baseurl%20%7D%7D/images/raku_cat.jpg)
+![raku cat]({{ site.baseurl }}/images/raku_cat.jpg)
 
 For a saggar firing the piece is placed inside a larger pot filled with sawdust, wood shavings and colourants such as copper sulphate and copper wire. The pot is sealed and fired in an electric kiln. This give a reducing atmosphere (not enough oxygen for clean burning). The colourants used in ceramics, produce different colours in a reducing atmosphere than they do in a normal electric kiln firing. The process produces a bit of smoke outside the kiln. The kiln I fired this in was in a garage on a school site so we got away with it. The kilns I use now are in a community arts facility inside a building and I can\'t do saggar firings there. I like the randomness of this type of process, the result isn\'t known until the piece is taken from the kiln. Pit firing and raku firing are other processes I enjoy for their random or serendipitous results.
 
-![cat mould](%7B%7B%20site.baseurl%20%7D%7D/images/cat_mould.jpg)
+![cat mould]({{ site.baseurl }}/images/cat_mould.jpg)
 
 The mould is made in two parts. The inner part is flexible and is made with co-polymer sealant (the clear stuff you buy at the hardware store for sealing bathroom tiles). Professional mould makers use expensive (at least here in NZ) two-part silicon moulding compounds. Sealant is way cheaper and easier to get. The cons are its thick consistency make it easy to trap air against the mould, giving unsightly pimples on the casting. Also the sealant sets by releasing a gas, so thick layers can take a long time (or forever) to cure. Years ago I picked up a tip[^1] to add mineral turpentine to the sealant to thin it. This can then be painted on as a thin layer on to the object being cast. Allow this first thin layer to dry. It will take a lot longer than plain sealant due to the turps. When its dry build up the mould with more plain sealant filling in all the gaps until there are no undercuts. Let this dry again.
 

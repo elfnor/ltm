@@ -28,7 +28,7 @@ will produce a file `/path/to/file/totranslate.es.xml`
 
 Here\'s the original eisenscript and translated eisenxml for one of the creatures above.
 
-![ss\_medusa](%7B%7B%20site.baseurl%20%7D%7D/images/ss_medusa.png)
+![ss\_medusa]({{ site.baseurl }}/images/ss_medusa.png)
 
     set md 25
 
@@ -71,7 +71,7 @@ Here\'s the original eisenscript and translated eisenxml for one of the creature
     10 * {z 0.9 ry -10 s 0.9} sphere
     }
 
-![ga\_medusa](%7B%7B%20site.baseurl%20%7D%7D/images/ga_medusa.png)
+![ga\_medusa]({{ site.baseurl }}/images/ga_medusa.png)
 
 ``` {.xml}
 <?xml version="1.0" ?>

@@ -26,7 +26,7 @@ To use this:
 
 The first three layers already have images loaded into the UV Map. These draw circular arcs on the faces that show how the tiles match up. These can be used as a guide for painting or can be drawn over. Any other image, can of course, be loaded up instead. Move the whole UV map over an image for kaleidoscope effects.
 
-![drawing layers](%7B%7B%20site.baseurl%20%7D%7D/images/penrose_layers.png)
+![drawing layers]({{ site.baseurl }}/images/penrose_layers.png)
 
 The fourth layer contains the P1 pattern of pentagons, stars, boats and triangles with each shape given a different material. There are three different types of pentagon in the tiling. They\'re are different because they match differently against neighboring tiles. Each type of pentagon has is given its own color.
 

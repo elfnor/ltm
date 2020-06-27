@@ -17,59 +17,59 @@ I\'ve include the updated examples in my generative-art-examples [repo](https://
 
 ### 6 spirals
 
-![6 spirals](%7B%7B%20site.baseurl%20%7D%7D/images/matrix_iterate_13.png)\
+![6 spirals]({{ site.baseurl }}/images/matrix_iterate_13.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/spirals_6.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/spirals_6.json)
 
 ### Tree
 
-![tree](%7B%7B%20site.baseurl%20%7D%7D/images/tree_example.png)\
+![tree]({{ site.baseurl }}/images/tree_example.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/tree.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/tree.json)
 
 ## Examples from [Structure Synth meets Sverchok - Mesh mode](%7Bfilename%7Dstructure%20synth_meets_sverchok_02.md)
 
 ### Octopod
 
-![octopod](%7B%7B%20site.baseurl%20%7D%7D/images/octopod_example.png)\
+![octopod]({{ site.baseurl }}/images/octopod_example.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/octopod.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/octopod.json)
 
 ### Fern (odd)
 
-![fern wrong](%7B%7B%20site.baseurl%20%7D%7D/images/fern_wrong.blend.png)\
+![fern wrong]({{ site.baseurl }}/images/fern_wrong.blend.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/fern_wrong.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/fern_wrong.json)
 
 ### Fern
 
-![fern](%7B%7B%20site.baseurl%20%7D%7D/images/Fern.png)\
+![fern]({{ site.baseurl }}/images/Fern.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/fern.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/fern.json)
 
 ## Examples from [Structure Synth meets Sverchok - Animation](%7Bfilename%7Dstructure%20synth_meets_sverchok_03.md)
 
 ### Fern Animation
 
-![fern animation](%7B%7B%20site.baseurl%20%7D%7D/images/fern_anim_still_05.png)\
+![fern animation]({{ site.baseurl }}/images/fern_anim_still_05.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/fern_animation.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/fern_animation.json)
 
 ## Examples from [Blender Pipe Generator](%7Bfilename%7Dblender_pipe_generator.md)
 
 ### Pipe Generator
 
-![pipes](%7B%7B%20site.baseurl%20%7D%7D/images/pipes_example.png)\
+![pipes]({{ site.baseurl }}/images/pipes_example.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/pipes.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/pipes.json)
 
 ### Pipe Generator with gauges
 
-![pipes](%7B%7B%20site.baseurl%20%7D%7D/images/pipe_gen_15.png)\
+![pipes]({{ site.baseurl }}/images/pipe_gen_15.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/pipes.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/pipes_gauges.json), [blend](https://github.com/elfnor/generative-art-examples/blob/master/pipe_generator.blend)
 
 ## Examples from [Blender Game Level Generator](%7Bfilename%7Dblender_game_level_generator.md)
 
 ### Game Level Generator
 
-![ramps](%7B%7B%20site.baseurl%20%7D%7D/images/level_gen_demo.blend1.png)\
+![ramps]({{ site.baseurl }}/images/level_gen_demo.blend1.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/game_gen_demo.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/game_gen_demo.json), [blend](https://github.com/elfnor/generative-art-examples/blob/master/level_gen_demo.blend)
 
 ### Steely Taws Level Generator
 
-![steely\_taws](%7B%7B%20site.baseurl%20%7D%7D/images/level_gen_STD_ramps_render_017.png)\
+![steely\_taws]({{ site.baseurl }}/images/level_gen_STD_ramps_render_017.png)\
 [blend](https://github.com/elfnor/generative-art-examples/blob/master/steely_taws_level_gen.blend)
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--

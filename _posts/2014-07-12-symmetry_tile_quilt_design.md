@@ -42,7 +42,7 @@ Draw a square 120 X 120 pixels, and then some straight lines inside to make the 
 
 Use the fill tool (bucket) to fill each piece with a colour or pattern. Once coloured in a symmetric block can become non-symmetric. The block on the right with the coloured fill, no longer looks the same if it is flipped or mirrored.
 
-![filled blocks](%7B%7B%20site.baseurl%20%7D%7D/images/two_cells.png)
+![filled blocks]({{ site.baseurl }}/images/two_cells.png)
 
 ## Playing with symmetry
 
@@ -53,22 +53,22 @@ If you used the original cell, I used above, then amongst all those images will 
 
 ### Pinwheels
 
-![pinwheels](%7B%7B%20site.baseurl%20%7D%7D/images/p4_bbtlqtq.png)
+![pinwheels]({{ site.baseurl }}/images/p4_bbtlqtq.png)
 
 ### Flying Geese
 
-![flying geese](%7B%7B%20site.baseurl%20%7D%7D/images/cm_bplpb.png)
+![flying geese]({{ site.baseurl }}/images/cm_bplpb.png)
 
 ### Double Zigzag
 
-![double zigzag](%7B%7B%20site.baseurl%20%7D%7D/images/cmm_bdlqpldblpq.png)
+![double zigzag]({{ site.baseurl }}/images/cmm_bdlqpldblpq.png)
 
 ### Hourglass
 
-![hourglass](%7B%7B%20site.baseurl%20%7D%7D/images/p4g_bbtptdlqtqpdtlptdbbtlpdtqtq.png)
+![hourglass]({{ site.baseurl }}/images/p4g_bbtptdlqtqpdtlptdbbtlpdtqtq.png)
 
 Where you go from here is up to you. A sampler quilt with a selection of these design separated by borders is one possibility.
 
 I next opened a new much larger image and copied then pasted as layer some of the designs I liked the look of. With each designed as a separate layer they can be moved around and under each other until a potential quilt design is arrived at. The design below has about 5 different patterns arranged so the design morphs from one pattern to the next. It takes a little bit of time to catch on that only one basic block is used to achieve the different patterns.
 
-![quilt design](%7B%7B%20site.baseurl%20%7D%7D/images/quilt_02.png)
+![quilt design]({{ site.baseurl }}/images/quilt_02.png)

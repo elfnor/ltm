@@ -33,7 +33,7 @@ To use:
 -   download and install [Blender](https://www.blender.org/)\
 -   download the zip file for [Sverchok](https://github.com/nortikin/sverchok)\
 -   Install Sverchok. In Blender , File \> User Preferences \> Add-ons \> Install from zip and select the Sverchok download\
--   In a node editor window, select display Sverchok nodes (![icon](%7B%7B%20site.baseurl%20%7D%7D/images/sverchok_icon.png)), and add a new node tree.
+-   In a node editor window, select display Sverchok nodes (![icon]({{ site.baseurl }}/images/sverchok_icon.png)), and add a new node tree.
 -   Add a *Generative Art* node (*Add \> Generators \> Generative Art*)\
 -   Add an *xml* file and other nodes as shown below
 

@@ -38,21 +38,21 @@ Normally you would apply shape keys to an object with the first mesh shape and t
 
 Here are two meshes:
 
-![two meshes](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_01.png)
+![two meshes]({{ site.baseurl }}/images/TUT_shape_keys_01.png)
 
 Add a \"Basis\" *Shape Key* to the left object. The *Shape Key* panel is found in the *Properties Editor* under the *Object Data* tab.
 
-![adding shape key](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_02a.png)
+![adding shape key]({{ site.baseurl }}/images/TUT_shape_keys_02a.png)
 
 Select the right object then `Shift-RMB`{: .kbd} the left object. Both objects are selected and the left object is the active object.
 
 Click the small dark triangle on the *Shape Key* panel and choose the *Join as Shapes* option. This will add a shape key with the name of the right object.
 
-![join as shapes](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_03.png)
+![join as shapes]({{ site.baseurl }}/images/TUT_shape_keys_03.png)
 
 If you select this *Shape Key* and drag the slider below the left object will transition from its original shape to the shape of the right object.
 
-![transition](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_04.png)
+![transition]({{ site.baseurl }}/images/TUT_shape_keys_04.png)
 
 The position of the slider can be added as a keyframe in an animation by either hovering over the slider and pressing `I`{: .kbd} or with the context menu by `RMB`{:.kbd} a property and choose *Insert Keyframe* from the menu.
 
@@ -66,13 +66,13 @@ You have an object with a base mesh and a shape key that changes the shape of th
 
 The left object is the original object and has a shape key. The right object is the new base mesh. Delete all shape keys from the right object.
 
-![two more meshes](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_05.png)
+![two more meshes]({{ site.baseurl }}/images/TUT_shape_keys_05.png)
 
 Select the left object then `Shift-RMB`{: .kbd} the right object. Both objects are selected and the *right object* is the active object.
 
 Click the small dark triangle on the *Shape Key* panel and choose the *Transfer Shape Key* option. This will copy the shape key from the left object to the right object.
 
-![transfer shape key](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_06.png)
+![transfer shape key]({{ site.baseurl }}/images/TUT_shape_keys_06.png)
 
 The right object now has the new base mesh and the old shape key.
 
@@ -88,7 +88,7 @@ Set the *Shape Key* *Value* slider to give the desired mesh shape. If you have m
 
 Click the small dark triangle on the *Shape Key* panel and choose the *New Shape From Mix* option. This will add a new shape key from the current mix of values.
 
-![new shape from mix](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_07.png)
+![new shape from mix]({{ site.baseurl }}/images/TUT_shape_keys_07.png)
 
 Delete all the shape keys making sure to delete the new key last.
 
@@ -104,18 +104,18 @@ You could do this by duplicating the object, applying the shape keys (at the cor
 
 Use the arrows on the side of the *Shape Key* panel to move the shape key to the top of the list.
 
-![move shape key](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_08.png)
+![move shape key]({{ site.baseurl }}/images/TUT_shape_keys_08.png)
 
 The slider no longer moves between shapes. With the *Basis* key (now at the bottom of the list), click the push pin underneath the key list. Shape A nows shows
 
-![push pin](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_09.png)
+![push pin]({{ site.baseurl }}/images/TUT_shape_keys_09.png)
 
 Click the small dark triangle on the *Shape Key* panel and choose the *New Shape From Mix* option. This will add a new shape key that has the visible shape (Shape A). Click the push pin again to deselect it. The slider on the second key should now move between shape B at a value of 0 to shape A at a value of 1.
 
-![new key](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_10.png)
+![new key]({{ site.baseurl }}/images/TUT_shape_keys_10.png)
 
 Delete the original *Basis* key. Rename the shape key at the top of the list to *Basis*. This is optional but it might avoid you confusing yourself later (I\'m very good at doing stuff that confuses me later).
 
-![rename key](%7B%7B%20site.baseurl%20%7D%7D/images/TUT_shape_keys_11.png)
+![rename key]({{ site.baseurl }}/images/TUT_shape_keys_11.png)
 
 ------------------------------------------------------------------------

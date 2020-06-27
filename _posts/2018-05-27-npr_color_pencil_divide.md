@@ -14,7 +14,7 @@ The original blend file of the bowl of fruit comes from monomorph (David Bornema
 
 The original has beautiful procedural cycles shaders with the skin texture given by voronoi displacements at a couple of scales.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/fruits_bs_002.png)
+![]({{ site.baseurl }}/images/fruits_bs_002.png)
 *original render*
 
 We\'re now going to mess with this in the compositor to get a color pencil look. This effect works very well with simple diffuse materials on the scene objects. It can also be used on photos as I\'ll show at the end of this post.
@@ -43,32 +43,32 @@ giving dark pixels.
 
 Here\'s a toy example. The top row of the table represents the image. The blur function in the second row just averages across the neighboring 3 pixels. After we divide the image by the blur and clamp the values to between \[0, 1\] we have a white image with a single dark pixel at the edge.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_color_pencil_divide-ebd5a.png)
+![]({{ site.baseurl }}/images/npr_color_pencil_divide-ebd5a.png)
 
-[![node a](%7B%7B%20site.baseurl%20%7D%7D/images/node_diagram_div_a_660.png)](%7B%7B%20site.baseurl%20%7D%7D/images/node_diagram_div_a.png)
+[![node a]({{ site.baseurl }}/images/node_diagram_div_a_660.png)]({{ site.baseurl }}/images/node_diagram_div_a.png)
 *nodes for isolating changes in value*{.caption}
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/fruits_dodge_02.png)
+![]({{ site.baseurl }}/images/fruits_dodge_02.png)
 *result*
 
 The width of the edge lines can be controlled by the size of the *Blur*. Also try different blur types for different effects.
 
 The contrast in the edges can be strengthened with an *RGB Curves* node. I\'ve also added another *RGB Curves* before the edge nodes to give some control over how much value change produces an edge.
 
-[![node a](%7B%7B%20site.baseurl%20%7D%7D/images/node_diagram_div_b_660.png)](%7B%7B%20site.baseurl%20%7D%7D/images/node_diagram_div_b.png)
+[![node a]({{ site.baseurl }}/images/node_diagram_div_b_660.png)]({{ site.baseurl }}/images/node_diagram_div_b.png)
 *add contrast to the edges*{.caption}
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/fruits_dodge_03.png)
+![]({{ site.baseurl }}/images/fruits_dodge_03.png)
 *result*
 
 ## Colors
 
 Now we add some color back into the image,using the *Value* node. This takes the value from the edges, but the hue and saturation from the image. I\'ve also added a *Blur* to the color pass along with yet another *RGB Curves* for color adjustment.
 
-[![node a](%7B%7B%20site.baseurl%20%7D%7D/images/node_diagram_div_c_660.png)](%7B%7B%20site.baseurl%20%7D%7D/images/node_diagram_div_c.png)
+[![node a]({{ site.baseurl }}/images/node_diagram_div_c_660.png)]({{ site.baseurl }}/images/node_diagram_div_c.png)
 *adding color*{.caption}
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/fruits_dodge_04.png)
+![]({{ site.baseurl }}/images/fruits_dodge_04.png)
 *result*
 
 ## Textures
@@ -77,7 +77,7 @@ The last thing to do is to add a texture to the whole image to simulate pencil s
 
 The overlay mode does different thing depending on whether the background(colored) image is light (\> 0.5) or dark (\< 0.5).
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/npr_color_pencil_divide-3d2b2.png)
+![]({{ site.baseurl }}/images/npr_color_pencil_divide-3d2b2.png)
 
 This has the effect of overlaying the contrast of the greyscale texture on the colored image. The texture doesn\'t appear on the white or the black parts of the image.
 
@@ -90,7 +90,7 @@ In the above image, the 9 color swatches on the left have at least one of their 
 
 Next, I\'ve used a paper texture taken from the GIMP fill dialog and mixed it with the color swatch image using the overlay mode. This works, a little, to give the effect of light and heavy pencil strokes, with a black pencil being used on the darker parts of the image.
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/paper_gimp.png)
+![]({{ site.baseurl }}/images/paper_gimp.png)
 *paper texture*
 
 <a ><img src="./images/overlay_colors_paper.png" onmouseover="this.src='./images/overlay_paper.png'" onmouseout="this.src='./images/overlay_colors_paper.png'" /></a>
@@ -101,12 +101,12 @@ The *Soft Light* mode would also be a good choice here. It doesn\'t have a sharp
 <a ><img src="./images/soft_light_example.png" onmouseover="this.src='./images/overlay_colors_example.png'" onmouseout="this.src='./images/soft_light_example.png'" /></a>
 *soft light with gray scale texture and color swatches*{.caption}
 
-![](%7B%7B%20site.baseurl%20%7D%7D/images/soft_light_paper.png)
+![]({{ site.baseurl }}/images/soft_light_paper.png)
 *soft light with grey scale paper and color swatches*
 
 Anyway, after the digression in to the *Overlay* mode, here is the node diagram used to combine the pencil texture with the color image to get our final result.
 
-[![node a](%7B%7B%20site.baseurl%20%7D%7D/images/node_diagram_div_d_660.png)](%7B%7B%20site.baseurl%20%7D%7D/images/node_diagram_div_d.png)
+[![node a]({{ site.baseurl }}/images/node_diagram_div_d_660.png)]({{ site.baseurl }}/images/node_diagram_div_d.png)
 *adding paper texture*{.caption}
 
 <a ><img src="./images/fruits_divide_05.png" onmouseover="this.src='./images/fruits_bs_002.png'" onmouseout="this.src='./images/fruits_divide_05.png'" /></a>

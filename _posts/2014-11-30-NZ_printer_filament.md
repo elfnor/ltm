@@ -3,7 +3,7 @@ author: elfnor
 category: make
 date: '2014-11-30 22:00'
 layout: post
-tags: ' 3d-printing'
+tags: ' 3D-Printing'
 title: Notes to Father Christmas re 3D Printer Filament
 ---
 

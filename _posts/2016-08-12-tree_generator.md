@@ -16,15 +16,15 @@ The Space Colonization Algorithim (SC Algorithm) was originally described in [th
 
 There are good short descriptions of how the algorithm works on [jgallant\'s blog](http://www.jgallant.com/procedurally-generating-trees-with-space-colonization-algorithm-in-xna/) or on [Jose\'s Sketchbook](Jose's%20Sketchbook).
 
-> The idea for the **Space Colonization Algorithm** is brilliantly simple: instead of generating the nodes that build our structure by using a set of rules (e.g. a grammar), we begin by producing a set of **attractor points** by sampling a domain -the surface of an object in our case-. Then we provide one or several **start locations**, and we iteratively start adding nodes by looking for the set of **nearest *active* attractors**, and growing towards them. When a new node is added, it **kills all the attractor points** which fall within a specified range, preventing other branches to fill in the same space, and directing the growth forward.
+> The idea for the **Space Colonization Algorithm** is brilliantly simple: instead of generating the nodes that build our structure by using a set of rules (e.g. a grammar), we begin by producing a set of **attractor points** by sampling a domain -the surface of an object in our case-. Then we provide one or several **start locations**, and we iteratively start adding nodes by looking for the set of **nearest *active* attractors**, and growing towards them. When a new node is added, it **kills all the attractor points** which fall within a specified range, preventing other branches to fill in the same space, and directing the growth forward.
 
 Varkenvarken\'s Space Tree([free github version](https://github.com/varkenvarken/spacetree), [Space Tree Pro](https://cgcookiemarkets.com/all-products/space-tree-pro/)) addon for Blender uses the SC Algorithm to produce really versatile and realistic trees. My version is extremely simple but the ability to directly control the cloud of attractor points works well for my abstract doodles.
 
 Here\'s a simple GIF showing the algorithm in action. The red points are the *End Vertices* or attractor points. There is one start point at (0, 0, 0).
 
-![gif of sca](%7B%7B%20site.baseurl%20%7D%7D/images/sca_gif.gif)
+![gif of sca]({{ site.baseurl }}/images/sca_gif.gif)
 
-![node diagram for gif](%7B%7B%20site.baseurl%20%7D%7D/images/sca_gif_nodes.png)
+![node diagram for gif]({{ site.baseurl }}/images/sca_gif_nodes.png)
 
 I started off looking at varkenvarken\'s github code but ended up completly rewriting it to use numpy. I then spent far longer than was reasonable optimizing my code to get a real-time response to parameter changes. The heart of the algorithm involves a large number of [nearest neighbor searches](https://en.wikipedia.org/wiki/Nearest_neighbor_search). This is a classic problem with many solutions (kdtrees, octrees, locality sensitive hashing). I looked at some of these but the fastest solution I could code (before I got bored) was to naively calculate every distance using numpy outer product. The whole SC Algorithm would make a great class (or competition) challenge in code speed optimization as there seems to be so many complicated ways to make it slower.
 
@@ -51,11 +51,11 @@ The node outputs:
 
 Here is the Sverchok node diagram to produce the tree in the top image. A spherical cloud of atractor points is produced using the random vector and scalar nodes on the left. The *Skin Mesher* node is used to give thickness to the trunk and branches. The leaves are produced by the *Mesh Instancer* node. This make copies of a fairly simple leaf object (see insert) that has a image texture with an alpha channel. The textures are from EugeneKiver on [blendswap](http://www.blendswap.com/blends/view/59269). The modifiers on the tree trunk need to be applied before the UV texturing will work.
 
-![sca tree nodes](%7B%7B%20site.baseurl%20%7D%7D/images/sca_tree_nodes.png)
+![sca tree nodes]({{ site.baseurl }}/images/sca_tree_nodes.png)
 
 Here is another example (not so tree like) of what is possible with the Tree Generator.
 
-![torus](%7B%7B%20site.baseurl%20%7D%7D/images/sca_test3b_004.png)
+![torus]({{ site.baseurl }}/images/sca_test3b_004.png)
 
 I like to code my Blender procedural experiments ([maze any mesh](%7Bfilename%7Dmaze_mesh.md), [2D mazes](%7Bfilename%7D/blender_maze_generator.md), [3D mazes](%7Bfilename%7Dblender_3D_maze_generator.md), [hyperbolic plane tilings](%7Bfilename%7Dhyperbolic_tilings.md), [more hyperbolic planes](%7Bfilename%7Dhyperbolic_planes.md), [bloom spheres](%7Bfilename%7D) ) as Sverchok nodes as I can concentrate on getting my code to produce simple lists (of vertices, edges, faces, and matrices) and Sverchok takes care of produing the actual mesh in Blender. The inputs and parameters provide a simple interface for the code without messing with the Blender API.
 

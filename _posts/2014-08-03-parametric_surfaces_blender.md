@@ -32,12 +32,12 @@ Here are a couple of images produced using the XYZ Math Surface add-on.
 
 ## Twisted Torus
 
-![twisted torus](%7B%7B%20site.baseurl%20%7D%7D/images/twisted_torus_02.png)
+![twisted torus]({{ site.baseurl }}/images/twisted_torus_02.png)
 
 ## Stereosphere
 
 A stereosphere is the projection of a plane grid onto a sphere with the projection lines going through the top pole of the sphere. In the following image there is a point source light at the north pole of the stereosphere (the light is represented by the yellow dot). This light then does a stereographic projection of the sphere back onto the plane producing the grid present on the ground plane.
 
-![stereosphere](%7B%7B%20site.baseurl%20%7D%7D/images/stereosphere_01.png)
+![stereosphere]({{ site.baseurl }}/images/stereosphere_01.png)
 
 ------------------------------------------------------------------------

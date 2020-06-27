@@ -26,7 +26,7 @@ If the elements you want to shade were separated from a single mesh they may all
 
 The location of the object can be sent directly to the color input of any shader node. However the shader node expects the RGB values to be between 0 and 1. One easy way to do this is rescale your scene so that all the geometry lies in a box between (0, 0, 0) and (1, 1, 1). The colour of objects in this space will shade from black at the (0, 0, 0) corner to white at the far (1, 1, 1) corner. Objects in the (1, 0, 0) corner will be red and so on. In the following scene all objects have the same material. The wireframe cube extends from (0, 0, 0) to (1, 1, 1). It is a neutral grey colour because its location is (0.5, 0.5, 0.5).
 
-![spiral in color cube](%7B%7B%20site.baseurl%20%7D%7D/images/spirals_in_color_cube_01.png)
+![spiral in color cube]({{ site.baseurl }}/images/spirals_in_color_cube_01.png)
 
 Rather than scaling the geometry to lie within the (0,0,0) to (1,0,0) box we can scale the x, y, z coordinates within our node diagram.
 
@@ -40,7 +40,7 @@ Strange things happen when the rgb values are not within the range (0, 1). The t
 
 EDIT: Jerryno\'s answer to my [question](http://blender.stackexchange.com/questions/26254/how-and-when-does-clipping-of-rgb-values-happen) on stack exchange explains these strange things very well.
 
-![torus location to rgb](%7B%7B%20site.baseurl%20%7D%7D/images/torus_color.png)
+![torus location to rgb]({{ site.baseurl }}/images/torus_color.png)
 
 We can also use the location as an index into a \"Color Ramp\" node. This requires reducing the three x, y, z coordinates to a single value between (0, 1).
 
@@ -52,7 +52,7 @@ For instance we can shade our torus radially by calculating:
 
 These calculations can be done a number of ways. Here I have used the \"Normalize\" node to give the radius and two \"Math\" nodes to do the scaling.
 
-![torus radial color](%7B%7B%20site.baseurl%20%7D%7D/images/torus_radial.png)
+![torus radial color]({{ site.baseurl }}/images/torus_radial.png)
 
 ## Object Pass Index
 
@@ -78,7 +78,7 @@ This uses three materials but of course you can create as many materials as requ
 -   Start with the default cube scene and set the render engine to cycles.
 -   Create a node material such as the \"mat1\" shown below that uses the \"Material Index\" output of the \"Object Info\" node.
 
-![mat1 node setup](%7B%7B%20site.baseurl%20%7D%7D/images/material_index_blog-03.blend.png)
+![mat1 node setup]({{ site.baseurl }}/images/material_index_blog-03.blend.png)
 
 -   Select all the nodes except the \"Object Info\" and \"Material Output\" and group them
 -   Use the \"go to parent node tree\" button at the bottom to collapse the node group. To edit it again click on the button at the top right of the node group
@@ -88,14 +88,14 @@ This uses three materials but of course you can create as many materials as requ
 -   Repeat the last two steps labeling the material \"mat3\"
 -   You should now have 3 materials that all use the same node group. Check that there is a 3 in the number of users for the node group.
 
-![mat1 as node group](%7B%7B%20site.baseurl%20%7D%7D/images/material_index_blog-04.blend.png)
+![mat1 as node group]({{ site.baseurl }}/images/material_index_blog-04.blend.png)
 
 -   Select an object and give it three material slots. Place the corresponding material in each slot.
 -   For each material set the pass index to 1 , 2, or 3. (Under Materials - Settings panel).
 -   As you do this the small icon beside the material slot should change color to match the color determined by the pass index
 -   In edit mode select different faces of the object and assign a material from one of the slots.
 
-![material index result](%7B%7B%20site.baseurl%20%7D%7D/images/material_index_blog-05.blend.png)
+![material index result]({{ site.baseurl }}/images/material_index_blog-05.blend.png)
 
 ## Random Shading
 
@@ -103,6 +103,6 @@ The fourth output of the \"Object Info\" node is labeled \"Random\". It produces
 
 It can be used directly as input to a \"Color Ramp\" node or anywhere else a single value is required.
 
-![random color ramp](%7B%7B%20site.baseurl%20%7D%7D/images/color_random.png)
+![random color ramp]({{ site.baseurl }}/images/color_random.png)
 
 ------------------------------------------------------------------------

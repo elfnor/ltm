@@ -16,11 +16,9 @@ Following [Martinius\'s suggestion]() I\'ve now exposed parameters in the xml ru
 
 Here\'s an example:
 
-<iframe src="https://player.vimeo.com/video/123063760?title=0&amp;byline=0&amp;portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+<iframe src="https://player.vimeo.com/video/123063760?title=0&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 </iframe>
-<p>
-<a href="https://vimeo.com/123063760">Pounamu Fern Animation</a> from <a href="https://vimeo.com/user38620121">elfnor</a> on <a href="https://vimeo.com">Vimeo</a>.
-</p>
+<p><a href="https://vimeo.com/123063760">Pounamu Fern Animation</a> from <a href="https://vimeo.com/user38620121">elfnor</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 As before, to use the generative art node in Blender first install the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) addon. Download the lsystem code from [github](https://github.com/elfnor/lsystem). Then load the three python files in the Blender directory (`LSystem_blender.py, GA_xml.py, GA_node.py`) as separate text blocks into a blend file. Add a \"Scripted Node\" to a Sverchok node tree. On the node select the `GA_node.py` code from the lower drop down. Then click the plugin icon to the right of this field. The node should turn blue with some inputs and outputs.
 
 The latest version now has an additional input \"variables\".
@@ -61,7 +59,7 @@ Library["FernVars"] = """
 """
 ```
 
-![node diagram for fern animation](%7B%7B%20site.baseurl%20%7D%7D/images/GA_Fern_animation_03.blend.png)
+![node diagram for fern animation]({{ site.baseurl }}/images/GA_Fern_animation_03.blend.png)
 
 For this animation the index number of the current frame in the animation is translated from the range 1 to 250 to the range 16 to 6 via the formula node and wired into the \"variables\" input of the \"GA\_node\". This cause the fern to unwind as the animation proceeds. The separate objects are joined into one using the \"Mesh Join\" node and this output sent to the \"Bmesh Viewer Draw\" node.
 
@@ -71,7 +69,7 @@ If you want to animate more than one parameter use index numbers (starting with 
 
 With multiple parameters a \"List Join\" node is used to make a list to use as the \"variables\" input of the \"GA\_node\".
 
-![node diagram with list join](%7B%7B%20site.baseurl%20%7D%7D/images/GA_node-variables_attributes.blend.png)
+![node diagram with list join]({{ site.baseurl }}/images/GA_node-variables_attributes.blend.png)
 
 If not enough variables are provided the last one is repeated as many times as required.
 

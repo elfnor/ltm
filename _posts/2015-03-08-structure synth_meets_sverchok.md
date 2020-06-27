@@ -33,7 +33,7 @@ Structure Synth uses a domain specific language called eisenscript to define a d
       { s 4 }  sphere
     }
 
-![matrix iterate sample image](%7B%7B%20site.baseurl%20%7D%7D/images/matrix_iterate_13.png)
+![matrix iterate sample image]({{ site.baseurl }}/images/matrix_iterate_13.png)
 
 An eisenscript consists of a list of rules. Each rule contains a set of instructions. That instruction can either be to place an object or to call another rule. That call can be to to the rule doing the calling in a recursive fashion. Each instruction also has an associated transform to scale rotate or move the current coordinate system. The original eisenscript also allowed transforms on the colour and transparency of the object.
 
@@ -112,7 +112,7 @@ The latest version of `LSystem_blender.py` and my Sverchok nodes is available on
 
 To use the GA node in Blender first install the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) addon. Download the lsystem code from [github](https://github.com/elfnor/lsystem). Then load the three python files in the Blender directory (`LSystem_blender.py, GA_xml.py, GA_node.py`) as separate text blocks into a blend file. Add a \"Scripted Node\" to a Sverchok node tree. On the node select the `GA_node.py` code from the lower drop down. Then click the plugin icon to the right of this field. The node should turn blue with some inputs and outputs. Wire the matrices output to a \"Viewer Draw\" node and you should see some geometry as below.
 
-![GA node diagram](%7B%7B%20site.baseurl%20%7D%7D/images/Lsystem_pipe_05.blend.png)
+![GA node diagram]({{ site.baseurl }}/images/Lsystem_pipe_05.blend.png)
 
 The node has an input \"rseed\" which is used to set the random number generator. For a rule set that includes multiple definitions of rules, changing this will change the structure.
 
@@ -122,6 +122,6 @@ My computer chokes if I try to feed too many matrices into Sverchok. The `max ma
 
 Using the matrices output allows a separate object to be placed at each location. The vertices input and the mesh (vertices, edges, faces) output \"skins\" the mesh into a much smaller number of objects. The mask node can be used if the rule set has more than one type of object. I\'ll describe these further in the next post but here\'s a preview of the mesh mode (with a subdivison modifier applied).
 
-![GA tube nodes and render/screenshot](%7B%7B%20site.baseurl%20%7D%7D/images/Fern.blend.png)
+![GA tube nodes and render/screenshot]({{ site.baseurl }}/images/Fern.blend.png)
 
 ------------------------------------------------------------------------

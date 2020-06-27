@@ -11,6 +11,7 @@ title: 'Generative Art Examples - Fractals on a Plane'
 
 <meta property="og:image"
     content="/images/koch_vase_render_01_003.png" />
+
 This post is hopefully the first in a series of examples and demos for the *Generative Art* node for the \[Sverchok}(https://github.com/nortikin/sverchok) addon for [Blender](https://www.blender.org).
 
 This node is very strongly based on [Structure Synth](http://structuresynth.sourceforge.net/) and can produce [Lindermayer Systems (lsystems)](https://en.wikipedia.org/wiki/L-system) and fractals as well as more random and interesting creations.
@@ -25,7 +26,7 @@ I have also started a [repo](https://github.com/elfnor/generative-art-examples) 
 
 ## Koch Snowflake
 
-![koch snowflake](%7B%7B%20site.baseurl%20%7D%7D/images/ga_koch_snowflake.png)
+![koch snowflake]({{ site.baseurl }}/images/ga_koch_snowflake.png)
 
 ``` {.xml}
 <rules max_depth="100">
@@ -54,7 +55,7 @@ This is one of the earliest fractals described (1904). The basic unit is only dr
 
 ## T-Square
 
-![t square](%7B%7B%20site.baseurl%20%7D%7D/images/ga_tsquare_2d.png)
+![t square]({{ site.baseurl }}/images/ga_tsquare_2d.png)
 
 ``` {.xml}
 <rules max_depth="100">
@@ -82,7 +83,7 @@ This fractal has the basic unit (a box) repeated at ever decreasing scales. at e
 
 ## Pentaflake
 
-![pentaflake](%7B%7B%20site.baseurl%20%7D%7D/images/ga_pentaflake.png)
+![pentaflake]({{ site.baseurl }}/images/ga_pentaflake.png)
 
 ``` {.xml}
 <rules max_depth="100">
@@ -110,7 +111,7 @@ This fractal has the basic unit (a box) repeated at ever decreasing scales. at e
 
 The pentaflake is constructed by replacing a pentagon with six smaller pentagons. This in then repeated until the maximum depth is reached. this fractal is even older than the Koch curve appearing in a manuscript by Albrecht Durer in 1525. Its outer border is a version of the Koch snowflake. The structure is also closely related to the P1 [Penrose tiling]().
 
-![pentagon](%7B%7B%20site.baseurl%20%7D%7D/images/ga_pentaflake_01.png)
+![pentagon]({{ site.baseurl }}/images/ga_pentaflake_01.png)
 
 I\'ve used approximate values for the scaling and transforms in the above xml. For the pedantic the values are given by:
 
@@ -213,13 +214,13 @@ The *max\_depth* attribute value of rule *R1* has been replaced by the `{md}` va
 
 The *Generative Art* node that uses this xml then acquires an extra input *md* which can be wired to another node. If no input is connected the variable value will default to zero.
 
-![variable node diagram](%7B%7B%20site.baseurl%20%7D%7D/images/ga_pentaflake_node_02.png)
+![variable node diagram]({{ site.baseurl }}/images/ga_pentaflake_node_02.png)
 
 [xml](https://github.com/elfnor/generative-art-examples/blob/master/pentaflake_vars.xml), [nodes in json](https://github.com/elfnor/generative-art-examples/blob/master/pentaflake_vars.json), [info](https://en.wikipedia.org/wiki/N-flake)
 
 By varying the value of the *Integer* node it is very easy to produce a set of images to show each iteration of the pentaflake fractal.
 
-![pentaflake gif](%7B%7B%20site.baseurl%20%7D%7D/images/pentaflake.gif)
+![pentaflake gif]({{ site.baseurl }}/images/pentaflake.gif)
 
 ------------------------------------------------------------------------
 

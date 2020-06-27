@@ -65,7 +65,7 @@ The p31m group uses a kite shape for the initial cell. The kite shares the recta
 
 The figure below illustrates this, with the user\'s rectangular selection shown as a dotted line and the derived initial cell as a solid line.
 
-![Derived Cells](%7B%7B%20site.baseurl%20%7D%7D/images/derived_cells.png)
+![Derived Cells]({{ site.baseurl }}/images/derived_cells.png)
 
 ## Last 3 Symmetry group options
 
@@ -113,7 +113,7 @@ If the original cell is square then 90 degree rotations of copies of it can also
 
 The eight different variations of the original tile are shown here.
 
-![bdpq cells](%7B%7B%20site.baseurl%20%7D%7D/images/bdpq_cells.png)
+![bdpq cells]({{ site.baseurl }}/images/bdpq_cells.png)
 
 The string can be arbitrarily long, but each row should have the same number of cells. The plug-in does not check to see whether the bdpq string is properly formed. Odd results will probably occur for odd strings.
 
@@ -121,11 +121,11 @@ If the `bdpq string` entry is blank when the `Escher's Potato Game` option is ch
 
 As an example this initial cell.
 
-![epg\_cell.png](%7B%7B%20site.baseurl%20%7D%7D/images/epg_cell.png)
+![epg\_cell.png]({{ site.baseurl }}/images/epg_cell.png)
 
 and `bdb+d+|pqp+q+` entered into the `bdpq string` entry, produces this pattern
 
-![epg\_bdbtdtlpqptqt.png](%7B%7B%20site.baseurl%20%7D%7D/images/epg_bdbtdtlpqptqt.png)
+![epg\_bdbtdtlpqptqt.png]({{ site.baseurl }}/images/epg_bdbtdtlpqptqt.png)
 
 ### Extra tip:
 

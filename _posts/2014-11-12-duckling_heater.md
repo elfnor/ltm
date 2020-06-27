@@ -15,10 +15,10 @@ A while ago I\'d built a heated bed for my Ultimaker 3D printer following a desi
 
 With 19 V across the stripboard, the glass surface could reach 230 deg C after a long warm up time (20+ minutes) and was controlled by the provided circuit on the Ultimaker board. It worked, but was mostly unused as I mainly print in PLA and I got better at the tricks to make prints stick to the original unheated acrylic bed.
 
-![heater](%7B%7B%20site.baseurl%20%7D%7D/images/duckling_heater_crop.png)
+![heater]({{ site.baseurl }}/images/duckling_heater_crop.png)
 
 So this looked perfect for a new use. A bit of experimenting with a controlled voltage power supply and a thermocouple showed I could get a consistent 30 to 35 deg C temperature at a constant 6 V without any need for a control circuit. Perfect for our new fosterlings. I swapped a car battery charger for the fancy power supply, wrapped the bed well in fleece (ducklings are messy) and installed it in the ducklings\' box. After a day of duckling satisfaction testing we built an insulated enclosure over half the bed to provide them with a choice of a warmer enclosed space.
 
-![ducklings](%7B%7B%20site.baseurl%20%7D%7D/images/ducklings_crop_02.png)
+![ducklings]({{ site.baseurl }}/images/ducklings_crop_02.png)
 
 Result, Happy Ducklings.

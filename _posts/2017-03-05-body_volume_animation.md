@@ -18,27 +18,27 @@ Evolution has given all animals (at least the tetra-pods - mammals, reptiles, bi
 
 As an exercise I roughed out the regional volumes of the \"generalized animal\" from Eliot Goldfinger\'s book [^3] as low polygon meshes in Blender. I used the photos and diagrams of the generalized animal from the side and top as [background images](https://docs.blender.org/manual/en/dev/editors/3dview/properties/background_images.html) in the *3D View* and modeled the volumes over them.
 
-![animal plan](%7B%7B%20site.baseurl%20%7D%7D/images/ganimal_plan.png)
-![side view](%7B%7B%20site.baseurl%20%7D%7D/images/ganimal_left.png)
-![top view](%7B%7B%20site.baseurl%20%7D%7D/images/ganimal_top.png)
+![animal plan]({{ site.baseurl }}/images/ganimal_plan.png)
+![side view]({{ site.baseurl }}/images/ganimal_left.png)
+![top view]({{ site.baseurl }}/images/ganimal_top.png)
 
 Each volume started as either a cube or a eight sided cylinder. I added edge loops as needed but tried to add as few faces as possible. I used the *Edit Mode -\> Tools Panel -\> Mesh Options -\> X Mirror* option to set the editing on each of the volumes on the body centerline (the head, neck, chest etc.) to be symmetric. This option only works across the x-axis, so make the animal\'s main head to tail axis along the y-axis. For the limbs, start with a mesh centered on the y-axis, add a *Mirror Modifier*, then in edit mode move all the vertices off the centerline. Apply the modifier and then select the *X Mirror* option as for the other body parts. Using the *X Mirror* option is necessary as the *Mirror Modifier* doesn\'t work with *Shape Keys*.
 
 Here\'s the body mesh being modeled over the background image.
 
-![Sculpting over a background image](%7B%7B%20site.baseurl%20%7D%7D/images/ganimal_sculpt_over.png)
+![Sculpting over a background image]({{ site.baseurl }}/images/ganimal_sculpt_over.png)
 
 The completed body volumes for the generalized animal.
 
-![opengl horse](%7B%7B%20site.baseurl%20%7D%7D/images/ganimal_opengl.png)
+![opengl horse]({{ site.baseurl }}/images/ganimal_opengl.png)
 
 My rendered version of the completed basic animal.
 
-![rendered ganimal](%7B%7B%20site.baseurl%20%7D%7D/images/dog_morph_08_003.png)
+![rendered ganimal]({{ site.baseurl }}/images/dog_morph_08_003.png)
 
 I then added [Shape Keys](https://docs.blender.org/manual/en/dev/animation/shape_keys/introduction.html) to each mesh and then altered the volumes to match the form of a horse using the horse diagrams and images from the book.
 
-![rendered horse](%7B%7B%20site.baseurl%20%7D%7D/images/horse_morph_05_550.png)
+![rendered horse]({{ site.baseurl }}/images/horse_morph_05_550.png)
 
 I then repeated this exercise modifying the basic animal to resemble a dog (see the image at the top).
 
@@ -48,7 +48,7 @@ Here\'s my animated sequence showing first all the volumes changing from the gen
 </iframe>
 When I\'m learning something I always like to collect several references to see how different authors approach something. Here is Scott Eaton\'s take on the varying body volumes for different animals. The exact number and placing of the volumes is a little different but the general idea is the same. The full article this is taken from is available [here](http://www.scott-eaton.com/outgoing/3dWorld-Animal-Anatomy-Eaton.pdf)
 
-![Eaton body plans](%7B%7B%20site.baseurl%20%7D%7D/images/eaton_animal_forms.png)
+![Eaton body plans]({{ site.baseurl }}/images/eaton_animal_forms.png)
 
 [^1]: [Goldfinger, Eliot. *Animal Anatomy for Artists: The Elements of Form*. Oxford University Press, 2004.](https://books.google.co.nz/books?id=uKk7CQAAQBAJ&lpg=PP1&dq=animal%20anatomy%20for%20artists%20goldfinger)
 

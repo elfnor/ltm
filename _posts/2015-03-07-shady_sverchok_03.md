@@ -14,7 +14,7 @@ This post will show how to take the colours from an image and apply them to obje
 
 The cycles nodes for this is very simple.
 
-![position to image nodes](%7B%7B%20site.baseurl%20%7D%7D/images/random_blocks_blog1.blend.png)
+![position to image nodes]({{ site.baseurl }}/images/random_blocks_blog1.blend.png)
 
 The object position is fed into the vector input of an \"Image Texture\" node via a \"Mapping\" node. As usual the input of the vector for the \"Image Texture\" node should be between (0, 0, 0) and (1, 1, 1). The colour at the top right of the image will be accessed with a vector (1, 1, 0). The colour of the image at the bottom left will be accessed with a vector (0, 0, 0). Use the mapping node to change the location vectors into this range. If the values are outside the range they will loop around as if the image was tiled. For example (0.2, 0.2, 0) and (1.2, 1.2, 0) will map to the same place in the image.
 

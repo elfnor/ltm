@@ -23,22 +23,22 @@ In many cases the user may want to create specific content to fill the required 
 -   Create a new image with a transparent background.
 -   Select a rectangle about the size you want your cell to be.
 
-![odd\_cells\_01](%7B%7B%20site.baseurl%20%7D%7D/images/Screenshot-GIMP-odd_cells_01.png)
+![odd\_cells\_01]({{ site.baseurl }}/images/Screenshot-GIMP-odd_cells_01.png)
 
 -   Run the Symmetry Tile plug-in, choosing a symmetry group that uses the desired cell (p31m for the kite). This will produce a blank transparent image which can be discarded. The plug-in will also leave the correct shaped cell selected in the original image.
 
-![odd\_cells\_02](%7B%7B%20site.baseurl%20%7D%7D/images/Screenshot-GIMP-odd_cells_02.png)
+![odd\_cells\_02]({{ site.baseurl }}/images/Screenshot-GIMP-odd_cells_02.png)
 
 -   Convert that selection to a path. (Select\> To Path).
 
-![odd\_cells\_03](%7B%7B%20site.baseurl%20%7D%7D/images/Screenshot-GIMP-odd_cells_03.png)
+![odd\_cells\_03]({{ site.baseurl }}/images/Screenshot-GIMP-odd_cells_03.png)
 
 -   The path can now be used as a guide to the cell shape. Use it to draw the cell content in the correct place, filling the cell area with brush strokes etc.
 
-![odd\_cells\_04](%7B%7B%20site.baseurl%20%7D%7D/images/Screenshot-GIMP-odd_cells_04.png)
+![odd\_cells\_04]({{ site.baseurl }}/images/Screenshot-GIMP-odd_cells_04.png)
 
 -   Select the path, convert it back to a selection and re run the plug-in.
 
-![odd\_cells\_05](%7B%7B%20site.baseurl%20%7D%7D/images/Screenshot-GIMP-odd_cells_05.png)
+![odd\_cells\_05]({{ site.baseurl }}/images/Screenshot-GIMP-odd_cells_05.png)
 
 Credit for this method is due to lylejk who posted it over on [gimpchat](http://www.gimpchat.com/viewtopic.php?f=9&t=10683&start=30#p141775).

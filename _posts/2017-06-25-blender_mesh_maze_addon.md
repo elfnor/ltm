@@ -16,7 +16,7 @@ A Blender mesh structure can be seen as equivalent to the grid of cells and list
 
 Here the mesh vertices are equivalent to cells and the mesh edge connections define the cell neighbors. A maze carving function can then return a subset of the edges that define the path of a maze through the mesh.
 
-![round cube maze](%7B%7B%20site.baseurl%20%7D%7D/images/round_cube.png)
+![round cube maze]({{ site.baseurl }}/images/round_cube.png)
 
 The add-on can be installed in the normal way by downloading the zip file from the [github repository](https://github.com/elfnor/mesh_maze), then `File -> User Preferences -> Add-ons -> Install from File...`
 
@@ -24,7 +24,7 @@ Once installed and enabled the add-on can be found in *Edit Mode* on the *Specia
 
 After carving the maze along the edges, the add-on (by default) bevels all the edges in the selection to give the maze path some width and then extrudes the walls of the mesh outward to give the maze some height.
 
-![moebius maze](%7B%7B%20site.baseurl%20%7D%7D/images/moebius_02_003.png)
+![moebius maze]({{ site.baseurl }}/images/moebius_02_003.png)
 
 ## Maze Parameters
 
@@ -56,10 +56,10 @@ The *Clamp Overlay* and *Loop Slide* parameters are passed straight to the [beve
 
 *Outset* - if the walls are tapered the tapered part extends into the path area.
 
-![large mesh](%7B%7B%20site.baseurl%20%7D%7D/images/stereosphere_022.png)
+![large mesh]({{ site.baseurl }}/images/stereosphere_022.png)
 
 ## Large meshes
 
 The mesh maze add-on takes about 8 seconds (on my machine) to generate a maze on an icosphere with \~10 000 vertices. It has been optimized so that the maze path is regenerated if the random seed or braiding values are changed but not for changes to the path width or wall height.
 
-![maze 3d](%7B%7B%20site.baseurl%20%7D%7D/images/maze_3D.png)
+![maze 3d]({{ site.baseurl }}/images/maze_3D.png)

@@ -46,9 +46,9 @@ It is also possible to use the `XYZ function surface` that is part of the `Extra
 
 The `Frame Info` node can be easily used to rotate the bloom sphere 137.5° every frame. Set the end frame to 145 for a continuous loop animation.
 
-![node diagram scripted node](%7B%7B%20site.baseurl%20%7D%7D/images/bloom_sphere_nodes.png)
+![node diagram scripted node]({{ site.baseurl }}/images/bloom_sphere_nodes.png)
 
-![animation](%7B%7B%20site.baseurl%20%7D%7D/images/bloom_sphere.gif)
+![animation]({{ site.baseurl }}/images/bloom_sphere.gif)
 
 The same node diagram can also be used to animate any of John Edmark\'s stl files that he has made available [here](https://www.dropbox.com/sh/nsinei7jlu0z3wk/AADsN9wI7IOIF6VOnREx-Tt6a?dl=0) under a Creative Commons BY NC SA license. Just import the stl into Blender and replace the `Scripted Node` with a `Object Scene` node.
 
@@ -84,11 +84,11 @@ Now comes the fun part, editing the mesh to produce interesting animations. John
 
 We could do this following my [`Centers Polygon` example](%7Bfilename%7D/simple_sverchok_01.md) but I\'ll use the `Adaptive Polygons` node to show another way for a different look.
 
-![node diagram adaptive polygons](%7B%7B%20site.baseurl%20%7D%7D/images/bloom_sphere_adaptive_polygon_nodes.png)
+![node diagram adaptive polygons]({{ site.baseurl }}/images/bloom_sphere_adaptive_polygon_nodes.png)
 
 I\'ve removed the nodes used to achieve the rotation to simplify the above node diagram.
 
-![animation adaptive polygons](%7B%7B%20site.baseurl%20%7D%7D/images/bloom_sphere_ap.gif)
+![animation adaptive polygons]({{ site.baseurl }}/images/bloom_sphere_ap.gif)
 
 John Edmark then goes on to describe:
 
@@ -98,9 +98,9 @@ The simplest way of doing something similar to this is to move each vertex side 
 
 Sverchok now has nodes to change the x, y, z coordinates of a vertex into polar coordinates and change them back again. Here we apply a sinusoidal offset to each vertex. The frequency of the sinusoid is varied by changing the `stop` value of the `Float Series` node. A multiple (or fraction) of \$\\pi\$ is sensible. A `Float` entry node is used to change the amplitude of the sinusoid.
 
-![node bloom sphere vertex wobble](%7B%7B%20site.baseurl%20%7D%7D/images/wobble_vertex_node_tree.png)
+![node bloom sphere vertex wobble]({{ site.baseurl }}/images/wobble_vertex_node_tree.png)
 
-![animation](%7B%7B%20site.baseurl%20%7D%7D/images/wobble_vertex.gif)
+![animation]({{ site.baseurl }}/images/wobble_vertex.gif)
 
 With a bit more thought (and a few more nodes!) we can actually wobble just the ends of our <s>appendages</s> adaptive polygons.
 
@@ -108,10 +108,10 @@ First we need to separate out the end vertices with a `List Mask (out)` node. Fo
 
 The two sets of vertices (the end vertices with the sinusoidal wobble and the original vertices on the sphere) are put back together with a `List Mask Join (in)` node using the same mask we used for separating them.
 
-[![node appendage end wobble](%7B%7B%20site.baseurl%20%7D%7D/images/sc_bloom_sphere_node_11_nodetree_for_post.blend_small.png "Click for larger version")](%7B%7B%20site.baseurl%20%7D%7D/images/sc_bloom_sphere_node_11_nodetree_for_post.blend_large_02.png)
+[![node appendage end wobble]({{ site.baseurl }}/images/sc_bloom_sphere_node_11_nodetree_for_post.blend_small.png "Click for larger version")]({{ site.baseurl }}/images/sc_bloom_sphere_node_11_nodetree_for_post.blend_large_02.png)
 
 to get an animation like this:
 
-![bloom wobble gif](%7B%7B%20site.baseurl%20%7D%7D/images/wobble_color.gif)
+![bloom wobble gif]({{ site.baseurl }}/images/wobble_color.gif)
 
 ------------------------------------------------------------------------

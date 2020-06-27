@@ -38,7 +38,7 @@ The names of these objects don\'t matter, they can be called anything in the xml
 
 The \"Levels List\" on the \"Mask List\" node needs to be set to \"2\". That is because the outputs of the GA\_node have been set up as a 2 level list. The first level corresponds to each arm of sub-part of the structure. The second level contains the actual output values. Examine the output with a \"Viewer Text\" node to help understand this.
 
-![GA node diagram with mask list](%7B%7B%20site.baseurl%20%7D%7D/images/mask_demo_01.blend.png)
+![GA node diagram with mask list]({{ site.baseurl }}/images/mask_demo_01.blend.png)
 
 ## Mesh output
 
@@ -46,7 +46,7 @@ Using the matrices output allows a separate object to be placed at each location
 
 If the vertices are taken from an object in the scene the vertices can be repositioned in \"EDIT\" and the structure updated by going to \"OBJECT\" mode then clicking the \"Update Node Tree\" button.
 
-![GA tube nodes and render/screenshot](%7B%7B%20site.baseurl%20%7D%7D/images/Fern.blend.png)
+![GA tube nodes and render/screenshot]({{ site.baseurl }}/images/Fern.blend.png)
 
 The output will not always be one mesh. If the rule set ends one \'arm\' and goes back to start another \'arm\' these two sub-parts will be separate meshes. Sometimes the mesh does not turn out how you would like. This can often be fixed by changing the rule set.
 
@@ -78,7 +78,7 @@ My first attempt at the Fern structure had this effect.
 </rules>
 ```
 
-![fern wrong](%7B%7B%20site.baseurl%20%7D%7D/images/fern_wrong.blend.png)
+![fern wrong]({{ site.baseurl }}/images/fern_wrong.blend.png)
 
 The following xml produces the result I was after that\'s shown with the node diagram above.
 

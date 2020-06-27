@@ -4,7 +4,7 @@ category: make
 date: '2016-10-21 22:00'
 image: 'data\_logger\_open.JPG'
 layout: post
-tags: ' python micropython 3d-printing'
+tags: ' python micropython 3D-Printing'
 title: PyBoard Datalogger
 ---
 
@@ -18,11 +18,11 @@ There\'s several micro-python data-loggers [out there](http://wiki.micropython.o
 
 The box has been frankensteined from at least four things on thingiverse. The outer box is a resized version of [this RAMPS box](http://www.thingiverse.com/make:75833). The battery pack is from this [flexing battery holder](http://www.thingiverse.com/thing:456900) with the bottom cut off it. The pyboard tray is based on this [thing](http://www.thingiverse.com/thing:1373291) with a [coin cell holder](http://www.thingiverse.com/thing:267438) tacked on the end. The coin cell (CR1632, 3V) provides battery backup to keep the pyboard real time clock (RTC) going when the main battery pack or USB power are not connected.
 
-![circuit](%7B%7B%20site.baseurl%20%7D%7D/images/datalogger_circuit.png)
+![circuit]({{ site.baseurl }}/images/datalogger_circuit.png)
 
 ## Construction
 
-![printed parts](%7B%7B%20site.baseurl%20%7D%7D/images/data_logger_prints.JPG)
+![printed parts]({{ site.baseurl }}/images/data_logger_prints.JPG)
 
 ### Printing
 
@@ -35,7 +35,7 @@ Get the files from [thingiverse](http://www.thingiverse.com/thing:1857224) and p
 
 If you print them in this order you can wire up the batteries while the main box prints.
 
-![wired up](%7B%7B%20site.baseurl%20%7D%7D/images/data_logger_innards.JPG)
+![wired up]({{ site.baseurl }}/images/data_logger_innards.JPG)
 
 ### Wire up battery holder and install switch.
 
@@ -53,7 +53,7 @@ My DHT11 sensor came mounted on a small breakout board that included the require
 
 Glue the battery holder into the box base (more hot glue) and slide in the pytray
 
-![finshed](%7B%7B%20site.baseurl%20%7D%7D/images/data_logger_closed.JPG)
+![finshed]({{ site.baseurl }}/images/data_logger_closed.JPG)
 
 The box can be closed with four screws on the front, but I tend to hold it closed with a rubber band. The DHT11 sensor can be slipped in to the band to hold it in place.
 
