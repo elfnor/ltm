@@ -9,7 +9,7 @@ title: 'Structure Synth meets Sverchok - Mesh mode'
 
 Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples]({{ site.baseurl }}{% link _posts/2016-04-02-generative_art_example_updates.md %}) and the [node docs]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %})
 
-In the previous [post](%7Bfilename%7Dstructure%20synth_meets_sverchok.md) I introduced the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) scripted node I\'d written to implement [Structure Synth](http://structuresynth.sourceforge.net/) generative art or lsystems inside Blender.
+In the previous [post]({{ site.baseurl }}{% link _posts/2015-03-08-structure synth_meets_sverchok.md %}) I introduced the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) scripted node I\'d written to implement [Structure Synth](http://structuresynth.sourceforge.net/) generative art or lsystems inside Blender.
 
 In this post I\'ll cover a couple of features I\'ve added to the basic node.
 

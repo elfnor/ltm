@@ -36,4 +36,4 @@ Recipes that use this: (links added as I write them)
 
 Similar recipes: (links added as I write them)
 
--   [Fermented Marmalade](%7Bfilename%7DREC-fermented-marmalade.md)
+-   [Fermented Marmalade]({{ site.baseurl }}{% link _posts/2017-01-29-REC-fermented-marmalade.md %})

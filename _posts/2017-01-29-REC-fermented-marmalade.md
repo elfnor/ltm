@@ -7,7 +7,7 @@ tags:  food
 title: 'Sugar-Free Fermented Marmalade'
 ---
 
-After making [preserved lemons](%7Bfilename%7DREC-preserved-lemons.md) I saw a comment somewhere that marmalade was once made by lacto-fermentation rather than with heaps of sugar like jam. I prefer a low sugar, low glycemic index diet so I made up the concoction below. Later I searched on-line for [recipes](http://www.culturesforhealth.com/learn/recipe/lacto-fermentation-recipes/lacto-fermented-orange-marmalade/) and found most of them make a sweeter cooked product.
+After making [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %}) I saw a comment somewhere that marmalade was once made by lacto-fermentation rather than with heaps of sugar like jam. I prefer a low sugar, low glycemic index diet so I made up the concoction below. Later I searched on-line for [recipes](http://www.culturesforhealth.com/learn/recipe/lacto-fermentation-recipes/lacto-fermented-orange-marmalade/) and found most of them make a sweeter cooked product.
 
 This recipe is tangy and salty and dosen\'t have the jelly consistency of a cooked marmalade. It\'s wonderful on sour-dough bread and also makes a great ingredient in a chicken or pork marinade. It can also be used in baking in place of candied/crystallized orange peel.
 
@@ -20,7 +20,7 @@ This recipe is tangy and salty and dosen\'t have the jelly consistency of a cook
 1-2 mandarins\
 1-2 t salt
 
-Find a \~600 ml glass jar with a wider mouth and another small glass jar that fits neatly inside the mouth of the large jar. Clean both jars inside and out. Find something to weigh down the small jar with. I use glass marbles. See the [preserved lemons](%7Bfilename%7DREC-preserved-lemons.md) post for a diagram of the airlock setup.
+Find a \~600 ml glass jar with a wider mouth and another small glass jar that fits neatly inside the mouth of the large jar. Clean both jars inside and out. Find something to weigh down the small jar with. I use glass marbles. See the [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %}) post for a diagram of the airlock setup.
 
 Cut all the citrus fruit into small pieces. Place the chopped fruit into the jar in layers sprinkling some of the salt on each layer and pressing each layer down with a spoon or pestle until the juices run.
 
@@ -38,4 +38,4 @@ Recipes that use this: (links added as I write them)
 
 Similar recipes: (links added as I write them)
 
--   [preserved lemons](%7Bfilename%7DREC-preserved-lemons.md)
+-   [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %})

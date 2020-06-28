@@ -12,7 +12,7 @@ The changes and improvements I made to the *Generative Art* node for Sverchok me
 
 I\'ve include the updated examples in my generative-art-examples [repo](https://github.com/elfnor/generative-art-examples) on github. These examples include the *eisenxml* and the *json* for the nodes (the *json* files can be imported into Sverchok using the *Import* button on the Sverchok panel).
 
-## Examples from [Structure Synth meets Sverchok - Generative Art inside Blender](%7Bfilename%7Dstructure%20synth_meets_sverchok.md)
+## Examples from [Structure Synth meets Sverchok - Generative Art inside Blender]({{ site.baseurl }}{% link _posts/2015-03-08-structure synth_meets_sverchok.md %})
 
 ### 6 spirals
 
@@ -24,7 +24,7 @@ I\'ve include the updated examples in my generative-art-examples [repo](https://
 ![tree]({{ site.baseurl }}/images/tree_example.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/tree.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/tree.json)
 
-## Examples from [Structure Synth meets Sverchok - Mesh mode](%7Bfilename%7Dstructure%20synth_meets_sverchok_02.md)
+## Examples from [Structure Synth meets Sverchok - Mesh mode]({{ site.baseurl }}{% link _posts/2015-03-15-structure synth_meets_sverchok_02.md %})
 
 ### Octopod
 
@@ -41,7 +41,7 @@ I\'ve include the updated examples in my generative-art-examples [repo](https://
 ![fern]({{ site.baseurl }}/images/Fern.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/fern.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/fern.json)
 
-## Examples from [Structure Synth meets Sverchok - Animation](%7Bfilename%7Dstructure%20synth_meets_sverchok_03.md)
+## Examples from [Structure Synth meets Sverchok - Animation]({{ site.baseurl }}{% link _posts/2015-03-22-structure synth_meets_sverchok_03.md %})
 
 ### Fern Animation
 

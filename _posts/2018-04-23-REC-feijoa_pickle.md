@@ -29,7 +29,7 @@ If you like, some whey drained from live yoghurt can be added to the pickle as a
 
 The spices were an arbitrary combination of what I had available. Feel free to vary, substitute and impersonate, but stick to this amount of salt. I actually used fermented kawakawa berries instead of black peppercorns. The kawakawa berry season finishes long before the feijoa season starts, so I\'m probably the only one with both in my garden, and a tendency to experiment with strange ferments. (Don\'t worry this feijoa pickle is a very successful experiment)
 
-Find enough glass jars with reasonably wide mouths and another set of small glass jars or tumblers that fit nicely inside the mouth of the larger jars. Clean both jars inside and out. See the [preserved lemons](%7Bfilename%7DREC-preserved-lemons.md) post for a diagram of the airlock setup.
+Find enough glass jars with reasonably wide mouths and another set of small glass jars or tumblers that fit nicely inside the mouth of the larger jars. Clean both jars inside and out. See the [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %}) post for a diagram of the airlock setup.
 
 Go through the fruit, cutting any with unblemished skins up whole. Any with less than perfect skins, cut in half and scoop out the insides. Mix in a bowl with everything else. The salt should start to bring out the juice in the fruit.
 
@@ -43,4 +43,4 @@ After 2 weeks the fruit should have changed texture and be a lot softer. Put a l
 
 Similar recipes: (links added as I write them)
 
--   [preserved lemons](%7Bfilename%7DREC-preserved-lemons.md)
+-   [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %})
