@@ -20,7 +20,7 @@ For some examples I\'ve also given a link to an *eisenscript* version to be used
 
 Sverchok is available on [github](https://github.com/nortikin/sverchok). Download the zip version and install like any other Blender addon.
 
-The documentation for the node is [here](%7Bfilename%7Dgenerative_art_docs.md).
+The documentation for the node is [here]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %}).
 
 I have also started a [repo](https://github.com/elfnor/generative-art-examples) on github for *Generative Art* examples. These examples include the *eisenxml* and the *json* for the nodes (this can be imported into Sverchok using the *Import* button on the Sverchok panel). For some examples I\'ve also included an *eisenscript* version.
 

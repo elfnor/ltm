@@ -7,7 +7,7 @@ tags:  blender maze
 title: 'Mesh Maze Blender Add-On'
 ---
 
-I\'ve completely rewritten my [Maze any Mesh](%7Bfilename%7Dmaze_mesh.md) Sverchok scripted node as a standalone Blender add-on. It\'s available [here](https://github.com/elfnor/mesh_maze).
+I\'ve completely rewritten my [Maze any Mesh]({{ site.baseurl }}{% link _posts/2016-01-29-maze_mesh.md %}) Sverchok scripted node as a standalone Blender add-on. It\'s available [here](https://github.com/elfnor/mesh_maze).
 
 This add-on runs a recursive back tracker maze algorithm over the selected part of any mesh to produce a maze.
 

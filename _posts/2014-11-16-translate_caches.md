@@ -6,7 +6,7 @@ tags:  geocaching
 title: Translate cache descriptions and logs
 ---
 
-I recently did a European cycle trip and as described [here](%7Bfilename%7D/caches_along_track.md) I made some gpx files of geocaches along my intended route.
+I recently did a European cycle trip and as described [here]({{ site.baseurl }}{% link _posts/2014-11-09-caches_along_track.md %}) I made some gpx files of geocaches along my intended route.
 
 The trouble is most of the cache descriptions were in German and my German is practically non-existent. I wanted to do all my caching offline so I wrote a small python script to use Google Translate to translate all the descriptions and logs in the GPX file.
 

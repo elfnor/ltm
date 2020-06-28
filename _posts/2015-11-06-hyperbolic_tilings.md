@@ -8,7 +8,7 @@ title: Hyperbolic Tiling in 3D
 use_math: true
 ---
 
-In a previous [post](%7Bfilename%7Dhyperbolic_planes.md) I explained the shape of planes, spheres, and hyperbolic planes in terms of hexagons arranged around either another hexagon (plane), a pentagon (sphere) or a heptagon (hyperbolic plane). I used a photo of a hyperbolic plane someone else had made out of paper, as the 3D model produced by my scripted Sverchok node was not meshed in a nice regular tiling. I thought I\'d fix this.
+In a previous [post]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}) I explained the shape of planes, spheres, and hyperbolic planes in terms of hexagons arranged around either another hexagon (plane), a pentagon (sphere) or a heptagon (hyperbolic plane). I used a photo of a hyperbolic plane someone else had made out of paper, as the 3D model produced by my scripted Sverchok node was not meshed in a nice regular tiling. I thought I\'d fix this.
 
 The first step was to write a Sverchok node to make a Blender mesh of the regular tilings of the [Poincaré disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model). The Poincaré disk is a model of 2D hyperbolic geometry where the points on an infinite hyperbolic plane are mapped inside a planar disk of unit radius.
 
@@ -38,7 +38,7 @@ $$
 r^2 = \left |  \overline{OC} \right | * \left |  \overline{OC'} \right | 
 $$
 
-This Sverchok scripted node [hyperbolic\_tiling.py](https://github.com/elfnor/hyperbolic_coral) implements the regular tilings of the Poincaré disk. (See [earlier post](%7Bfilename%7Dhyperbolic_planes.md) on how to use a Sverchok scripted node in Blender). The hardest part of coding this is keeping track of the vertices and edges that are already in place to avoid making duplicates.
+This Sverchok scripted node [hyperbolic\_tiling.py](https://github.com/elfnor/hyperbolic_coral) implements the regular tilings of the Poincaré disk. (See [earlier post]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}) on how to use a Sverchok scripted node in Blender). The hardest part of coding this is keeping track of the vertices and edges that are already in place to avoid making duplicates.
 
 ![poincare tiling in sverchok]({{ site.baseurl }}/images/poincare_7-3.png)
 

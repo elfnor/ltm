@@ -7,7 +7,7 @@ tags: reading
 title: 'Reading the World - 10 Audio Online Stories'
 ---
 
-I really enjoyed putting together my list of [100 online stories](%7Bfilename%7Donline_stories_100.md) but collating, then reading 100 stories at once was hard work. I\'ll do some more virtual anthologies with stories in groups of ten or so. This list is audio versions of stories from the big list. I found eight of the stories as audio online. Some of the authors on the list have work in podcasts but different stories than those I choose for the big list. I used a couple of these to make the list up to ten. Four male and six female authors this time.
+I really enjoyed putting together my list of [100 online stories]({{ site.baseurl }}{% link _posts/2015-06-19-online_stories_100.md %}) but collating, then reading 100 stories at once was hard work. I\'ll do some more virtual anthologies with stories in groups of ten or so. This list is audio versions of stories from the big list. I found eight of the stories as audio online. Some of the authors on the list have work in podcasts but different stories than those I choose for the big list. I used a couple of these to make the list up to ten. Four male and six female authors this time.
 
 ## 10 Countries - 10 Online Audio Stories
 

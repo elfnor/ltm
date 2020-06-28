@@ -7,9 +7,9 @@ tags: ' blender sverchok structure-synth'
 title: 'Structure Synth meets Sverchok - Generative Art inside Blender'
 ---
 
-Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples](%7Bfilename%7Dgenerative_art_example_updates.md) and the [node docs](%7Bfilename%7Dgenerative_art_docs.md)
+Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples]({{ site.baseurl }}{% link _posts/2016-04-02-generative_art_example_updates.md %}) and the [node docs]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %})
 
-After using the [\"Matrix Iterate\"](%7Bfilename%7Dsimple_sverchok_05.md) node to generate some of the simpler structures from [Structure Synth](http://structuresynth.sourceforge.net/). I started to think about how to implement more of Structure Synth directly in Blender. It turned out to be remarkably simple using a scripted node and some existing python code.
+After using the [\"Matrix Iterate\"]({{ site.baseurl }}{% link _posts/2015-01-31-simple_sverchok_05.md %}) node to generate some of the simpler structures from [Structure Synth](http://structuresynth.sourceforge.net/). I started to think about how to implement more of Structure Synth directly in Blender. It turned out to be remarkably simple using a scripted node and some existing python code.
 
 Structure Synth uses a domain specific language called eisenscript to define a design grammar to construct 3D structures (LSystems). Here\'s the eisenscript for a structure with 6 spirals.
 
@@ -36,7 +36,7 @@ Structure Synth uses a domain specific language called eisenscript to define a d
 
 An eisenscript consists of a list of rules. Each rule contains a set of instructions. That instruction can either be to place an object or to call another rule. That call can be to to the rule doing the calling in a recursive fashion. Each instruction also has an associated transform to scale rotate or move the current coordinate system. The original eisenscript also allowed transforms on the colour and transparency of the object.
 
-The above structure can be easily implemented in Sverchok using the \"Matrix Iterate\" node as shown in the [previous post](%7Bfilename%7Dsimple_sverchok_05.md).
+The above structure can be easily implemented in Sverchok using the \"Matrix Iterate\" node as shown in the [previous post]({{ site.baseurl }}{% link _posts/2015-01-31-simple_sverchok_05.md %}).
 
 The interesting bit is that each rule can have multiple definitions that are called randomly according to the weight assigned to each rule definition. This allows structures with random branches and other complexities. This random choice of rule is bit harder to implement directly in Sverchok nodes but I\'m thinking about it\...
 

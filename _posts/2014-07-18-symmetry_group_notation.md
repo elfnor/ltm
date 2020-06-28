@@ -11,7 +11,7 @@ title: Symmetry Group Links and Notation
 
 There are many great resources on the 17 plane symmetry groups.
 
-I made great use of a couple of on-line apps while writing my [Symmetry Tile plug-in.](%7Bfilename%7D/symmetry_tile_docs.md)
+I made great use of a couple of on-line apps while writing my [Symmetry Tile plug-in.]({{ site.baseurl }}{% link _posts/2014-07-05-symmetry_tile_docs.md %})
 
 ## Morenaments
 

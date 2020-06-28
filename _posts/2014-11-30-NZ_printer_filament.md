@@ -8,7 +8,7 @@ title: Notes to Father Christmas re 3D Printer Filament
 
 I was doing some research to help Father Christmas fill my request for \"some interesting printer filament\" in my Christmas stocking. I thought I\'d share that research here in case its useful to anyone else. Feel free to include or modify it for your own Christmas letter to Santa. (Under a creative commons share alike license.)
 
-I have an Ultimaker original which takes 3 mm diameter filament and as my heated bed is currently in use [keeping the ducklings warm](%7Bfilename%7Dduckling_heater.md), I\'m mainly looking at filaments that will print on an unheated bed.
+I have an Ultimaker original which takes 3 mm diameter filament and as my heated bed is currently in use [keeping the ducklings warm]({{ site.baseurl }}{% link _posts/2014-11-12-duckling_heater.md %}), I\'m mainly looking at filaments that will print on an unheated bed.
 
 As I\'m in New Zealand I\'ve looked at filaments available locally. I have to consider the [carbon emissions](http://visual.ly/santas-carbon-footprint) for sleigh travel from the North Pole.
 

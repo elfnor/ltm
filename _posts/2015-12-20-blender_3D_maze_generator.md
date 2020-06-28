@@ -8,7 +8,7 @@ title: Blender 3D Maze Generator
 use_math: true
 ---
 
-The same backtracking algorithm that produces [2D mazes](%7Bfilename%7Dblender_maze_generator.md) can be used to produce three dimensional mazes. All that\'s needed is to set up the cells in the grid with an extra dimension and define the neighbors to include cells on the layers above and below the cell.
+The same backtracking algorithm that produces [2D mazes]({{ site.baseurl }}{% link _posts/2015-12-11-blender_maze_generator.md %}) can be used to produce three dimensional mazes. All that\'s needed is to set up the cells in the grid with an extra dimension and define the neighbors to include cells on the layers above and below the cell.
 
 Here I\'ve chosen the neighbors to be the 4 adjacent cells on the same layer, the 4 cells above these adjacent cells and the 4 cells below them. This gives each cell 12 neighbors and allows the maze to be drawn with ramps or diagonal staircases. This configuration is good for marble runs and mazes to explore in a game environment. A more common alternative would be to just add the cells directly above and below the original cells to give only six neighbors. This would require staircases going directly up from one level to the next.
 

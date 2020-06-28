@@ -7,7 +7,7 @@ tags:  blender sverchok maze
 title: Blender 2D Maze Generator
 ---
 
-The [game levels](%7Bfilename%7Dblender_game_level_generator.md) that can be produced by the *Generative Art* Sverchok node in Blender are lots of fun to explore but there\'s nothing to stop them producing overlapping paths like this:
+The [game levels]({{ site.baseurl }}{% link _posts/2015-06-11-blender_game_level_generator.md %}) that can be produced by the *Generative Art* Sverchok node in Blender are lots of fun to explore but there\'s nothing to stop them producing overlapping paths like this:
 
 ![overlaps in Steely Taws]({{ site.baseurl }}/images/level_gen_STD_ramps_render_015.png)
 

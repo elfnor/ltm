@@ -7,7 +7,7 @@ tags:  blender sverchok
 title: 'Simple Sverchok 02 - Matrix Deform'
 ---
 
-My [previous post](%7Bfilename%7D/simple_sverchok_01.md) introduced some of the basic concepts of [Sverchok](http://nikitron.cc.ua/sverchok_en.html) via the \"Centers Polygons\" node.
+My [previous post]({{ site.baseurl }}{% link _posts/2014-12-20-simple_sverchok_01.md %}) introduced some of the basic concepts of [Sverchok](http://nikitron.cc.ua/sverchok_en.html) via the \"Centers Polygons\" node.
 
 Here we\'ll try to gradually increase the complexity of our node diagram to do some more interesting things. Things that become increasingly harder to do outside Sverchok without using Blender python directly.
 

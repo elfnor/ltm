@@ -7,7 +7,7 @@ tags:  blender
 title: 'Example of a log file from Blender Auto Save Add-on'
 ---
 
-This is an example of how the markdown log file produced by my latest version of the Blender [Auto Save on RenderAdd-on](%7Bfilename%7Dblender_auto_save_addon_update.md) can be annotated to keep a record of blender file changes and why they were made. Each time a blend file with the add-on enabled is rendered, the add-on saves a image and blend file copy with the same base file name in an `auto_saves` folder. The add-on also automatically adds the the filename of the blend and image pair, a datestamp, a markdown link to the image file and the render time to the log file.
+This is an example of how the markdown log file produced by my latest version of the Blender [Auto Save on RenderAdd-on]({{ site.baseurl }}{% link _posts/2018-03-31-blender_auto_save_addon_update.md %}) can be annotated to keep a record of blender file changes and why they were made. Each time a blend file with the add-on enabled is rendered, the add-on saves a image and blend file copy with the same base file name in an `auto_saves` folder. The add-on also automatically adds the the filename of the blend and image pair, a datestamp, a markdown link to the image file and the render time to the log file.
 
 As I worked on developing a celadon glaze material, I annotated this log file with what I was changing and what I thought of the result. I screen grabbed the node diagram when I changed its layout and added links to my reference image. This very easily gave me the record below of this little project to quickly develop a material for a celadon style glaze.
 

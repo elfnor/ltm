@@ -7,7 +7,7 @@ tags: ' blender sverchok generative-art'
 title: Sverchok Tree Generator
 ---
 
-I tend toward making more abstract than realistic images with Blender. A [while back](%7Bfilename%7Divy_generator.md) I played with the *Ivy Generator* addon and so got interested in the underlying procedural algorithms for producing tree and plant structures. A lot of these techiques use L-systems and could maybe be implemented using the Sverchok [Generative Art](%7Bfilename%7Dgenerative_art_docs.md) node. Except the *Genertive Art* node has no provision (yet) for collision avoidance. This results in intersecting branches which is not always what I want.
+I tend toward making more abstract than realistic images with Blender. A [while back]({{ site.baseurl }}{% link _posts/2015-05-17-ivy_generator.md %}) I played with the *Ivy Generator* addon and so got interested in the underlying procedural algorithms for producing tree and plant structures. A lot of these techiques use L-systems and could maybe be implemented using the Sverchok [Generative Art]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %}) node. Except the *Genertive Art* node has no provision (yet) for collision avoidance. This results in intersecting branches which is not always what I want.
 
 Somewhere in my research into procedural plants I came across the Space Colonization Algorithm which is a different approach to tree generation and decided to write this algoithm up as a Sverchok scripted node.
 
@@ -56,6 +56,6 @@ Here is another example (not so tree like) of what is possible with the Tree Gen
 
 ![torus]({{ site.baseurl }}/images/sca_test3b_004.png)
 
-I like to code my Blender procedural experiments ([maze any mesh](%7Bfilename%7Dmaze_mesh.md), [2D mazes](%7Bfilename%7D/blender_maze_generator.md), [3D mazes](%7Bfilename%7Dblender_3D_maze_generator.md), [hyperbolic plane tilings](%7Bfilename%7Dhyperbolic_tilings.md), [more hyperbolic planes](%7Bfilename%7Dhyperbolic_planes.md), [bloom spheres](%7Bfilename%7D) ) as Sverchok nodes as I can concentrate on getting my code to produce simple lists (of vertices, edges, faces, and matrices) and Sverchok takes care of produing the actual mesh in Blender. The inputs and parameters provide a simple interface for the code without messing with the Blender API.
+I like to code my Blender procedural experiments ([maze any mesh]({{ site.baseurl }}{% link _posts/2016-01-29-maze_mesh.md %}), [2D mazes]({{ site.baseurl }}{% link _posts/2015-12-11-blender_maze_generator.md %}), [3D mazes]({{ site.baseurl }}{% link _posts/2015-12-20-blender_3D_maze_generator.md %}), [hyperbolic plane tilings]({{ site.baseurl }}{% link _posts/2015-11-06-hyperbolic_tilings.md %}), [more hyperbolic planes]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}), [bloom spheres](%7Bfilename%7D) ) as Sverchok nodes as I can concentrate on getting my code to produce simple lists (of vertices, edges, faces, and matrices) and Sverchok takes care of produing the actual mesh in Blender. The inputs and parameters provide a simple interface for the code without messing with the Blender API.
 
 ------------------------------------------------------------------------

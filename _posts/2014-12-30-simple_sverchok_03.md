@@ -7,7 +7,7 @@ tags:  blender sverchok
 title: 'Simple Sverchok 03 - Slope Dependent Trees'
 ---
 
-The first two posts ([01](%7Bfilename%7D/simple_sverchok_01.md), [02](%7Bfilename%7D/simple_sverchok_02.md) ) in this gentle introduction to Sverchok covered copying objects to the centers of polygons and scaling the copied objects according to some pattern.
+The first two posts ([01]({{ site.baseurl }}{% link _posts/2014-12-20-simple_sverchok_01.md %}), [02]({{ site.baseurl }}{% link _posts/2014-12-27-simple_sverchok_02.md %}) ) in this gentle introduction to Sverchok covered copying objects to the centers of polygons and scaling the copied objects according to some pattern.
 
 In this post we\'ll look at applying what we\'ve learnt to planting trees across a landscape. We\'ll make the trees only grow on reasonably flat land and make different types of trees grow at different heights.
 

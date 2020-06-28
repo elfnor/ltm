@@ -7,7 +7,7 @@ tags:  blender
 title: Blender Progress Animations
 ---
 
-A nice side effect of using the [auto save add-on](%7Bfilename%7Dblender_auto_save_addon.md) is that if you render often you effortlessly have a record of the progress of your scene towards the final image. These saved images can be collected up into an animation.
+A nice side effect of using the [auto save add-on]({{ site.baseurl }}{% link _posts/2015-05-29-blender_auto_save_addon.md %}) is that if you render often you effortlessly have a record of the progress of your scene towards the final image. These saved images can be collected up into an animation.
 
 I\'m going to describe how to do it as an animated GIF using GIMP. GIFs are well supported on the web but have indexed color so they tend to end up with visible lines between colors in areas of the image where there should be smooth gradients. There are alternatives to GIFs that don\'t have this problem some of which are discussed [here](http://stackoverflow.com/questions/6402633/what-alternatives-for-animated-gifs-are-there) on stackoverflow. Otherwise make a standard video animation from the still images using programs like [Kdenlive](https://kdenlive.org/) or [openshot](http://www.openshot.org/).
 
@@ -23,6 +23,6 @@ I wanted to set the final image in the GIF to a longer display time than the oth
 
 ![walkways gif]({{ site.baseurl }}/images/walkways_05.gif)
 
-The sequence above shows the texturing and lighting for a scene. The geometry was developed using my [Generative Art node](%7Bfilename%7Dblender_pipe_generator.md) for [Sverchok](https://github.com/nortikin/sverchok). Also used is the Ivy Gen add-on included with Blender.
+The sequence above shows the texturing and lighting for a scene. The geometry was developed using my [Generative Art node]({{ site.baseurl }}{% link _posts/2015-05-24-blender_pipe_generator.md %}) for [Sverchok](https://github.com/nortikin/sverchok). Also used is the Ivy Gen add-on included with Blender.
 
 ------------------------------------------------------------------------

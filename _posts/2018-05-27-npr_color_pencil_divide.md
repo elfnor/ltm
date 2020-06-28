@@ -21,7 +21,7 @@ We\'re now going to mess with this in the compositor to get a color pencil look.
 
 ## Edges
 
-In the [previous post](%7Bfilename%7Dnpr_compositing_shadow.md) I used a freestyle render layer to give line effects. Here we\'ll produce them directly from the image. We want lines along the edges in the image, or put differently, in the parts of the image where the color or value of the image changes quickly.
+In the [previous post]({{ site.baseurl }}{% link _posts/2018-05-12-npr_compositing_shadow.md %}) I used a freestyle render layer to give line effects. Here we\'ll produce them directly from the image. We want lines along the edges in the image, or put differently, in the parts of the image where the color or value of the image changes quickly.
 
 There lots of ways to do this. Here we\'ll convert the image to values only, then divide the image by a blurred copy of itself. This works to as a high pass filter to detect the parts of the image where the value changes quickly.
 

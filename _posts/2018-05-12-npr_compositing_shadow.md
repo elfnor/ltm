@@ -113,7 +113,7 @@ Mess with any of these setups but try to keep the messing directed.
 - but oops, I got something else.
 - Why?
 
-Try using my [Auto Save and logging add-on](%7Bfilename%7Dblender_auto_save_addon_update.md) to keep track of and document your experiments.
+Try using my [Auto Save and logging add-on]({{ site.baseurl }}{% link _posts/2018-03-31-blender_auto_save_addon_update.md %}) to keep track of and document your experiments.
 
 References
 

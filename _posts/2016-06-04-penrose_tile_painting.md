@@ -7,7 +7,7 @@ tags: ' blender symmetry-tile'
 title: Penrose Tile Painting in Blender
 ---
 
-The obvious follow up to [Painting in the Hyperbolic Plane](%7Bfilename%7Dhyperbolic_texturing.md) and [Symmetry Tile Painting in Blender](%7Bfilename%7Dsymmetry_texturing.md) is to do the same thing with my [Penrose tilings](%7Bfilename%7Dgenerative_art_penrose.md).
+The obvious follow up to [Painting in the Hyperbolic Plane]({{ site.baseurl }}{% link _posts/2015-11-14-hyperbolic_texturing.md %}) and [Symmetry Tile Painting in Blender]({{ site.baseurl }}{% link _posts/2015-11-21-symmetry_texturing.md %}) is to do the same thing with my [Penrose tilings]({{ site.baseurl }}{% link _posts/2016-04-23-generative_art_penrose.md %}).
 
 The basic idea is very similar to that explained in the previous two tile painting posts. The Penrose tiling post explains how to generate the tilings. The only thing to do differently is to not use a *Recalc Normals* node. Flipping the normals before doing the UV unwrap messes up the symmetry. It takes a lot of work in the UV Image/Editor to rotate the UV map of the pentagons and stars to match the pattern correctly for the P1 penrose tiling. The P2 and P3 tilings are much easier
 

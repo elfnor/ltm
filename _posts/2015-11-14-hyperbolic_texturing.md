@@ -7,9 +7,9 @@ tags:  blender sverchok
 title: Painting in the Hyperbolic Plane
 ---
 
-While playing around texturing the hyperbolic football from the [previous post](%7Bfilename%7Dhyperbolic_tilings.md) I discovered this technique for painting hyperbolic tilings directly in Blender.
+While playing around texturing the hyperbolic football from the [previous post]({{ site.baseurl }}{% link _posts/2015-11-06-hyperbolic_tilings.md %}) I discovered this technique for painting hyperbolic tilings directly in Blender.
 
-Download the [hyperbolic\_tiling.py](https://github.com/elfnor/hyperbolic_coral) scripted node for Sverchok. If you need help installing Sverchok or using a scripted node see the [first post](%7Bfilename%7Dhyperbolic_planes.md) on hyperbolic planes. Connect it up as shown below. The tiling above has p = 6, q = 4, layers = 3.
+Download the [hyperbolic\_tiling.py](https://github.com/elfnor/hyperbolic_coral) scripted node for Sverchok. If you need help installing Sverchok or using a scripted node see the [first post]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}) on hyperbolic planes. Connect it up as shown below. The tiling above has p = 6, q = 4, layers = 3.
 
 ![poincare tiling in sverchok]({{ site.baseurl }}/images/poincare_6-4.png)
 

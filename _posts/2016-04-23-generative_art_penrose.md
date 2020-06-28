@@ -9,7 +9,7 @@ title: 'Generative Art - Penrose Tilings'
 use_math: true
 ---
 
-[Penrose tilings](https://en.wikipedia.org/wiki/Penrose_tiling) are an interesting group of tilings that have no translational symmetry but are self-similar on different scales. One method to construct them is using substitution, the same method I used for the Pentaflake fractal in the [previous post](%7Bfilename%7Dlsystem_2d_fractal.md).
+[Penrose tilings](https://en.wikipedia.org/wiki/Penrose_tiling) are an interesting group of tilings that have no translational symmetry but are self-similar on different scales. One method to construct them is using substitution, the same method I used for the Pentaflake fractal in the [previous post]({{ site.baseurl }}{% link _posts/2016-03-27-lsystem_2d_fractal.md %}).
 
 There are three types of Penrose tilings:
 
@@ -19,7 +19,7 @@ There are three types of Penrose tilings:
 
 All of these tile shapes are based on a pentagon and the golden ratio $$\phi$$.
 
-I\'ll go through how to construct the tilings in [Blender](https://www.blender.org/) using [Sverchok](https://github.com/nortikin/sverchok) and the [Generative Art](%7Bfilename%7Dgenerative_art_docs.md) node.
+I\'ll go through how to construct the tilings in [Blender](https://www.blender.org/) using [Sverchok](https://github.com/nortikin/sverchok) and the [Generative Art]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %}) node.
 
 ## P3 Tiling - Rhomb
 

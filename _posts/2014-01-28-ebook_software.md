@@ -6,7 +6,7 @@ tags: ebook reading
 title: 'Software for managing (e)books'
 ---
 
-Adding the links to the [last post](%7Bfilename%7D/reading_lists.md), I realised I\'d dropped a lot of names of bits of software I use into the post. Here\'s a list with an explanation of what I do with each:
+Adding the links to the [last post]({{ site.baseurl }}{% link _posts/2014-01-26-reading_lists.md %}), I realised I\'d dropped a lot of names of bits of software I use into the post. Here\'s a list with an explanation of what I do with each:
 
 [Readerware](http://www.readerware.com) - <http://www.readerware.com>
 We use this to keep a computer list of the paper books we own. This is both for interest - it\'s faster to search the database than to search the shelves - and for insurance purposes.

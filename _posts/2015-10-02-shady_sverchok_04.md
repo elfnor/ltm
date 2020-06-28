@@ -7,7 +7,7 @@ tags:  blender sverchok
 title: 'Shaders for Sverchok 04 - Vertex Colors Update'
 ---
 
-When I wrote my [Shaders for Sverchok 02 - Vertex Colors](%7Bfilename%7Dshady_sverchok_02.md) post, I used a small piece of python code to assign the vertex colors. Sverchok now has a \"Vertex Colors\" node and I\'ll now show how to use that instead.
+When I wrote my [Shaders for Sverchok 02 - Vertex Colors]({{ site.baseurl }}{% link _posts/2015-02-26-shady_sverchok_02.md %}) post, I used a small piece of python code to assign the vertex colors. Sverchok now has a \"Vertex Colors\" node and I\'ll now show how to use that instead.
 
 The \"Vertex Color\" node takes a list of colors as input. This list can either be assigned to the vertices \"v\" or to the faces \"p\" of the object selected in the drop down. Each color should be a vector of three numbers between 0 and 1. If the list is shorter that the number of vertices (or polygons) Sverchok will do its normal thing and very usefully repeat the list until it is long enough.
 
@@ -15,7 +15,7 @@ The second drop down on the node is used to select the vertex color layer of the
 
 The example below makes up a list of 6 random colors and applies them to the faces of the stack of cubes. The default list repeat thing means the colors are repeated up the stack and the colors are repeated on the same faces. Make sure to use a different \"Seed\" for each of three random number generators. If they all have the same \"Seed\" they will produce the same set of numbers for each color channel and the colors will all be shades of grey.
 
-Make sure you select the object and switch the view to \"Vertex Paint\" mode to see the vertex colors. To change the vertex colors into material colors that appear in a render you need to use a **Material** node tree as in [this post](%7Bfilename%7Dshady_sverchok_02.md).
+Make sure you select the object and switch the view to \"Vertex Paint\" mode to see the vertex colors. To change the vertex colors into material colors that appear in a render you need to use a **Material** node tree as in [this post]({{ site.baseurl }}{% link _posts/2015-02-26-shady_sverchok_02.md %}).
 
 ![nodes for vertex color example 1]({{ site.baseurl }}/images/vertex_color_cube_example_01.png)
 

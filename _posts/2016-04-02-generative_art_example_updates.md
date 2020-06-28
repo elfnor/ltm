@@ -48,7 +48,7 @@ I\'ve include the updated examples in my generative-art-examples [repo](https://
 ![fern animation]({{ site.baseurl }}/images/fern_anim_still_05.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/fern_animation.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/fern_animation.json)
 
-## Examples from [Blender Pipe Generator](%7Bfilename%7Dblender_pipe_generator.md)
+## Examples from [Blender Pipe Generator]({{ site.baseurl }}{% link _posts/2015-05-24-blender_pipe_generator.md %})
 
 ### Pipe Generator
 
@@ -60,7 +60,7 @@ I\'ve include the updated examples in my generative-art-examples [repo](https://
 ![pipes]({{ site.baseurl }}/images/pipe_gen_15.png)\
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/pipes.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/pipes_gauges.json), [blend](https://github.com/elfnor/generative-art-examples/blob/master/pipe_generator.blend)
 
-## Examples from [Blender Game Level Generator](%7Bfilename%7Dblender_game_level_generator.md)
+## Examples from [Blender Game Level Generator]({{ site.baseurl }}{% link _posts/2015-06-11-blender_game_level_generator.md %})
 
 ### Game Level Generator
 

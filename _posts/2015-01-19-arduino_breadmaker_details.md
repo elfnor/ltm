@@ -7,7 +7,7 @@ slug: Arduino Bread Details
 title: Arduino Bread Details
 ---
 
-As mentioned in a [previous post](%7Bfilename%7Darduino_breadmaker.md) I\'ve been working on a project to replace the \"brain\" of a bread-maker with an Arduino.
+As mentioned in a [previous post]({{ site.baseurl }}{% link _posts/2014-12-12-arduino_breadmaker.md %}) I\'ve been working on a project to replace the \"brain\" of a bread-maker with an Arduino.
 
 The aim is to separate out the different stages in the breadmaker\'s cycle so I can make good sourdough bread. In general the sourdough takes longer to rise than dough made using store bought dried yeast granules. The rise time can also vary depending on how the sourdough starter is on any day. Also the longer the rise time the stronger the sour flavour of the bread.
 

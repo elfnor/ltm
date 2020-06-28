@@ -6,7 +6,7 @@ tags:  geocaching
 title: 'Off-line caching along a route'
 ---
 
-I recently did a European cycle trip and wanted the opportunity to collect a few geocaches along the way. This post and the next [one on translation](%7Bfilename%7D/translate_caches.md), describe the tools I used to wrangle the data from [geocaching.com](http://www.geocaching.com) in to a GPX file and attempt to translate the cache descriptions and logs into English.
+I recently did a European cycle trip and wanted the opportunity to collect a few geocaches along the way. This post and the next [one on translation]({{ site.baseurl }}{% link _posts/2014-11-16-translate_caches.md %}), describe the tools I used to wrangle the data from [geocaching.com](http://www.geocaching.com) in to a GPX file and attempt to translate the cache descriptions and logs into English.
 
 First the tools I use for geocaaching:
 
@@ -51,7 +51,7 @@ An alternative using the ordinary Google maps interface and gpsbabel is describe
 -   Copy the geotoad instruction output by the script, add your own login name and password for geocaching.com, save this new command as a bash file, make executable and run.
 -   The output of this last step should be a GPX file that can be importing into your caching software. It should contain all the caches within the specified distance of your cycle route.
 
-See this [next blog post](%7Bfilename%7D/translate_caches.md) if you want to translate the cache descriptions and logs into English (or another language).
+See this [next blog post]({{ site.baseurl }}{% link _posts/2014-11-16-translate_caches.md %}) if you want to translate the cache descriptions and logs into English (or another language).
 
 Note: Use geotoad at your own discretion it may not be strictly compatible with the terms of service of geocaching.com.
 

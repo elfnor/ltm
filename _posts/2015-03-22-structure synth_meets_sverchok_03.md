@@ -7,7 +7,7 @@ tags: ' blender sverchok structure-synth'
 title: 'Structure Synth meets Sverchok - Animation'
 ---
 
-Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples](%7Bfilename%7Dgenerative_art_example_updates.md) and the [node docs](%7Bfilename%7Dgenerative_art_docs.md)
+Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples]({{ site.baseurl }}{% link _posts/2016-04-02-generative_art_example_updates.md %}) and the [node docs]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %})
 
 In the previous two posts ([Generative Art in Blender](%7Bfilename%7Dstructure%20synth_meets_sverchok.md) and [Mesh Mode](%7Bfilename%7Dstructure%20synth_meets_sverchok_02.md) I introduced the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) scripted node I\'d written to implement [Structure Synth](http://structuresynth.sourceforge.net/) generative art or lsystems inside Blender.
 

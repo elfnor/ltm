@@ -82,7 +82,7 @@ Now comes the fun part, editing the mesh to produce interesting animations. John
 
 > Each of the quadrilaterals is populated with an appendage \...
 
-We could do this following my [`Centers Polygon` example](%7Bfilename%7D/simple_sverchok_01.md) but I\'ll use the `Adaptive Polygons` node to show another way for a different look.
+We could do this following my [`Centers Polygon` example]({{ site.baseurl }}{% link _posts/2014-12-20-simple_sverchok_01.md %}) but I\'ll use the `Adaptive Polygons` node to show another way for a different look.
 
 ![node diagram adaptive polygons]({{ site.baseurl }}/images/bloom_sphere_adaptive_polygon_nodes.png)
 

@@ -7,7 +7,7 @@ tags: ' blender sverchok structure-synth'
 title: Blender Pipe Generator
 ---
 
-Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples](%7Bfilename%7Dgenerative_art_example_updates.md) and the [node docs](%7Bfilename%7Dgenerative_art_docs.md)
+Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples]({{ site.baseurl }}{% link _posts/2016-04-02-generative_art_example_updates.md %}) and the [node docs]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %})
 
 The old windows 3D pipes screensaver has inspired many pipe generators for different graphic packages. There\'s even a physical version on [thingiverse](http://www.thingiverse.com/thing:25311). But there dosen\'t seem to be anything similar for Blender past version 2.49.
 

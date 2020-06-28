@@ -7,7 +7,7 @@ tags:  blender processing
 title: Larger Hyperbolic Tilings in 3D using Processing
 ---
 
-After my [last post](%7Bfilename%7Dhyperbolic_tilings.md) on producing tiled hyperbolic planes in 3D, I was still unhappy with the size of the planes I could generate. Using the soft body modifier in Blender I was limited to about 250 faces before everything went unstable. Also after the tiling has been unfurled the length edges were still longer in the middle and shorter towards the edges where they should all be equal. (OK, I\'m getting a bit obsessed with this)
+After my [last post]({{ site.baseurl }}{% link _posts/2015-11-06-hyperbolic_tilings.md %}) on producing tiled hyperbolic planes in 3D, I was still unhappy with the size of the planes I could generate. Using the soft body modifier in Blender I was limited to about 250 faces before everything went unstable. Also after the tiling has been unfurled the length edges were still longer in the middle and shorter towards the edges where they should all be equal. (OK, I\'m getting a bit obsessed with this)
 
 The physics needed to unfurl the tiling into 3D space is a mass spring network where each vertex of the mesh is a mass and each edge of the mesh is modeled as a spring with a fixed rest length. The rest length needs to be able to be set to be different from the initial edge length. To avoid the mesh intersecting itself each vertex of the mesh also needs to repel all other vertices.
 

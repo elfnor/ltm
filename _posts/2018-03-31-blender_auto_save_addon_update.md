@@ -45,4 +45,4 @@ On the first render with the Auto Save on Render add-on enabled, and \"with log 
 
 I find this approach to version control is really suited to the texturing and lighting part of the development cycle when I\'m making lots of test renders. When I\'m modeling, I\'m now intending to set up a basic scene that I can periodically rendered just to use this style of version control. Of course large image sizes and large Blender files can quickly eat up hard drive space.
 
-Here\'s an example of a the [log file](%7Bfilename%7Dceladon_glaze_log.md) used to develop the material used in the banner image. Its shows how the file with the addition of some simple annotations and screen shot clippings can become a good record of project progress or the start of a tutorial.
+Here\'s an example of a the [log file]({{ site.baseurl }}{% link _posts/2018-04-13-celadon_glaze_log.md %}) used to develop the material used in the banner image. Its shows how the file with the addition of some simple annotations and screen shot clippings can become a good record of project progress or the start of a tutorial.
