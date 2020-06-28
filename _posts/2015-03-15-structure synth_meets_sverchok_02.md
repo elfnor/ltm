@@ -17,7 +17,7 @@ In this post I\'ll cover a couple of features I\'ve added to the basic node.
 
 An xml rule set for the lsystem can have different objects in different instances. In the xml below there are two versions of the \"R1\" rule. These will be called randomly. The two different rules have opposite signs for the \"ry\" transform. This will cause wobbles in the structure. When it wobbles one way \"s1\" is added to the list of shapes and when it wobbles the other way \"s2\" is added.
 
-``` {.xml}
+```xml
 <rules max_depth="20">
     <rule name="entry">
         <call count="100" transforms="rx 3.6" rule="R1"/>
@@ -57,7 +57,7 @@ In other cases the mesh can be connected in the wrong order.
 
 My first attempt at the Fern structure had this effect.
 
-``` {.xml}
+```xml
 <rules max_depth="2000">
     <rule name="entry">
         <call  rule="curl" />      
@@ -81,7 +81,7 @@ My first attempt at the Fern structure had this effect.
 
 The following xml produces the result I was after that\'s shown with the node diagram above.
 
-``` {.xml}
+```xml
 <rules max_depth="2000">
     <rule name="entry">
         <call  rule="curl1" />  

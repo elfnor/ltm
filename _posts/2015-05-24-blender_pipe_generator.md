@@ -25,7 +25,7 @@ Make sure any scaling done in object mode is applied (CTRL-A) to the object. Kee
 
 The following xml defines seven versions of the \"R1\" rule. The versions have each been labeled with the attribute \"dir\" to help figure out what they do. This attribute is ignored by the \"Generative Art\" node processor. The \"straight\" rule places the \"s1\" shape and the others place the \"s2\" shape.
 
-``` {.xml}
+```xml
 <rules max_depth="50">
     <rule name="entry">
         <call count="4" transforms="rz 90" rule="R1"/>

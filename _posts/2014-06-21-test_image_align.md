@@ -10,13 +10,13 @@ title: Image alignment with markdown
 
 The standard syntax for inserting an image into a markdown document
 
-``` {.text}
+```text
 ![avatar]({filename}/images/El_Avatar2.jpeg)
 ```
 
 produces this html:
 
-``` {.html}
+```html
 <p><img alt="avatar" src="./images/El_Avatar2.jpeg" /></p>
 ```
 
@@ -26,13 +26,13 @@ The text then continues underneath the image.
 
 To float an image left or right so that the text flows around the image you can include a style in the attribute list after the image filename. Pelican automatically has the Attribute Lists extension to markdown enabled.
 
-``` {.text}
+```text
 ![avatar]({filename}/images/El_Avatar2_face_left.jpeg){: style="float:right; margin: 20px 20px"}
 ```
 
 produces this html:
 
-``` {.html}
+```html
 <p><img alt="avatar" src="./images/El_Avatar2_face_left.jpeg" style="float:right; margin: 20px 20px" /></p>
 ```
 
@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 Better practive would be to define a pair of styles in the `main.css` file:
 
-``` {.css}
+```css
 /* Images */
 .floatright {
     float: right;
@@ -73,7 +73,7 @@ Better practive would be to define a pair of styles in the `main.css` file:
 
 Then reference this in the markdown as follows:
 
-``` {.text}
+```text
 ![avatar]({filename}/images/El_Avatar2_face_left.jpeg){: .floatright}
 ```
 

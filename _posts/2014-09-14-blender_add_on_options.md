@@ -19,7 +19,7 @@ Any add-on tool you write to add new objects or manipulate objects will typicall
 
 The following add-on has a simple drop down menu.
 
-``` {.python}
+```python
 
 import bpy    
               
@@ -64,7 +64,7 @@ You can have more control over how the `EnumProperty` is displayed to the user b
 
 The `layout.prop(self, "radio", expand=True)` changes the drop down to what are sometimes called \"radio buttons\".
 
-``` {.python}
+```python
 import bpy    
               
 class DropDownExample(bpy.types.Operator) : 
@@ -112,7 +112,7 @@ The text can be replaced with icons if desired. In this case each item tuple now
 `(value, label, description, icon name, unique number)`\
 The icons avaliable and their names can be found using the `Development: Icons` add-on. This adds a panel to the properties panel (`CTRL-T`) of the Text Editor view. Hovering the mouse over an icon gives it name and clicking and icon copies its name to the clipboard.
 
-``` {.python}
+```python
 import bpy    
               
 class DropDownExample(bpy.types.Operator) : 
@@ -157,7 +157,7 @@ if __name__ == "__main__" :
 
 A callback function can be used to generate the items for the list dynamically. This is useful, for example, for making a list of the objects in the scene for the user to select from. The callback needs to go at the top of the class above the `bpy.props.EnumProperty` that uses it.
 
-``` {.python}
+```python
 import bpy  
                 
 class DropDownExample(bpy.types.Operator) :  
@@ -201,7 +201,7 @@ The `invoke` method of the class is only called when the add-on is started. In t
 
 Of course if you where to make this into a real add-on, it would be best to add the number of objects and the vector direction as user selections. These would be a `bpy.props.IntProperty` and a `bpy.props.FloatVectorProperty`.
 
-``` {.python}
+```python
 import bpy  
 from mathutils import Vector
                 
@@ -254,7 +254,7 @@ If you add the duplication code to the 1st example in this section, the list wil
 
 A callback function for the items list can be used to make one list update its items in response to a user selection in another list. I needed this in the Copy2 add-on where the user needs to select a primary and secondary axis. The primary and secondary axes can\'t be the same. I could of offered the user a single choice of one of the six pairs but I decided to make the secondary axis list update in response to the primary axis choice.
 
-``` {.python}
+```python
 import bpy    
               
 class DropDownExample(bpy.types.Operator) : 

@@ -17,7 +17,7 @@ The wiring for the OLED and pyboard are shown in the top diagram. The pyboard ha
 
 ## Basic Example code
 
-``` {.python}
+```python
 """
 Simple test of a 128 x 64 pixel OLED display with an ssd1306 driver chip on a SPI bus
 
@@ -106,7 +106,7 @@ There are several versions and forks of a ssd1306 library for micropython on git
 
 I also found a graphics library for drawing lines, triangles, rectangles and circles on this [forum post](http://forum.micropython.org/viewtopic.php?f=5&t=195&p=873&hilit=lcd_gfx#p873) by polygontwist.
 
-``` {.python}
+```python
 # hello world on SSD1306
 # uses version of SSD1306.py and font.py
 # https://github.com/jeffmer/micropython-upybbot/blob/master/ssd1306.py

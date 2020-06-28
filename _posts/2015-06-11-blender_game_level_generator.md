@@ -21,7 +21,7 @@ For a demo version to prove this would work I made a simple straight, bend and r
 
 The xml that describes the design is very similar to that used for the Pipe Generator. It defines 6 versions of the \"R1\" rule. The Generative Art node chooses versions of these rules at random. The first version places the straight section, the next two place left and right bends rotating the bend object as required. The next two place the ramp object to go up or down and the last version creates an intersection. The names for the shapes have been prefixed with \"00\", \"01\", \"02\" so they sort in a predictable way to make it easy to assign the correct object to the correct shape in the Sverchok node diagram.
 
-``` {.xml}
+```xml
 <rules max_depth="50">
     <rule name="entry">
         <call count="4" transforms="rz 90" rule="R1"/>

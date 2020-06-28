@@ -20,7 +20,7 @@ To draw spheres we need to decide whether the current pixel is inside or outside
 
 This first shader draws a single sphere. It calculates the distance from the *Vector* input point to the origin. It then creates a step function where the distance equals the radius and assigns the colors accordingly.
 
-``` {.c}
+```c
 shader sphere(
     vector Vector = P,    
     float Radius = 0.5,
@@ -68,7 +68,7 @@ To draw an array of spheres we don\'t want to calculate the distance to every ce
 
 For a cubic array this is fairly simple. We use the *mod* function to map every point into a single cube centered at the origin. For this shader I\'ve added *Blur*, and *Scale* inputs. Increasing the scale puts more repeats of the pattern. The scale is a single value to match the built-in Cycles texture nodes. To scale different amounts in different directions use a *Mapping* node on the *Vector* input. The *Blur* input is used in the *smoothstep* function.
 
-``` {.c}
+```c
 shader sphere_pack_cubic(  
     vector Vector = P,
     float Blur = 0.0,

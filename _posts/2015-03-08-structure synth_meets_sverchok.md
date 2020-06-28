@@ -44,7 +44,7 @@ In the meantime searching the web, I couldn\'t find anyone who had included a pa
 
 He uses an xml form of eisenscript to define the design grammar. The above script looks like this in Philip\'s xml:
 
-``` {.xml}
+```xml
 <rules max_depth="400">
     <rule name="entry">
         <call count="3" transforms="rz 120" rule="R1"/>
@@ -73,7 +73,7 @@ I also added a break to the code on reaching maximum number of objects as I kept
 
 From there all we need is a simple \"Scripted Node\" in Sverchok with the following code:
 
-``` {.python}
+```python
 from sverchok.data_structure import Matrix_listing
 
 import LSystem_blender as LSystem

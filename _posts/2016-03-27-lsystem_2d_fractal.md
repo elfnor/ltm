@@ -28,7 +28,7 @@ I have also started a [repo](https://github.com/elfnor/generative-art-examples) 
 
 ![koch snowflake]({{ site.baseurl }}/images/ga_koch_snowflake.png)
 
-``` {.xml}
+```xml
 <rules max_depth="100">
     <rule name="entry">
         <call transforms="ty 0.5*3**0.5" rule="R1"/>
@@ -57,7 +57,7 @@ This is one of the earliest fractals described (1904). The basic unit is only dr
 
 ![t square]({{ site.baseurl }}/images/ga_tsquare_2d.png)
 
-``` {.xml}
+```xml
 <rules max_depth="100">
     <rule name="entry">
         <call rule="R1"/>
@@ -85,7 +85,7 @@ This fractal has the basic unit (a box) repeated at ever decreasing scales. at e
 
 ![pentaflake]({{ site.baseurl }}/images/ga_pentaflake.png)
 
-``` {.xml}
+```xml
 <rules max_depth="100">
     <rule name="entry">
         <call rule="R1"/>
@@ -138,19 +138,19 @@ See [Larry Riddle\'s page](http://ecademy.agnesscott.edu/~lriddle/ifs/pentagon/d
 
 The xml processor used in the *Generative Art* node will evaluate math expressions in the transform definitions. For example the first call in the above xml could be written:
 
-``` {.xml}
+```xml
 <call transforms="rz 180 sa (5**0.5-1)/2" rule="R1"/>
 ```
 
 The python *math* and *random* modules have been imported into the node namespace so the call could also be written:
 
-``` {.xml}
+```xml
 <call transforms="rz 180 sa (math.sqrt(5)-1)/2" rule="R1"/>
 ```
 
 There cannot be any spaces in any maths expressions for the rotation, translation or scale parameters when using a single transforms attribute string (The spaces are used to split the string into its components). To allow for more complicated expressions each transform can be separated out into its own attribute. Notice the expression for *sa* (scale all) now has spaces in the expression.
 
-``` {.xml}
+```xml
 <call rz="180" sa="(math.sqrt(5) - 1)/2" rule="R1"/>
 ```
 
@@ -158,7 +158,7 @@ The math expression string is passed to python\'s *eval()* function. The string 
 
 Constants can be defined and used in the *xml* like this:
 
-``` {.xml}
+```xml
 <rules max_depth="100">
     <constants scale="(3-5**0.5)/2" t1="(5**0.5-1)/2" t2="(3-5**0.5)/4" />
     <constants t3="((10**0.5-2**0.5)*(5+5**0.5)**0.5)/8" t4="((10**0.5-2**0.5)*(5-5**0.5)**0.5)/8" />
@@ -188,7 +188,7 @@ If a *field\_name* such as `{scale}` is not defined in a *constants* element in 
 
 The *max\_depth* attribute value of rule *R1* has been replaced by the `{md}` variable in the following *xml*.
 
-``` {.xml}
+```xml
 <rules max_depth="100">
     <constants scale="(3-5**0.5)/2" t1="(5**0.5-1)/2" t2="(3-5**0.5)/4" />
     <constants t3="((10**0.5-2**0.5)*(5+5**0.5)**0.5)/8" t4="((10**0.5-2**0.5)*(5-5**0.5)**0.5)/8" />

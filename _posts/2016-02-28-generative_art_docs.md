@@ -77,7 +77,7 @@ A simple example of an xml design file:
 
 6 Spirals
 
-``` {.xml}
+```xml
 <rules max_depth="150">
 <rule name="entry">
     <call count="3" transforms="rz 120" rule="R1"/>
@@ -124,7 +124,7 @@ For example
 
 Tree
 
-``` {.xml}
+```xml
 <rules max_depth="100">
 <rule name="entry">
     <call  rule="spiral"/>
@@ -162,7 +162,7 @@ Normally when the `max_depth` for a rule is reached that \'arm\' of the structur
 
 Nouveau variation
 
-``` {.xml}
+```xml
 <rules max_depth="1000">
 <rule name="entry">
     <call count="2" transforms="rz 60" rule="r"/>
@@ -205,7 +205,7 @@ For example the following two xml files will look the same when the matrix outpu
 
 Fern 1
 
-``` {.xml}
+```xml
 <rules max_depth="2000">
     <rule name="entry">
     <call  rule="curl" />      
@@ -229,7 +229,7 @@ Fern 1
 
 Fern 2
 
-``` {.xml}
+```xml
 <rules max_depth="2000">
     <rule name="entry">
     <call  rule="curl1" />  
@@ -261,19 +261,19 @@ Again these were both done with max mats set to 5000.
 
 Constants and variables can be included in the xml file by replacing a numerical value with a pair of braces.
 
-``` {.xml}
+```xml
     transforms = "tx 0.5 rx 20 sa 0.9"
 ```
 
 becomes
 
-``` {.xml}
+```xml
     transforms = "tx {x_const} rx 20 sa 0.9"
 ```
 
 Constants are defined within the xml as follows:
 
-``` {.xml}
+```xml
     <constants  x_const="0.5" />
 ```
 
@@ -285,7 +285,7 @@ The example below uses a variable ({curl\_angle}) to animate the amount of curl 
 
 Fern 3
 
-``` {.xml}
+```xml
 <rules max_depth="2000">
 <constants zd="1.5" sxy="0.9" />
 <rule name="entry">
@@ -318,13 +318,13 @@ Simple maths can also be use in the transforms definition. This has been used ab
 
 transforms as single attribute (no spaces allowed in maths expression)
 
-``` {.xml}
+```xml
     <call transforms="tx 1 rz -1*{v1} ry {v2}" rule="R1"/>
 ```
 
 each transform with its own attribute (can have spaces)
 
-``` {.xml}
+```xml
     <call tx="1" rz="-1 * {v1}" ry="{v2}" rule="R1"/>
 ```
 
@@ -332,13 +332,13 @@ All this is implemented by first using python\'s string `format` method to subst
 
 The python `math` and `random` modules exist in the namespace of the \"Generative Art\" node so for example a transform could be defined as:
 
-``` {.xml}
+```xml
     tx="2**0.5"
 ```
 
 or:
 
-``` {.xml}
+```xml
     tx="math.sqrt(2)"
 ```
 

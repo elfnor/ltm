@@ -76,7 +76,7 @@ Copy *dht.py* and *main.py* to a micro SD card, insert the card into the pyboard
 
 *main.py*
 
-``` {.python}
+```python
 import pyb
 import dht
 

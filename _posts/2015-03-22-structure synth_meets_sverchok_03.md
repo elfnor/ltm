@@ -32,7 +32,7 @@ becomes
 
 To illustrate this here is the xml definition and the node diagram for the fern animation.
 
-``` {.xml}
+```xml
 Library["FernVars"] = """
 <rules max_depth="2000">
     <rule name="entry">

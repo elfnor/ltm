@@ -26,19 +26,19 @@ This is text such as `this` that is normally used for a short piece of code in a
 
 It might also be used when a variable name or file name `~\file.txt` is referred to in a paragraph.
 
-``` {.text}
+```text
 This is text such as `this` that is normally...
 ```
 
 The static html produced by Pelican is:
 
-``` {.html}
+```html
 <p>This is text such as <code>this</code> that is normally used for a short piece of code in a a paragraph. </p>
 ```
 
 This format of the in-line code element is given by a piece of CSS such as this, included in the theme `main.css` or `style.css` file
 
-``` {.css}
+```css
 code {
   font-family: 'Source Code Pro', monospace;
   font-size: 0.9em;
@@ -62,7 +62,7 @@ The blocks can be defined in a number of different ways, indenting, four `~~~~`,
 
 produces this html:
 
-``` {.html}
+```html
 </p>
 <div class="highlight"><pre><span class="c"># python code</span>
 <span class="n">mystr</span> <span class="o">=</span> <span class="s">&#39;Hello world&#39;</span>
@@ -72,7 +72,7 @@ produces this html:
 
 and this output
 
-``` {.python}
+```python
 # python code
 mystr = 'Hello world'
 print('%s'%(mystr))
@@ -80,7 +80,7 @@ print('%s'%(mystr))
 
 The style for the `pre` element is defined in the `main.css`.
 
-``` {.css}
+```css
 pre {
   font-family: 'Source Code Pro', monospace;
   background: none repeat scroll 0 0 #F0F0F0;
@@ -101,7 +101,7 @@ To add line numbers to the displayed code block use `#!` at the start of the fir
 
 \~\~\~\~{.text}
 
-``` {.python}
+```python
 #! python code  
 mystr = 'Hello world'  
 print('%s'%(mystr))  
@@ -121,7 +121,7 @@ Blockquotes can be indicated with \>
 
 > This a much longer multi paragraph block quote that is intended to extend over multiple lines. This a much longer block quote that is intended to extend over multiple lines. This a much longer block quote that is intended to extend over multiple lines.
 
-``` {.text}
+```text
 > Here's a blockquote.
 
 > This a much longer multi paragraph block quote that is intended to extend over multiple lines.  This a much longer block quote that is intended to extend over multiple lines.  This a much longer block quote that is intended to extend over multiple lines. 
@@ -129,7 +129,7 @@ Blockquotes can be indicated with \>
 
 produced by this html:
 
-``` {.html}
+```html
 <blockquote>
 <p>Here's a blockquote.</p>
 <p>This a much longer multi paragraph block quote that is intended to extend over multiple lines.  This a much longer block quote that is intended to extend over multiple lines.  This a much longer block quote that is intended to extend over multiple lines. </p>
@@ -138,7 +138,7 @@ produced by this html:
 
 The style for the `blockquote` element is defined in the `main.css`.
 
-``` {.css}
+```css
 blockquote {
     font-style: italic;
     margin-top: 10px;
@@ -153,7 +153,7 @@ blockquote {
 
 If you want to have several different types of an element, each with its own style, you can use attribute lists.
 
-``` {.text}
+```text
 For example different coloured in-line `code in red`{: .red} and `green`{: .green}.
 ```
 
@@ -161,13 +161,13 @@ For example different coloured in-line `code in red`{: .red} and `green`{: .gree
 
 Html:
 
-``` {.html}
+```html
 <p>For example different coloured in-line <code class="red">code in red</code> and <code class="green">green</code>.</p>
 ```
 
 Along with the following css in `main.css`.
 
-``` {.css}
+```css
 code.red {color:red;}
 code.green {color: green;}
 ```
@@ -188,7 +188,7 @@ Headings can be made in markdown by underlining with equal signs (===========) t
 
 markdown
 
-``` {.text}
+```text
 #H1#
 H1
 ==
@@ -200,7 +200,7 @@ H2
 
 HTML
 
-``` {.html}
+```html
 <h1>H1</h1>
 <h1>H1</h1>
 <h2>H2</h2>
@@ -210,7 +210,7 @@ HTML
 
 CSS
 
-``` {.css}
+```css
 h1, h2, h3, h4, h5, h6 {
     color: #711;    
     font-family: "Source Sans Pro",sans-serif;

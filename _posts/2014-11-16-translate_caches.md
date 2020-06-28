@@ -18,7 +18,7 @@ The script attempts to translate the description and logs for each geocache into
 
 WARNING: This code only translates some descriptions and logs, if there is a lot of formatting in the description it fails to translate and just returns a second copy of the original text. I haven\'t spent much time trying to resolve this bug. Feel welcome to improve the script for your on use. Also use at your own discretion after reading Google Translate\'s terms and conditions.
 
-``` {.python}
+```python
 from xml.dom import minidom
 import codecs
 import goslate

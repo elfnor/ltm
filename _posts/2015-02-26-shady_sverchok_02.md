@@ -23,7 +23,7 @@ Rather than paint on our colors we\'re going to assign them to the vertices usin
 
 ![nested boxes nodes]({{ site.baseurl }}/images/nested_box_nodes.png)
 
-``` {.python}
+```python
 """
 set vertex color to shades of grey, each cube in sverchok structure has its own shade
 """

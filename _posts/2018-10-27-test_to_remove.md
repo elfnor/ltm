@@ -1,10 +1,10 @@
 ---
 author: elfnor
-date: '2020-10-26'
+date: '2018-10-27 22:00'
 image: composite_540_full_focus_05.png
 layout: post
 status: published
-tags:  test
+tags:  deploy
 title: 'Examples of stuff to test deployment'
 use_math: true
 ---
@@ -63,10 +63,17 @@ res = pyb.Pin('Y3', pyb.Pin.OUT_PP, pyb.Pin.PULL_DOWN)
 
 or using `{.python}`
 
-``` {.python}
+
+```{.python}
 for n in (0, 1, 2, 3, 4):
     print(n)
 ```
+
+
+~~~{.python}
+for n in (0, 1, 2, 3, 4):
+    print(n)
+~~~
 
 Try some c code
 
@@ -100,4 +107,7 @@ straight pipes
 
 
 
+# Internal links
+
+[internal link]({{ site.baseurl }}{% link _posts/2014-12-27-simple_sverchok_02.md %})
 

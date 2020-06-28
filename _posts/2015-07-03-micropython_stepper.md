@@ -27,7 +27,7 @@ The potentiometer on the carrier board can be used to control the current throug
 
 ### Simple operation
 
-``` {.python}
+```python
 """
 Stepper motor control example using a A4988 carrier board 
 """
@@ -69,7 +69,7 @@ This code could be re-factored into a function with parameters for number of ste
 
 ### Timer operation
 
-``` {.python}
+```python
 """
 Stepper motor control example using a A4988 carrier board 
 and a Timer
@@ -133,7 +133,7 @@ To run more then one motor you need a separate timer and callback function for e
 
 The next step in refactoring this code to make a general library for stepper motors is to wrap the functionality up in a Class. Rather than do this myself I\'ve used jeffmer\'s `nemastepper.py` module available as part of [this github repository](https://github.com/jeffmer/micropython-upybbot).
 
-``` {.python}
+```python
 """
 Stepper motor control example using a A4988 carrier board 
 and the nemastepper.py library available at 

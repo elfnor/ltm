@@ -72,7 +72,7 @@ Here\'s the original eisenscript and translated eisenxml for one of the creature
 
 ![ga\_medusa]({{ site.baseurl }}/images/ga_medusa.png)
 
-``` {.xml}
+```xml
 <?xml version="1.0" ?>
 <rules max_depth="25">
   <rule name="entry">

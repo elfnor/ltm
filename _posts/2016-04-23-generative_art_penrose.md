@@ -40,7 +40,7 @@ $$\phi^2 = \phi + 1 $$
 
 Its easy to produce an equilateral triangle in Sverchok using the *Circle* node with *N Vertices* set to 3. This give a triangle centered at the origin and pointing to the right, shown as a blue outline above. This following *eisenxml* scales the equilateral triangle in the x and y directions to give the thin and fat Robinson triangles. It also moves them so one vertex of each triangle is at the origin.
 
-``` {.xml}
+```xml
 <rules max_depth="100">
     <constants phi = "((1+5**0.5)/2)" />
     <constants thinx = "({phi}+0.75)**0.5" />
@@ -69,7 +69,7 @@ The triangles substituted into the thin triangle are scaled by $$s1 = 1 / \phi$$
 
 The triangles substituted into the fat triangles are scaled by $$s2 = 1/ \phi^{2}$$.
 
-``` {.xml}
+```xml
 <rules max_depth="100">
     <constants phi = "((1+5**0.5)/2)" />
     <constants thinx = "({phi}+0.75)**0.5" />
@@ -106,7 +106,7 @@ The triangles substituted into the fat triangles are scaled by $$s2 = 1/ \phi^{2
 
 To produce a full plane tiling from this we change the entry rule to set 10 thin triangles around the origin, each second triangle also needs to be flipped:
 
-``` {.xml}
+```xml
 ....
     <rule name="entry">
         <call count="5" rz="72" rule="thin_pair"/>
@@ -141,7 +141,7 @@ The Penrose P2 tiling consists of kite and dart shapes. These kite and dart shap
 
 This time the subdivide/substitution step involves dividing the thin triangle into two smaller thin triangles and one smaller fat triangle. The fat triangle is divided into one smaller thin and one smaller fat triangle. Notice again that the triangle sides are split in the golden ratio.
 
-``` {.xml}
+```xml
 ...
 <rule name="thin_tri_sub" max_depth="{md}" successor="thin_tri">       
     <call tx="-1*{thinx}" ty="0.5" rz="108" sa="{s1}" rule="thin_tri_sub" />
@@ -179,7 +179,7 @@ showed that the P1 tiling could easily be created from the P3 tiling.
 
 Each fat triangle has three pentagons, one centered at a base corner, one centered on a short side and one on a long side.
 
-``` {.xml}
+```xml
 ...
 <rule name="fat_tri">
     <instance sx="2*{fatx}/3" sy="({phi}/(3**0.5))" tx="{fatx}/3" ty="{phi}/2" shape="tri"/>
