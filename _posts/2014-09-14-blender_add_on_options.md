@@ -7,9 +7,11 @@ tags:  copy2
 title: 'Drop down and button select menus for Blender Operator add-ons'
 ---
 
+
+
 Note: Examples were tested in Blender 2.71 running on Linux Mint.
 
-While making the fancy new interface for my [copy2 add-on](http://elfnor.com/copy-2-add-on-for-blender.html) I needed to work out how to display choices to the user. There are many examples around for drop down menus etc. So many examples that I got rather confused to start with. Here is my best attempt at simplifying this to the essentials.
+While making the fancy new interface for my [copy2 add-on]({{ site.baseurl }}{% link _posts/2014-09-02-copy2_docs.md %}) I needed to work out how to display choices to the user. There are many examples around for drop down menus etc. So many examples that I got rather confused to start with. Here is my best attempt at simplifying this to the essentials.
 
 If you\'re new to writing an operator add-on this is the best place to start is with this add-on tutorial at [blender.org](http://www.blender.org/documentation/blender_python_api_2_71_release/info_tutorial_addon.html)
 
@@ -108,8 +110,8 @@ Within the draw method quite complex layouts can be defined if necessary. See th
 
 ## Icons
 
-The text can be replaced with icons if desired. In this case each item tuple now has 5 entries.\
-`(value, label, description, icon name, unique number)`\
+The text can be replaced with icons if desired. In this case each item tuple now has 5 entries.  
+`(value, label, description, icon name, unique number)`  
 The icons avaliable and their names can be found using the `Development: Icons` add-on. This adds a panel to the properties panel (`CTRL-T`) of the Text Editor view. Hovering the mouse over an icon gives it name and clicking and icon copies its name to the clipboard.
 
 ```python

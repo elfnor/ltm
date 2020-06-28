@@ -17,9 +17,9 @@ This chili sauce is addictive, before you know it you\'ll be eating it on toast 
 
 *Makes 1 300 ml jar*
 
-200 g frozen red chilies\
-3 cloves garlic\
-1 large red mild pepper chopped stem removed\
+200 g frozen red chilies  
+3 cloves garlic  
+1 large red mild pepper chopped stem removed  
 2 t salt
 
 Blend everything and scoop into a clean jar.

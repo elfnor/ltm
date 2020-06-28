@@ -10,11 +10,11 @@ title: 'Symmetry Tile with non-rectangular cells'
 
 With the Symmetry Tile plug-in the user selects an area using the rectangle select tool, before running the plug-in. The plug-in then derives a cell to use to form the user\'s choice of symmetry pattern. For many of the symmetries that derived cell is the same as the selected rectangle. Some of the symmetries need a cell shape other than the rectangle. Those cell shapes and their relation to the user\'s rectangle are shown below, along with the symmetry groups that use that cell shape.
 
-**Square** - p4, p4g, pg (some)\
-**Equilateral Triangle** - p3m1, p6\
-**Half square triangle** - p4m\
-**90, 60 and 30 degree triangle** - p6m\
-**Diamond** - p3\
+**Square** - p4, p4g, pg (some)  
+**Equilateral Triangle** - p3m1, p6  
+**Half square triangle** - p4m  
+**90, 60 and 30 degree triangle** - p6m  
+**Diamond** - p3  
 **Kite** - p31m
 
 In many cases the user may want to create specific content to fill the required cell shape. It would be easier to have this shape on the screen to help you to draw the cell content in the correct place. Here\'s how to do that. I\'ll use the kite shaped cell here as an example but this method applies to any of the non-rectangular cells.

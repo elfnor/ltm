@@ -13,7 +13,7 @@ Without my own lemon tree, supermarket lemons are expensive so I go to the Farme
 
 *Makes 1 600 ml jar*
 
-6-10 lemons\
+6-10 lemons  
 2 t salt
 
 Find a \~600 ml glass jar with a wider mouth and another small glass jar that fits neatly inside the mouth of the large jar. Clean both jars inside and out. Find something to weigh down the small jar with. I use glass marbles.

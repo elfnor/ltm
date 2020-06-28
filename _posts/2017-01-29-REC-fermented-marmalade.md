@@ -11,13 +11,13 @@ After making [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-
 
 This recipe is tangy and salty and dosen\'t have the jelly consistency of a cooked marmalade. It\'s wonderful on sour-dough bread and also makes a great ingredient in a chicken or pork marinade. It can also be used in baking in place of candied/crystallized orange peel.
 
-## Sugar-Free Feremented Marmalade
+## Sugar-Free Fermented Marmalade
 
 *Makes 1 600 ml jar*
 
-1-2 lemons\
-1-2 oranges\
-1-2 mandarins\
+1-2 lemons  
+1-2 oranges  
+1-2 mandarins  
 1-2 t salt
 
 Find a \~600 ml glass jar with a wider mouth and another small glass jar that fits neatly inside the mouth of the large jar. Clean both jars inside and out. Find something to weigh down the small jar with. I use glass marbles. See the [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %}) post for a diagram of the airlock setup.

@@ -7,7 +7,7 @@ tags: reading
 title: 'Reading the World - 100 Online Stories'
 ---
 
-*\[Stories read by gender and genre.\_\
+*\[Stories read by gender and genre.\_  
 \_Purple - female author speculative, Green - male author speculative, Red - female author, Blue - male author\]*
 
 One of my early posts on this blogs was about [reading lists]({{ site.baseurl }}{% link _posts/2014-01-26-reading_lists.md %}) and my plan to make a list of (and read) online stories from as many countries as possible. This was inspired by this blogger\'s project [A Year of Reading the World](http://ayearofreadingtheworld.com) where she read one book from each of the 196 countries in one year.

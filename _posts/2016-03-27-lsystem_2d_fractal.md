@@ -127,9 +127,9 @@ Translation:
 
 $$
 \begin{align*}
-t1 &= \frac{\sqrt{5} - 1}{2} = 0.61803...\\
-t2 &= \frac{3-\sqrt{5}}{4} = 0.19098...\\
-t3 &= \frac{1}{8}(\sqrt{10}-\sqrt{2})\sqrt{5 + \sqrt{5}} = 0.58775...\\
+t1 &= \frac{\sqrt{5} - 1}{2} = 0.61803...\  
+t2 &= \frac{3-\sqrt{5}}{4} = 0.19098...\  
+t3 &= \frac{1}{8}(\sqrt{10}-\sqrt{2})\sqrt{5 + \sqrt{5}} = 0.58775...\  
 t4 &= \frac{1}{8}(\sqrt{10}-\sqrt{2})\sqrt{5 - \sqrt{5}} = 0.36325...
 \end{align*}
 $$

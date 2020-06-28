@@ -61,6 +61,6 @@ Of course this texturing technique can be used equally as well on the unfurled 3
 
 Other Hyperbolic software to look at:
 
--   [HyperPlay](http://timhutton.github.io/hyperplay/) Online Javascript, also avaliable for download on github.\
--   [Hyperbolic Tessellations Applet](http://www.plunk.org/~hatch/HyperbolicApplet/) Online Java Applet\
+-   [HyperPlay](http://timhutton.github.io/hyperplay/) Online Javascript, also avaliable for download on github.  
+-   [Hyperbolic Tessellations Applet](http://www.plunk.org/~hatch/HyperbolicApplet/) Online Java Applet  
 -   [KaleidoTile](http://www.geometrygames.org/KaleidoTile/index.html) Win, Mac, The older GL1 version works on Linux under Wine. C source code available with GPL license.

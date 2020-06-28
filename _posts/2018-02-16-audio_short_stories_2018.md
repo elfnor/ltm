@@ -27,7 +27,7 @@ As I listen to the stories I\'ll try to publish very short (\~140 character) rev
 
 As always I encourage you to support the magazines publishing these stories with donations to make sure they can keep on doing such great work.
 
-PS: I previously [blogged a list](http://elfnor.com/reading-the-world-100-online-stories.html) of online stories (text not audio) from 100 different countries for those interested in *reading* the world.
+PS: I previously [blogged a list]({{ site.baseurl }}{% link _posts/2015-06-19-online_stories_100.md %}) of online stories (text not audio) from 100 different countries for those interested in *reading* the world.
 
 ## January/February reviews
 

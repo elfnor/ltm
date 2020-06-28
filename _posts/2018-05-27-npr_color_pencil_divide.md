@@ -133,14 +133,14 @@ Working well with compositing (rather than random fiddling, hoping for a good re
 
 [RGB Curves Node --- Blender Manual](https://docs.blender.org/manual/en/dev/render/blender_render/textures/nodes/types/color/rgb_curves.html) - especially the diagram that shows the curves for lighten, negative, decrease contrast and posterize.
 
-[PIXLS.US - Basic Color Curves](https://pixls.us/articles/basic-color-curves/)\
+[PIXLS.US - Basic Color Curves](https://pixls.us/articles/basic-color-curves/)  
 [PIXLS.US - Color Curves Matching](https://pixls.us/articles/color-curves-matching/)
 
 **Mix node modes**
 
-[Blend modes - Wikipedia](https://en.wikipedia.org/wiki/Blend_modes)\
-[Pixel Math \[Ebook\]](https://gumroad.com/l/jOAsw) - this gives the mathematics behind each of the mix modes as implemented in the Blender source code.\
-[Clown Fish Cafe: GIMP\'s Layer Modes (Somewhat) Demystified](https://clownfishcafe.blogspot.com/2013/11/gimp-layer-modes-normal-to-addition.html)\
+[Blend modes - Wikipedia](https://en.wikipedia.org/wiki/Blend_modes)  
+[Pixel Math \[Ebook\]](https://gumroad.com/l/jOAsw) - this gives the mathematics behind each of the mix modes as implemented in the Blender source code.  
+[Clown Fish Cafe: GIMP\'s Layer Modes (Somewhat) Demystified](https://clownfishcafe.blogspot.com/2013/11/gimp-layer-modes-normal-to-addition.html)  
 [El Brujo de la Tribu: Color Mix Modes in Blender / Cycles](https://elbrujodelatribu.blogspot.com/2013/02/color-mix-modes-in-blender-cycles.html)
 
 ------------------------------------------------------------------------

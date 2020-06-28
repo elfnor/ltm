@@ -14,9 +14,9 @@ The new version is now merged into the Sverchok master branch on [github](https:
 
 Visible changes:
 
--   variable node inputs are now named according to field name ({myvar}) in xml\
--   separate named matrix list output for each type of shape in xml\
--   constants can be defined in xml <constants myconst="1.618" />\
+-   variable node inputs are now named according to field name ({myvar}) in xml  
+-   separate named matrix list output for each type of shape in xml  
+-   constants can be defined in xml <constants myconst="1.618" />  
 -   updated docs
 
 Other:
@@ -29,11 +29,11 @@ Here below, for reference is the documentation for the node. This can also be fo
 
 To use:
 
--   download and install [Blender](https://www.blender.org/)\
--   download the zip file for [Sverchok](https://github.com/nortikin/sverchok)\
--   Install Sverchok. In Blender , File \> User Preferences \> Add-ons \> Install from zip and select the Sverchok download\
+-   download and install [Blender](https://www.blender.org/)  
+-   download the zip file for [Sverchok](https://github.com/nortikin/sverchok)  
+-   Install Sverchok. In Blender , File \> User Preferences \> Add-ons \> Install from zip and select the Sverchok download  
 -   In a node editor window, select display Sverchok nodes (![icon]({{ site.baseurl }}/images/sverchok_icon.png)), and add a new node tree.
--   Add a *Generative Art* node (*Add \> Generators \> Generative Art*)\
+-   Add a *Generative Art* node (*Add \> Generators \> Generative Art*)  
 -   Add an *xml* file and other nodes as shown below
 
 ## Functionality
@@ -46,7 +46,7 @@ The xml file defines a set of transformation rules and instructions to place obj
 
 This node has the following parameters:
 
--   **xml file** - Required. This specifies the LSystem design and should be a linked text block in the .blend file.\
+-   **xml file** - Required. This specifies the LSystem design and should be a linked text block in the .blend file.  
 -   **r seed** - Integer to initialize python\'s random number generator. If the design includes a choice of multiple rules, changing this will change the appearance of the design
 -   **max mats** - To avoid long delays or lock ups the output of the node is limited to this number of matrices
 
@@ -106,7 +106,7 @@ Each of these instructions can be modified with a set of transforms. If the tran
 
 A transform consist of translations, rotations and scaling operations. For example `tx 1.3` means translated 1.3 units in the `x` direction, `rz 6` means rotate 6 degrees about the `z` axis and `sa 0.99` means scale all axes by 0.99.
 
-The full list of transforms that take one argument : `tx ty tz rx ry rz sx sy sz sa`\
+The full list of transforms that take one argument : `tx ty tz rx ry rz sx sy sz sa`  
 In addition all three axes values for either a translation or scale can be applied at once with a triplet of values.
 For example: `t 1.1 2.2 3.3  s 0.9 0.9 0.7`
 

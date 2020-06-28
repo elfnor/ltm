@@ -31,21 +31,21 @@ Install the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) addon into [Blend
 
 The node inputs:
 
--   **maximum branches**: the number of iterations of the algorithm. The number of tree vertices will actually be greater than this\
--   **branch length**: distance beween tree vertices\
--   **minimum distance**: when a new tree vertex is added, all the attractor points within this radius are \"killed\"\
--   **maximum distance**: attractor points greater than this distance are ignored\
--   **tip radius**: used to calculate branch radii, the radius of the tip at the end of the branches\
--   **tropism**: vector that is added to each new branch segment, can be used to make branches droop under gravity. Length of vector needs to be smaller than branch length.\
--   **End Vertices**: set of attractor points that the tree will grow toward\
+-   **maximum branches**: the number of iterations of the algorithm. The number of tree vertices will actually be greater than this  
+-   **branch length**: distance beween tree vertices  
+-   **minimum distance**: when a new tree vertex is added, all the attractor points within this radius are \"killed\"  
+-   **maximum distance**: attractor points greater than this distance are ignored  
+-   **tip radius**: used to calculate branch radii, the radius of the tip at the end of the branches  
+-   **tropism**: vector that is added to each new branch segment, can be used to make branches droop under gravity. Length of vector needs to be smaller than branch length.  
+-   **End Vertices**: set of attractor points that the tree will grow toward  
 -   **Start Vertices**: start locations for tree to grow from
 
 The node outputs:
 
--   **Vertices**: vertices (nodes) in tree structure\
--   **Edges**: edges conectiong vertices in tree structure\
--   **Branch radii**: radius of tree at each vertex. This is calculated using a \"pipe model\". That is at a vertex where two branches join, the area of the cross section is the sum of the areas of the two branches.\
--   **Ends mask**: a boolean list that is true for vertices that are at the end of a branch. Can be used with a *List Mask* node.\
+-   **Vertices**: vertices (nodes) in tree structure  
+-   **Edges**: edges conectiong vertices in tree structure  
+-   **Branch radii**: radius of tree at each vertex. This is calculated using a \"pipe model\". That is at a vertex where two branches join, the area of the cross section is the sum of the areas of the two branches.  
+-   **Ends mask**: a boolean list that is true for vertices that are at the end of a branch. Can be used with a *List Mask* node.  
 -   **Leaf matrices**: a list of transform matrices that can be used to place an object at the end of each branch. The x-direction of the object will be aligned with the last segment in the branch.
 
 Here is the Sverchok node diagram to produce the tree in the top image. A spherical cloud of atractor points is produced using the random vector and scalar nodes on the left. The *Skin Mesher* node is used to give thickness to the trunk and branches. The leaves are produced by the *Mesh Instancer* node. This make copies of a fairly simple leaf object (see insert) that has a image texture with an alpha channel. The textures are from EugeneKiver on [blendswap](http://www.blendswap.com/blends/view/59269). The modifiers on the tree trunk need to be applied before the UV texturing will work.
@@ -56,6 +56,6 @@ Here is another example (not so tree like) of what is possible with the Tree Gen
 
 ![torus]({{ site.baseurl }}/images/sca_test3b_004.png)
 
-I like to code my Blender procedural experiments ([maze any mesh]({{ site.baseurl }}{% link _posts/2016-01-29-maze_mesh.md %}), [2D mazes]({{ site.baseurl }}{% link _posts/2015-12-11-blender_maze_generator.md %}), [3D mazes]({{ site.baseurl }}{% link _posts/2015-12-20-blender_3D_maze_generator.md %}), [hyperbolic plane tilings]({{ site.baseurl }}{% link _posts/2015-11-06-hyperbolic_tilings.md %}), [more hyperbolic planes]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}), [bloom spheres]({{ site.baseurl }}{% link _posts/_posts2/2015-09-09-bloom_spheres.md %})) as Sverchok nodes as I can concentrate on getting my code to produce simple lists (of vertices, edges, faces, and matrices) and Sverchok takes care of produing the actual mesh in Blender. The inputs and parameters provide a simple interface for the code without messing with the Blender API.
+I like to code my Blender procedural experiments ([maze any mesh]({{ site.baseurl }}{% link _posts/2016-01-29-maze_mesh.md %}), [2D mazes]({{ site.baseurl }}{% link _posts/2015-12-11-blender_maze_generator.md %}), [3D mazes]({{ site.baseurl }}{% link _posts/2015-12-20-blender_3D_maze_generator.md %}), [hyperbolic plane tilings]({{ site.baseurl }}{% link _posts/2015-11-06-hyperbolic_tilings.md %}), [more hyperbolic planes]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}), [bloom spheres]({{ site.baseurl }}{% link _posts/2015-09-09-bloom_spheres.md %})) as Sverchok nodes as I can concentrate on getting my code to produce simple lists (of vertices, edges, faces, and matrices) and Sverchok takes care of produing the actual mesh in Blender. The inputs and parameters provide a simple interface for the code without messing with the Blender API.
 
 ------------------------------------------------------------------------

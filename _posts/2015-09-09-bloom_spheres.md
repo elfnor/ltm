@@ -34,8 +34,8 @@ The radius of the sphere is $$r_0$$ and $$z_h$$ is the increment by which the \"
 
 $$
 \begin{align*}
-\theta (i) &= \frac{i}{g}\\
-\phi (i) &= \tan^{-1} \frac{r_0}{iz_h}\\
+\theta (i) &= \frac{i}{g}\  
+\phi (i) &= \tan^{-1} \frac{r_0}{iz_h}\  
 r(i) &= r_0
 \end{align*}
 $$

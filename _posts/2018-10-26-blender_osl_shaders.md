@@ -43,8 +43,8 @@ The input vector is assigned to *P* if no input is connected to this socket. *P*
 The above shader describes a sphere at the origin. In the image below, the circles on each face vary in radius, depending on where the face intersects the texture sphere at the origin. Notice how the texture also intersects the cube on the right just a little.
 
 ![noodle + render]({{ site.baseurl }}/images/blender_osl_shaders-b2b2a.png)
-*A series of cubes (Dimensions = (1.0, 2.0, 2.0))\
-with the circle shader applied in world coordinates.\
+*A series of cubes (Dimensions = (1.0, 2.0, 2.0))  
+with the circle shader applied in world coordinates.  
 The texture radius has been increased to 1.2*
 
 We can connect different texture coordinates to the *Vector* input to map the texture to the object in different ways. The most useful are *Generated*, *UV* and *Object*.

@@ -29,7 +29,7 @@ This on-line Java applet can be used [here](http://www.scienceu.com/geometry/han
 
 The two books I consulted the most while working on this plug-in were:
 
--   [\"Handbook of Regular Patterns: An Introduction to Symmetry in Two Dimensions\" by Peter S. Stevens](http://www.amazon.com/Handbook-Regular-Patterns-Introduction-Dimensions/dp/0262690888)\
+-   [\"Handbook of Regular Patterns: An Introduction to Symmetry in Two Dimensions\" by Peter S. Stevens](http://www.amazon.com/Handbook-Regular-Patterns-Introduction-Dimensions/dp/0262690888)  
 -   [\"Designing Tessellations: The Secret of Interlocking Patterns\" by Jinny Beyer](http://www.amazon.com/Designing-Tessellations-Secrets-Interlocking-Patterns/dp/0809228661/)
 
 All of these references use different notations and descriptions for the symmetry groups. I\'ve summarised them in the following table for easy reference. The Symmetry Tile plug-in uses the notation in the left most column.

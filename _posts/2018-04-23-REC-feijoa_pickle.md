@@ -17,14 +17,14 @@ If you like, some whey drained from live yoghurt can be added to the pickle as a
 
 *Makes 4 x 400 ml jars*
 
-1.5 litres chopped feijoa \~half with skins \~half scooped\
-2 T [fermented chili and garlic sauce](http://elfnor.com/fermented-chili-and-garlic-sauce.html) - or any chili paste to taste\
-2 T black peppercorns\
-1 T parsley seed\
-1 T black mustard seed\
-1 T yellow mustard seed\
-1 T klonji seed\
-10 kaffir lime leaves\
+1.5 litres chopped feijoa \~half with skins \~half scooped  
+2 T [fermented chili and garlic sauce]({{ site.baseurl }}{% link _posts/2017-01-06-REC-chili-sauce.md %}) - or any chili paste to taste  
+2 T black peppercorns  
+1 T parsley seed  
+1 T black mustard seed  
+1 T yellow mustard seed  
+1 T klonji seed  
+10 kaffir lime leaves  
 1 T salt
 
 The spices were an arbitrary combination of what I had available. Feel free to vary, substitute and impersonate, but stick to this amount of salt. I actually used fermented kawakawa berries instead of black peppercorns. The kawakawa berry season finishes long before the feijoa season starts, so I\'m probably the only one with both in my garden, and a tendency to experiment with strange ferments. (Don\'t worry this feijoa pickle is a very successful experiment)

@@ -7,7 +7,7 @@ tags:  blender
 title: 'Update to Blender Auto Save add-on'
 ---
 
-I \"version control\" my Blender work using my [add-on](http://elfnor.com/blender-auto-save-add-on.html) that auto saves a copy of the Blender file along with the rendered image, each time a render is completed. This allows me to work with low resolution (pixels or cycles) renders for speed. I can then go back and browse the images, and re-render the best images at higher resolution.
+I \"version control\" my Blender work using my [add-on]({{ site.baseurl }}{% link _posts/2015-05-29-blender_auto_save_addon.md %}) that auto saves a copy of the Blender file along with the rendered image, each time a render is completed. This allows me to work with low resolution (pixels or cycles) renders for speed. I can then go back and browse the images, and re-render the best images at higher resolution.
 
 This works great, but as the files only have consecutive numbers there is no indication what was changed or why. What\'s missing in version control terms is both a \"commit\" message and the ability to see a \"diff\" between the Blender files.
 

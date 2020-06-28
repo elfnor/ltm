@@ -13,8 +13,8 @@ use_math: true
 
 There are three types of Penrose tilings:
 
--   P1 has pentagon tiles separated by a five pointed star, a diamond and an odd \"boat\" or \"hat\" shape.\
--   P2 has \"kite\" and \"dart\" shaped tiles.\
+-   P1 has pentagon tiles separated by a five pointed star, a diamond and an odd \"boat\" or \"hat\" shape.  
+-   P2 has \"kite\" and \"dart\" shaped tiles.  
 -   P3 has two shapes of rhomb or diamond shaped tiles.
 
 All of these tile shapes are based on a pentagon and the golden ratio $$\phi$$.
@@ -25,12 +25,12 @@ I\'ll go through how to construct the tilings in [Blender](https://www.blender.o
 
 I\'ll start at the bottom of the above list with the P3 Penrose tiling made with two types of rhomb or diamond shaped tiles. Each of the diamonds can be divided in half to give two triangles called Robinson triangles.
 
-![rob tris]({{ site.baseurl }}/images/penrose_rob_tris.png)\
+![rob tris]({{ site.baseurl }}/images/penrose_rob_tris.png)  
 The thin triangle on the left is an acute isosceles triangle, and the fat one on the right is an obtuse isosceles triangle. There are three constants that we will use a lot in our *eisenxml* files used to describe the tilings.
 
 Golden Ratio:
 $$\phi = \frac{\sqrt{5}+1}{2}$$
-This is the ratio between the long and the short sides for both the thin and fat triangles.\
+This is the ratio between the long and the short sides for both the thin and fat triangles.  
 The altitude of each triangle (the distance from the apex to the base) is found from Pythagoras\' theorem:
 $$x_{thin} = \sqrt{\phi + 3/4}$$
 $$x_{fat} = \frac{\sqrt{3-\phi}}{2}$$
