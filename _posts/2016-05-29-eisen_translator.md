@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2016-05-29 22:00'
 image: 'medusa\_spiked\_01\_016.png'
 layout: post

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2017-03-12 22:00'
 image: 'TUT\_shape\_keys\_00.png'
 layout: post

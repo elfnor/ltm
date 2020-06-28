@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-12-11 22:00'
 image: 'maze\_2d\_steey\_taws\_01.png'
 layout: post

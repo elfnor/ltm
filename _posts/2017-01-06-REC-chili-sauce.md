@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: food
 date: '2017-01-06 22:00'
 image: 'REC-chilli-saucce.JPG'
 layout: post

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-09-09 22:00'
 image: 'bloom\_wobble.png'
 layout: post

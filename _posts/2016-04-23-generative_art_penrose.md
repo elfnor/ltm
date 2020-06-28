@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2016-04-23 22:00'
 image: 'penrose\_rhomb\_lattice\_04\_015.png'
 layout: post

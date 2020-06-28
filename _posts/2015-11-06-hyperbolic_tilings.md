@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-11-06 22:00'
 image: 'hexagon\_sphere\_plane\_hyp\_032.png'
 layout: post

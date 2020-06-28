@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2018-03-31 22:00'
 image: 'celadon\_glaze\_blend\_01\_027.png'
 layout: post

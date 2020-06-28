@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2017-03-05 22:00'
 image: 'dog\_morph\_07\_020.png'
 layout: post

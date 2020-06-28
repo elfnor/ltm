@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: food
 date: '2017-01-13 22:00'
 image: 'REC-lemons.JPG'
 layout: post

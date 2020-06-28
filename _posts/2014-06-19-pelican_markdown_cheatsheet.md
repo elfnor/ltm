@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2014-06-19 22:00'
 layout: post
 tags: pelican markdown

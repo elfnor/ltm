@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-02-26 22:00'
 image: 'vertex\_color\_blog\_21.png'
 layout: post

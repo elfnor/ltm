@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-06-01 22:00'
 image: 'walkways\_ivy\_024.png'
 layout: post

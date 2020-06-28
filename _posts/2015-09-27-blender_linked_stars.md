@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-09-27 22:00'
 image: 'star\_spiral\_11\_005.png'
 layout: post

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2016-02-28 22:00'
 image: '6\_spirals\_mesh\_render\_03\_018.png'
 layout: post

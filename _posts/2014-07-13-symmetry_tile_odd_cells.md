@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2014-07-13 22:00'
 image: 'derived\_cells.png'
 layout: post

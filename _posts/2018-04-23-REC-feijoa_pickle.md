@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: food
 date: '2018-04-23 22:00'
 image: 'REC-feijoa\_pickle.png'
 layout: post

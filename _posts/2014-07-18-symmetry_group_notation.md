@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2014-07-18 22:00'
 image: 'morenaments.png'
 layout: post

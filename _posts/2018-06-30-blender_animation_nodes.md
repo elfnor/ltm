@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2018-06-30 22:00'
 image: 'blender\_animation\_nodes-9ef99.png'
 layout: post

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2014-11-12 22:00'
 image: 'DuckWarmer.png'
 layout: post

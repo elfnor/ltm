@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2017-12-18 22:00'
 image: 'conway\_img\_03\_017.png'
 layout: post

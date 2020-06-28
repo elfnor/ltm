@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-11-27 22:00'
 image: 'CORAL\_735\_02\_031.png'
 layout: post

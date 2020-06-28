@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2014-12-27 22:00'
 image: 'flower\_head\_18\_top.png'
 layout: post

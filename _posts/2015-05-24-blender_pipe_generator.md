@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-05-24 22:00'
 image: 'pipe\_gen\_15.png'
 layout: post

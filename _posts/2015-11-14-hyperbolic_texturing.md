@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-11-14 22:00'
 image: 'poincare\_drawing.png'
 layout: post

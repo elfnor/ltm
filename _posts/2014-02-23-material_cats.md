@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2014-02-23 22:00'
 image: 'collected\_cats.jpg'
 layout: post

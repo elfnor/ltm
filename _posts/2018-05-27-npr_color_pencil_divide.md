@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2018-05-27 22:00'
 image: 'fruits\_divide\_05.png'
 layout: post

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2015-07-03 22:00'
 image: 'A4988\_circuit.jpg'
 layout: post

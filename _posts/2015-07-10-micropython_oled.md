@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2015-07-10 22:00'
 image: 'wiring\_02.png'
 layout: post

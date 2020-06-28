@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: look
 date: '2015-06-19 22:00'
 image: 'online\_stories\_map\_02.png'
 layout: post

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2014-08-03 22:00'
 image: 'dini\_01.png'
 layout: post

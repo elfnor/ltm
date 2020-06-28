@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2016-10-21 22:00'
 image: 'data\_logger\_open.JPG'
 layout: post

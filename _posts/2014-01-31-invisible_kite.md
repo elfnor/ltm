@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2014-01-31 22:00'
 image: 'parasled.jpg'
 layout: post

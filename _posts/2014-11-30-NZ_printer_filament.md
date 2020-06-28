@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2014-11-30 22:00'
 layout: post
 tags: ' 3D-Printing'

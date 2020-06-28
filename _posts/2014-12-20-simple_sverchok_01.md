@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2014-12-20 22:00'
 image: 'centers\_polygon\_demo\_image.png'
 layout: post

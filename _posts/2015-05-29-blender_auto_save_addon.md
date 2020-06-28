@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-05-29 22:00'
 image: 'decimate\_planes\_31\_crop.png'
 layout: post

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-03-08 22:00'
 image: 'seuss\_nouveu\_11.png'
 layout: post

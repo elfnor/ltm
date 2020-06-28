@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-05-17 22:00'
 image: 'ivy\_test19.png'
 layout: post

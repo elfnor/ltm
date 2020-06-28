@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2014-11-09 22:00'
 layout: post
 tags:  geocaching

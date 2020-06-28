@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2015-05-23 22:00'
 image: 'Git\_Workflow.jpeg'
 layout: post

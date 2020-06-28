@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2014-06-21 22:00'
 image: 'El\_Avatar2.jpeg'
 layout: post

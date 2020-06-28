@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: look
 date: '2018-02-16 22:00'
 image: 'litworld2018gb.png'
 layout: post

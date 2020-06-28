@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-03-22 22:00'
 image: 'fern\_anim\_still\_05.png'
 layout: post

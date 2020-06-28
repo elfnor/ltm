@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: food
 date: '2017-01-29 22:00'
 image: 'REC-citrus.JPG'
 layout: post

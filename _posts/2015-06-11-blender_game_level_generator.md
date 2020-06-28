@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-06-11 22:00'
 image: 'level\_gen\_STD\_ramps\_render\_017.png'
 layout: post

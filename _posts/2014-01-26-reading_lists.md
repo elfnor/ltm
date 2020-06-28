@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: look
 date: '2014-01-26 22:00'
 layout: post
 tags: ebook reading

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2016-08-12 22:00'
 image: 'sca-render\_005.png'
 layout: post

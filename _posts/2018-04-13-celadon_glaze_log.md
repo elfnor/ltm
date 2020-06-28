@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2018-04-13 22:00'
 layout: post
 status: draft

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-01-04 22:00'
 image: 'copy\_cubes\_wireframe\_25a.png'
 layout: post

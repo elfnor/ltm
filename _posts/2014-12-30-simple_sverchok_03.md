@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2014-12-30 22:00'
 image: 'forest\_mountain\_15.png'
 layout: post

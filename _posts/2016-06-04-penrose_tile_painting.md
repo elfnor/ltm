@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2016-06-04 22:00'
 image: 'penrose\_painting\_banner\_002.png'
 layout: post

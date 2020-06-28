@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-11-21 22:00'
 image: 'blender\_sym\_tile\_p6m.png'
 layout: post

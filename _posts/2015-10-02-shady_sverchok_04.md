@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-10-02 22:00'
 image: 'dragon\_fruit\_vertex\_color\_05\_009.png'
 layout: post

@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-01-31 22:00'
 image: 'matrix\_iterate\_13.png'
 layout: post

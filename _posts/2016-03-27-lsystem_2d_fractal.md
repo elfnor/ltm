@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2016-03-27 22:00'
 image: 'koch\_vase\_render\_01\_003.png'
 layout: post

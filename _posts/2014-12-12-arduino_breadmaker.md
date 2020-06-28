@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: make
 date: '2014-12-12 22:00'
 image: 'arduino\_bread.png'
 layout: post

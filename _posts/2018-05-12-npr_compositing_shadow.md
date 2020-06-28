@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2018-05-12 22:00'
 image: 'npr\_composite\_lion\_034.png'
 layout: post

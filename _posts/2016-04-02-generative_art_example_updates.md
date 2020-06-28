@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2016-04-02 22:00'
 image: 'ga\_examples\_banner\_image.png'
 layout: post

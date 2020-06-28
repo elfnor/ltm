@@ -1,6 +1,5 @@
 ---
 author: elfnor
-category: think
 date: '2015-12-20 22:00'
 image: 'red\_maze\_blue\_maze.png'
 layout: post
