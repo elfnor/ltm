@@ -5,6 +5,7 @@ image: 'conway\_img\_03\_017.png'
 layout: post
 tags:  blender sverchok
 title: Conway Polyhedron Operators in Sverchok
+use_math: true
 ---
 
 I was working with abstract sculptures in Blender based on polyhedra and was getting annoyed that the Regular Solids (part of the [Extra Objects](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Add_Extra) add-on) still divides polyhedron faces into quads and tris rather than using ngons for pentagonal faces for example. A quick look at the source code and it was obvious how to change this. But I started an Internet search on how the snub polyhedron were formed, this led to [Conway Polyhedra](https://en.wikipedia.org/wiki/Conway_polyhedron_notation) and I was deep in a [rabbit hole](https://www.urbandictionary.com/define.php?term=Rabbit%20Hole).
@@ -94,4 +95,4 @@ Some of these operators would be useful as full nodes in Sverchok, particularly 
 
 Make the operators work on open edge meshes.
 
-Another way of making the polyhedra more \"regular\" would be to use an algorithm that evens up the edge lengths while leaving the vertices on the surface of the unit sphere. This could be done with a particle simulation similar to that I used for the [Hyperbolic Plane](%7Bfilename%7Dhyperbolic_tilings_processing.md) generation. A much simpler approach would be to implement a simple version of a repulsion algorithm, iterating over each point and only calculating \$1/r\^2\$ repulsion forces for vertices connected by an edge.
+Another way of making the polyhedra more \"regular\" would be to use an algorithm that evens up the edge lengths while leaving the vertices on the surface of the unit sphere. This could be done with a particle simulation similar to that I used for the [Hyperbolic Plane](%7Bfilename%7Dhyperbolic_tilings_processing.md) generation. A much simpler approach would be to implement a simple version of a repulsion algorithm, iterating over each point and only calculating $$1/r^2$$ repulsion forces for vertices connected by an edge.

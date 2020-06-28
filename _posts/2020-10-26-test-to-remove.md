@@ -61,14 +61,14 @@ dc  = pyb.Pin('Y4',  pyb.Pin.OUT_PP, pyb.Pin.PULL_DOWN)
 res = pyb.Pin('Y3', pyb.Pin.OUT_PP, pyb.Pin.PULL_DOWN)
 ```
 
-or using 
+or using `{.python}`
 
 ``` {.python}
 for n in (0, 1, 2, 3, 4):
     print(n)
 ```
 
-Tre some c code
+Try some c code
 
 ```c
 shader sphere(

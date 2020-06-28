@@ -5,6 +5,7 @@ image: 'hexagon\_sphere\_plane\_hyp\_032.png'
 layout: post
 tags:  blender sverchok
 title: Hyperbolic Tiling in 3D
+use_math: true
 ---
 
 In a previous [post](%7Bfilename%7Dhyperbolic_planes.md) I explained the shape of planes, spheres, and hyperbolic planes in terms of hexagons arranged around either another hexagon (plane), a pentagon (sphere) or a heptagon (hyperbolic plane). I used a photo of a hyperbolic plane someone else had made out of paper, as the 3D model produced by my scripted Sverchok node was not meshed in a nice regular tiling. I thought I\'d fix this.
@@ -23,19 +24,19 @@ In the Poincaré disc model a straight line is a circular arc meeting the edge o
 
 ![circle inversion]({{ site.baseurl }}/images/circle_inversion.png)
 
-Here \$O\$ is the center of the circular arc through \$\\overline{AB}\$ which meets the unit circle at right angles. In the Poincaré disc model this is a straight line through \$\\overline{AB}\$. The polygon \$ABC\'D\'E\'F\'G\'\$ is the circle inversion of polygon \$ABCDEFG\$ in the circle centered at \$O\$. In the Poincaré disc model this is equivalent to a reflection in the line \$\\overline{AB}\$. Point \$C\'\$ the inversion of point \$C\$ lies on the line \$\\overline{OC}\$.
+Here $$O$$ is the center of the circular arc through $$\overline{AB}$$ which meets the unit circle at right angles. In the Poincaré disc model this is a straight line through $$\overline{AB}$$. The polygon $$ABC'D'E'F'G'$$ is the circle inversion of polygon $$ABCDEFG$$ in the circle centered at $$O$$. In the Poincaré disc model this is equivalent to a reflection in the line $$\overline{AB}$$. Point $$C'$$ the inversion of point $$C$$ lies on the line $$\overline{OC}$$.
 
-The radius \$r\$ of the circle centered at \$O\$ is the length of the line \$\\overline{OA}\$
+The radius $$r$$ of the circle centered at $$O$$ is the length of the line $$\overline{OA}$$
 
-\$\$
-r = \\left \| \\overline{OA} \\right \|
-\$\$
+$$
+r = \left |  \overline{OA} \right | 
+$$
 
-The position of \$C\'\$ on the line \$\\overline{OC}\$ can then be found from:
+The position of $$C'$$ on the line $$\overline{OC}$$ can then be found from:
 
-\$\$
-r\^2 = \\left \| \\overline{OC} \\right \| \* \\left \| \\overline{OC\'} \\right \|
-\$\$
+$$
+r^2 = \left |  \overline{OC} \right | * \left |  \overline{OC'} \right | 
+$$
 
 This Sverchok scripted node [hyperbolic\_tiling.py](https://github.com/elfnor/hyperbolic_coral) implements the regular tilings of the Poincaré disk. (See [earlier post](%7Bfilename%7Dhyperbolic_planes.md) on how to use a Sverchok scripted node in Blender). The hardest part of coding this is keeping track of the vertices and edges that are already in place to avoid making duplicates.
 

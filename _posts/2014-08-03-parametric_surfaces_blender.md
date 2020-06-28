@@ -5,21 +5,22 @@ image: 'dini\_01.png'
 layout: post
 tags:  blender
 title: Parametric Surfaces in Blender
+use_math: true
 ---
 
 The [Blender](http://www.blender.org/) 3D modeling and rendering package has an add-on for mathematically defined surfaces. It is enabled via the Extra Objects add-on under `File > User Preferences> Addons`.
 
-The `XYZ Math Surface` can be used to construct meshes for parametric surfaces. The parametric surface is defined by three functions of two variables \$u\$ and \$v\$:
+The `XYZ Math Surface` can be used to construct meshes for parametric surfaces. The parametric surface is defined by three functions of two variables $$u$$ and $$v$$:
 
-\$\$
+$$
 x = X(u,v)
-\$\$
-\$\$
+$$
+$$
 y = Y(u,v)
-\$\$
-\$\$
+$$
+$$
 z = Z(u,v)
-\$\$
+$$
 
 The [documentation page](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Add_3d_Function_Surface) for the add-on has a number of example surfaces, but there are a lot more interesting named surfaces out there.
 

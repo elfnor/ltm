@@ -5,6 +5,7 @@ image: 'bloom\_wobble.png'
 layout: post
 tags:  blender sverchok
 title: Bloom Spheres in Sverchok
+use_math: true
 ---
 
 These [videos by John Edmark](http://www.instructables.com/id/Blooming-Zoetrope-Sculptures/) of what he calls bloom spheres inspired me to try something similar in Sverchok. Edmark has designed and 3D printed forms that when spun under a strobe light appear to move and twist.
@@ -21,23 +22,23 @@ The first stage to work on bloom spheres in Sverchok was to write a scripted nod
 
 This is best worked out in spherical coordinates.
 
-The golden angle \$g\$ is given by
-\$\$
-\\begin{align*}
-g=\\pi (3-\\sqrt{5}) &= 2.399963\... \\textrm{ radians}\\
-&= 137.507\...\^{\\circ}
-\\end{align*}
-\$\$
+The golden angle $$g$$ is given by
+$$
+\begin{align*}
+g=\pi (3-\sqrt{5}) &= 2.399963... \textrm{ radians}\\ 
+ &= 137.507...^{\circ}
+\end{align*}
+$$
 
-The radius of the sphere is \$r\_0\$ and \$z\_h\$ is the increment by which the \"point is raised a bit\". Then for \$i = 0, 1 \... n\$ the points on the bloom sphere are given by:
+The radius of the sphere is $$r_0$$ and $$z_h$$ is the increment by which the \"point is raised a bit\". Then for $$i = 0, 1 ... n$$ the points on the bloom sphere are given by:
 
-\$\$
-\\begin{align*}
-\\theta (i) &= \\frac{i}{g}\\
-\\phi (i) &= \\tan\^{-1} \\frac{r\_0}{iz\_h}\\
-r(i) &= r\_0
-\\end{align*}
-\$\$
+$$
+\begin{align*}
+\theta (i) &= \frac{i}{g}\\
+\phi (i) &= \tan^{-1} \frac{r_0}{iz_h}\\
+r(i) &= r_0
+\end{align*}
+$$
 
 I\'ve coded this up into a scripted node. To use the bloom sphere node in Blender first install the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) addon. Download the bloom sphere code from [github](https://github.com/elfnor/bloom_sphere). Then load the python file as a text blocks into a blend file. Add a `Scripted Node` to a Sverchok node tree. On the node select the `bloom_sphere.py` code from the lower drop down. Then click the plugin icon to the right of this field. The node should turn blue with some inputs and outputs. Wire the `Verts` and `Faces` outputs to a `Viewer Draw` node and you should see some geometry.
 
@@ -71,11 +72,11 @@ This will give a seamless 6 second (145 frames/ 24 frames per second \~= 6 secon
 
 Note: Any rotation angle where
 
-\$\$
-g\_{n,m} = ng - m2\\pi
-\$\$
+$$
+g_{n,m} = ng - m2\pi
+$$
 
-where \$n= 1,2,..\$ anf \$m\$ is an integer chosen to map the angle back to the interval \$-\\pi\$ to \$\\pi\$ will also work. For example rotating any of 137.5°, -85°, 52.5°, 170°, -32.5°, 105°, -117.5°, or 20° per frame will work but for each angle the animation will appear to have a different speed.
+where $$n= 1,2,..$$ anf $$m$$ is an integer chosen to map the angle back to the interval $$-\pi$$ to $$\pi$$ will also work. For example rotating any of 137.5°, -85°, 52.5°, 170°, -32.5°, 105°, -117.5°, or 20° per frame will work but for each angle the animation will appear to have a different speed.
 
 Now comes the fun part, editing the mesh to produce interesting animations. John Edmark describes:
 
@@ -95,7 +96,7 @@ John Edmark then goes on to describe:
 
 The simplest way of doing something similar to this is to move each vertex side to side before the `Adaptive Polygons` node. Adding \"Side to side\" motion is most easily thought of in spherical coordinates. If we vary the \"phi\" polar coordinate of a point it will move side to side.
 
-Sverchok now has nodes to change the x, y, z coordinates of a vertex into polar coordinates and change them back again. Here we apply a sinusoidal offset to each vertex. The frequency of the sinusoid is varied by changing the `stop` value of the `Float Series` node. A multiple (or fraction) of \$\\pi\$ is sensible. A `Float` entry node is used to change the amplitude of the sinusoid.
+Sverchok now has nodes to change the x, y, z coordinates of a vertex into polar coordinates and change them back again. Here we apply a sinusoidal offset to each vertex. The frequency of the sinusoid is varied by changing the `stop` value of the `Float Series` node. A multiple (or fraction) of $$\pi$$ is sensible. A `Float` entry node is used to change the amplitude of the sinusoid.
 
 ![node bloom sphere vertex wobble]({{ site.baseurl }}/images/wobble_vertex_node_tree.png)
 

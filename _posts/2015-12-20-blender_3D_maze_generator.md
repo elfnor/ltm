@@ -5,13 +5,14 @@ image: 'red\_maze\_blue\_maze.png'
 layout: post
 tags:  blender sverchok maze
 title: Blender 3D Maze Generator
+use_math: true
 ---
 
 The same backtracking algorithm that produces [2D mazes](%7Bfilename%7Dblender_maze_generator.md) can be used to produce three dimensional mazes. All that\'s needed is to set up the cells in the grid with an extra dimension and define the neighbors to include cells on the layers above and below the cell.
 
 Here I\'ve chosen the neighbors to be the 4 adjacent cells on the same layer, the 4 cells above these adjacent cells and the 4 cells below them. This gives each cell 12 neighbors and allows the maze to be drawn with ramps or diagonal staircases. This configuration is good for marble runs and mazes to explore in a game environment. A more common alternative would be to just add the cells directly above and below the original cells to give only six neighbors. This would require staircases going directly up from one level to the next.
 
-With 12 potential neighbors its impractical to include a different tile for each possible combination of links (as we did with the 2D maze). For 12 neighbors there would be \$2\^{12} - 1 = 4095\$ different tiles needed most of which would not occur in any given maze. Instead I\'ve limited the maze components to a platform that sits at the center of each cell, a straight bridge that goes to a linked neighbor on the same level and a ramp that either goes up to the platform diagonally above or below the cell.
+With 12 potential neighbors its impractical to include a different tile for each possible combination of links (as we did with the 2D maze). For 12 neighbors there would be $$2^{12} - 1 = 4095$$ different tiles needed most of which would not occur in any given maze. Instead I\'ve limited the maze components to a platform that sits at the center of each cell, a straight bridge that goes to a linked neighbor on the same level and a ramp that either goes up to the platform diagonally above or below the cell.
 
 As before the python and blend files are on [github](https://github.com/elfnor/mazes).
 

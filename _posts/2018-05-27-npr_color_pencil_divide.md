@@ -5,6 +5,7 @@ image: 'fruits\_divide\_05.png'
 layout: post
 tags: blender npr compositing
 title: 'NPR- color pencil using compositing nodes'
+use_math: true
 ---
 
 These are my experiments with getting a color pencil look using the compositing nodes in Blender.
@@ -25,19 +26,19 @@ In the [previous post](%7Bfilename%7Dnpr_compositing_shadow.md) I used a freesty
 There lots of ways to do this. Here we\'ll convert the image to values only, then divide the image by a blurred copy of itself. This works to as a high pass filter to detect the parts of the image where the value changes quickly.
 
 In the parts of the image with little value change
-\$\$
-\\text{blur}(image) \\approx image
-\$\$
+$$
+\text{blur}(image) \approx image
+$$
 therefore
-\$\$
-\\frac{image}{\\text{blur}(image)} \\approx 1
-\$\$
+$$
+\frac{image}{\text{blur}(image)} \approx 1
+$$
 giving white.
 
 Where the image value changes quickly
-\$\$
-\\frac{image}{\\text{blur}(image)} \< 1
-\$\$
+$$
+\frac{image}{\text{blur}(image)} < 1
+$$
 giving dark pixels.
 
 Here\'s a toy example. The top row of the table represents the image. The blur function in the second row just averages across the neighboring 3 pixels. After we divide the image by the blur and clamp the values to between \[0, 1\] we have a white image with a single dark pixel at the edge.

@@ -6,6 +6,7 @@ layout: post
 status: published
 tags: ' blender sverchok structure-synth'
 title: 'Generative Art Examples - Fractals on a Plane'
+use_math: true
 ---
 
 <meta property="og:image"
@@ -116,22 +117,22 @@ I\'ve used approximate values for the scaling and transforms in the above xml. F
 
 Scaling:
 
-\$\$
-\\begin{align*}
-scale &= \\frac{3-\\sqrt{5}}{2} = 0.38197\...
-\\end{align*}
-\$\$
+$$
+\begin{align*}
+scale &= \frac{3-\sqrt{5}}{2} = 0.38197...
+\end{align*}
+$$
 
 Translation:
 
-\$\$
-\\begin{align*}
-t1 &= \\frac{\\sqrt{5} - 1}{2} = 0.61803\...\\
-t2 &= \\frac{3-\\sqrt{5}}{4} = 0.19098\...\\
-t3 &= \\frac{1}{8}(\\sqrt{10}-\\sqrt{2})\\sqrt{5 + \\sqrt{5}} = 0.58775\...\\
-t4 &= \\frac{1}{8}(\\sqrt{10}-\\sqrt{2})\\sqrt{5 - \\sqrt{5}} = 0.36325\...
-\\end{align*}
-\$\$
+$$
+\begin{align*}
+t1 &= \frac{\sqrt{5} - 1}{2} = 0.61803...\\
+t2 &= \frac{3-\sqrt{5}}{4} = 0.19098...\\
+t3 &= \frac{1}{8}(\sqrt{10}-\sqrt{2})\sqrt{5 + \sqrt{5}} = 0.58775...\\
+t4 &= \frac{1}{8}(\sqrt{10}-\sqrt{2})\sqrt{5 - \sqrt{5}} = 0.36325...
+\end{align*}
+$$
 
 See [Larry Riddle\'s page](http://ecademy.agnesscott.edu/~lriddle/ifs/pentagon/details.htm) for some of the derivations.
 

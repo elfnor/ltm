@@ -6,6 +6,7 @@ layout: post
 status: published
 tags: ' blender sverchok structure-synth'
 title: 'Generative Art - Penrose Tilings'
+use_math: true
 ---
 
 [Penrose tilings](https://en.wikipedia.org/wiki/Penrose_tiling) are an interesting group of tilings that have no translational symmetry but are self-similar on different scales. One method to construct them is using substitution, the same method I used for the Pentaflake fractal in the [previous post](%7Bfilename%7Dlsystem_2d_fractal.md).
@@ -16,7 +17,7 @@ There are three types of Penrose tilings:
 -   P2 has \"kite\" and \"dart\" shaped tiles.\
 -   P3 has two shapes of rhomb or diamond shaped tiles.
 
-All of these tile shapes are based on a pentagon and the golden ratio \$\\phi\$.
+All of these tile shapes are based on a pentagon and the golden ratio $$\phi$$.
 
 I\'ll go through how to construct the tilings in [Blender](https://www.blender.org/) using [Sverchok](https://github.com/nortikin/sverchok) and the [Generative Art](%7Bfilename%7Dgenerative_art_docs.md) node.
 
@@ -28,13 +29,13 @@ I\'ll start at the bottom of the above list with the P3 Penrose tiling made with
 The thin triangle on the left is an acute isosceles triangle, and the fat one on the right is an obtuse isosceles triangle. There are three constants that we will use a lot in our *eisenxml* files used to describe the tilings.
 
 Golden Ratio:
-\$\$\\phi = \\frac{\\sqrt{5}+1}{2}\$\$
+$$\phi = \frac{\sqrt{5}+1}{2}$$
 This is the ratio between the long and the short sides for both the thin and fat triangles.\
 The altitude of each triangle (the distance from the apex to the base) is found from Pythagoras\' theorem:
-\$\$x\_{thin} = \\sqrt{\\phi + 3/4}\$\$
-\$\$x\_{fat} = \\frac{\\sqrt{3-\\phi}}{2}\$\$
+$$x_{thin} = \sqrt{\phi + 3/4}$$
+$$x_{fat} = \frac{\sqrt{3-\phi}}{2}$$
 Also a useful identity for deriving these formula is:
-\$\$\\phi\^2 = \\phi + 1 \$\$
+$$\phi^2 = \phi + 1 $$
 ![robs tris 2]({{ site.baseurl }}/images/penrose_robs_tris2.png)
 
 Its easy to produce an equilateral triangle in Sverchok using the *Circle* node with *N Vertices* set to 3. This give a triangle centered at the origin and pointing to the right, shown as a blue outline above. This following *eisenxml* scales the equilateral triangle in the x and y directions to give the thin and fat Robinson triangles. It also moves them so one vertex of each triangle is at the origin.
@@ -64,9 +65,9 @@ Each triangle now needs to be subdivided. The *eisenxml* below subdivides the th
 
 To make the tiling correct we need to mirror (or flip over) two of the smaller copies when we do the substitution. This is achieved by the `rx="180"` transformation.
 
-The triangles substituted into the thin triangle are scaled by \$s1 = 1 / \\phi\$ smaller than the original triangles.
+The triangles substituted into the thin triangle are scaled by $$s1 = 1 / \phi$$ smaller than the original triangles.
 
-The triangles substituted into the fat triangles are scaled by \$s2 = 1/ \\phi\^{2}\$.
+The triangles substituted into the fat triangles are scaled by $$s2 = 1/ \phi^{2}$$.
 
 ``` {.xml}
 <rules max_depth="100">
