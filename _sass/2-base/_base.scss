@@ -67,20 +67,7 @@ h6 {
   font-size: $font-size-h6;
 }
 
-blockquote {
-  margin: 30px -100px;
-  font-size: 28px;
-  line-height: 45px;
-  letter-spacing: 0.5px;
-  font-style: normal;
-  text-align: center;
 
-  @media only screen and (max-width: $tablet) {
-    margin: 30px 0;
-    font-size: 24px;
-    line-height: 38px;
-  }
-}
 
 pre {
   overflow: auto;
@@ -136,4 +123,20 @@ hr {
     float: left;
     margin: 20px 20px;
     border: 2px solid #ccc;
+}
+
+blockquote {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
 }
