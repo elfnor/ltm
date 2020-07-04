@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-05-17 22:00'
-image: 'ivy\_test19.png'
+image: 'ivy_test19.png'
 layout: post
 tags:  blender
 title: Blender Ivy Gen Abstracts

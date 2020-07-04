@@ -4,7 +4,7 @@ date: '2014-07-18 22:00'
 image: 'morenaments.png'
 layout: post
 slug: Symmetry Group Links and Notation
-summary: 'There are many great resources on the 17 plane symmetry groups. I made great use of a couple of on-line apps while writing my \[Symmetry Tile plug-in.\]({filename}/symmetry\_tile\_docs.md), Morenaments and Kalis. I also used a couple of great books\...'
+summary: 'There are many great resources on the 17 plane symmetry groups. I made great use of a couple of on-line apps while writing my \[Symmetry Tile plug-in.\]({filename}/symmetry_tile_docs.md), Morenaments and Kalis. I also used a couple of great books\...'
 tags: ' symmetry-tile'
 title: Symmetry Group Links and Notation
 ---

@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2018-04-23 22:00'
-image: 'REC-feijoa\_pickle.png'
+image: 'REC-feijoa_pickle.png'
 layout: post
 tags:  food
 title: 'Fermented Feijoa Pickle - sugar free'
@@ -17,7 +17,7 @@ If you like, some whey drained from live yoghurt can be added to the pickle as a
 
 *Makes 4 x 400 ml jars*
 
-1.5 litres chopped feijoa \~half with skins \~half scooped  
+1.5 litres chopped feijoa ~half with skins ~half scooped  
 2 T [fermented chili and garlic sauce]({{ site.baseurl }}{% link _posts/2017-01-06-REC-chili-sauce.md %}) - or any chili paste to taste  
 2 T black peppercorns  
 1 T parsley seed  

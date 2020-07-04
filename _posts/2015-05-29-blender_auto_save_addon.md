@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-05-29 22:00'
-image: 'decimate\_planes\_31\_crop.png'
+image: 'decimate_planes_31_crop.png'
 layout: post
 tags:  blender
 title: 'Blender Auto Save add-on'

@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-12-30 22:00'
-image: 'forest\_mountain\_15.png'
+image: 'forest_mountain_15.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 03 - Slope Dependent Trees'

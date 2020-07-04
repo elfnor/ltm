@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-04-15 22:00'
-image: 'coral\_node\_28.png'
+image: 'coral_node_28.png'
 layout: post
 tags:  blender sverchok
 title: Blender Adventures with Hyperbolic Planes
@@ -54,7 +54,7 @@ To use the hyperbolic coral node in Blender first install the [Sverchok](http://
 
 To make this more coral like we use the cloth modifier to wrinkle and deform the mesh.
 
-Bake the output of the \"Viewer Draw\" node. (select the node and find the \"bake\" button on the N-panel (Properties shelf) . Click the \"Show\" button to disable the node and see the object with a name such as \"Sv\_0\".
+Bake the output of the \"Viewer Draw\" node. (select the node and find the \"bake\" button on the N-panel (Properties shelf) . Click the \"Show\" button to disable the node and see the object with a name such as \"Sv_0\".
 
 Go to the Physics tab and enable cloth physics. To the right is a reasonable set of parameters. The most important is to select \"Self Collision\" under \"Cloth Collision\" and to set a reasonably high \"Quality\" for this.
 

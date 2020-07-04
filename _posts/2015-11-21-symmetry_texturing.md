@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-11-21 22:00'
-image: 'blender\_sym\_tile\_p6m.png'
+image: 'blender_sym_tile_p6m.png'
 layout: post
 tags: ' blender symmetry-tile'
 title: Symmetry Tile Painting in Blender
@@ -13,7 +13,7 @@ A while back I wrote a [GIMP plugin]({{ site.baseurl }}{% link _posts/2014-07-05
 
 Using UV mapping its really easy to get Blender to draw tilings from any of the 17 plane symmetry groups that update as you paint.
 
-This blend file ([sym\_tile.blend](/downloads/sym_tile.blend)) has been set up with 17 plane grids each on a separate layer. Each layer implements one of the symmetry groups via a UV map.
+This blend file ([sym_tile.blend](/downloads/sym_tile.blend)) has been set up with 17 plane grids each on a separate layer. Each layer implements one of the symmetry groups via a UV map.
 
 Here\'s a screencast that shows the live drawing in action and explains how I set up the UV maps.
 

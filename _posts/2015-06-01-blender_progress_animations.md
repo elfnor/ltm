@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-06-01 22:00'
-image: 'walkways\_ivy\_024.png'
+image: 'walkways_ivy_024.png'
 layout: post
 tags:  blender
 title: Blender Progress Animations

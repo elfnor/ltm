@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2016-10-21 22:00'
-image: 'data\_logger\_open.JPG'
+image: 'data_logger_open.JPG'
 layout: post
 tags: ' python micropython 3D-Printing'
 title: PyBoard Datalogger

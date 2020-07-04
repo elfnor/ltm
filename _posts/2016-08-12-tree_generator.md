@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2016-08-12 22:00'
-image: 'sca-render\_005.png'
+image: 'sca-render_005.png'
 layout: post
 tags: ' blender sverchok generative-art'
 title: Sverchok Tree Generator
@@ -27,7 +27,7 @@ Here\'s a simple GIF showing the algorithm in action. The red points are the *En
 
 I started off looking at varkenvarken\'s github code but ended up completly rewriting it to use numpy. I then spent far longer than was reasonable optimizing my code to get a real-time response to parameter changes. The heart of the algorithm involves a large number of [nearest neighbor searches](https://en.wikipedia.org/wiki/Nearest_neighbor_search). This is a classic problem with many solutions (kdtrees, octrees, locality sensitive hashing). I looked at some of these but the fastest solution I could code (before I got bored) was to naively calculate every distance using numpy outer product. The whole SC Algorithm would make a great class (or competition) challenge in code speed optimization as there seems to be so many complicated ways to make it slower.
 
-Install the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) addon into [Blender](https://www.blender.org/). Download the Tree Generator code from [github](https://github.com/elfnor/spacetree-sverchok). Then load the python file *tree\_generator.py* as a text blocks into a blend file. Add a *Scripted Node* to a Sverchok node tree. On the node select the *tree\_generator.py* code from the lower drop down. Then click the plugin icon to the right of this field. The node should turn blue with some inputs and outputs.
+Install the [Sverchok](http://nikitron.cc.ua/sverchok_en.html) addon into [Blender](https://www.blender.org/). Download the Tree Generator code from [github](https://github.com/elfnor/spacetree-sverchok). Then load the python file *tree_generator.py* as a text blocks into a blend file. Add a *Scripted Node* to a Sverchok node tree. On the node select the *tree_generator.py* code from the lower drop down. Then click the plugin icon to the right of this field. The node should turn blue with some inputs and outputs.
 
 The node inputs:
 

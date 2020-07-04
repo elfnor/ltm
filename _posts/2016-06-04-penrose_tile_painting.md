@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2016-06-04 22:00'
-image: 'penrose\_painting\_banner\_002.png'
+image: 'penrose_painting_banner_002.png'
 layout: post
 tags: ' blender symmetry-tile'
 title: Penrose Tile Painting in Blender

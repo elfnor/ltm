@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-07-26 22:00'
-image: 'index\_screen.png'
+image: 'index_screen.png'
 layout: post
 tags:  webalbum
 title: Responsive Theme for gthumb Web Albums

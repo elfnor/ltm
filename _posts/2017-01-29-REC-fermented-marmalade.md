@@ -20,7 +20,7 @@ This recipe is tangy and salty and dosen\'t have the jelly consistency of a cook
 1-2 mandarins  
 1-2 t salt
 
-Find a \~600 ml glass jar with a wider mouth and another small glass jar that fits neatly inside the mouth of the large jar. Clean both jars inside and out. Find something to weigh down the small jar with. I use glass marbles. See the [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %}) post for a diagram of the airlock setup.
+Find a ~600 ml glass jar with a wider mouth and another small glass jar that fits neatly inside the mouth of the large jar. Clean both jars inside and out. Find something to weigh down the small jar with. I use glass marbles. See the [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %}) post for a diagram of the airlock setup.
 
 Cut all the citrus fruit into small pieces. Place the chopped fruit into the jar in layers sprinkling some of the salt on each layer and pressing each layer down with a spoon or pestle until the juices run.
 

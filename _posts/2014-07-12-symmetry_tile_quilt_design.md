@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-07-12 22:00'
-image: 'two\_cells\_lines.png'
+image: 'two_cells_lines.png'
 layout: post
 slug: 'Using the Symmetry Tile plug-in for Quilt Design'
 tags: ' symmetry-tile'

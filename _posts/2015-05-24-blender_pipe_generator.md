@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-05-24 22:00'
-image: 'pipe\_gen\_15.png'
+image: 'pipe_gen_15.png'
 layout: post
 tags: ' blender sverchok structure-synth'
 title: Blender Pipe Generator

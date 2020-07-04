@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-01-31 22:00'
-image: 'matrix\_iterate\_13.png'
+image: 'matrix_iterate_13.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 05 - Interpolate and Iterate Matrix'

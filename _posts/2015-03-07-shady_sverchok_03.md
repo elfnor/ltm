@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-03-07 22:00'
-image: 'random\_block\_image\_pos9.png'
+image: 'random_block_image_pos9.png'
 layout: post
 tags:  blender sverchok
 title: 'Shaders for Sverchok 03 - Image Texture Node'

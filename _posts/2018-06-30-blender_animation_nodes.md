@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2018-06-30 22:00'
-image: 'blender\_animation\_nodes-9ef99.png'
+image: 'blender_animation_nodes-9ef99.png'
 layout: post
 status: draft
 tags:  blender

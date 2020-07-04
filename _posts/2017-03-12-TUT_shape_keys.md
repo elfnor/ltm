@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2017-03-12 22:00'
-image: 'TUT\_shape\_keys\_00.png'
+image: 'TUT_shape_keys_00.png'
 layout: post
 tags:  blender
 title: Blender Shape Keys Cookbook

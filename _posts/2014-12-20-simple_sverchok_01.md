@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-12-20 22:00'
-image: 'centers\_polygon\_demo\_image.png'
+image: 'centers_polygon_demo_image.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 01 - Centers Polygons'
@@ -32,9 +32,9 @@ This is a very simple node diagram (click for a larger image). All it does is co
 
 I\'ll explain it in some detail to help us get a feel for how Sverchok handles the data for a mesh.
 
-The two green \"Objects\_in\" Scene nodes allow access to the data from objects in the scene. Select the scene object and press the \"Get Selection\" button to read in the data.
+The two green \"Objects_in\" Scene nodes allow access to the data from objects in the scene. Select the scene object and press the \"Get Selection\" button to read in the data.
 
-Each of the connections on the right side of the \"Object\_in\" node outputs some of the mesh data for its object. To see what this data looks like connect a \"Viewer\_text\" Text node to one of the outputs. Change one of the panels in the blender window to a text editor and select the \"Sverchok\_viewer\" from the data block selector. When the \"VIEW\" button on the \"Viewer\_text\" node is pressed the data stream connected to the node will be written to this panel.
+Each of the connections on the right side of the \"Object_in\" node outputs some of the mesh data for its object. To see what this data looks like connect a \"Viewer_text\" Text node to one of the outputs. Change one of the panels in the blender window to a text editor and select the \"Sverchok_viewer\" from the data block selector. When the \"VIEW\" button on the \"Viewer_text\" node is pressed the data stream connected to the node will be written to this panel.
 
 ![Viewer text node]({{ site.baseurl }}/images/centers_polygons1a.blend.png)
 
@@ -44,7 +44,7 @@ The edges and polygons describe how the vertices are connected to form the mesh.
 
 In Sverchok it only makes sense to wire the same colored nodes together. Orange vertices coordinates to orange vertices coordinates, Green lists of vertices (edges or polygons) to other lists etc.
 
-The matrix of an object describes the position, scale and rotation of the object. The position is given as the position of the object\'s origin with respect to the Scene origin. \"Get Selection\" the data from a simple cube and look at its matrix with a \"Viewer\_text\" node. Move, rotate and scale the cube and compare the values in the \"Transform\" panel to the matrix that Sverchok displays. (You\'ll need to use the \"Get Selection\" and \"VIEW\" buttons to update the data after each change to the object).
+The matrix of an object describes the position, scale and rotation of the object. The position is given as the position of the object\'s origin with respect to the Scene origin. \"Get Selection\" the data from a simple cube and look at its matrix with a \"Viewer_text\" node. Move, rotate and scale the cube and compare the values in the \"Transform\" panel to the matrix that Sverchok displays. (You\'ll need to use the \"Get Selection\" and \"VIEW\" buttons to update the data after each change to the object).
 
 A little playing will show that the location and scale are stored in the matrix
 
@@ -76,9 +76,9 @@ In the node diagram the \"Centers\" output from the \"Centers Polygons\" node is
 
 Moving the second mesh with respect to its own origin will move (when everything is updated) the copies with respect to the polygon on the second mesh. The orientation of the copy is such that the copied objects z-direction is normal to the face. To see how the x and y directions map to the face select a face of the first object and change the transformation display to \"Normal\" mode. A little experimentation will show that the x axis of the second object is mapped to the y axis of the face normal.
 
-The origins output of the \"Centers Polygons\" node output just a list of the centers of each polygon. The \"Normals\" and \"Norm\_abs\" outputs are as described in the [docs](http://sverchok.readthedocs.org/en/latest/main.html):
+The origins output of the \"Centers Polygons\" node output just a list of the centers of each polygon. The \"Normals\" and \"Norm_abs\" outputs are as described in the [docs](http://sverchok.readthedocs.org/en/latest/main.html):
 
-> Normals is normals from global zero coordinates, vector. Norm\_abs is normals shifted to centers of polygons.
+> Normals is normals from global zero coordinates, vector. Norm_abs is normals shifted to centers of polygons.
 
 To turn the output of the \"Viewer Draw\" node into ordinary Blender meshes click the \"Bake\" button on the node. If its not showing check the properties in the right hand panel.
 

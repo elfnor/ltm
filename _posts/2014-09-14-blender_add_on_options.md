@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-09-14 22:00'
-image: 'Screenshot-drop\_down\_01.png'
+image: 'Screenshot-drop_down_01.png'
 layout: post
 tags:  copy2
 title: 'Drop down and button select menus for Blender Operator add-ons'

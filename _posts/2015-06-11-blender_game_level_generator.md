@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-06-11 22:00'
-image: 'level\_gen\_STD\_ramps\_render\_017.png'
+image: 'level_gen_STD_ramps_render_017.png'
 layout: post
 tags: ' blender sverchok structure-synth'
 title: Blender Game Level Generator
@@ -91,7 +91,7 @@ To make your own levels, press ESC to close the game and return to Blender.
 
 The easiest way to get a new level is to change the the \"rseed\" value in the \"Generative Art\" node. The levels are random and all parts of the level may not be reachable due to intersecting paths. Also some parts of the levels may be dead ends due to the drops being one-way. Edit the level by deleting or moving components. Most of the handrails are separate objects so they be easily deleted at intersections. Delete lots more rails to make a level more difficult.
 
-Another way to change a level is to change the weights for each rule in the xml text block (steely\_taws.xml). The larger a weight the more often that component will appear in the level.
+Another way to change a level is to change the weights for each rule in the xml text block (steely_taws.xml). The larger a weight the more often that component will appear in the level.
 
 Setting the weight of a rule to zero will mean that component will not appear at all. This may require some changes to the numbers in the \"Logic\" equal nodes to make the correct mask output connect to the correct object. Each integer in the \"Mask\" output of the \"Generative Art\" node corresponds to one of the shapes use in the xml. The integers are assigned to the shapes in alphabetical order. So if one shape disappears from the output the ones further down in the order will move down one integer. The \"drops\" have been given the last places in the shapes list so they can have their weights set to zero without affecting the other shapes.
 

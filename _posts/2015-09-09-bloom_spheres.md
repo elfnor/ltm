@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-09-09 22:00'
-image: 'bloom\_wobble.png'
+image: 'bloom_wobble.png'
 layout: post
 tags:  blender sverchok
 title: Bloom Spheres in Sverchok
@@ -68,7 +68,7 @@ For example:
 -   Change the Interpolation Mode for the animation curve to linear. Using the menu: Key \> Interpolation Mode \> Linear or using the keyboard `T L`.
 -   Check that stepping along one frame changes the Rotation Z angle by 137.5°
 
-This will give a seamless 6 second (145 frames/ 24 frames per second \~= 6 seconds) animation. It is seamless because 19800 is a whole multiple of 360 (360° \* 55 = 19800°).
+This will give a seamless 6 second (145 frames/ 24 frames per second ~= 6 seconds) animation. It is seamless because 19800 is a whole multiple of 360 (360° \* 55 = 19800°).
 
 Note: Any rotation angle where
 

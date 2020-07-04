@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-12-20 22:00'
-image: 'red\_maze\_blue\_maze.png'
+image: 'red_maze_blue_maze.png'
 layout: post
 tags:  blender sverchok maze
 title: Blender 3D Maze Generator

@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-07-05 22:00'
-image: 'plugin\_dialog.png'
+image: 'plugin_dialog.png'
 layout: post
 slug: 'Symmetry Tile plug-in for GIMP'
 tags: ' symmetry-tile'
@@ -120,11 +120,11 @@ If the `bdpq string` entry is blank when the `Escher's Potato Game` option is ch
 
 As an example this initial cell.
 
-![epg\_cell.png]({{ site.baseurl }}/images/epg_cell.png)
+![epg_cell.png]({{ site.baseurl }}/images/epg_cell.png)
 
 and `bdb+d+|pqp+q+` entered into the `bdpq string` entry, produces this pattern
 
-![epg\_bdbtdtlpqptqt.png]({{ site.baseurl }}/images/epg_bdbtdtlpqptqt.png)
+![epg_bdbtdtlpqptqt.png]({{ site.baseurl }}/images/epg_bdbtdtlpqptqt.png)
 
 ### Extra tip:
 

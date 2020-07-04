@@ -23,7 +23,7 @@ I\'m aiming for goal 3: Literary Explorer as I already have a collection of audi
 
 I\'m posting links to the stories via [Huffduffer](https://huffduffer.com) so I can download and listen to them using pod casting software. These collections are public so feel free to subscribe to these lists using RSS or you favourite app and follow along. I have two lists, [LitWorld2018GB](https://huffduffer.com/tags/litworld2018gb) is the list of stories I\'ve already listened to for this challenge and will eventually contain a single story from each country. My \"stories to be listened to\" pile is under [rtwoa](https://huffduffer.com/elfnor/tags/rtwoa). As I find new stories I\'ll add them to this second list, including stories published in 2018. This second list may contain more than one story from some countries.
 
-As I listen to the stories I\'ll try to publish very short (\~140 character) reviews/descriptions here is small groups.
+As I listen to the stories I\'ll try to publish very short (~140 character) reviews/descriptions here is small groups.
 
 As always I encourage you to support the magazines publishing these stories with donations to make sure they can keep on doing such great work.
 

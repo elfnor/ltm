@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-02-23 22:00'
-image: 'collected\_cats.jpg'
+image: 'collected_cats.jpg'
 layout: post
 tags: cats materials
 title: Material Cats

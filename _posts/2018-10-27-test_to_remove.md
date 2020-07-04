@@ -111,3 +111,14 @@ straight pipes
 
 [internal link]({{ site.baseurl }}{% link _posts/2014-12-27-simple_sverchok_02.md %})
 
+# Block quotes
+
+The next should be a single line quote:
+
+> Don't ask for permission, ask for forgiveness.
+
+And a multiline quote:
+
+> If you add or subtract vertices while editing meshes with shape keys strange things can sometimes happen. Vertices added while editing the *Basis* key in areas not affected by other shape keys mostly behave as expected but in general it\'s best (for beginners anyway and definitely on complicated meshes) to not add or delete vertices after adding shape keys. The techniques below only work if the two meshes involved have the same number of vertices connected to each other in the same way.
+
+And some more plain text.

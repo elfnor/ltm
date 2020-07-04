@@ -59,6 +59,6 @@ The *Clamp Overlay* and *Loop Slide* parameters are passed straight to the [beve
 
 ## Large meshes
 
-The mesh maze add-on takes about 8 seconds (on my machine) to generate a maze on an icosphere with \~10 000 vertices. It has been optimized so that the maze path is regenerated if the random seed or braiding values are changed but not for changes to the path width or wall height.
+The mesh maze add-on takes about 8 seconds (on my machine) to generate a maze on an icosphere with ~10 000 vertices. It has been optimized so that the maze path is regenerated if the random seed or braiding values are changed but not for changes to the path width or wall height.
 
 ![maze 3d]({{ site.baseurl }}/images/maze_3D.png)

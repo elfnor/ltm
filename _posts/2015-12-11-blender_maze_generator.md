@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-12-11 22:00'
-image: 'maze\_2d\_steey\_taws\_01.png'
+image: 'maze_2d_steey_taws_01.png'
 layout: post
 tags:  blender sverchok maze
 title: Blender 2D Maze Generator
@@ -30,7 +30,7 @@ Theres\'s an animation of this [here](http://weblog.jamisbuck.org/2011/2/7/maze-
 
 The algorithm can either be implemented using recursive function calls, or with a stack that holds the cells visited, when a passage is carved through to another cell the new cell is added to the end of the stack. When the algorihtm backtracks cells are poped off the end of the stack.
 
-I\'ve included a version of this code in a Sverchok scripted node (*maze\_2d\_gen*) that like the *Generative Art* node has a matrices and a mask outputs. The matrices list is used to position objects and the mask list of integers is used to determine which object to place at each position. To use this you\'ll need both the the `maze_3d.py` and the `maze_2D_gen.py` files from [github](https://github.com/elfnor/mazes).
+I\'ve included a version of this code in a Sverchok scripted node (*maze_2d_gen*) that like the *Generative Art* node has a matrices and a mask outputs. The matrices list is used to position objects and the mask list of integers is used to determine which object to place at each position. To use this you\'ll need both the the `maze_3d.py` and the `maze_2D_gen.py` files from [github](https://github.com/elfnor/mazes).
 
 I\'ll start with a simple example `maze_2D_simple.blend`that just has very basic components and show how to generate either a path maze or a wall maze. Then I\'ll show you how to make a 2D maze with some of the Steely Taws game components. Then I\'ll finish up with the blend file with the components, Sverchok node diagram and the game logic to allow anyone to generate and play an unlimited number of random Steely Taws game mazes. These mazes are all just 2D but the 3D code in `maze_3d.py` shows what I\'m working on next.
 

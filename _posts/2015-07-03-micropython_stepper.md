@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-07-03 22:00'
-image: 'A4988\_circuit.jpg'
+image: 'A4988_circuit.jpg'
 layout: post
 tags:  python micropython
 title: 'Micropython - Stepper motor control with a A4988 carrier board'
@@ -183,7 +183,7 @@ motor1.set_off()
 tim.deinit()
 ```
 
-The `nemastepper` module has a Class Stepper which is initialized with the pin names for the pyboard pins connected to the dir pin, step pin and enable\_pin (`motor1 = Stepper('Y1','Y2','Y3')`). Other motors connected to other pins can be initialized with more instances of `Stepper`.
+The `nemastepper` module has a Class Stepper which is initialized with the pin names for the pyboard pins connected to the dir pin, step pin and enable_pin (`motor1 = Stepper('Y1','Y2','Y3')`). Other motors connected to other pins can be initialized with more instances of `Stepper`.
 
 The main program only needs one timer for any number of motors. The timer is set up with a frequency (f = 10000 Hz) much faster than the step rate. The callback function for this timer should call the `do_step` method for each `Stepper` instance. The speed (steps/second) of each motor is set with the `set_speed` method. The sign of the speed determines the direction. The `do_step` method uses the count and pulserate variables to decide when to take a step to achieve the required speed.
 

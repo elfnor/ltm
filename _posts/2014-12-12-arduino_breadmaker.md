@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-12-12 22:00'
-image: 'arduino\_bread.png'
+image: 'arduino_bread.png'
 layout: post
 slug: Arduino Bread
 title: Arduino Bread

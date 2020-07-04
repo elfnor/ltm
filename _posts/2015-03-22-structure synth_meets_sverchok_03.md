@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-03-22 22:00'
-image: 'fern\_anim\_still\_05.png'
+image: 'fern_anim_still_05.png'
 layout: post
 tags: ' blender sverchok structure-synth'
 title: 'Structure Synth meets Sverchok - Animation'
@@ -60,13 +60,13 @@ Library["FernVars"] = """
 
 ![node diagram for fern animation]({{ site.baseurl }}/images/GA_Fern_animation_03.blend.png)
 
-For this animation the index number of the current frame in the animation is translated from the range 1 to 250 to the range 16 to 6 via the formula node and wired into the \"variables\" input of the \"GA\_node\". This cause the fern to unwind as the animation proceeds. The separate objects are joined into one using the \"Mesh Join\" node and this output sent to the \"Bmesh Viewer Draw\" node.
+For this animation the index number of the current frame in the animation is translated from the range 1 to 250 to the range 16 to 6 via the formula node and wired into the \"variables\" input of the \"GA_node\". This cause the fern to unwind as the animation proceeds. The separate objects are joined into one using the \"Mesh Join\" node and this output sent to the \"Bmesh Viewer Draw\" node.
 
 If you want to animate more than one parameter use index numbers (starting with 0) inside the braces:
 
     transforms = "tx {0} rx {1} sa {2}"
 
-With multiple parameters a \"List Join\" node is used to make a list to use as the \"variables\" input of the \"GA\_node\".
+With multiple parameters a \"List Join\" node is used to make a list to use as the \"variables\" input of the \"GA_node\".
 
 ![node diagram with list join]({{ site.baseurl }}/images/GA_node-variables_attributes.blend.png)
 

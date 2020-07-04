@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-02-26 22:00'
-image: 'vertex\_color\_blog\_21.png'
+image: 'vertex_color_blog_21.png'
 layout: post
 tags:  blender sverchok
 title: 'Shaders for Sverchok 02 - Vertex Colors'

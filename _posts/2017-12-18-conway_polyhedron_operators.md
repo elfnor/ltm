@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2017-12-18 22:00'
-image: 'conway\_img\_03\_017.png'
+image: 'conway_img_03_017.png'
 layout: post
 tags:  blender sverchok
 title: Conway Polyhedron Operators in Sverchok
@@ -27,16 +27,16 @@ The *conway.py* module is designed to be used in Blender with Sverchok\'s *Scrip
 -   Install [Sverchok](https://github.com/nortikin/sverchok/) in [Blender](https://www.blender.org/).
 -   Download and unzip (or clone) from the [repo](https://github.com/elfnor/conway_polyhedron_operators) on github
 -   Open *conway.py* as a text block in Blender.
--   Open *snl\_plato.py* and *snl\_conway\_op.py* as text blocks in Blender. These contain code for each Sverchok *Scripted Node Lite*.
+-   Open *snl_plato.py* and *snl_conway_op.py* as text blocks in Blender. These contain code for each Sverchok *Scripted Node Lite*.
 -   In a *Node Editor* view create a new *Node Tree* and add two *Scripted Node Lite* nodes.
--   Use the notebook icon on the node to select *snl\_plato.py* on the left node and *snl\_comway\_op.py* on the right node. Click the plug icon on each node to load the code.
+-   Use the notebook icon on the node to select *snl_plato.py* on the left node and *snl_comway_op.py* on the right node. Click the plug icon on each node to load the code.
 -   Wire up the nodes along with a *Viewer Draw* node as shown below.
 
 ![conway nodes]({{ site.baseurl }}/images/conway_aD.png)
 
-Wire up multiple copies of *snl\_conway\_op.py* in a row to produce more complex shapes.
+Wire up multiple copies of *snl_conway_op.py* in a row to produce more complex shapes.
 
-![conway\_aagD]({{ site.baseurl }}/images/conway_aagD.png)
+![conway_aagD]({{ site.baseurl }}/images/conway_aagD.png)
 
 Two of the operators *kis* and *chamfer* can take parameters such as the height of the *kis* pyramid or the *height* and *thickness* of the *chamfer*. There is a separate *Scripted Node Lite* given for these two operators with sliders for the parameters.
 
@@ -48,17 +48,17 @@ The canonical form of a convex polyhedra has all faces planar and all edges tang
 
 The module *canon.py* contiains functions that attempt to shift the points of a polyhedron to satisfy these conditions. This is a iterative process and can take several hundred steps to converge.
 
-To try this in Sverchok, add the *canon.py* and *snl\_canon.py* files as text blocks in your Blender file and add *snl\_canon.py* as a *Scripted Node Lite*. The node has two parameters *iterations* and *scale\_factor*. At each iteration the vertices are moved a *scale\_factor* fraction of the calculated distance. Setting this parameter too high may cause the shape to become unstable. Increasing the *iterations* will increase the calculation time.
+To try this in Sverchok, add the *canon.py* and *snl_canon.py* files as text blocks in your Blender file and add *snl_canon.py* as a *Scripted Node Lite*. The node has two parameters *iterations* and *scale_factor*. At each iteration the vertices are moved a *scale_factor* fraction of the calculated distance. Setting this parameter too high may cause the shape to become unstable. Increasing the *iterations* will increase the calculation time.
 
-![conway\_CcgC.png]({{ site.baseurl }}/images/conway_CcgC.png)
+![conway_CcgC.png]({{ site.baseurl }}/images/conway_CcgC.png)
 
 The canonicalization can also be applied after each operator. In the example below just enough iterations have been applied to form a pleasing shape. The proper canonical form of this polyhedra should be the same whether the canonicalization is performed once or twice.
 
-![conway\_CcCgC.png]({{ site.baseurl }}/images/conway_CcCgC.png)
+![conway_CcCgC.png]({{ site.baseurl }}/images/conway_CcCgC.png)
 
 These Conway operators can be applied to any manifold (ie. a closed solid) mesh not just the platonic solids. They currently don\'t work on planar grids unless one applies a solidify node to the grid first.
 
-![conway\_kg\_hexa\_grid]({{ site.baseurl }}/images/conway_kg_hexa_grid.png)
+![conway_kg_hexa_grid]({{ site.baseurl }}/images/conway_kg_hexa_grid.png)
 
 Other Sverchok nodes of course can be used interspersed with the Conway operators for other effects.
 
@@ -89,7 +89,7 @@ The operator order is given as the left to right node order. Note that this is t
 
 ## Future
 
-Ironically I haven\'t coded the *snub* operator directly, and I\'ve used the code from *add\_mesh\_extra\_objects.add\_mesh\_solid* to implement the platonic solids with n-gons.
+Ironically I haven\'t coded the *snub* operator directly, and I\'ve used the code from *add_mesh_extra_objects.add_mesh_solid* to implement the platonic solids with n-gons.
 
 Some of these operators would be useful as full nodes in Sverchok, particularly *dual*.
 

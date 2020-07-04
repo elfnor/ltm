@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-11-06 22:00'
-image: 'hexagon\_sphere\_plane\_hyp\_032.png'
+image: 'hexagon_sphere_plane_hyp_032.png'
 layout: post
 tags:  blender sverchok
 title: Hyperbolic Tiling in 3D
@@ -38,7 +38,7 @@ $$
 r^2 = \left |  \overline{OC} \right | * \left |  \overline{OC'} \right | 
 $$
 
-This Sverchok scripted node [hyperbolic\_tiling.py](https://github.com/elfnor/hyperbolic_coral) implements the regular tilings of the Poincaré disk. (See [earlier post]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}) on how to use a Sverchok scripted node in Blender). The hardest part of coding this is keeping track of the vertices and edges that are already in place to avoid making duplicates.
+This Sverchok scripted node [hyperbolic_tiling.py](https://github.com/elfnor/hyperbolic_coral) implements the regular tilings of the Poincaré disk. (See [earlier post]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}) on how to use a Sverchok scripted node in Blender). The hardest part of coding this is keeping track of the vertices and edges that are already in place to avoid making duplicates.
 
 ![poincare tiling in sverchok]({{ site.baseurl }}/images/poincare_7-3.png)
 
@@ -59,7 +59,7 @@ The parameters that differ from their default values are highlighted in red. Mak
 
 On my computer (i7, 2.8 Ghz, 4 GB RAM) the soft body solver is unstable when working on more than 250 to 300 faces. It either works very slowly and/or the mesh floats off the screen away from the origin.
 
-A rotationally symmetric input mesh produces a symmetric output mesh (mostly). If you distort the input mesh a little the output mesh may be much less symmetric. For example, the p = 7, q = 3 tiling seems to have two final shapes depending on initial conditions. If you start with the symmetric output of the node it settles down to a surface that has has 7 wrinkles around the outside edge. If you add any distortion (\"Randomize\" in edit mode) before applying the soft body modifier the final shape is often much less symmetrical with \~3 major wrinkles around the outside.
+A rotationally symmetric input mesh produces a symmetric output mesh (mostly). If you distort the input mesh a little the output mesh may be much less symmetric. For example, the p = 7, q = 3 tiling seems to have two final shapes depending on initial conditions. If you start with the symmetric output of the node it settles down to a surface that has has 7 wrinkles around the outside edge. If you add any distortion (\"Randomize\" in edit mode) before applying the soft body modifier the final shape is often much less symmetrical with ~3 major wrinkles around the outside.
 
 To produce the hyperbolic football tiling:
 

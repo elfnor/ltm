@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-01-19 22:00'
-image: 'arduino\_bread.png'
+image: 'arduino_bread.png'
 layout: post
 slug: Arduino Bread Details
 title: Arduino Bread Details
@@ -11,7 +11,7 @@ As mentioned in a [previous post]({{ site.baseurl }}{% link _posts/2014-12-12-ar
 
 The aim is to separate out the different stages in the breadmaker\'s cycle so I can make good sourdough bread. In general the sourdough takes longer to rise than dough made using store bought dried yeast granules. The rise time can also vary depending on how the sourdough starter is on any day. Also the longer the rise time the stronger the sour flavour of the bread.
 
-This project is ongoing. Currently I have made a breadmaker with an Arduino brain where I can set up programs with my own times for any part of the breadmaker cycle. To make a loaf of sourdough, I put the ingredients in the pan and select a program that mixes and kneads the dough then keeps the pan at rise temperature indefinitely. When I\'ve checked the bread is sufficiently risen, I stop that program and run a bake only program. Eventually, I\'d like some way of measuring the height of the dough so the Arduino can track when the bread is risen and then switch to the bake cycle. The current rise temperature is the same as for the original breadmaker cycle (\~37 °C). I\'ll probably add an option to rise the bread at a lower temperature for longer to get a stronger sour flavour.
+This project is ongoing. Currently I have made a breadmaker with an Arduino brain where I can set up programs with my own times for any part of the breadmaker cycle. To make a loaf of sourdough, I put the ingredients in the pan and select a program that mixes and kneads the dough then keeps the pan at rise temperature indefinitely. When I\'ve checked the bread is sufficiently risen, I stop that program and run a bake only program. Eventually, I\'d like some way of measuring the height of the dough so the Arduino can track when the bread is risen and then switch to the bake cycle. The current rise temperature is the same as for the original breadmaker cycle (~37 °C). I\'ll probably add an option to rise the bread at a lower temperature for longer to get a stronger sour flavour.
 
 The model of breadmaker I\'m using is a fairly old Sanyo \"The Bread Factory Plus\" (Model SBM-20). From other people\'s projects I suspect many breadmakers are quite similar internally and these notes could be applicable to many other models and brands.
 
@@ -57,7 +57,7 @@ What\'s happening here is that the micro controller regularly enables the voltag
 
 This makes the design of the recording system a little bit harder. We could try to synchronize our measurements with the clock signal on the microelectronic but as we\'re mainly interested in the steady state value of the thermistor at the rise and bake temperatures we can simplify this and use a capacitor to convert the voltage to a steady value.
 
-An Arduino can also be used for the recording system. The circuit I used is shown below. As this is only needed once I made it up on a bread board. Keep the original control board connected to the bread maker and add in this recording system to the control and thermistor connectors. Load up the breadmaker\_record.ino sketch from the [github repository](https://github.com/elfnor/arduino-bread) and make a loaf of bread!
+An Arduino can also be used for the recording system. The circuit I used is shown below. As this is only needed once I made it up on a bread board. Keep the original control board connected to the bread maker and add in this recording system to the control and thermistor connectors. Load up the breadmaker_record.ino sketch from the [github repository](https://github.com/elfnor/arduino-bread) and make a loaf of bread!
 
 ![breadmaker record schematic]({{ site.baseurl }}/images/breadmaker_record.png)
 
@@ -67,7 +67,7 @@ The output of the recording system is shown below.
 
 ![bread maker output]({{ site.baseurl }}/images/breadmaker_graph.png)
 
-The motor control signals are straight forward. The loaf program starts with 6 minutes of mixing where the motor is pulsed on for \~0.25 second and off for \~1 second. After mixing the bread is kneaded with the motor on continuously for \~29 minutes. There is another two short pulses of the motor about a third of the way through the rising time.
+The motor control signals are straight forward. The loaf program starts with 6 minutes of mixing where the motor is pulsed on for ~0.25 second and off for ~1 second. After mixing the bread is kneaded with the motor on continuously for ~29 minutes. There is another two short pulses of the motor about a third of the way through the rising time.
 
 The analog count on pin A0 of the Arduino has an average of 120 during the rising time. For baking it has an average of 330. To convert these counts to resistance values, connect up variable resistor to the recording circuit in place of the thermistor. Vary the resistor to find the resistance values that give analog counts on the Arduino of 120 and 330. Allow enough time after each change in resistance for the count to reach a steady value as the circuit has a long response time due to the large smoothing capacitor.
 
@@ -83,7 +83,7 @@ Controlling the temperature of the breadmaker with the Arduino consists of readi
   tlow \< T \< thigh   6 s       54 s
   T \> thigh           1 s       59 s
 
-This works well enough because of the long time constant between pulsing the heater and the thermistor responding, the large thermal mass of the system, and the low accuracy (\~ +/- 5 °C) required to make bread.
+This works well enough because of the long time constant between pulsing the heater and the thermistor responding, the large thermal mass of the system, and the low accuracy (~ +/- 5 °C) required to make bread.
 
 In the control system the thermistor is measured with a simple voltage divider. The motor and heater are controlled via transistors connected to digital lines on the Arduino.
 

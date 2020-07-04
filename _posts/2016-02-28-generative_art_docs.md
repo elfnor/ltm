@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2016-02-28 22:00'
-image: '6\_spirals\_mesh\_render\_03\_018.png'
+image: '6_spirals_mesh_render_03_018.png'
 layout: post
 status: published
 tags: ' blender sverchok structure-synth'
@@ -71,7 +71,7 @@ The system is implemented by a stack where each item in the stack consists of th
 
 Each instruction in the rule removed from the stack is processed in turn. The current state of this system is set to that of the item removed from the stack. Any transform in the instruction is applied to the system state. If the instruction is a call to a rule, a new item is added to the stack with the new rule, the depth increased by one, and the new system state. If the instruction is to place an instance, the matrix representing the new system state is added to the output matrix list for that type of shape. The processor then proceeds to what is now the last item on the stack.
 
-If the max\_depth for the current rule is reached or the max\_depth for overall design is reached then the processor goes back and processes what is now the last item on the stack without taking any other action. If the stack is empty or the maximum number of matrices has been reached the processor stops.
+If the max_depth for the current rule is reached or the max_depth for overall design is reached then the processor goes back and processes what is now the last item on the stack without taking any other action. If the stack is empty or the maximum number of matrices has been reached the processor stops.
 
 A simple example of an xml design file:
 
@@ -100,7 +100,7 @@ This specifies the following design with 6 spirals.
 
 The xml file consists of a list of rules. There must be at least one rule called entry. This is the starting point for the processor. Each rule consists of a list of instructions. These instructions can either be a call to another rule or an instruction to place an instance of an object.
 
-Calls can be recursive. For the example above the first instruction in rule R1 also calls rule R1. This recursion stops when the max\_depth value is reached or the max\_mats value set in the node is reached. The max\_depth can also be set separately for each rule and is added as an attribute eg `<rule name="R1" max_depth="10">`.
+Calls can be recursive. For the example above the first instruction in rule R1 also calls rule R1. This recursion stops when the max_depth value is reached or the max_mats value set in the node is reached. The max_depth can also be set separately for each rule and is added as an attribute eg `<rule name="R1" max_depth="10">`.
 
 Each of these instructions can be modified with a set of transforms. If the transform is omitted it defaults to the identity transform.
 
@@ -281,7 +281,7 @@ Multiple constants can be defined within one element and several *constants* ele
 
 If a field name in between curly brackets is not given a value in a *constants* element then a named input socket will be added to the node. A *Float*, *Integer* or similar node input can be wired up to this input variable.
 
-The example below uses a variable ({curl\_angle}) to animate the amount of curl on the fern structure shown in the mesh mode example and two constants to fix the the value of the `tz` transform in the large curl and the scale ({sxy}) in all the curls.
+The example below uses a variable ({curl_angle}) to animate the amount of curl on the fern structure shown in the mesh mode example and two constants to fix the the value of the `tz` transform in the large curl and the scale ({sxy}) in all the curls.
 
 Fern 3
 

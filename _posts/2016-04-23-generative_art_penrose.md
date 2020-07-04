@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2016-04-23 22:00'
-image: 'penrose\_rhomb\_lattice\_04\_015.png'
+image: 'penrose_rhomb_lattice_04_015.png'
 layout: post
 status: published
 tags: ' blender sverchok structure-synth'
@@ -61,7 +61,7 @@ Its easy to produce an equilateral triangle in Sverchok using the *Circle* node 
 
 ![1st division]({{ site.baseurl }}/images/penrose_robs_tris3.png)
 
-Each triangle now needs to be subdivided. The *eisenxml* below subdivides the thin triangle into one smaller thin and one smaller fat triangle (rule *thin\_tri\_sub*). The fat triangle is divided into two smaller fat triangles and one smaller thin triangle (rule *fat\_tri\_sub*).
+Each triangle now needs to be subdivided. The *eisenxml* below subdivides the thin triangle into one smaller thin and one smaller fat triangle (rule *thin_tri_sub*). The fat triangle is divided into two smaller fat triangles and one smaller thin triangle (rule *fat_tri_sub*).
 
 To make the tiling correct we need to mirror (or flip over) two of the smaller copies when we do the substitution. This is achieved by the `rx="180"` transformation.
 

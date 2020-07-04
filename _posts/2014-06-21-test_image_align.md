@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-06-21 22:00'
-image: 'El\_Avatar2.jpeg'
+image: 'El_Avatar2.jpeg'
 layout: post
 summary: 'Markdown synatx and main.css styling to float images to the left and right.'
 tags:  pelican markdown

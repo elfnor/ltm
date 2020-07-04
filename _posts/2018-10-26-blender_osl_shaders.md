@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2018-10-26 22:00'
-image: 'blender\_osl\_shaders-53a4a.png'
+image: 'blender_osl_shaders-53a4a.png'
 layout: post
 status: published
 tags:  blender

@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-10-02 22:00'
-image: 'dragon\_fruit\_vertex\_color\_05\_009.png'
+image: 'dragon_fruit_vertex_color_05_009.png'
 layout: post
 tags:  blender sverchok
 title: 'Shaders for Sverchok 04 - Vertex Colors Update'

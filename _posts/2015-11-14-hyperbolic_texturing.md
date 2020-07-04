@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-11-14 22:00'
-image: 'poincare\_drawing.png'
+image: 'poincare_drawing.png'
 layout: post
 tags:  blender sverchok
 title: Painting in the Hyperbolic Plane
@@ -9,7 +9,7 @@ title: Painting in the Hyperbolic Plane
 
 While playing around texturing the hyperbolic football from the [previous post]({{ site.baseurl }}{% link _posts/2015-11-06-hyperbolic_tilings.md %}) I discovered this technique for painting hyperbolic tilings directly in Blender.
 
-Download the [hyperbolic\_tiling.py](https://github.com/elfnor/hyperbolic_coral) scripted node for Sverchok. If you need help installing Sverchok or using a scripted node see the [first post]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}) on hyperbolic planes. Connect it up as shown below. The tiling above has p = 6, q = 4, layers = 3.
+Download the [hyperbolic_tiling.py](https://github.com/elfnor/hyperbolic_coral) scripted node for Sverchok. If you need help installing Sverchok or using a scripted node see the [first post]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}) on hyperbolic planes. Connect it up as shown below. The tiling above has p = 6, q = 4, layers = 3.
 
 ![poincare tiling in sverchok]({{ site.baseurl }}/images/poincare_6-4.png)
 
@@ -17,11 +17,11 @@ Use the top set of outputs to give a flat plane tiled with hexagons. Bake this m
 
 ![poincare tiling in sverchok]({{ site.baseurl }}/images/poincare_6-4-kites.png)
 
-Take a screenshot of the mesh and crop to show one of the central faces. Save this file as for example \"kite\_tile.png\"
+Take a screenshot of the mesh and crop to show one of the central faces. Save this file as for example \"kite_tile.png\"
 
 ![single face]({{ site.baseurl }}/images/kite_tile.png)
 
-Apply a new (cycles) material to the surface and under color select \"Image Texture\" and set to the \"kite\_tile.png\" image of the single face. Set the \"Vector\" parameter to \"UV Map\".
+Apply a new (cycles) material to the surface and under color select \"Image Texture\" and set to the \"kite_tile.png\" image of the single face. Set the \"Vector\" parameter to \"UV Map\".
 
 ![image material cycles]({{ site.baseurl }}/images/image_material.png)
 
@@ -29,7 +29,7 @@ In edit mode, select the whole mesh (A) and UV unwrap (U) the mesh selecting the
 
 ![uv unwrap]({{ site.baseurl }}/images/uv_unwrap.png)
 
-In a \"UV/image Editor\" view, all the faces in the tiling should have been mapped on top of each other to show one orange square. Link the \"kite\_tile.png\" image to display it behind the faces.
+In a \"UV/image Editor\" view, all the faces in the tiling should have been mapped on top of each other to show one orange square. Link the \"kite_tile.png\" image to display it behind the faces.
 
 ![uv unwrap]({{ site.baseurl }}/images/uv_image_map.png)
 
@@ -45,7 +45,7 @@ In the 3D View set the display mode to \"Texture\" to check we have moved the ri
 
 ![uv unwrap]({{ site.baseurl }}/images/tiled_arrows.png)
 
-Now we can use any image we like to tile the Poincaré plane by simply exchanging it for \"kite\_tile.png\" or we can draw on the image directly in Blender.
+Now we can use any image we like to tile the Poincaré plane by simply exchanging it for \"kite_tile.png\" or we can draw on the image directly in Blender.
 
 To do this swap to the \"Paint\" editing context in the \"UV/image Editor\", use the T key to pull up the paint tool-bar and start drawing.
 

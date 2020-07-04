@@ -16,7 +16,7 @@ Without my own lemon tree, supermarket lemons are expensive so I go to the Farme
 6-10 lemons  
 2 t salt
 
-Find a \~600 ml glass jar with a wider mouth and another small glass jar that fits neatly inside the mouth of the large jar. Clean both jars inside and out. Find something to weigh down the small jar with. I use glass marbles.
+Find a ~600 ml glass jar with a wider mouth and another small glass jar that fits neatly inside the mouth of the large jar. Clean both jars inside and out. Find something to weigh down the small jar with. I use glass marbles.
 
 Cut the lemons into quarters long ways. Most recipes say to only cut them part way through but they go into the jar better if cut all the way through. Pack into the large jar sprinkling in salt with each layer. Use a spoon or a large pestle to pack the lemons down squeezing out the juice. Continue until the jar is mostly full. The lemon juice should cover the lemon pieces.
 

@@ -1,17 +1,20 @@
 .page-title-box {
-  padding: 80px 0;
   border-top: 1px solid $light-gray;
 
   .page-title {
-    font-size: 57px;
-    line-height: 70px;
-    margin: 0;
+    margin-bottom: 0px;
+    width: 500px;
+    max-width: 100%;
+    font-size: 30px;
+    line-height: 52px;
+    color: $red;
   }
 
   @media only screen and (max-width: $mobile) {
     padding: 40px 0;
 
     .page-title {
+      margin: 10px 0;
       font-size: 47px;
       line-height: 53px;
     }
@@ -21,10 +24,11 @@
 .page__head {
 
   .page-image {
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: $light-gray;
+    position: relative;
+
     &:after {
       content: "";
       display: table;
@@ -36,7 +40,11 @@
 }
 
 .page {
-  margin: 80px auto;
+  margin: auto;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  padding: 50px;
 
   img {
     margin: 30px 0;

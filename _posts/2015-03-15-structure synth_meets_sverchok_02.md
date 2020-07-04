@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-03-15 22:00'
-image: 'fern\_30.png'
+image: 'fern_30.png'
 layout: post
 tags: ' blender sverchok structure-synth'
 title: 'Structure Synth meets Sverchok - Mesh mode'
@@ -35,7 +35,7 @@ An xml rule set for the lsystem can have different objects in different instance
 
 The names of these objects don\'t matter, they can be called anything in the xml.`LSystem_blender.py` passes the names to the node as strings. The node then converts these strings to integers (that is (0, 1) for two different objects, (0, 1, 2) for three objects etc.). This mask can be used as input to a \"Mask List\" node to separate the matrices into two lists as shown below. This is simple for two objects but is a bit more complicated but doable for more.
 
-The \"Levels List\" on the \"Mask List\" node needs to be set to \"2\". That is because the outputs of the GA\_node have been set up as a 2 level list. The first level corresponds to each arm of sub-part of the structure. The second level contains the actual output values. Examine the output with a \"Viewer Text\" node to help understand this.
+The \"Levels List\" on the \"Mask List\" node needs to be set to \"2\". That is because the outputs of the GA_node have been set up as a 2 level list. The first level corresponds to each arm of sub-part of the structure. The second level contains the actual output values. Examine the output with a \"Viewer Text\" node to help understand this.
 
 ![GA node diagram with mask list]({{ site.baseurl }}/images/mask_demo_01.blend.png)
 

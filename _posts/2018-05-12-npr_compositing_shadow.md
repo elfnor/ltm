@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2018-05-12 22:00'
-image: 'npr\_composite\_lion\_034.png'
+image: 'npr_composite_lion_034.png'
 layout: post
 tags: blender npr compositing
 title: NPR using compositing nodes

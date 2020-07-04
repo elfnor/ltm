@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-05-23 22:00'
-image: 'Git\_Workflow.jpeg'
+image: 'Git_Workflow.jpeg'
 layout: post
 tags:  nonsense
 title: A Git Horror Story

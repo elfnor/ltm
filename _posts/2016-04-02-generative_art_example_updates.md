@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2016-04-02 22:00'
-image: 'ga\_examples\_banner\_image.png'
+image: 'ga_examples_banner_image.png'
 layout: post
 status: published
 tags: ' blender sverchok structure-synth'
@@ -69,6 +69,6 @@ I\'ve include the updated examples in my generative-art-examples [repo](https://
 
 ### Steely Taws Level Generator
 
-![steely\_taws]({{ site.baseurl }}/images/level_gen_STD_ramps_render_017.png)  
+![steely_taws]({{ site.baseurl }}/images/level_gen_STD_ramps_render_017.png)  
 [blend](https://github.com/elfnor/generative-art-examples/blob/master/steely_taws_level_gen.blend)
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--

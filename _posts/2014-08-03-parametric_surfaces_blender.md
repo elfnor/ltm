@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-08-03 22:00'
-image: 'dini\_01.png'
+image: 'dini_01.png'
 layout: post
 tags:  blender
 title: Parametric Surfaces in Blender

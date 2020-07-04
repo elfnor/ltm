@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-11-27 22:00'
-image: 'CORAL\_735\_02\_031.png'
+image: 'CORAL_735_02_031.png'
 layout: post
 tags:  blender processing
 title: Larger Hyperbolic Tilings in 3D using Processing

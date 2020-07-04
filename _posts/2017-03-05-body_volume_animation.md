@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2017-03-05 22:00'
-image: 'dog\_morph\_07\_020.png'
+image: 'dog_morph_07_020.png'
 layout: post
 tags:  blender
 title: Shape Shifting Creatures

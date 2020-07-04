@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-07-04 22:00'
-image: 'online\_stories\_map\_10.png'
+image: 'online_stories_map_10.png'
 layout: post
 tags: reading
 title: 'Reading the World - 10 Audio Online Stories'

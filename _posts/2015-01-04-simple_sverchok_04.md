@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2015-01-04 22:00'
-image: 'copy\_cubes\_wireframe\_25a.png'
+image: 'copy_cubes_wireframe_25a.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 04 - Apply Matrix'

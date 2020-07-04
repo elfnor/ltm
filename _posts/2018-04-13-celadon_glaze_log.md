@@ -17,20 +17,20 @@ Reference image
 
 Default material
 
-**celadon\_glaze\_001** {2018-04-13 16:51}  
+**celadon_glaze_001** {2018-04-13 16:51}  
   
 Render time: 0:00:20.183531
 
 Add some color to diffuse
 
-**celadon\_glaze\_002** {2018-04-13 16:57}  
+**celadon_glaze_002** {2018-04-13 16:57}  
   
-Render time: 0:00:20.045838https://github.com/elfnor/blender\_auto\_save\_on\_render  
+Render time: 0:00:20.045838https://github.com/elfnor/blender_auto_save_on_render  
 Too smooth but highlights are sharper
 
 Roughen diffuse
 
-**celadon\_glaze\_003** {2018-04-13 17:11}  
+**celadon_glaze_003** {2018-04-13 17:11}  
   
 Render time: 0:00:20.356762
 
@@ -38,61 +38,61 @@ Try differnt glossy shader types
 
 Sharp
 
-**celadon\_glaze\_004** {2018-04-13 17:13}  
+**celadon_glaze_004** {2018-04-13 17:13}  
   
 Render time: 0:00:20.082703  
 Too glossy
 
 Beckmann
 
-**celadon\_glaze\_005** {2018-04-13 17:14}  
+**celadon_glaze_005** {2018-04-13 17:14}  
   
 Render time: 0:00:20.434412  
 Better but glossy highlight needs to be sharper
 
 Lower glossy roughness
 
-**celadon\_glaze\_006** {2018-04-13 17:17}  
+**celadon_glaze_006** {2018-04-13 17:17}  
   
 Render time: 0:00:20.392772  
 Better
 
 Make mix use more of diffuse
 
-**celadon\_glaze\_007** {2018-04-13 17:18}  
+**celadon_glaze_007** {2018-04-13 17:18}  
   
 Render time: 0:00:20.221339  
 Better
 
 Try using Layer Weight for mix factor
 
-**celadon\_glaze\_008** {2018-04-13 17:22}  
+**celadon_glaze_008** {2018-04-13 17:22}  
   
 Render time: 0:00:20.346465
 
 Facing instead of Fresnel
 
-**celadon\_glaze\_009** {2018-04-13 17:24}  
+**celadon_glaze_009** {2018-04-13 17:24}  
   
 Render time: 0:00:20.525302  
 This is much darker around back edges
 
 Lower Layer Weight Blend value
 
-**celadon\_glaze\_010** {2018-04-13 17:26}  
+**celadon_glaze_010** {2018-04-13 17:26}  
   
 Render time: 0:00:20.299810
 
 Make both glossy and diffuse less rough
 
-**celadon\_glaze\_011** {2018-04-13 17:28}  
+**celadon_glaze_011** {2018-04-13 17:28}  
   
 Render time: 0:00:20.267659  
 This has sharpened up highlight
 
 Pick the colors off reference image
 
-**celadon\_glaze\_012** {2018-04-13 17:34}  
+**celadon_glaze_012** {2018-04-13 17:34}  
   
 Render time: 0:00:20.231184  
 Not bad!

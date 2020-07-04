@@ -9,7 +9,7 @@ title: 'Pelican and markdown styling cheat-sheet'
 A [Pelican](http://docs.getpelican.com) blog consists of:
 
 -   **markdown** text files containing **content**
--   \_\_ jinga2\_\_ html template files defining the pages **layout**
+-   __ jinga2__ html template files defining the pages **layout**
 -   **CSS** style file that determine how the page elements **look**
 
 These elements are processed by the Pelican python software to produce the static html pages that make up this blog.
@@ -52,13 +52,13 @@ code {
 This is a block set of from the main text, normally containing a longer piece of code.
 The blocks can be defined in a number of different ways, indenting, four `~~~~`, but I\'ll show examples with triple back quote marks (\`\`\`).
 
-\~\~\~\~{.text}
+~~~~{.text}
 
     # python code  
     mystr = 'Hello world'  
     print('%s'%(mystr))  
 
-\~\~\~\~
+~~~~
 
 produces this html:
 
@@ -99,7 +99,7 @@ and mostly defines fonts and backgrounds. All the span elements are produced by 
 
 To add line numbers to the displayed code block use `#!` at the start of the first line of code:
 
-\~\~\~\~{.text}
+~~~~{.text}
 
 ```python
 #! python code  
@@ -107,7 +107,7 @@ mystr = 'Hello world'
 print('%s'%(mystr))  
 ```
 
-\~\~\~\~
+~~~~
 
     #! python code  
     mystr = 'Hello world'  

@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2016-03-27 22:00'
-image: 'koch\_vase\_render\_01\_003.png'
+image: 'koch_vase_render_01_003.png'
 layout: post
 status: published
 tags: ' blender sverchok structure-synth'
@@ -49,7 +49,7 @@ I have also started a [repo](https://github.com/elfnor/generative-art-examples) 
 </rules>
 ```
 
-This is one of the earliest fractals described (1904). The basic unit is only drawn at the smallest size. This is achieved by using the *successor* attribute in the *R1* rule element. The *successor* attribute defines the rule to be called when the *max\_depth* has been reached. That is after the *R1* rule has been called recursively four times the *unit* rule is called.
+This is one of the earliest fractals described (1904). The basic unit is only drawn at the smallest size. This is achieved by using the *successor* attribute in the *R1* rule element. The *successor* attribute defines the rule to be called when the *max_depth* has been reached. That is after the *R1* rule has been called recursively four times the *unit* rule is called.
 
 [xml](https://github.com/elfnor/generative-art-examples/blob/master/koch_snowflake.xml), [nodes in json](https://github.com/elfnor/generative-art-examples/blob/master/koch_snowflake.json), [eisenscript](https://github.com/elfnor/generative-art-examples/blob/master/koch_snowflake.es), [info](https://en.wikipedia.org/wiki/Koch_snowflake)
 
@@ -182,11 +182,11 @@ Constants can be defined and used in the *xml* like this:
 </rules>
 ```
 
-The value of a constant is defined in a *constants* element using attributes (eg. `scale="(3-5**0.5)/2"`). These constants can then be used later when defining transforms where the attribute/constant name is enclosed in curly brackets (eg, `sa {scale}`). This is implemented in the node code using python\'s [format string syntax](https://docs.python.org/3/library/string.html#format-string-syntax) for substitution. Any of the restrictions on format field\_names also apply to constant names.
+The value of a constant is defined in a *constants* element using attributes (eg. `scale="(3-5**0.5)/2"`). These constants can then be used later when defining transforms where the attribute/constant name is enclosed in curly brackets (eg, `sa {scale}`). This is implemented in the node code using python\'s [format string syntax](https://docs.python.org/3/library/string.html#format-string-syntax) for substitution. Any of the restrictions on format field_names also apply to constant names.
 
-If a *field\_name* such as `{scale}` is not defined in a *constants* element in the xml then a node input is created with this name. In the node diagram a *Float* or *Integer* or similar node can be wired to this input. This allows for the geometry to be animated or for fast experiments with different attribute values.
+If a *field_name* such as `{scale}` is not defined in a *constants* element in the xml then a node input is created with this name. In the node diagram a *Float* or *Integer* or similar node can be wired to this input. This allows for the geometry to be animated or for fast experiments with different attribute values.
 
-The *max\_depth* attribute value of rule *R1* has been replaced by the `{md}` variable in the following *xml*.
+The *max_depth* attribute value of rule *R1* has been replaced by the `{md}` variable in the following *xml*.
 
 ```xml
 <rules max_depth="100">
