@@ -20,7 +20,9 @@ layout: default
           {% if page.tags.size >= 1 %}
           <div class="post__tags">
             {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tags-tag">{{ tag }}</a>
+            {% if site.data.tags.validtags contains tag %}
+            <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tags-tag">{{ tag }}</a>
+            {% endif %}
             {% endfor %}
           </div>
           {% endif %}
@@ -31,17 +33,17 @@ layout: default
 
   {% assign no-image = nil %}
   {% if page.image %}
-    <div class="post__head">
-      <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
-    </div>
+  <div class="post__head">
+    <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
+  </div>
   {% else %}
-    {% assign no-image = 'post-no-image' %}
+  {% assign no-image = 'post-no-image' %}
   {% endif %}
 
-  </div>
+</div>
 
 
-  <div class="container">
+<div class="container">
   <div class="row">
     <!-- begin post -->
     <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
@@ -53,23 +55,24 @@ layout: default
 
     </article>
     <!-- end post -->
-    </div>
   </div>
+</div>
 
-  <div class="container">
+<div class="container">
   <div class="post__navigation">
     {% if page.previous.url %}
     <div class="prev">
-      <a class="post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"></a>
+      <a class="post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}"
+        style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"></a>
       <h2 class="post__nav__title">
         <i class="ion ion-md-arrow-back"></i>
         <a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a>
       </h2>
       <p class="prev__excerpt">
         {% if page.previous.description %}
-          {{ page.previous.description }}
+        {{ page.previous.description }}
         {% else %}
-          {{ page.previous.content | strip_html | truncate: 110 }}
+        {{ page.previous.content | strip_html | truncate: 110 }}
         {% endif %}
       </p>
     </div>
@@ -79,7 +82,8 @@ layout: default
 
     {% if page.next.url %}
     <div class="next">
-      <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
+      <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}"
+        style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
       </a>
       <h2 class="post__nav__title">
         <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
@@ -87,9 +91,9 @@ layout: default
       </h2>
       <p class="next__excerpt">
         {% if page.next.description %}
-          {{ page.next.description }}
+        {{ page.next.description }}
         {% else %}
-          {{ page.next.content | strip_html | truncate: 110 }}
+        {{ page.next.content | strip_html | truncate: 110 }}
         {% endif %}
       </p>
     </div>
@@ -99,4 +103,4 @@ layout: default
   </div>
 
 
-  </div>
+</div>

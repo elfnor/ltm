@@ -4,7 +4,7 @@ date: '2018-10-27 22:00'
 image: composite_540_full_focus_05.png
 layout: post
 status: published
-tags:  deploy
+tags:  deploy silly extra taggly bits blender
 title: 'Examples of stuff to test deployment'
 use_math: true
 ---
@@ -23,7 +23,7 @@ This image links to a larger version of itself
 This images changes on mouse over - and has a caption
 
 <a ><img src="{{ site.baseurl }}/images/overlay_example.png" onmouseover="this.src='{{ site.baseurl }}/images/overlay_example_texture.png'" onmouseout="this.src='{{ site.baseurl }}/images/overlay_example.png'" /></a>
-*overlay with gray scale texture and color swatches*{.caption}
+*overlay with gray scale texture and color swatches*{: .caption}
 
 
 # Math

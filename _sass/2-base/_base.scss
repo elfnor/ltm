@@ -84,14 +84,17 @@ img,
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-  &+em {
-    display: block;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: $red;
-  }
 }
+
+img + em, em.caption {
+  display: block;
+  color: $red;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+
 
 a {
     text-decoration: none;
