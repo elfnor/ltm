@@ -3,7 +3,7 @@ author: elfnor
 date: '2015-03-08 22:00'
 image: 'seuss_nouveu_11.png'
 layout: post
-tags: ' blender sverchok structure-synth'
+tags: ' blender sverchok structure-synth generative-art'
 title: 'Structure Synth meets Sverchok - Generative Art inside Blender'
 ---
 

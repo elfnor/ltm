@@ -4,7 +4,7 @@ date: '2016-02-28 22:00'
 image: '6_spirals_mesh_render_03_018.png'
 layout: post
 status: published
-tags: ' blender sverchok structure-synth'
+tags: ' blender sverchok structure-synth generative-art'
 title: 'Generative Art - Sverchok Node Update'
 ---
 

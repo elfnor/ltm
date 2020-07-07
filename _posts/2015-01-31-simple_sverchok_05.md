@@ -7,7 +7,7 @@ tags:  blender sverchok
 title: 'Simple Sverchok 05 - Interpolate and Iterate Matrix'
 ---
 
-This is part five of my introduction to [Sverchok](http://nikitron.cc.ua/sverchok_en.html) the parametric node geometry add-on for Blender. Other parts can be found [here](http://elfnor.com/tag/sverchok.html)
+This is part five of my introduction to [Sverchok](http://nikitron.cc.ua/sverchok_en.html) the parametric node geometry add-on for Blender. Other parts can be found [here]({{ site.baseurl }}{% link tag/sverchok.md %})
 
 So far we\'ve used various nodes to produce list of matrices that we\'ve used to give the location, scale and rotation of objects. This post continues that idea.
 

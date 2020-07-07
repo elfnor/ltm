@@ -3,7 +3,7 @@ author: elfnor
 date: '2016-05-29 22:00'
 image: 'medusa_spiked_01_016.png'
 layout: post
-tags: ' blender sverchok structure-synth generative-art'
+tags: ' blender sverchok structure-synth generative-art generative-art'
 title: Structure Synth eisenscript to xml translator
 ---
 

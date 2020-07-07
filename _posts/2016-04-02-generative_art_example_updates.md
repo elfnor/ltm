@@ -4,7 +4,7 @@ date: '2016-04-02 22:00'
 image: 'ga_examples_banner_image.png'
 layout: post
 status: published
-tags: ' blender sverchok structure-synth'
+tags: ' blender sverchok structure-synth generative-art'
 title: 'Generative Art - Updated Examples'
 ---
 

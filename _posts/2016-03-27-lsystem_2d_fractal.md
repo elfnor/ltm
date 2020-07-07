@@ -4,7 +4,7 @@ date: '2016-03-27 22:00'
 image: 'koch_vase_render_01_003.png'
 layout: post
 status: published
-tags: ' blender sverchok structure-synth'
+tags: ' blender sverchok structure-synth generative-art'
 title: 'Generative Art Examples - Fractals on a Plane'
 use_math: true
 ---

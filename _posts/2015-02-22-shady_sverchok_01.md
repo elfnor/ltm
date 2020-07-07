@@ -7,7 +7,7 @@ tags:  blender sverchok
 title: 'Shaders for Sverchok 01 - Object Info node.'
 ---
 
-I\'ve called this post Shaders for Sverchok and it follows on from my [Simple Sverchok](http://elfnor.com/tag/sverchok.html) series. It\'s mostly about Blender Cycles Materials and how I apply them to my [Sverchok](http://nikitron.cc.ua/sverchok_en.html) models rather than directly about Sverchok nodes.
+I\'ve called this post Shaders for Sverchok and it follows on from my [Simple Sverchok]({{ site.baseurl }}{% link tag/sverchok.md %})series. It\'s mostly about Blender Cycles Materials and how I apply them to my [Sverchok](http://nikitron.cc.ua/sverchok_en.html) models rather than directly about Sverchok nodes.
 
 The structures I\'ve been producing with Sverchok can have many elements. The one that featured in the title image for the [last post]({{ site.baseurl }}{% link _posts/2015-01-31-simple_sverchok_05.md %}) has 2400 copies of the box element. With the position, rotation and scale of each object being varied parametrically it would be neat to also systematically vary the colour or transparency of the elements. Applying individual materials to 2400 elements by hand is well beyond my pain threshold. The techniques used here to make systematic or random material variations can also be used for models with many elements produced in other ways, for example using dupliverts.
 

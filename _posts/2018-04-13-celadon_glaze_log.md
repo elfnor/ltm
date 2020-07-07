@@ -14,89 +14,98 @@ As I worked on developing a celadon glaze material, I annotated this log file wi
 ------------------------------------------------------------------------
 
 Reference image  
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_vase_03.jpeg)
 
-Default material
+Default material    
 
 **celadon_glaze_001** {2018-04-13 16:51}  
-  
-Render time: 0:00:20.183531
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_001.png)  
+Render time: 0:00:20.183531  
 
-Add some color to diffuse
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_ss_01.png)
+
+Add some color to diffuse  
 
 **celadon_glaze_002** {2018-04-13 16:57}  
-  
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_002.png)  
 Render time: 0:00:20.045838https://github.com/elfnor/blender_auto_save_on_render  
-Too smooth but highlights are sharper
+Too smooth but highlights are sharper    
 
-Roughen diffuse
+Roughen diffuse  
 
 **celadon_glaze_003** {2018-04-13 17:11}  
-  
-Render time: 0:00:20.356762
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_003.png)  
+Render time: 0:00:20.356762   
 
-Try differnt glossy shader types
+Try differnt glossy shader types  
 
-Sharp
+Sharp  
 
 **celadon_glaze_004** {2018-04-13 17:13}  
-  
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_004.png)  
 Render time: 0:00:20.082703  
-Too glossy
+Too glossy  
 
-Beckmann
+Beckmann  
 
 **celadon_glaze_005** {2018-04-13 17:14}  
-  
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_005.png)  
 Render time: 0:00:20.434412  
-Better but glossy highlight needs to be sharper
+Better but glossy highlight needs to be sharper  
 
-Lower glossy roughness
+Lower glossy roughness  
 
 **celadon_glaze_006** {2018-04-13 17:17}  
-  
-Render time: 0:00:20.392772  
-Better
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_006.png)  
+Render time: 0:00:20.392772   
+Better  
 
-Make mix use more of diffuse
+Make mix use more of diffuse  
 
 **celadon_glaze_007** {2018-04-13 17:18}  
-  
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_007.png)  
 Render time: 0:00:20.221339  
-Better
+Better  
 
-Try using Layer Weight for mix factor
+Try using Layer Weight for mix factor  
 
 **celadon_glaze_008** {2018-04-13 17:22}  
-  
-Render time: 0:00:20.346465
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_008.png)  
+Render time: 0:00:20.346465  
+
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_ss_02.png)  
 
 Facing instead of Fresnel
 
 **celadon_glaze_009** {2018-04-13 17:24}  
-  
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_009.png)  
 Render time: 0:00:20.525302  
 This is much darker around back edges
 
 Lower Layer Weight Blend value
 
 **celadon_glaze_010** {2018-04-13 17:26}  
-  
-Render time: 0:00:20.299810
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_010.png)  
+Render time: 0:00:20.299810  
 
 Make both glossy and diffuse less rough
 
 **celadon_glaze_011** {2018-04-13 17:28}  
-  
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_011.png)  
 Render time: 0:00:20.267659  
 This has sharpened up highlight
 
 Pick the colors off reference image
 
 **celadon_glaze_012** {2018-04-13 17:34}  
-  
-Render time: 0:00:20.231184  
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_012.png)  
+Render time: 0:00:20.231184   
 Not bad!
 
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_vase_03.jpeg)  
+
 Final node setup
+
+![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_ss_03.png)  
 
 Could use a geometry pointedness input node to mix a lighter shade to give the look of a breaking glaze on sharp edges or play with a Voronoi texture for crazing.

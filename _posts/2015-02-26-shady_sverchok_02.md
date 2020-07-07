@@ -7,7 +7,7 @@ tags:  blender sverchok
 title: 'Shaders for Sverchok 02 - Vertex Colors'
 ---
 
-This is the second of my Shaders for Sverchok tutorials. They follow on from my [Simple Sverchok](http://elfnor.com/tag/sverchok.html) series. The Shaders for Sverchok posts are mostly about Blender Cycles Materials and how I apply them to my [Sverchok](http://nikitron.cc.ua/sverchok_en.html) models rather than directly about Sverchok nodes.
+This is the second of my Shaders for Sverchok tutorials. They follow on from my [Simple Sverchok]({{ site.baseurl }}{% link tag/sverchok.md %}) series. The Shaders for Sverchok posts are mostly about Blender Cycles Materials and how I apply them to my [Sverchok](http://nikitron.cc.ua/sverchok_en.html) models rather than directly about Sverchok nodes.
 
 This post will show how to apply vertex colors to a mesh with Blender python and then how to access the vertex color map to apply color or other variation to a material in Blender cycles.
 

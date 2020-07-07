@@ -4,7 +4,7 @@ date: '2016-04-23 22:00'
 image: 'penrose_rhomb_lattice_04_015.png'
 layout: post
 status: published
-tags: ' blender sverchok structure-synth'
+tags: ' blender sverchok structure-synth generative-art'
 title: 'Generative Art - Penrose Tilings'
 use_math: true
 ---

@@ -3,7 +3,7 @@ author: elfnor
 date: '2015-05-24 22:00'
 image: 'pipe_gen_15.png'
 layout: post
-tags: ' blender sverchok structure-synth'
+tags: ' blender sverchok structure-synth generative-art'
 title: Blender Pipe Generator
 ---
 
@@ -13,7 +13,7 @@ The old windows 3D pipes screensaver has inspired many pipe generators for diffe
 
 Here\'s how to make one using the Generative Art node in Sverchok. This node is now available under Beta nodes in the latest version of Sverchok available on [github](https://github.com/nortikin/sverchok). Download the zip version and install like any other Blender addon.
 
-The documentation for the node is [here](https://github.com/nortikin/sverchok/blob/master/docs/nodes/generator/generative_art.rst). See also previous posts on this blog tagged [sverchok](http://elfnor.com/tag/sverchok.html).
+The documentation for the node is [here](https://github.com/nortikin/sverchok/blob/master/docs/nodes/generator/generative_art.rst). See also previous posts on this blog tagged [sverchok]({{ site.baseurl }}{% link tag/sverchok.md %}).
 
 First of all you need to set up two basic elements a straight section and a bend. The straight section needs to go from (-0.5, 0, 0) to (0.5, 0, 0). Basically a cylinder of length 1, centered at the origin and aligned along the x-axis. The bend needs to go from (1, 0, 0) to (0, 1, 0) and have its origin at (0, 0, 0). Easiest is to start with a torus with a major radius of 1 centered at the origin, then delete 3/4 of the faces leaving only those in the positive x-y quadrant.
 

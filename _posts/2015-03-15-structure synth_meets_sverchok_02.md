@@ -3,7 +3,7 @@ author: elfnor
 date: '2015-03-15 22:00'
 image: 'fern_30.png'
 layout: post
-tags: ' blender sverchok structure-synth'
+tags: ' blender sverchok structure-synth generative-art'
 title: 'Structure Synth meets Sverchok - Mesh mode'
 ---
 

@@ -111,6 +111,10 @@ straight pipes
 
 [internal link]({{ site.baseurl }}{% link _posts/2014-12-27-simple_sverchok_02.md %})
 
+# Link to tag page
+
+[sverchok]({{ site.baseurl }}{% link tag/sverchok.md %})
+
 # Block quotes
 
 The next should be a single line quote:
