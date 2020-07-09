@@ -31,28 +31,99 @@ PS: I previously [blogged a list]({{ site.baseurl }}{% link _posts/2015-06-19-on
 
 ## January/February reviews
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Country       Author               Gender   Year   Title                                                                                                                                                                                                                       Comment
-  ------------- -------------------- -------- ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------
-  Sri Lanka     Mary Anne Mohanraj   F        2014   Communion [🖹](http://clarkesworldmagazine.com/audio_06_14b/) [🔉](http://clarkesworldmagazine.com/podpress_trac/web/1071/0/clarkesworld_06_14_mohanraj.mp3)                                                                  Humans and aliens share alien funeral customs
-
-  Finland       Hannu Rajaniemi      M        2008   His Master's Voice [🖹](http://escapepod.org/2009/12/03/ep227-his-masters-voice/) [🔉](http://media.rawvoice.com/escapepod/p/media.libsyn.com/media/escapepod/EP227_HisMastersVoice.mp3)                                      A dog and cat with augmented intelligence save their master
-
-  Netherlands   Jetse de Vries       M        2012   Connoisseurs of the Eccentric [🖹](http://escapepod.org/2012/08/09/ep357-connoisseurs-of-the-eccentric/) [🔉](http://traffic.libsyn.com/escapepod/EP357_ConnoisseursoftheEccentric.mp3)                                       Aliens trade new technology for Earth\'s most spectacular failures
-
-  Ukraine       Anatoly Belilovsky   M        2013   Pas de Deux [🔉](http://toastedcake.com/podcasts/TC139-pas-de-deux.mp3)                                                                                                                                                      Blowing things up for hidden motives
-
-  Ireland       Caitlín R. Kiernan   F        2012   The Steam Dancer (1896) [🖹](http://www.lightspeedmagazine.com/fiction/the-steam-dancer-1896/) [🔉](http://www.podtrac.com/pts/redirect.mp3/lightspeedmagazine.com/podcasts/podcast_the_steam_dancer_caitlin_r_kiernan.mp3)   A steampunk cyborg lives to dance
-
-  Jamaica       Nalo Hopkinson       F        2015   Snow Day [🖹](http://www.drabblecast.org/2015/03/18/drabblecast-352-snow-day/) [🔉](http://media.blubrry.com/drabblecast/p/www.drabblecast.org/wp-content/uploads/2015/03/Drabblecast-352-Snow-Day.mp3)                       A talking raccoon and all the world are offered the stars. Would you accept?
-
-  Israel        Lavie Tidhar         M        2013   Oracle [🖹](http://clarkesworldmagazine.com/tidhar_07_17_reprint/) [🔉](http://clarkesworldmagazine.com/podpress_trac/web/1820/0/clarkesworld_07_17_tidhar.mp3)                                                               A women finds her purpose Joined to a vast network of AI computers. To understand this (?) see Tidhar\'s Central Station story cycle
-
-  India         Indraparmit Das      M        2012   Weep for Day [🖹](http://clarkesworldmagazine.com/das_04_15_reprint/) [🔉](http://clarkesworldmagazine.com/podpress_trac/web/1275/0/clarkesworld_04_15_das.mp3)                                                               Sister and brother, on a tidally locked planet during a genocidal war, respond to fear of the others. One becomes a scientist the other a soldier
-
-  Singapore     JY Yang              F        2013   Old Domes [🖹](http://clarkesworldmagazine.com/yang_10_16_reprint/) [🔉](http://clarkesworldmagazine.com/podpress_trac/web/1639/0/clarkesworld_10_16_yang.mp3)                                                                Guardians of old buildings fight a sympathetic Cullmaster armed only with a plastic sword
-
-  Russia        Ekaterina Sedia      F        2009   Herding Vegetable Sheep [🖹](http://clarkesworldmagazine.com/sedia_03_09/) [🔉](http://clarkesworldmagazine.com/podpress_trac/web/292/0/clarkesworld_03_09_sedia.mp3)                                                         A pilot helps her grand daughter in a country isolated by information control - bonus for NZ reference
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ <table>
+<thead>
+<tr>
+<th>Country</th>
+<th>Author</th>
+<th>Gender</th>
+<th>Year</th>
+<th>Title</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sri Lanka</td>
+<td>Mary&#160;Anne&#160;Mohanraj</td>
+<td>F</td>
+<td>2014</td>
+<td>Communion <a href="http://clarkesworldmagazine.com/audio_06_14b/">🖹</a> <a href="http://clarkesworldmagazine.com/podpress_trac/web/1071/0/clarkesworld_06_14_mohanraj.mp3">🔉</a></td>
+<td>Humans and aliens share alien funeral customs</td>
+</tr>
+<tr>
+<td>Finland</td>
+<td>Hannu Rajaniemi</td>
+<td>M</td>
+<td>2008</td>
+<td>His Master’s Voice <a href="http://escapepod.org/2009/12/03/ep227-his-masters-voice/">🖹</a> <a href="http://media.rawvoice.com/escapepod/p/media.libsyn.com/media/escapepod/EP227_HisMastersVoice.mp3">🔉</a></td>
+<td>A dog and cat with augmented intelligence save their master</td>
+</tr>
+<tr>
+<td>Netherlands</td>
+<td>Jetse de Vries</td>
+<td>M</td>
+<td>2012</td>
+<td>Connoisseurs&#160;of&#160;the&#160;Eccentric&#160;<a href="http://escapepod.org/2012/08/09/ep357-connoisseurs-of-the-eccentric/">🖹</a>&#160;<a href="http://traffic.libsyn.com/escapepod/EP357_ConnoisseursoftheEccentric.mp3">🔉</a></td>
+<td>Aliens trade new technology for Earth's most spectacular failures</td>
+</tr>
+<tr>
+<td>Ukraine</td>
+<td>Anatoly Belilovsky</td>
+<td>M</td>
+<td>2013</td>
+<td>Pas de Deux <a href="http://toastedcake.com/podcasts/TC139-pas-de-deux.mp3">🔉</a></td>
+<td>Blowing things up for hidden motives</td>
+</tr>
+<tr>
+<td>Ireland</td>
+<td>Caitlín R. Kiernan</td>
+<td>F</td>
+<td>2012</td>
+<td>The Steam Dancer (1896) <a href="http://www.lightspeedmagazine.com/fiction/the-steam-dancer-1896/">🖹</a> <a href="http://www.podtrac.com/pts/redirect.mp3/lightspeedmagazine.com/podcasts/podcast_the_steam_dancer_caitlin_r_kiernan.mp3">🔉</a></td>
+<td>A steampunk cyborg lives to dance</td>
+</tr>
+<tr>
+<td>Jamaica</td>
+<td>Nalo Hopkinson</td>
+<td>F</td>
+<td>2015</td>
+<td>Snow Day <a href="http://www.drabblecast.org/2015/03/18/drabblecast-352-snow-day/">🖹</a> <a href="http://media.blubrry.com/drabblecast/p/www.drabblecast.org/wp-content/uploads/2015/03/Drabblecast-352-Snow-Day.mp3">🔉</a></td>
+<td>A talking raccoon and all the world are offered the stars. Would you accept?</td>
+</tr>
+<tr>
+<td>Israel</td>
+<td>Lavie Tidhar</td>
+<td>M</td>
+<td>2013</td>
+<td>Oracle <a href="http://clarkesworldmagazine.com/tidhar_07_17_reprint/">🖹</a> <a href="http://clarkesworldmagazine.com/podpress_trac/web/1820/0/clarkesworld_07_17_tidhar.mp3">🔉</a></td>
+<td>A women finds her purpose Joined to a vast network of AI computers. To understand this (?) see Tidhar's Central Station story cycle</td>
+</tr>
+<tr>
+<td>India</td>
+<td>Indraparmit Das</td>
+<td>M</td>
+<td>2012</td>
+<td>Weep for Day <a href="http://clarkesworldmagazine.com/das_04_15_reprint/">🖹</a> <a href="http://clarkesworldmagazine.com/podpress_trac/web/1275/0/clarkesworld_04_15_das.mp3">🔉</a></td>
+<td>Sister and brother, on a tidally locked planet during a genocidal war, respond to fear of the others. One becomes a scientist the other a soldier</td>
+</tr>
+<tr>
+<td>Singapore</td>
+<td>JY Yang</td>
+<td>F</td>
+<td>2013</td>
+<td>Old Domes <a href="http://clarkesworldmagazine.com/yang_10_16_reprint/">🖹</a> <a href="http://clarkesworldmagazine.com/podpress_trac/web/1639/0/clarkesworld_10_16_yang.mp3">🔉</a></td>
+<td>Guardians of old buildings fight a sympathetic Cullmaster armed only with a plastic sword</td>
+</tr>
+<tr>
+<td>Russia</td>
+<td>Ekaterina Sedia</td>
+<td>F</td>
+<td>2009</td>
+<td>Herding Vegetable Sheep <a href="http://clarkesworldmagazine.com/sedia_03_09/">🖹</a> <a href="http://clarkesworldmagazine.com/podpress_trac/web/292/0/clarkesworld_03_09_sedia.mp3">🔉</a></td>
+<td>A pilot helps her grand daughter in a country isolated by information control - bonus for NZ reference</td>
+</tr>
+</tbody>
+</table>
 
 ------------------------------------------------------------------------
