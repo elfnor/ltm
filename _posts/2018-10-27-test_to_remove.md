@@ -16,6 +16,11 @@ This is an image  using
 
 ![test image]({{ site.baseurl }}/images/6_spirals_mesh_render_03_018.png)
 
+this is an imgae using `![relative](/images/cm_bplpb.png)`
+
+![relative](/images/cm_bplpb.png)
+
+
 This image links to a larger version of itself
 
 [![node a]({{ site.baseurl }}/images/node_diagram_div_c_660.png)]({{ site.baseurl }}/images/node_diagram_div_c.png)
@@ -111,9 +116,17 @@ straight pipes
 
 [internal link]({{ site.baseurl }}{% link _posts/2014-12-27-simple_sverchok_02.md %})
 
+without site.baseurl tag
+
+[internal link]({% link _posts/2014-12-27-simple_sverchok_02.md %})
+
 # Link to tag page
 
 [sverchok]({{ site.baseurl }}{% link tag/sverchok.md %})
+
+without site.baseurl tag
+
+[sverchok]({% link tag/sverchok.md %})
 
 # Block quotes
 
