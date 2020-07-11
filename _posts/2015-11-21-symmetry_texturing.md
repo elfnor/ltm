@@ -17,9 +17,9 @@ This blend file ([sym_tile.blend](/downloads/sym_tile.blend)) has been set up wi
 
 Here\'s a screencast that shows the live drawing in action and explains how I set up the UV maps.
 
-<iframe width="660" height="420" src="http://www.youtube.com/embed/ILBDlT9oRNI?autoplay=0">
-</iframe>
-[Download Link for HD version](/downloads/sym_tile.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ILBDlT9oRNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 For more on plane symmetry groups see the [galleries](http://elfnor.github.io/symmetrytilegallery) of images produced with the GIMP plugin, my post on [symmetry group notation]({{ site.baseurl }}{% link _posts/2014-07-18-symmetry_group_notation.md %}) which also has links to other online resources and my post on [quilt design]({{ site.baseurl }}{% link _posts/2014-07-12-symmetry_tile_quilt_design.md %}).
 

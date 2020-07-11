@@ -71,4 +71,4 @@ I\'ve include the updated examples in my generative-art-examples [repo](https://
 
 ![steely_taws]({{ site.baseurl }}/images/level_gen_STD_ramps_render_017.png)  
 [blend](https://github.com/elfnor/generative-art-examples/blob/master/steely_taws_level_gen.blend)
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+

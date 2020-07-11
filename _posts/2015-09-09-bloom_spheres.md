@@ -23,6 +23,7 @@ The first stage to work on bloom spheres in Sverchok was to write a scripted nod
 This is best worked out in spherical coordinates.
 
 The golden angle $$g$$ is given by
+
 $$
 \begin{align*}
 g=\pi (3-\sqrt{5}) &= 2.399963... \textrm{ radians}\\ 
@@ -34,8 +35,8 @@ The radius of the sphere is $$r_0$$ and $$z_h$$ is the increment by which the \"
 
 $$
 \begin{align*}
-\theta (i) &= \frac{i}{g}\  
-\phi (i) &= \tan^{-1} \frac{r_0}{iz_h}\  
+\theta (i) &= \frac{i}{g}\\  
+\phi (i) &= \tan^{-1} \frac{r_0}{iz_h}\\ 
 r(i) &= r_0
 \end{align*}
 $$

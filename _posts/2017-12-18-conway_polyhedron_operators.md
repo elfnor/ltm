@@ -68,24 +68,24 @@ I\'ve only implemented a subset of the operators defined on the Wikipedia page. 
 
 The operator order is given as the left to right node order. Note that this is the opposite to the order given in the Conway notation.
 
-  Operator    Description                                    Implementation
-  ----------- ---------------------------------------------- --------------------
-  kis         poke face                                      node
-  dual        faces become vertices, vertices become faces   node
-  ambo        full vertex bevel                              node
-  chamfer     hexagons replace edges                         node
-  gyro        faces divided into pentagons                   node
-  whirl       insets a smaller rotated copy of the face      node
-  propellor   insets a rotated copy of the face              node
-  zip         dual of kis                                    kis dual
-  expand      edge bevel                                     ambo ambo
-  bevel       vertex bevel applied twice                     ambo dual kis dual
-  snub        dual of gyro                                   gyro dual
-  join        dual of ambo                                   ambo dual
-  needle      dual of truncate                               dual kis
-  ortho       single subdivide                               ambo ambo dual
-  meta        poke face and subdivide edges                  ambo dual kis
-  truncate    half vertex bevel                              dual kis dual
+| Operator     | Description   | Implementation |
+| :----------- | :------------ | :-----------   |
+| kis          | poke face              | node           |
+| dual         | faces become vertices, vertices become faces | node |
+| ambo         | full vertex bevel      | node           |
+| chamfer      | hexagons replace edges | node           |
+| gyro         | faces divided into pentagons | node           |
+| whirl        | insets a smaller rotated copy of the face  | node           |
+| propellor    | insets a rotated copy of the face | node           |
+| zip          | dual of kis           | kis dual       |
+| expand       | edge bevel            | ambo ambo      |
+| bevel        | vertex bevel applied twice  | ambo dual kis dual  |
+| snub         | dual of gyro          | gyro dual      |
+| join         | dual of ambo          | ambo dual      |
+| needle       | dual of truncate    | dual kis       |
+| ortho        | single subdivide | ambo ambo dual |
+| meta         | poke face and subdivide edges     | ambo dual kis  |
+| truncate     |  half vertex bevel| dual kis dual  |
 
 ## Future
 

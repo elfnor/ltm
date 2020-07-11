@@ -7,8 +7,6 @@ tags:  blender
 title: Blender Shape Keys Cookbook
 ---
 
-(**1:** Sphere with both shape keys Value = 0. **2-3:** Two different shape keys *Value* = 1. **4:** A mix of the two previous shape keys)
-
 The animation in [Shape Shifting Creatures]({{ site.baseurl }}{% link _posts/2017-03-05-body_volume_animation.md %}) was the first time I\'d used shape keys in Blender. I only decided to animate between the different animal shapes after I modeled both shapes on different meshes. Then I learnt that shape keys were the way to animate a transition between two mesh shapes. Getting from two meshes to one mesh with shape keys (then add a third mesh, sort out the mesh messes I made..) meant I needed to copy meshes to shape keys, apply shape keys and other things I could have avoided if I\'d known what I was doing before I started. But you never learn anything (or go anywhere really interesting) if you know where you\'re going before you start out.
 
 All this copying, applying and swapping shape keys is possible in Blender but not always obvious. Here is a little cookbook of how do some of these useful things with shape keys. Thanks to [Blender artists](https://blenderartists.org/forum/) and [Blender stack exchange](http://blender.stackexchange.com/) for the answers (and interesting places to go).
@@ -23,7 +21,8 @@ To start off learning about shape keys [RTFM](https://docs.blender.org/manual/en
 
 **Table of Contents**
 
-\[TOC\]
+* the toc
+{:toc}
 
 ## Copy a mesh to a shape key
 

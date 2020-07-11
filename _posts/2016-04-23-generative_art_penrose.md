@@ -29,13 +29,20 @@ I\'ll start at the bottom of the above list with the P3 Penrose tiling made with
 The thin triangle on the left is an acute isosceles triangle, and the fat one on the right is an obtuse isosceles triangle. There are three constants that we will use a lot in our *eisenxml* files used to describe the tilings.
 
 Golden Ratio:
+
 $$\phi = \frac{\sqrt{5}+1}{2}$$
+
 This is the ratio between the long and the short sides for both the thin and fat triangles.  
 The altitude of each triangle (the distance from the apex to the base) is found from Pythagoras\' theorem:
-$$x_{thin} = \sqrt{\phi + 3/4}$$
-$$x_{fat} = \frac{\sqrt{3-\phi}}{2}$$
+
+$$x_{\text{thin}} = \sqrt{\phi + 3/4}$$
+
+$$x_{\text{fat}} = \frac{\sqrt{3-\phi}}{2}$$
+
 Also a useful identity for deriving these formula is:
+
 $$\phi^2 = \phi + 1 $$
+
 ![robs tris 2]({{ site.baseurl }}/images/penrose_robs_tris2.png)
 
 Its easy to produce an equilateral triangle in Sverchok using the *Circle* node with *N Vertices* set to 3. This give a triangle centered at the origin and pointing to the right, shown as a blue outline above. This following *eisenxml* scales the equilateral triangle in the x and y directions to give the thin and fat Robinson triangles. It also moves them so one vertex of each triangle is at the origin.

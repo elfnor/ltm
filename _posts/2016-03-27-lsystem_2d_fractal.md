@@ -12,7 +12,7 @@ use_math: true
 <meta property="og:image"
     content="/images/koch_vase_render_01_003.png" />
 
-This post is hopefully the first in a series of examples and demos for the *Generative Art* node for the \[Sverchok}(https://github.com/nortikin/sverchok) addon for [Blender](https://www.blender.org).
+This post is hopefully the first in a series of examples and demos for the *Generative Art* node for the [Sverchok](https://github.com/nortikin/sverchok) addon for [Blender](https://www.blender.org).
 
 This node is very strongly based on [Structure Synth](http://structuresynth.sourceforge.net/) and can produce [Lindermayer Systems (lsystems)](https://en.wikipedia.org/wiki/L-system) and fractals as well as more random and interesting creations.
 
@@ -127,9 +127,9 @@ Translation:
 
 $$
 \begin{align*}
-t1 &= \frac{\sqrt{5} - 1}{2} = 0.61803...\  
-t2 &= \frac{3-\sqrt{5}}{4} = 0.19098...\  
-t3 &= \frac{1}{8}(\sqrt{10}-\sqrt{2})\sqrt{5 + \sqrt{5}} = 0.58775...\  
+t1 &= \frac{\sqrt{5} - 1}{2} = 0.61803...\\
+t2 &= \frac{3-\sqrt{5}}{4} = 0.19098...\\
+t3 &= \frac{1}{8}(\sqrt{10}-\sqrt{2})\sqrt{5 + \sqrt{5}} = 0.58775...\\
 t4 &= \frac{1}{8}(\sqrt{10}-\sqrt{2})\sqrt{5 - \sqrt{5}} = 0.36325...
 \end{align*}
 $$
@@ -224,4 +224,3 @@ By varying the value of the *Integer* node it is very easy to produce a set of i
 
 ------------------------------------------------------------------------
 
-------------------------------------------------------------------------

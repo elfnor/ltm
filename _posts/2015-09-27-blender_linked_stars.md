@@ -13,8 +13,5 @@ My method is different and works with the surface of a regular solid. The bridge
 
 Here is a screencast of the process.
 
-<iframe width="660" height="420" src="http://www.youtube.com/embed/1isI49e2_Hk?autoplay=0">
-</iframe>
-[Download Link](/downloads/LSV_02.mp4)
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1isI49e2_Hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ------------------------------------------------------------------------
