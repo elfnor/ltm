@@ -77,11 +77,11 @@ When the pan is being heated for the baking time the heater is on continuously. 
 
 Controlling the temperature of the breadmaker with the Arduino consists of reading the temperature sensor (the thermistor) and determining when and for how long to turn on the heater. I avoided getting into most of the complications of control theory by starting with a very simple control algorithm. For example for the rise control:
 
-  Temperature T        time on   time off
-  -------------------- --------- ----------
-  T \< tlow            10 s      50 s
-  tlow \< T \< thigh   6 s       54 s
-  T \> thigh           1 s       59 s
+| Temperature T     | time on | time off |
+|-------------------|---------|----------|
+| T < tlow          | 10 s    | 50 s     |
+| tlow  < T < thigh | 6 s     | 54 s     |
+| T > thigh         | 1 s     | 59 s     |
 
 This works well enough because of the long time constant between pulsing the heater and the thermistor responding, the large thermal mass of the system, and the low accuracy (~ +/- 5 °C) required to make bread.
 
