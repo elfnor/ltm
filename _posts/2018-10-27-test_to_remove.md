@@ -5,7 +5,7 @@ image: composite_540_full_focus_05.png
 layout: post
 status: published
 tags:  deploy silly extra taggly bits blender
-title: 'Examples of stuff to test deployment'
+title: 'New Examples of stuff to test deployment'
 use_math: true
 ---
 
