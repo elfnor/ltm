@@ -1,8 +1,8 @@
 ---
 author: elfnor
-date: 2020-07-11
+date: '2020-07-11'
 layout: post
-tags: 
+tags: blender generative-art maze copy2 structure-synth
 title: Update on old projects
 ---
 
