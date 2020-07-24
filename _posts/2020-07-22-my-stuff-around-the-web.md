@@ -35,7 +35,7 @@ Steven Scott has done a [you-tube tutorial](https://www.youtube.com/watch?v=wVnp
 
 There's also a [tutorial](https://blender-addons.org/mesh-maze-addon/) on this blender-addons site.
 
-[My original post]({% link \_posts/2017-06-25-blender_mesh_maze_addon.md %})
+[My original post]({% link _posts/2017-06-25-blender_mesh_maze_addon.md %})
 
 ## Copy2 Blender Add-on
 
