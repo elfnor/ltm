@@ -1,7 +1,6 @@
 ---
 author: elfnor
 date: 2020-07-11
-image: ??
 layout: post
 tags: 
 title: Update on old projects

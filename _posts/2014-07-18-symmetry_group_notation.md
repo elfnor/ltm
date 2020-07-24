@@ -36,43 +36,25 @@ All of these references use different notations and descriptions for the symmetr
 
 ## Notation for Symmetry Groups
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------
-  Crystallography   full   Terrazo         Jinny Beyer\'s description          Orbifold   Peter S. Stevens\'s description
-  ----------------- ------ --------------- ----------------------------------- ---------- -----------------------------------------------------------
-  p1                p1     Gold Brick      Translation                         o          Two Nonparallel Translations
-
-  p2                p211   Hither & Yon    Midpoint or Half-Turn Rotation      2222       Four Half-Turns
-
-  pm                p1m1   Wings           Mirror                              \*\*       Two Parallel Mirrors
-
-  pg                p1g1   Card Tricks     Glide                               xx         Two Parallel Glide Reflections
-
-  pgg               p2gg   Honey Bees      Double Glide                        22x        Two Perpendicular Glide Reflections
-
-  pmm               p2mm   Prickly Pear    Double Mirror                       \*2222     Reflections in Four Sides of a Rectangle
-
-  pmg               p2mg   Lightning       Glided Staggered Mirror             22\*       A Mirror and a Perpendicular Reflection
-
-  cm                c1m1   Crab Claws      Staggered Mirror                    \*x        A Reflection and a Parallel Glide Reflection
-
-  cmm               c2mm   Spider Web      Staggered Double Mirror             2\*22      Perpendicular Mirrors and Perpendicular Glide Reflections
-
-  p4                p4gm   Pinwheel        Pinwheel or Quarter-Turn Rotation   442        Quarter-Turns
-
-  p3m1              p3m1   Winding Ways    Mirror and Three Rotations          \*333      Reflections in an Equilateral Triangle
-
-  p3                p3     Storm at Sea    Three Rotation                      333        Three Rotations through 120°
-
-  p4g               p4gm   Primrose Path   Mirrored Pinwheel                   4\*2       Reflections of Quarter-Turns
-
-  p4m               p4mm   Sunflower       Traditional Block                   \*442      Reflections on the Sides of a 45°-45°-90° Triangle
-
-  p6                p6     Whirlpool       Six Rotation                        632        Sixfold Rotation
-
-  p31m              p31m   Monkey Wrench   Three Rotations and a Mirror        3\*3       Refections of 120° Turns
-
-  p6m               p6mm   Turnstile       Kaleidoscope                        \*632      Refections in the Sides of a 30°-60°-90° Triangle
-  ---------------------------------------------------------------------------------------------------------------------------------------------------
+| Crystallography | full | Terrazo       | Jinny Beyer's description         | Orbifold | Peter S. Stevens's description                            |
+|-----------------|------|---------------|-----------------------------------|----------|-----------------------------------------------------------|
+| p1              | p1   | Gold Brick    | Translation                       | o        | Two Nonparallel Translations                              |
+| p2              | p211 | Hither & Yon  | Midpoint or Half-Turn Rotation    | 2222     | Four Half-Turns                                           |
+| pm              | p1m1 | Wings         | Mirror                            | **       | Two Parallel Mirrors                                      |
+| pg              | p1g1 | Card Tricks   | Glide                             | xx       | Two Parallel Glide Reflections                           |
+| pgg             | p2gg | Honey Bees    | Double Glide                      | 22x      | Two Perpendicular Glide Reflections                       |
+| pmm             | p2mm | Prickly Pear  | Double Mirror                     | *2222    | Reflections in Four Sides of a Rectangle                  |
+| pmg             | p2mg | Lightning     | Glided Staggered Mirror           | 22*      | A Mirror and a Perpendicular Reflection                   |
+| cm              | c1m1 | Crab Claws    | Staggered Mirror                  | *x       | A Reflection and a Parallel Glide Reflection              |
+| cmm             | c2mm | Spider Web    | Staggered Double Mirror           | 2*22     | Perpendicular Mirrors and Perpendicular Glide Reflections |
+| p4              | p4gm | Pinwheel      | Pinwheel or Quarter-Turn Rotation | 442      | Quarter-Turns                                             |
+| p3m1            | p3m1 | Winding Ways  | Mirror and Three Rotations        | *333     | Reflections in an Equilateral Triangle                    |
+| p3              | p3   | Storm at Sea  | Three Rotation                    | 333      | Three Rotations through 120°                              |
+| p4g             | p4gm | Primrose Path | Mirrored Pinwheel                 | 4*2      | Reflections of Quarter-Turns                              |
+| p4m             | p4mm | Sunflower     | Traditional Block                 | *442     | Reflections on the Sides of a 45°-45°-90° Triangle        |
+| p6              | p6   | Whirlpool     | Six Rotation                      | 632      | Sixfold Rotation                                          |
+| p31m            | p31m | Monkey Wrench | Three Rotations and a Mirror     | 3*3      | Refections of 120° Turns                                  |
+| p6m             | p6mm | Turnstile     | Kaleidoscope                     | *632     | Refections in the Sides of a 30°-60°-90° Triangle         |
 
 The symmetry groups that can be made with rectangular or square cells can be defined using the [\"bdpq\" notation]({{ site.baseurl }}{% link _posts/2014-07-05-symmetry_tile_docs.md %}). If the \"bdpq\" string contains a plus sign then the cell must be square. The strings for all the symmetry groups start with a \"b\". Each of the symmetry groups could be created with an alternative string starting with one of the other letters.
 
