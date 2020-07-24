@@ -27,4 +27,22 @@ See his [structure-synth tag](https://humphreyhippo.wordpress.com/category/struc
 
 If you want to learn Sverchok [codeplastic's ebook](http://www.codeplastic.com/learning-sverchok-ebook/) looks like a great place to start. 
 
+## Mesh Maze Blender Add-on
+
+I've updated my Blender [mesh maze add-on](https://github.com/elfnor/mesh_maze) (the non-Sverchok version) to Blender 2.8. This can generate a maze pattern on the surface of any mesh
+
+Steven Scott has done a [you-tube tutorial](https://www.youtube.com/watch?v=wVnp6R8BDfo) on installing and using it.
+
+There's also a [tutorial](https://blender-addons.org/mesh-maze-addon/) on this blender-addons site.
+
+[My original post]({% link \_posts/2017-06-25-blender_mesh_maze_addon.md %})
+
+## Copy2 Blender Add-on
+
+I've also updated the [Copy2 Blender add-on](https://github.com/elfnor/copy2_blender_addon) to Blender 2.8. This add-on can copy one object to the vertices or faces or edges of another object. The direction of the copy from object is set by the normals of the copy to object.
+
+Steven Scott has done a [you-tube tutorial](https://www.youtube.com/watch?v=wYYFSTHCXsk)on this one as well. 
+
+[My original post]({% link _posts/2014-09-02-copy2_docs.md %})
+
 
