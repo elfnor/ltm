@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-07-13 22:00'
-image: 'derived_cells.png'
+image: 'Screenshot-GIMP-odd_cells_05.png'
 layout: post
 slug: 'Symmetry Tile with non-rectangular cells'
 tags: ' symmetry-tile'
@@ -9,6 +9,8 @@ title: 'Symmetry Tile with non-rectangular cells'
 ---
 
 With the Symmetry Tile plug-in the user selects an area using the rectangle select tool, before running the plug-in. The plug-in then derives a cell to use to form the user\'s choice of symmetry pattern. For many of the symmetries that derived cell is the same as the selected rectangle. Some of the symmetries need a cell shape other than the rectangle. Those cell shapes and their relation to the user\'s rectangle are shown below, along with the symmetry groups that use that cell shape.
+
+![Derived Cells]({{ site.baseurl }}/images/derived_cells.png)
 
 **Square** - p4, p4g, pg (some)  
 **Equilateral Triangle** - p3m1, p6  
@@ -38,6 +40,6 @@ In many cases the user may want to create specific content to fill the required 
 
 -   Select the path, convert it back to a selection and re run the plug-in.
 
-![odd_cells_05]({{ site.baseurl }}/images/Screenshot-GIMP-odd_cells_05.png)
+
 
 Credit for this method is due to lylejk who posted it over on [gimpchat](http://www.gimpchat.com/viewtopic.php?f=9&t=10683&start=30#p141775).

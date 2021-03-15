@@ -45,4 +45,28 @@ Steven Scott has done a [you-tube tutorial](https://www.youtube.com/watch?v=wYYF
 
 [My original post]({% link _posts/2014-09-02-copy2_docs.md %})
 
+## Auto Save Render Blender Add-on
 
+I wrote a Blender add-on to automatically save a copy of the Blender file along with a copy of the rendered image each time a Blender file was rendered. This is a crude form of version control.  Most of the functionailty of my version is now incorporated in the original by [Florian Felix](https://github.com/florianfelix)  which often appears under the community or testing tabs in `Edit > Preferences > Addons` but not always in the final releases. The code is on the developer website at https://developer.blender.org/diffusion/BAC/browse/master/render_auto_save.py and is more up-to-date than mine. It works in Blender 2.83. 
+
+[My original post]({% link _posts/2018-03-31-blender_auto_save_addon_update.md %})
+
+## Tree Generator node for Sverchok
+
+My [tree generator scripted node](https://github.com/elfnor/spacetree-sverchok) for Sverchok uses the space colonization algorithim to generate branched structures from a cloud of points. I've added a scripted node lite version to the repo that works with Sverchok 0.6 and Blender 2.83.
+
+There's a few videos by Jimmy Gunawan showing its use:
+
+* [# LIVENODING 846 / SV Mirror Metaballs of Elfnor Tree](https://www.youtube.com/watch?v=VL3Z5FDq8XE)
+* [# BLENDERSUSHI / SV Elfnor Space Tree Maze Design (LIVENODING379)](https://www.youtube.com/watch?v=pqfIjWlTIqM)
+* [# BLENDERSUSHI / SV Elfnor Tree Generator (LIVENODING068)](https://www.youtube.com/watch?v=M2QVSoN_51c)
+
+[My original post]({% link _posts/2016-08-12-tree_generator.md %})
+
+## Conway polyhedra
+
+I implemented Conway's polyheron operators as a [set of Sverchok scripted nodes](https://github.com/elfnor/conway_polyhedron_operators). They can be used to generate complex polyhedra. I've updated this to work in Blender 2.8,  but I haven't throughly tested that update yet.
+
+Andrew Marsh has an [online web app](http://andrewmarsh.com/software/poly3d-web/) for playing with the operators.
+
+[My original post]({% link _posts/2017-12-18-conway_polyhedron_operators.md %})

@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-07-05 22:00'
-image: 'plugin_dialog.png'
+image: '07_pg_bdtldtb.png'
 layout: post
 slug: 'Symmetry Tile plug-in for GIMP'
 tags: ' symmetry-tile'
@@ -40,6 +40,8 @@ Select an area on an image using the rectangle select tool.
 Start the plug-in via Filters\>Render\>Symmetry Tile
 
 You should see the following dialog.
+
+![plugin dialog]({{ site.baseurl }}/images/plugin_dialog.png)
 
 The `Height` and `Width` parameters determine the size of the new image.
 The `Symmetry group` drop down gives you the choice of one of the 17 symmetry groups p1, p2 through to p6m. The last three entries I\'ll cover later.

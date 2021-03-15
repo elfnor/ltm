@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2014-07-12 22:00'
-image: 'two_cells_lines.png'
+image: 'pgg_bplqd.png'
 layout: post
 slug: 'Using the Symmetry Tile plug-in for Quilt Design'
 tags: ' symmetry-tile'
@@ -38,6 +38,9 @@ Create a new image from the file menu. Start off fairly small say 200 x 200 pixe
 Turn on the grid and \'snap to grid\' from the edit menu. Choose the pencil from the toolbox and set it to maybe 1 or 2 pixels in size.
 
 Draw a square 120 X 120 pixels, and then some straight lines inside to make the seam lines on a basic block. You\'ll make more different patterns if your basic block is non-symmetric. The block on the left is non-symmetric. The block on the right would look the same if it was flipped or mirrored about the dotted blue line.
+
+
+![line blocks]({{ site.baseurl }}/images/two_cells_lines.png)
 
 Use the fill tool (bucket) to fill each piece with a colour or pattern. Once coloured in a symmetric block can become non-symmetric. The block on the right with the coloured fill, no longer looks the same if it is flipped or mirrored.
 
