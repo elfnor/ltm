@@ -3,7 +3,7 @@ author: elfnor
 date: '2015-06-11 22:00'
 image: 'level_gen_STD_ramps_render_017.png'
 layout: post
-tags: ' blender sverchok structure-synth generative-art'
+tags: 'blender sverchok structure-synth generative-art stupid-tag'
 title: Blender Game Level Generator
 permalink: blender-game-level-generator.html
 ---

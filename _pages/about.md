@@ -31,5 +31,6 @@ You can find me other places on the web, mostly using the name elfnor.
 
 [github](https://github.com/elfnor)  
 [thingiverse](www.thingiverse.com/elfnor)  
+[artstation](https://www.artstation.com/elfnor)  
 
-To get in contact, you could raise an issue on the github repo for this blog - you'll get geek creds, or guess an email address based on my user name and the world's most dominant email provider.
+To get in contact, you could raise an issue on the github repo for this blog - you'll get geek creds, or guess an email address based on my user name and the world's most dominant email provider, or even try the info address for this domain name.
