@@ -5,6 +5,7 @@ image: 'medusa_spiked_01_016.png'
 layout: post
 tags: ' blender sverchok structure-synth generative-art generative-art'
 title: Structure Synth eisenscript to xml translator
+permalink: structure-synth-eisenscript-to-xml-translator.html
 ---
 
 I\'ve been working on some code to automatically translate the original *eisenscript* files used by [Struture Synth](http://structuresynth.sourceforge.net/) into the *eisenxml* used by the [Generative Art node]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %}) in the [Sverchok](https://github.com/nortikin/sverchok) addon for [Blender](https://www.blender.org/).

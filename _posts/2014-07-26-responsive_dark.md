@@ -5,6 +5,7 @@ image: 'index_screen.png'
 layout: post
 tags:  webalbum
 title: Responsive Theme for gthumb Web Albums
+permalink: responsive-theme-for-gthumb-web-albums.html
 ---
 
 I want to include a lot of the art works stuff I have on my [Deviant Art](http://elfnor.deviantart.com/) on this site. I\'m looking at the basic format of a static web album with a title, image and description for each art work. I looked at a number of packages including [sigal](https://github.com/saimn/sigal) and [llgal](http://home.gna.org/llgal/) but settled on [gthumb](https://wiki.gnome.org/Apps/gthumb).

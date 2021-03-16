@@ -5,6 +5,7 @@ image: 'abstract_21.png'
 layout: post
 tags:  blender sverchok
 title: 'Shaders for Sverchok 01 - Object Info node.'
+permalink: shaders-for-sverchok-01-object-info-node.html
 ---
 
 I\'ve called this post Shaders for Sverchok and it follows on from my [Simple Sverchok]({{ site.baseurl }}{% link tag/sverchok.md %})series. It\'s mostly about Blender Cycles Materials and how I apply them to my [Sverchok](http://nikitron.cc.ua/sverchok_en.html) models rather than directly about Sverchok nodes.

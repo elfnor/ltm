@@ -5,6 +5,7 @@ image: 'REC-lemons.JPG'
 layout: post
 tags:  food
 title: Preserved Lemons
+permalink: preserved-lemons.html
 ---
 
 Without my own lemon tree, supermarket lemons are expensive so I go to the Farmers\' market and get a large bag and make preserved lemons. When I first made these I didn\'t realize they were supposed to ferment and was a bit worried by the bubbling. When I use fresh lemons often I use only the juice or the thin outer rind. With the preserved lemons all of the lemon including the white part of the skin gets used. The lemons and juice are a little salty for sweet dishes but are awesome in stir-fries, stews, marinades, dressings, and kale salads.

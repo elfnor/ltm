@@ -5,6 +5,7 @@ image: 'celadon_glaze_blend_01_027.png'
 layout: post
 tags:  blender
 title: 'Update to Blender Auto Save add-on'
+permalink: update-to-blender-auto-save-add-on.html
 ---
 
 I \"version control\" my Blender work using my [add-on]({{ site.baseurl }}{% link _posts/2015-05-29-blender_auto_save_addon.md %}) that auto saves a copy of the Blender file along with the rendered image, each time a render is completed. This allows me to work with low resolution (pixels or cycles) renders for speed. I can then go back and browse the images, and re-render the best images at higher resolution.

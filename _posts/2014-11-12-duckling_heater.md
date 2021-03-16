@@ -4,6 +4,7 @@ date: '2014-11-12 22:00'
 image: 'DuckWarmer.png'
 layout: post
 title: 'A novel use for a 3D heated printer bed.'
+permalink: a-novel-use-for-a-3d-heated-printer-bed.html
 ---
 
 My partner came home from his run on Saturday with a box full of baby ducklings he\'d rescued from certain death by cat. The mother duck was nowhere to be found. After ringing partner\'s mother and googling duckling care (the two best sources of information) the ducklings were homed in a large box (ex radio controlled plane). We used a lamp with the only old style incandescent bulb we had to keep them warm and fed them up on chick feed begged from neighbours who keep chickens.

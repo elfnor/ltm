@@ -5,6 +5,7 @@ image: 'star_spiral_11_005.png'
 layout: post
 tags:  blender
 title: Blender Linked Stars
+permalink: blender-linked-stars.html
 ---
 
 I\'ve been fascinated by the structure of Bathsheba Grossman\'s [Quin Pendant Lamp]() since I first saw it. There are many tutorials around the web for making a similar structure in different 3D software packages. The method they all use seems to be based on a [TopMod tutorial](https://www.youtube.com/watch?v=8SUjZITJIOw). [TopMod](http://www.viz.tamu.edu/faculty/ergun/research/topology/download.html) (last updated about 2008?) works very differently from most other 3D modelling software with tools for making handles and bridges between polygons. Blender now has some similar tools for example Bridge Edge Loops Tools.

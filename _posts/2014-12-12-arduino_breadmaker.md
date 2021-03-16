@@ -5,6 +5,7 @@ image: 'arduino_bread.png'
 layout: post
 slug: Arduino Bread
 title: Arduino Bread
+permalink: Arduino Bread.html
 ---
 
 I\'m working on a project to replace the \"brain\" of a bread-maker with an Arduino.

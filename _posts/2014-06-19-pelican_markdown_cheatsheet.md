@@ -4,6 +4,7 @@ date: '2014-06-19 22:00'
 layout: post
 tags: pelican markdown
 title: 'Pelican and markdown styling cheat-sheet'
+permalink: pelican-and-markdown-styling-cheat-sheet.html
 ---
 
 A [Pelican](http://docs.getpelican.com) blog consists of:

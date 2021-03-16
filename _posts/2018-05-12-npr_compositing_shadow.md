@@ -5,6 +5,7 @@ image: 'npr_composite_lion_034.png'
 layout: post
 tags: blender npr compositing
 title: NPR using compositing nodes
+permalink: npr-using-compositing-nodes.html
 ---
 
 Most of my Blender work is abstract or mathematical and very rarely photo-realistic. I\'ve been experimenting with the different ways to achieve NPR (non-photo realistic rendering) in Blender.

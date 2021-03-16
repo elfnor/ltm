@@ -6,6 +6,7 @@ layout: post
 tags: blender npr compositing
 title: 'NPR- color pencil using compositing nodes'
 use_math: true
+permalink: npr-color-pencil-using-compositing-nodes.html
 ---
 
 These are my experiments with getting a color pencil look using the compositing nodes in Blender.

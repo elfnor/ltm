@@ -5,6 +5,7 @@ image: 'Git_Workflow.jpeg'
 layout: post
 tags:  nonsense
 title: A Git Horror Story
+permalink: a-git-horror-story.html
 ---
 
 While working on porting Structure Synth to Blender I came across [SCIgen](http://pdos.csail.mit.edu/scigen/) which generates random computer science papers using methods that are similar to the way Structure Synth generates geometry. Some of these papers have been accepted at conferences or in journals. This led to automatic text generators such as this [one](http://www.plot-generator.org.uk/) which I guess just uses straight substitution into a defined story. To include my Generative Art version of Structure Synth in the Sverchok Blender add-on I had to learn a lot more about using Git on a collaborative project. Like many new users I had trouble with the Git command terms. Late one night (a dark and stormy night) these two things converged.

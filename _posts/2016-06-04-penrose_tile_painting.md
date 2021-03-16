@@ -5,6 +5,7 @@ image: 'penrose_painting_banner_002.png'
 layout: post
 tags: ' blender symmetry-tile'
 title: Penrose Tile Painting in Blender
+permalink: penrose-tile-painting-in-blender.html
 ---
 
 The obvious follow up to [Painting in the Hyperbolic Plane]({{ site.baseurl }}{% link _posts/2015-11-14-hyperbolic_texturing.md %}) and [Symmetry Tile Painting in Blender]({{ site.baseurl }}{% link _posts/2015-11-21-symmetry_texturing.md %}) is to do the same thing with my [Penrose tilings]({{ site.baseurl }}{% link _posts/2016-04-23-generative_art_penrose.md %}).

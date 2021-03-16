@@ -5,6 +5,7 @@ image: 'centers_polygon_demo_image.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 01 - Centers Polygons'
+permalink: simple-sverchok-01-centers-polygons.html
 ---
 
 [Sverchok](http://nikitron.cc.ua/sverchok_en.html) is an add-on for Blender. It allows you to generate geometry in Blender in a parametric way by wiring visual nodes together rather than programming in Blender python.

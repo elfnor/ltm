@@ -4,6 +4,7 @@ date: '2014-11-30 22:00'
 layout: post
 tags: ' 3d-printing'
 title: Notes to Father Christmas re 3D Printer Filament
+permalink: notes-to-father-christmas-re-3d-printer-filament.html
 ---
 
 I was doing some research to help Father Christmas fill my request for \"some interesting printer filament\" in my Christmas stocking. I thought I\'d share that research here in case its useful to anyone else. Feel free to include or modify it for your own Christmas letter to Santa. (Under a creative commons share alike license.)

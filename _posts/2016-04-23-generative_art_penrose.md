@@ -7,6 +7,7 @@ status: published
 tags: ' blender sverchok structure-synth generative-art'
 title: 'Generative Art - Penrose Tilings'
 use_math: true
+permalink: generative-art-penrose-tilings.html
 ---
 
 [Penrose tilings](https://en.wikipedia.org/wiki/Penrose_tiling) are an interesting group of tilings that have no translational symmetry but are self-similar on different scales. One method to construct them is using substitution, the same method I used for the Pentaflake fractal in the [previous post]({{ site.baseurl }}{% link _posts/2016-03-27-lsystem_2d_fractal.md %}).

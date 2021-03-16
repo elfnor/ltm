@@ -5,6 +5,7 @@ image: 'dragon_fruit_vertex_color_05_009.png'
 layout: post
 tags:  blender sverchok
 title: 'Shaders for Sverchok 04 - Vertex Colors Update'
+permalink: shaders-for-sverchok-04-vertex-colors-update.html
 ---
 
 When I wrote my [Shaders for Sverchok 02 - Vertex Colors]({{ site.baseurl }}{% link _posts/2015-02-26-shady_sverchok_02.md %}) post, I used a small piece of python code to assign the vertex colors. Sverchok now has a \"Vertex Colors\" node and I\'ll now show how to use that instead.

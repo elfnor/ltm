@@ -5,6 +5,7 @@ image: 'coral_node_28.png'
 layout: post
 tags:  blender sverchok
 title: Blender Adventures with Hyperbolic Planes
+permalink: blender-adventures-with-hyperbolic-planes.html
 ---
 
 ## Hyperbolic Planes

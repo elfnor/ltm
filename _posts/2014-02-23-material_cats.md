@@ -5,6 +5,7 @@ image: 'collected_cats.jpg'
 layout: post
 tags: cats materials
 title: Material Cats
+permalink: material-cats.html
 ---
 
 I had a friend who after some self-reflection decided his primary hobby wasn\'t wood work but was collecting wood working tools. This left him feeling much less guilty about the number of wood working planes he had in his shed.

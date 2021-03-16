@@ -6,6 +6,7 @@ layout: post
 tags:  blender
 title: Parametric Surfaces in Blender
 use_math: true
+permalink: parametric-surfaces-in-blender.html
 ---
 
 The [Blender](http://www.blender.org/) 3D modeling and rendering package has an add-on for mathematically defined surfaces. It is enabled via the Extra Objects add-on under `File > User Preferences> Addons`.

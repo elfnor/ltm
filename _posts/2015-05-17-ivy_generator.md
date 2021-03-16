@@ -5,6 +5,7 @@ image: 'ivy_test19.png'
 layout: post
 tags:  blender
 title: Blender Ivy Gen Abstracts
+permalink: blender-ivy-gen-abstracts.html
 ---
 
 Here are a quick couple of experiments with the Blender Ivy Gen addon. Its included with Blender and only has to be activated from the User Preferences dialog.

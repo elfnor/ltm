@@ -6,6 +6,7 @@ layout: post
 slug: 'Using the Symmetry Tile plug-in for Quilt Design'
 tags: ' symmetry-tile'
 title: 'Using the Symmetry Tile plug-in for Quilt Design'
+permalink: Using the Symmetry Tile plug-in for Quilt Design.html
 ---
 
 The block patterns used in quilts are a great example of a pattern with repeating symmetry. Using a computer to play with these repeating symmetry patterns is a great way to design quilts.

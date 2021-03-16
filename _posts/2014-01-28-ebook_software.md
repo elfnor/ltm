@@ -4,6 +4,7 @@ date: '2014-01-28 22:00'
 layout: post
 tags: ebook reading
 title: 'Software for managing (e)books'
+permalink: software-for-managing-ebooks.html
 ---
 
 Adding the links to the [last post]({{ site.baseurl }}{% link _posts/2014-01-26-reading_lists.md %}), I realised I\'d dropped a lot of names of bits of software I use into the post. Here\'s a list with an explanation of what I do with each:

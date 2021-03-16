@@ -7,6 +7,7 @@ slug: Symmetry Group Links and Notation
 summary: 'There are many great resources on the 17 plane symmetry groups. I made great use of a couple of on-line apps while writing my \[Symmetry Tile plug-in.\]({filename}/symmetry_tile_docs.md), Morenaments and Kalis. I also used a couple of great books\...'
 tags: ' symmetry-tile'
 title: Symmetry Group Links and Notation
+permalink: Symmetry Group Links and Notation.html
 ---
 
 There are many great resources on the 17 plane symmetry groups.

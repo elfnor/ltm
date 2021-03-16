@@ -5,6 +5,7 @@ image: 'REC-feijoa_pickle.png'
 layout: post
 tags:  food
 title: 'Fermented Feijoa Pickle - sugar free'
+permalink: fermented-feijoa-pickle-sugar-free.html
 ---
 
 Its that time of year, in my neighbourhood, where everybody is trying to give away feijoas. [Acca sellowiana](https://en.wikipedia.org/wiki/Acca_sellowiana) fruit also known as pineapple guava or guavasteen have a short shelf life and are not sold in the markets for long or exported. They\'re one of those great seasonal treats where the first of the season are a delicacy and a week or so later one\'s looking for recipes to use them in bulk.

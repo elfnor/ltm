@@ -5,6 +5,7 @@ image: 'data_logger_open.JPG'
 layout: post
 tags: ' python micropython 3d-printing'
 title: PyBoard Datalogger
+permalink: pyboard-datalogger.html
 ---
 
 I\'ve been reading Sandor Katz\'s book [The Art of Fermentation](http://www.wildfermentation.com/the-art-of-fermentation/) and I\'m making back-slopped room temperature yogurt, sauerkraut, kim chi, preserved lemons and best of all fermented garlic and chili sauce. Unfortunately the flies got the first salami experiment.

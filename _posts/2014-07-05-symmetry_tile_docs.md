@@ -6,6 +6,7 @@ layout: post
 slug: 'Symmetry Tile plug-in for GIMP'
 tags: ' symmetry-tile'
 title: 'Symmetry Tile plug-in for GIMP'
+permalink: Symmetry Tile plug-in for GIMP.html
 ---
 
 These are the docs for my Symmetry Tile plug-in for GIMP.

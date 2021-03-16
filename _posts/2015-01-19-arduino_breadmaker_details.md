@@ -5,6 +5,7 @@ image: 'arduino_bread.png'
 layout: post
 slug: Arduino Bread Details
 title: Arduino Bread Details
+permalink: Arduino Bread Details.html
 ---
 
 As mentioned in a [previous post]({{ site.baseurl }}{% link _posts/2014-12-12-arduino_breadmaker.md %}) I\'ve been working on a project to replace the \"brain\" of a bread-maker with an Arduino.

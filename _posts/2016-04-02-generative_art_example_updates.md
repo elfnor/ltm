@@ -6,6 +6,7 @@ layout: post
 status: published
 tags: ' blender sverchok structure-synth generative-art'
 title: 'Generative Art - Updated Examples'
+permalink: generative-art-updated-examples.html
 ---
 
 The changes and improvements I made to the *Generative Art* node for Sverchok mean some of the examples from earlier blog posts need some updates.

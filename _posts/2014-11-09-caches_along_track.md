@@ -4,6 +4,7 @@ date: '2014-11-09 22:00'
 layout: post
 tags:  geocaching
 title: 'Off-line caching along a route'
+permalink: off-line-caching-along-a-route.html
 ---
 
 I recently did a European cycle trip and wanted the opportunity to collect a few geocaches along the way. This post and the next [one on translation]({{ site.baseurl }}{% link _posts/2014-11-16-translate_caches.md %}), describe the tools I used to wrangle the data from [geocaching.com](http://www.geocaching.com) in to a GPX file and attempt to translate the cache descriptions and logs into English.

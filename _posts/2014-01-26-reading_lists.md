@@ -4,6 +4,7 @@ date: '2014-01-26 22:00'
 layout: post
 tags: ebook reading
 title: Reading Lists
+permalink: reading-lists.html
 ---
 
 I love to read and reading lists fascinate me.

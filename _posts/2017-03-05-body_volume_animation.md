@@ -5,6 +5,7 @@ image: 'dog_morph_07_020.png'
 layout: post
 tags:  blender
 title: Shape Shifting Creatures
+permalink: shape-shifting-creatures.html
 ---
 
 > The animal body can be visualized as a three-dimensional jigsaw puzzle, made up of distinct, interlocking pieces. These pieces all have very specific volumes that begin and end at very specific places.[^1]

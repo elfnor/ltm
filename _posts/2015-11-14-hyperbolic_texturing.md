@@ -5,6 +5,7 @@ image: 'poincare_drawing.png'
 layout: post
 tags:  blender sverchok
 title: Painting in the Hyperbolic Plane
+permalink: painting-in-the-hyperbolic-plane.html
 ---
 
 While playing around texturing the hyperbolic football from the [previous post]({{ site.baseurl }}{% link _posts/2015-11-06-hyperbolic_tilings.md %}) I discovered this technique for painting hyperbolic tilings directly in Blender.

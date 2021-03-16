@@ -5,6 +5,7 @@ image: 'TUT_shape_keys_00.png'
 layout: post
 tags:  blender
 title: Blender Shape Keys Cookbook
+permalink: blender-shape-keys-cookbook.html
 ---
 
 The animation in [Shape Shifting Creatures]({{ site.baseurl }}{% link _posts/2017-03-05-body_volume_animation.md %}) was the first time I\'d used shape keys in Blender. I only decided to animate between the different animal shapes after I modeled both shapes on different meshes. Then I learnt that shape keys were the way to animate a transition between two mesh shapes. Getting from two meshes to one mesh with shape keys (then add a third mesh, sort out the mesh messes I made..) meant I needed to copy meshes to shape keys, apply shape keys and other things I could have avoided if I\'d known what I was doing before I started. But you never learn anything (or go anywhere really interesting) if you know where you\'re going before you start out.

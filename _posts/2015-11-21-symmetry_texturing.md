@@ -5,6 +5,7 @@ image: 'blender_sym_tile_p6m.png'
 layout: post
 tags: ' blender symmetry-tile'
 title: Symmetry Tile Painting in Blender
+permalink: symmetry-tile-painting-in-blender.html
 ---
 
 After working out how to use Blender to paint [hyperbolic tilings]({{ site.baseurl }}{% link _posts/2015-11-14-hyperbolic_texturing.md %}) I then thought of using Blender to look at planar symmetric tilings.

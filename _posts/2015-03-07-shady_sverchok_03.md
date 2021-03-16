@@ -5,6 +5,7 @@ image: 'random_block_image_pos9.png'
 layout: post
 tags:  blender sverchok
 title: 'Shaders for Sverchok 03 - Image Texture Node'
+permalink: shaders-for-sverchok-03-image-texture-node.html
 ---
 
 This is the third of my Shaders for Sverchok tutorials. They follow on from my [Simple Sverchok]({{ site.baseurl }}{% link tag/sverchok.md %}) series. The Shaders for Sverchok posts are mostly about Blender Cycles Materials and how I apply them to my [Sverchok](http://nikitron.cc.ua/sverchok_en.html) models rather than directly about Sverchok nodes.

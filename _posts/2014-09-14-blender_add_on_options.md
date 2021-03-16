@@ -5,6 +5,7 @@ image: 'Screenshot-drop_down_01.png'
 layout: post
 tags:  copy2
 title: 'Drop down and button select menus for Blender Operator add-ons'
+permalink: drop-down-and-button-select-menus-for-blender-operator-add-ons.html
 ---
 
 

@@ -5,6 +5,7 @@ image: 'flower_head_18_top.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 02 - Matrix Deform'
+permalink: simple-sverchok-02-matrix-deform.html
 ---
 
 My [previous post]({{ site.baseurl }}{% link _posts/2014-12-20-simple_sverchok_01.md %}) introduced some of the basic concepts of [Sverchok](http://nikitron.cc.ua/sverchok_en.html) via the \"Centers Polygons\" node.

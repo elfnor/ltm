@@ -5,6 +5,7 @@ image: 'copy_cubes_wireframe_25a.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 04 - Apply Matrix'
+permalink: simple-sverchok-04-apply-matrix.html
 ---
 
 This is part four of my introduction to [Sverchok](http://nikitron.cc.ua/sverchok_en.html) the parametric node geometry add-on for Blender. This post I\'m sticking to my theme of copying one object to the structure (either the vertices or polygons) or another mesh. There is an awful lot more than just copying that can be done with Sverchok (see [here](http://blendersushi.blogspot.co.nz/) for example) but copying is good for explaining the basics.

@@ -7,6 +7,7 @@ status: published
 tags: ' blender sverchok structure-synth generative-art'
 title: 'Generative Art Examples - Fractals on a Plane'
 use_math: true
+permalink: generative-art-examples-fractals-on-a-plane.html
 ---
 
 <meta property="og:image"

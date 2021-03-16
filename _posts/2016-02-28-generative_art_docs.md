@@ -6,6 +6,7 @@ layout: post
 status: published
 tags: ' blender sverchok structure-synth generative-art'
 title: 'Generative Art - Sverchok Node Update'
+permalink: generative-art-sverchok-node-update.html
 ---
 
 I\'ve made some changes and improvements to the *Generative Art* node in Sverchok. This node uses a simple *xml* file to define a set of rules to produce geometry. This node is very strongly based on [Structure Synth](http://structuresynth.sourceforge.net/) and can produce [Lindermayer Systems (lsystems)](https://en.wikipedia.org/wiki/L-system) and fractals as well as more random and interesting creations.

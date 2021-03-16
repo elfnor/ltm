@@ -5,6 +5,7 @@ image: 'fern_anim_still_05.png'
 layout: post
 tags: ' blender sverchok structure-synth generative-art'
 title: 'Structure Synth meets Sverchok - Animation'
+permalink: structure-synth-meets-sverchok-animation.html
 ---
 
 Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples]({{ site.baseurl }}{% link _posts/2016-04-02-generative_art_example_updates.md %}) and the [node docs]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %})

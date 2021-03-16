@@ -5,6 +5,7 @@ image: 'REC-citrus.JPG'
 layout: post
 tags:  food
 title: 'Sugar-Free Fermented Marmalade'
+permalink: sugar-free-fermented-marmalade.html
 ---
 
 After making [preserved lemons]({{ site.baseurl }}{% link _posts/2017-01-13-REC-preserved-lemons.md %}) I saw a comment somewhere that marmalade was once made by lacto-fermentation rather than with heaps of sugar like jam. I prefer a low sugar, low glycemic index diet so I made up the concoction below. Later I searched on-line for [recipes](http://www.culturesforhealth.com/learn/recipe/lacto-fermentation-recipes/lacto-fermented-orange-marmalade/) and found most of them make a sweeter cooked product.

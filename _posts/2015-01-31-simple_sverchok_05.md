@@ -5,6 +5,7 @@ image: 'matrix_iterate_13.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 05 - Interpolate and Iterate Matrix'
+permalink: simple-sverchok-05-interpolate-and-iterate-matrix.html
 ---
 
 This is part five of my introduction to [Sverchok](http://nikitron.cc.ua/sverchok_en.html) the parametric node geometry add-on for Blender. Other parts can be found [here]({{ site.baseurl }}{% link tag/sverchok.md %})

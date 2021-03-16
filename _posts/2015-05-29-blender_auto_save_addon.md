@@ -5,6 +5,7 @@ image: 'decimate_planes_31_crop.png'
 layout: post
 tags:  blender
 title: 'Blender Auto Save add-on'
+permalink: blender-auto-save-add-on.html
 ---
 
 (This image is unrelated to the post other than it was the 31st image rendered from the same basic geometry.)

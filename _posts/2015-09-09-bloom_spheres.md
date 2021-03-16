@@ -6,6 +6,7 @@ layout: post
 tags:  blender sverchok
 title: Bloom Spheres in Sverchok
 use_math: true
+permalink: bloom-spheres-in-sverchok.html
 ---
 
 These [videos by John Edmark](http://www.instructables.com/id/Blooming-Zoetrope-Sculptures/) of what he calls bloom spheres inspired me to try something similar in Sverchok. Edmark has designed and 3D printed forms that when spun under a strobe light appear to move and twist.

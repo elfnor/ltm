@@ -6,6 +6,7 @@ layout: post
 tags:  blender sverchok maze
 title: Blender 3D Maze Generator
 use_math: true
+permalink: blender-3d-maze-generator.html
 ---
 
 The same backtracking algorithm that produces [2D mazes]({{ site.baseurl }}{% link _posts/2015-12-11-blender_maze_generator.md %}) can be used to produce three dimensional mazes. All that\'s needed is to set up the cells in the grid with an extra dimension and define the neighbors to include cells on the layers above and below the cell.

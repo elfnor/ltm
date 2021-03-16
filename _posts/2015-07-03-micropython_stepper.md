@@ -5,6 +5,7 @@ image: 'A4988_circuit.jpg'
 layout: post
 tags:  python micropython
 title: 'Micropython - Stepper motor control with a A4988 carrier board'
+permalink: micropython-stepper-motor-control-with-a-a4988-carrier-board.html
 ---
 
 I have a [pyboard](https://micropython.org/) (I get cool birthday presents) and like the look of the micropython language. Python is my first language choice for data analysis at work and I\'ve used it writing add ons for [GIMP]({{ site.baseurl }}{% link _posts/2014-07-05-symmetry_tile_docs.md %}) and [Blender]({{ site.baseurl }}{% link _posts/2015-05-24-blender_pipe_generator.md %}). I can program the [Arduino]({{ site.baseurl }}{% link _posts/2015-01-19-arduino_breadmaker_details.md %}) in Wiring/Processing but being able to program a micro-controller in python is a big plus. The way the REPL prompt/terminal allows interactive scripting, putting a program on the board is just copying, and the ease of printing statements back to the terminal are all easier to use than the equivalent for the Arduino.

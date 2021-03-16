@@ -6,6 +6,7 @@ layout: post
 tags:  blender sverchok
 title: Hyperbolic Tiling in 3D
 use_math: true
+permalink: hyperbolic-tiling-in-3d.html
 ---
 
 In a previous [post]({{ site.baseurl }}{% link _posts/2015-04-15-hyperbolic_planes.md %}) I explained the shape of planes, spheres, and hyperbolic planes in terms of hexagons arranged around either another hexagon (plane), a pentagon (sphere) or a heptagon (hyperbolic plane). I used a photo of a hyperbolic plane someone else had made out of paper, as the 3D model produced by my scripted Sverchok node was not meshed in a nice regular tiling. I thought I\'d fix this.

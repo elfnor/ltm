@@ -6,6 +6,7 @@ layout: post
 summary: 'Polythene sheeting, the type you buy at a garden shop that\''s about 125 μm thick, is great for kite making. It comes in black and clear, the black is boring but the clear can be a bit hard to photograph against the sky.'
 tags: kites
 title: The almost invisible kite
+permalink: the-almost-invisible-kite.html
 ---
 
 {: .floatleft}

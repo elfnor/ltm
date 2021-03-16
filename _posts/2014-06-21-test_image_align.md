@@ -6,6 +6,7 @@ layout: post
 summary: 'Markdown synatx and main.css styling to float images to the left and right.'
 tags:  pelican markdown
 title: Image alignment with markdown
+permalink: image-alignment-with-markdown.html
 ---
 
 The standard syntax for inserting an image into a markdown document

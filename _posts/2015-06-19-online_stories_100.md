@@ -5,6 +5,7 @@ image: 'online_stories_map_02.png'
 layout: post
 tags: reading
 title: 'Reading the World - 100 Online Stories'
+permalink: reading-the-world-100-online-stories.html
 ---
 
 One of my early posts on this blogs was about [reading lists]({{ site.baseurl }}{% link _posts/2014-01-26-reading_lists.md %}) and my plan to make a list of (and read) online stories from as many countries as possible. This was inspired by this blogger\'s project [A Year of Reading the World](http://ayearofreadingtheworld.com) where she read one book from each of the 196 countries in one year.

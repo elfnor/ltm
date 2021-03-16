@@ -4,6 +4,7 @@ date: '2014-11-16 22:00'
 layout: post
 tags:  geocaching
 title: Translate cache descriptions and logs
+permalink: translate-cache-descriptions-and-logs.html
 ---
 
 I recently did a European cycle trip and as described [here]({{ site.baseurl }}{% link _posts/2014-11-09-caches_along_track.md %}) I made some gpx files of geocaches along my intended route.

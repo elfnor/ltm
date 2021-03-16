@@ -6,6 +6,7 @@ layout: post
 tags:  blender sverchok
 title: Conway Polyhedron Operators in Sverchok
 use_math: true
+permalink: conway-polyhedron-operators-in-sverchok.html
 ---
 
 I was working with abstract sculptures in Blender based on polyhedra and was getting annoyed that the Regular Solids (part of the [Extra Objects](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Add_Extra) add-on) still divides polyhedron faces into quads and tris rather than using ngons for pentagonal faces for example. A quick look at the source code and it was obvious how to change this. But I started an Internet search on how the snub polyhedron were formed, this led to [Conway Polyhedra](https://en.wikipedia.org/wiki/Conway_polyhedron_notation) and I was deep in a [rabbit hole](https://www.urbandictionary.com/define.php?term=Rabbit%20Hole).

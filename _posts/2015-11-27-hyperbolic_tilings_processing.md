@@ -5,6 +5,7 @@ image: 'CORAL_735_02_031.png'
 layout: post
 tags:  blender processing
 title: Larger Hyperbolic Tilings in 3D using Processing
+permalink: larger-hyperbolic-tilings-in-3d-using-processing.html
 ---
 
 After my [last post]({{ site.baseurl }}{% link _posts/2015-11-06-hyperbolic_tilings.md %}) on producing tiled hyperbolic planes in 3D, I was still unhappy with the size of the planes I could generate. Using the soft body modifier in Blender I was limited to about 250 faces before everything went unstable. Also after the tiling has been unfurled the length edges were still longer in the middle and shorter towards the edges where they should all be equal. (OK, I\'m getting a bit obsessed with this)

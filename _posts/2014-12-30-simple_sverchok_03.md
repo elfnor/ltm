@@ -5,6 +5,7 @@ image: 'forest_mountain_15.png'
 layout: post
 tags:  blender sverchok
 title: 'Simple Sverchok 03 - Slope Dependent Trees'
+permalink: simple-sverchok-03-slope-dependent-trees.html
 ---
 
 The first two posts ([01]({{ site.baseurl }}{% link _posts/2014-12-20-simple_sverchok_01.md %}), [02]({{ site.baseurl }}{% link _posts/2014-12-27-simple_sverchok_02.md %}) ) in this gentle introduction to Sverchok covered copying objects to the centers of polygons and scaling the copied objects according to some pattern.

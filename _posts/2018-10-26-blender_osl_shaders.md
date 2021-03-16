@@ -6,6 +6,7 @@ layout: post
 status: published
 tags:  blender
 title: 'Scripted Shaders in Blender - Packing Spheres'
+permalink: scripted-shaders-in-blender-packing-spheres.html
 ---
 
 I\'ve started learning how to write Cycles [script nodes]() for Blender. These are written in Open Shading Language. A couple of good places to start are Michael Anders [blog](https://blog.michelanders.nl/search/label/osl) and [book](https://blendermarket.com/products/open-shading-language-for-blender), the [language specification](https://github.com/imageworks/OpenShadingLanguage/blob/master/src/doc/osl-languagespec.pdf) and the last part of Jeremy Behreandt\'s [article](https://medium.com/@behreajj/creative-coding-in-blender-a-primer-53e79ff71e).

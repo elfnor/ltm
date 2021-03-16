@@ -5,6 +5,7 @@ image: 'sca-render_005.png'
 layout: post
 tags: ' blender sverchok generative-art'
 title: Sverchok Tree Generator
+permalink: sverchok-tree-generator.html
 ---
 
 I tend toward making more abstract than realistic images with Blender. A [while back]({{ site.baseurl }}{% link _posts/2015-05-17-ivy_generator.md %}) I played with the *Ivy Generator* addon and so got interested in the underlying procedural algorithms for producing tree and plant structures. A lot of these techiques use L-systems and could maybe be implemented using the Sverchok [Generative Art]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %}) node. Except the *Genertive Art* node has no provision (yet) for collision avoidance. This results in intersecting branches which is not always what I want.
