@@ -7,6 +7,7 @@ status: published
 tags:  deploy silly extra taggly bits blender
 title: 'New Examples of stuff to test deployment'
 use_math: true
+permalink: Do Spaces Work.html
 ---
 
 # Images
