@@ -71,3 +71,7 @@ I implemented Conway's polyheron operators as a [set of Sverchok scripted nodes]
 Andrew Marsh has an [online web app](http://andrewmarsh.com/software/poly3d-web/) for playing with the operators.
 
 [My original post]({% link _posts/2017-12-18-conway_polyhedron_operators.md %})
+
+![test to remove](images/07_pg_bdtldtb.png)
+![test to remove](/images/cat_scan_pla.jpg)
+![test to remove](../images/El_Avatar2.jpeg)
