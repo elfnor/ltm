@@ -1,7 +1,7 @@
 ---
 author: elfnor
 date: '2021-03-17 22:00'
-image: imp_header.png
+image: 2021-03-17-header-imp.png
 layout: post
 tags: blender character-design
 title: Imp Traveller - Behind the Scenes
