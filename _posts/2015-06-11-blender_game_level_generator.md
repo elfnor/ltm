@@ -11,7 +11,7 @@ permalink: blender-game-level-generator.html
 
 Update: This lsystem/Structure Synth code has now (March 2016) been incorporated into the Sverchok *Generative Art* node. See the [updated examples]({{ site.baseurl }}{% link _posts/2016-04-02-generative_art_example_updates.md %}) and the [node docs]({{ site.baseurl }}{% link _posts/2016-02-28-generative_art_docs.md %})
 
-I was testing a puzzle level for my partner Tech Monkey\'s [**Steely Taws** Blender game](http://www.techmonkeybusiness.com/steely-taws-puzzle-game-v1.html) and the components started to look a bit like things produced by my [Blender Pipe Generator]({{ site.baseurl }}{% link _posts/2015-05-24-blender_pipe_generator.md %}).
+I was testing a puzzle level for my partner Tech Monkey\'s [**Steely Taws** Blender game](https://techmonkeybusiness.com/articles/Steely_Taws_Puzzle_Game_v1.html) and the components started to look a bit like things produced by my [Blender Pipe Generator]({{ site.baseurl }}{% link _posts/2015-05-24-blender_pipe_generator.md %}).
 
 **Steely Taws - No Quitsies** is a marble run game based on Switchball and Balance. At its most basic it requires straights, bends and ramps. It was not too hard to put together an automatic level generator using the \"Generative Art\" node of the [Sverchok](https://github.com/nortikin/sverchok) Blender add-on. If you\'re new to Sverchok maybe back up and read my Simple Sverchok series ([part 1]({{ site.baseurl }}{% link _posts/2014-12-20-simple_sverchok_01.md %})) and the [documentation for the node](https://github.com/nortikin/sverchok/blob/master/docs/nodes/generator/generative_art.rst).
 
@@ -97,6 +97,6 @@ Another way to change a level is to change the weights for each rule in the xml 
 
 Setting the weight of a rule to zero will mean that component will not appear at all. This may require some changes to the numbers in the \"Logic\" equal nodes to make the correct mask output connect to the correct object. Each integer in the \"Mask\" output of the \"Generative Art\" node corresponds to one of the shapes use in the xml. The integers are assigned to the shapes in alphabetical order. So if one shape disappears from the output the ones further down in the order will move down one integer. The \"drops\" have been given the last places in the shapes list so they can have their weights set to zero without affecting the other shapes.
 
-Go across to Tech Monkey and get the full [puzzle version](http://www.techmonkeybusiness.com/steely-taws-puzzle-game-v1.html) to add more puzzle features such as switches, movable boxes,barriers, gates, elevators and draw bridges. The components are all described in detail [here](http://www.techmonkeybusiness.com/steely-taws-components.html).
+Go across to Tech Monkey and get the full [puzzle version](https://techmonkeybusiness.com/articles/Steely_Taws_Puzzle_Game_v1.html) to add more puzzle features such as switches, movable boxes,barriers, gates, elevators and draw bridges. The components are all described in detail [here](https://techmonkeybusiness.com/articles/Steely_Taws_Standardised_Components.html).
 
 ------------------------------------------------------------------------

@@ -62,6 +62,6 @@ An aerial view of the landscape showing the random location and rotation of the 
 
 Download [blend file](/downloads/slope_greeble.blend)
 
-Note: Credit and thanks to [TechMonkey](http://www.techmonkeybusiness.com/) for the textures and tree models used in the image at the top of the post. The slope dependent texturing in that image was done following [this tutorial](http://vimeo.com/28922937) by David Miller.
+Note: Credit and thanks to [TechMonkey](https://www.techmonkeybusiness.com/) for the textures and tree models used in the image at the top of the post. The slope dependent texturing in that image was done following [this tutorial](http://vimeo.com/28922937) by David Miller.
 
 ------------------------------------------------------------------------

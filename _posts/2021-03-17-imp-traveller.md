@@ -14,7 +14,7 @@ This is a piece I made in 2019 in Blender 2.80. I posted my progress over on [bl
 
 I've been working my way through Zacharias Reinhardt's [Mastering Sculpting Course](https://academy.cgboost.com/p/mastering-sculpting-in-blender) and I can highly recommend it. This character is my first piece of independent work where I'll try to put into practice a lot of what I've learnt on the course. I've still got a heap to learn, so when I get stuck and follow another tutorial I'll also link to that.
 
-Here's my concept art. It's by my multi-talented partner over at http://techmonkeybusiness.com/
+Here's my concept art. It's by my multi-talented partner over at https://techmonkeybusiness.com/
 
 ![concept art](../images/2021-03-17/imp-concept-art.png)
 

@@ -14,7 +14,7 @@ The [game levels]({{ site.baseurl }}{% link _posts/2015-06-11-blender_game_level
 
 This is because the alogrithim behind the node is based on L-systems and knows nothing about where its already been. The code only keeps tracks of a current transform (encoding position and direction) and randomly chooses another transfom rule to apply. It has no way to know where anything has already been drawn.
 
-The game levels from the *Generative Art* node can be edited to produce a playable layout. See this [great puzzle game](http://techmonkeybusiness.com/steely-taws-puzzle-game-v3.html) complete with a Gondola, from Hamish at TechMonkeyBusiness. But I wanted to produce some more orderly game levels so I started looking at maze generating algorithms. I found [Jamis Buck\'s](http://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap) great posts on maze building and his book \"Mazes for Programmers\".
+The game levels from the *Generative Art* node can be edited to produce a playable layout. See this [great puzzle game](https://techmonkeybusiness.com/articles/Steely_Taws_Puzzle_Game_v3.html) complete with a Gondola, from Hamish at TechMonkeyBusiness. But I wanted to produce some more orderly game levels so I started looking at maze generating algorithms. I found [Jamis Buck\'s](http://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap) great posts on maze building and his book \"Mazes for Programmers\".
 
 In my ususal magpie fashion I started off with someone else\'s bright shiny code, in this case [this gist](https://gist.github.com/samisalkosuo/77bd95f605fc41dc7366) by Sami Salkosuo, which is a python version of some of the code from \"Mazes for Programmers\".
 
