@@ -38,7 +38,6 @@ The hands I completed as a separate sculpt, which I'll cover in  my next update.
 
 ![](../images/2021-03-17/imp-traveller-progress-03.png)
 
-
 In between or alongside big projects, I find it great to do some smaller practice pieces. Bits of bodies are good, eyes, hands ears. They may come in useful (handy!) as meshes for other projects, but the main benefit is focused sculpting where I can relax as it's only a practice piece. Speed sculpting is another way to practice, but I find at my skill level my results in a short time can be disappointing. Concentrating on small bits of a sculpt for a short time or setting a target for a session helps me make progress without getting bogged down in detail,
 
 I watched a few videos on hands [3D hand timelapse - YouTube](https://www.youtube.com/watch?v=AGdTnapvnko), [Sculpting Hands In Blender - YouTube](https://www.youtube.com/watch?v=ijVZQ-pn65s), [How to Sculpt hands  Sculpt Jan 2019  no. 17 - YouTube](https://www.youtube.com/watch?v=L4UOz1Sygrw). It seems getting the proportions right is hard but also hands vary  a lot.
@@ -90,7 +89,6 @@ I'm reasonably happy with this level of detail. I'm not going for a super realis
 
 Next I'm going to look at the pack, although there's still hair and eyes and better clothes...
 
-
 # Pack
 
 The pack actually almost came before the Imp. I wanted to practice the luggage, ropes and belts parts of Zacharias Reinhardt's Mastering Sculpting Course, and was hunting for reference images. My partner pulled out an old sketch book with a sketch of this little imp carrying a big pack with a lute strapped to the back. That inspired this project. The sketch showed the character from the front so I kept image searching for a more detailed reference and came across photos of Japanese Imperial army packs from WWII. (image search "octopus Japanese rucksack). I liked the concept of bows tying everything onto a pack. This Imp is only about 40 cm tall and would have difficulty finding lots of tiny buckles.
@@ -98,8 +96,6 @@ The pack actually almost came before the Imp. I wanted to practice the luggage, 
 Here's a series of images from blocked in to almost complete. As I narrowed in on the creature sculpt I dropped the spade in favour of the lute.
 
 I enjoyed trying to get the wrinkles looking like the straps were pulling them tight.
-
-
 
 ![](../images/2021-03-17/imp_traveller_blenderartists-60860197.png)
 
@@ -110,7 +106,6 @@ I enjoyed trying to get the wrinkles looking like the straps were pulling them t
 
 ![](../images/2021-03-17/imp_traveller_blenderartists-71be4295.png)
 
-
 # Lute
 
 The lute was a project in itself. I probably sculpted far more detail than was needed, especially if the main render is going to be from the front.
@@ -118,7 +113,6 @@ The lute was a project in itself. I probably sculpted far more detail than was n
 My reference for this was Tibetan lutes like this one.
 
 ![](../images/2021-03-17/imp_traveller_blenderartists-e4de8af6.png)
-
 
 I blocked in the main shapes with subdivision modelling. I'm keeping to the proportions of the reference, even though I think the lute will need to be much shorter in the body to match the Imp.
 
@@ -191,15 +185,11 @@ To do the hair transparency, I had to move from working in matcap mode to Eevee.
 
 The skin texture is very simple, with some translucency. Without any noise on the skin its looks very plastic or waxy.
 
-
 ![](../images/2021-03-17/imp_traveller_progress-125b3ea4.png)
-
 
 But it looks better with some noise added to the normals.
 
-
 ![](../images/2021-03-17/imp_traveller_progress-edea78da.png)
-
 
 I messed around a lot with the lighting and colour palette. Eventually going for more drab colours and darker but defined lighting. I'm envisaging him standing in a forest clearing with bright sunlight from above. I don;t want to render the whole scene, but having a fixed idea of where the character might be, helped in my lighting choices.
 
@@ -220,7 +210,6 @@ The last image is close to the final lighting setup. There are three area lights
 I thought of adding cloth textures to the clothes, and some colour variation to the face (vertex or texture painting) but I'm ready to move on to the next piece.
 
 That shirt still needs some attention. I'll do that next.
-
 
 # Clothes - wrinkles
 
