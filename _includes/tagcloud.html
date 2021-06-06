@@ -1,20 +1,33 @@
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-{% assign site_tags = site_tags | split: ',' %}
 
-{% assign tag_count = 0 %}
-{% for tag in site_tags %}
-{% assign tag_count = tag_count | plus: site.tags[tag].size %}
+<ul class="tags">
+{% for vtag in site.data.tags.validtags %}
+
+    <a href="{{ site.baseurl }}/tag/{{ vtag | slugize }}" class="tag"> 
+       {{ vtag | slugize }} ({{ site.tags[vtag].size }})
+
+    </a>  
+
+{% endfor %}
+</ul>
+
+
+
+{% for vtag in site.data.tags.validtags %}
+    
+    <a href="{{ site.baseurl }}/tag/{{ vtag | slugize }}" class="tag">
+         {{ vtag | slugize }} <span>({{ site.tags[vtag].size }})</span>
+    </a>
+
+  <ul>
+  {% for post in site.tags[vtag] %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date: "%Y-%m-%d"  }}</span>
+      </li>
+
+  {% endfor %}
+  </ul>
+
 {% endfor %}
 
-{% for tag in tags %}
-{% if site.data.tags.validtags contains tag %}
-{% assign rel_tag_size = site.tags[tag].size | times: 4.0 | divided_by: tag_count | plus: 1 %}
-<p>
-	<span style="white-space: nowrap; font-size: 16px; padding: 0.1em;">
-		<a href="{{ site.baseurl }}/tag/{{ tag | slugize }}" class="tag">{{ tag | slugize }}
-			<span>({{ site.tags[tag].size }})</span>
-		</a>
-	</span>
-</p>
-{% endif %}
-{% endfor %}
+
