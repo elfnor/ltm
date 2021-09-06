@@ -3,7 +3,7 @@ author: elfnor
 date: '2021-06-09 22:00'
 image: 2021-06-09-header-celtic-knot-font.png
 layout: post
-tags: blender
+tags: krita
 title: "Celtic Knot Font"
 permalink: 2021-06-08-celtic-knot-font.html
 ---
