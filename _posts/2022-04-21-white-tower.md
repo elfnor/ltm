@@ -34,6 +34,6 @@ For example, in Krita I applied a G'MIC Dream Smooth and a Sketch filter to the 
 
 ![filtered texture](../images/2022-04-21/white_tower_texture_filter_crop.png)
 
-And here's the original rock on location. at the local beach.
+And here's the original rock on location at the local beach.
 
 ![original rock](../images/2022-04-21/original_rock.JPG)
