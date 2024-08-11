@@ -2,12 +2,12 @@
 author: elfnor
 date: 2024-08-09 00:00
 image: 2024-08-09-header-new-gallery.png
-image.path: ../images/2024-08-09-header-new-gallery.png
+image.path: /images/2024-08-09-header-new-gallery.png
 layout: post
 tags:
   - blog
 title: New Gallery using Thumbsup
-permalink: 2024-08-09-new-galery.html
+permalink: 2024-08-09-new-gallery.html
 ---
 
 I've added a link to my new static photo  [gallery](https://elfnor.github.io/elfnor-gallery/index.html) in the blog header.
