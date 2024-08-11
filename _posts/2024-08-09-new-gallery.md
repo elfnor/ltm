@@ -1,8 +1,7 @@
 ---
 author: elfnor
 date: 2024-08-09 00:00
-image: images/07.jpg
-image.path: images/2024-08-09-header-new-gallery.png
+image: 2024-08-09-header-new-gallery.png
 layout: post
 tags:
   - blog
