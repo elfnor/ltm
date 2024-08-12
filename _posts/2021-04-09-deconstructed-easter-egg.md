@@ -1,7 +1,8 @@
 ---
 author: elfnor
 date: '2021-04-09 10:00'
-image: 2021-04-09-header-easter-egg-02.png
+image:  
+    path: images/2021-04-09-header-easter-egg-02.png
 layout: post
 tags: food
 title: "Deconstructed Easter Eggs"

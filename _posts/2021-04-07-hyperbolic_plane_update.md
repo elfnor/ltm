@@ -1,7 +1,8 @@
 ---
 author: elfnor
 date: '2021-04-07 10:00'
-image: 2021-04-07-header-hyperbolic-tiling.png
+image:  
+    path: images/2021-04-07-header-hyperbolic-tiling.png
 layout: post
 tags: blender sverchok 
 title: "Update on Hyperbolic Tiling with Sverchok"

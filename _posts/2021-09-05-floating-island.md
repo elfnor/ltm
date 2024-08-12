@@ -1,7 +1,8 @@
 ---
 author: elfnor
 date: '2021-09-05 10:00'
-image: 2021-09-05-header-floating-island.png
+image:  
+    path: images/2021-09-05-header-floating-island.png
 layout: post
 tags: blender krita
 title: "Floating Island"

@@ -32,7 +32,11 @@ layout: default
   </div>
 
   {% assign no-image = nil %}
-  {% if page.image %}
+  {% if page.image.path %}
+  <div class="post__head">
+    <div class="post-image" style="background-image: url({{site.baseurl}}/{{page.image.path}})"></div>
+  </div>
+  {% elsif page.image %}
   <div class="post__head">
     <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
   </div>

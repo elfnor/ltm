@@ -1,7 +1,8 @@
 ---
 author: elfnor
 date: '2022-04-21 00:00'
-image: 2022-04-21-header-white-tower.png
+image: 
+    path: images/2022-04-21-header-white-tower.png
 layout: post
 tags: blender photogrammetry krita
 title: "White Tower"

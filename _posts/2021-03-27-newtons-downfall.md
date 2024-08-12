@@ -1,7 +1,8 @@
 ---
 author: elfnor
 date: '2021-03-27 10:00'
-image: 2021-03-27-header-cocktail.png
+image:  
+    path: images/2021-03-27-header-cocktail.png
 layout: post
 tags: food
 title: "Cocktail - Newton's Downfall"

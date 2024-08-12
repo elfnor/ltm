@@ -1,7 +1,8 @@
 ---
 author: elfnor
 date: '2021-06-09 22:00'
-image: 2021-06-09-header-celtic-knot-font.png
+image:  
+    path: images/2021-06-09-header-celtic-knot-font.png
 layout: post
 tags: krita
 title: "Celtic Knot Font"

@@ -1,7 +1,8 @@
 ---
 author: elfnor
 date: '2021-06-06 10:00'
-image: 2021-06-06-header-below-the-storm.png
+image:  
+    path: images/2021-06-06-header-below-the-storm.png
 layout: post
 tags: blender
 title: "Below the Storm"

@@ -1,7 +1,8 @@
 ---
 author: elfnor
 date: '2021-05-17 20:00'
-image: 2021-05-17-header-imp-traveller-farm-gate.png
+image:  
+    path: images/2021-05-17-header-imp-traveller-farm-gate.png
 layout: post
 tags: blender character-design
 title: "Imp Traveller Scene "
