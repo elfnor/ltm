@@ -5,3 +5,4 @@ _site
 Gemfile.lock
 blog.code-workspace
 **/.ztr-directory
+.obsidian
