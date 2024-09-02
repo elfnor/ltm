@@ -12,4 +12,5 @@ permalink: {{date}}-new-title.html
 
 
 
-Hello World! This is my first template.
+Blog post goes here... 
+
