@@ -2,16 +2,16 @@
 author: elfnor
 date: 2026-06-17 00:00
 image:
-  path: images/2024-09-02/header-poincare-part-2.jpg
+  path: images/2026-06-17/header-poincare-part-2.png
 layout: post
 tags:
   - blender
 title: "Patterns in the Poincaré Plane - Geometry Nodes: Part 2"
-permalink: 2026-06-16-poincare-geometry-nodes-part-2.html
-draft: true
+permalink: 2026-06-17-poincare-geometry-nodes-part-2.html
 ---
 
-Last post I covered drawing geodesic lines (they look like circle arcs) on the Poincare Disk. This time I'm going to cover drawing hyperbolic tilings.
+Last post I covered drawing geodesic lines (they look like circle arcs) on the Poincare Disk. This time I'm going to cover drawing hyperbolic tilings. See this [blend file](https://github.com/elfnor/blend_examples/blob/main/poincare_assets.blend)  for the node groups and assets.
+
 ## Circle Inversion
 
 The next maths step is finding the reflection of a point in the geodesic.
@@ -125,7 +125,7 @@ Lots of fun can be had by adding  triangulate, dual, and subdivide nodes to the 
 
 ![subdivide 3](/images/2026-06-17/Pasted%20image%2020260612154703.png)
 
-![subdivide 4](/images/2026-06-17/Pasted%20image%2020260612154730.png)
+![subdivide 4](/_site/images/2026-06-17/Pasted%20image%2020260612154730.png)
 
 
 This is related to [Conway Operators](https://elfnor.com/conway-polyhedron-operators-in-sverchok.html) which is another thing I've been playing with in Geometry Nodes. I'll write it up here eventually. 

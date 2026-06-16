@@ -2,13 +2,12 @@
 author: elfnor
 date: 2026-06-18 00:00
 image:
-  path: images/2024-09-02/header-fence-post-chair-desk.jpg
+  path: images/2026-06-18/header-poincare-part-3.png
 layout: post
 tags:
   - blender
 title: "Patterns in the Poincaré Plane - Geometry Nodes: Part 3"
-permalink: 2026-06-16-poincare-geometry-nodes-part-3.html
-draft: true
+permalink: 2026-06-18-poincare-geometry-nodes-part-3.html
 ---
 
 
@@ -39,7 +38,7 @@ The full node group `p-tiling-arc-option` in the available blend file. has some 
 
 `geodesics` draws a full  `HypLine` between the ideal points on the edge of the Poincare Disk (the unit circle) for every edge.
 
-![geodesics option](/images/2026-06-18/Pasted%20image%2020260612160107.png)
+![geodesics option](/_site/images/2026-06-18/Pasted%20image%2020260612160107.png)
 
 The off centre options allow the polygon that starts the tiling to be displaced from the origin. Setting this up involved creating some more basic tools for working with hyperbolic geometry.
 - `h-distance`- the length of the geodesic between two points

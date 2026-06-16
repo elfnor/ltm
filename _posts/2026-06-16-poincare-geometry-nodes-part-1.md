@@ -2,13 +2,12 @@
 author: elfnor
 date: 2026-06-16 00:00
 image:
-  path: images/2026-06-16/header-poincare-part-1.jpg
+  path: images/2026-06-16/header-poincare-part-1.png
 layout: post
 tags:
   - blender
 title: "Patterns in the Poincaré Plane - Geometry Nodes: Part 1"
 permalink: 2026-06-16-poincare-geometry-nodes-part-1.html
-draft: true
 ---
 
 I've made several serious efforts to really learn the depths of Blender's Geometry Nodes. I was really into Sverchok for a while, but I've found Geometry Nodes harder. Maybe its the moving target as more nodes are added. Maybe without a scripting node I can't cheat and just wrap code in a node front end. I have a bit more time lately and I think I'm starting to make progress.
@@ -23,7 +22,7 @@ I was absolutely stoked when an image from the original blog  was used on the co
 
 This time, I'll start by creating some node groups to do the basics such as drawing lines and circles and calculating distance in the Poincare disc model. Then I'll combine them to draw some pretty patterns including tilings.
 
-All the node groups are available as assets in  a blend file. Refer to them if the screenshots  I use below are a bit small. 
+All the node groups are available as assets in  a [blend file](https://github.com/elfnor/blend_examples/blob/main/poincare_assets.blend) . Refer to them if the screenshots  I use below are a bit small. 
 
 I started an unpublished version of this post that had a lot of maths and derivations. This version I'm mostly going to quote the formula for each node group and give a reference to  more detail. 
 
@@ -52,7 +51,7 @@ These are all available as assets in the blend file.
 
 The first step in creating a tiling on the Poincaré Disk,  is to  draw a line (called a geodesic) through two points. In this non-euclidean geometry this is a circle arc that goes through the two points $(a_x, a_y)$, $(b_x, b_y)$ and is perpendicular to the unit circle at the edge of the disk.  If the geodesic goes through the origin, its a straight line diameter.
 
-![geodesic geogebra](/images/2026-06-16/Pasted%20image%2020260609203929.png)
+![geodesic geogebra](/_site/images/2026-06-16/Pasted%20image%2020260609203929.png)
 
 The `geodesic` node group returns the Euclidean centre and radius of the geodesic through two points, input as 3D vectors. If the two points are on a diameter the `Is diameter?` output is true,  In this case, the centre is set to (0.0, 0.0, 0.0) and the radius is large. The centre and radius are in Euclidean space so can be used to draw lines and segments  (see `HypLine` and `HypSegment` groups)
 
@@ -102,7 +101,7 @@ The Math Formula is a life saver for this kind of complicated maths.
 
 To draw the geodesic, The simplest is to translate a `Mesh Circle` using the `center` output of the `geodesic` node and scale using the `radius` output.
 
-![draw geodesic nodes](/images/2026-06-16/Pasted%20image%2020260531170644.png)
+![draw geodesic nodes](/_site/images/2026-06-16/Pasted%20image%2020260531170644.png)
 
 ![draw geodesic blender output](/images/2026-06-16/Pasted%20image%2020260510143552.png)
 
@@ -195,6 +194,6 @@ Or put a repeat zone around the for element zone
 
 ![connect all points repeat](/images/2026-06-16/Pasted%20image%2020260531174501.png)
 
-The blend file for this post is available here.
+The [blend file](https://github.com/elfnor/blend_examples/blob/main/poincare_assets.blend)  for this post is available.
 
 Next post, I'll cover circle inversion or mirroring across the geodesic  leading to hyperbolic tilings.
