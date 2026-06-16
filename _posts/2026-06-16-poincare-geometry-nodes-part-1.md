@@ -20,7 +20,7 @@ I previously created [Poincaré tilings in Sverchok](https://elfnor.com/hyperbol
 
 I was absolutely stoked when an image from the original blog  was used on the cover of  the journal  "For the Learning of Mathematics" ([Vol 39, No 1 (2019)](https://flm-journal.org/Articles/FLM_39-1_00_cover)). The issue included an article recalling  the late [David W. Henderson](https://en.wikipedia.org/wiki/David_W._Henderson) a mathematician  who did extensive work alongside his wife Daina Taimina on the topology of hyperbolic planes.
 
-This time, I'll start by creating some node groups to do the basics such as drawing lines and circles and calculating distance in the Poincare disc model. Then I'll combine them to draw some pretty patterns including tilings.
+This time, I'll start by creating some node groups to do the basics such as drawing lines and circles and calculating distance in the Poincaré disc model. Then I'll combine them to draw some pretty patterns including tilings.
 
 All the node groups are available as assets in  a [blend file](https://github.com/elfnor/blend_examples/blob/main/poincare_assets.blend) . Refer to them if the screenshots  I use below are a bit small. 
 
@@ -140,7 +140,7 @@ or as a node group - `arc-mid-point`
 
 ### `circle-circle-intersection` node group
 
-A full line on the Poincare plane should start and end on the unit circle. To draw this,  I need to find the two intersection points of the circle given by the `geodesic` node group and the unit circle. These are called the ideal points of the geodesic.
+A full line on the Poincaré plane should start and end on the unit circle. To draw this,  I need to find the two intersection points of the circle given by the `geodesic` node group and the unit circle. These are called the ideal points of the geodesic.
 
 I made a node group for the intersection of any two circles as it will be useful later.
 

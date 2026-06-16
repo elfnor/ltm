@@ -11,9 +11,14 @@ permalink: 2026-06-18-poincare-geometry-nodes-part-3.html
 ---
 
 
-This is the third part of a series on using Blender Geometry nodes to make some pretty patterns on the Poincare disk . Part1, Part2. 
+This is the third part of a series on using Blender Geometry nodes to make some pretty patterns on the Poincare disk .
 
-So far I made a tiling of the Poincare Disk, but for simplicity I drew  the tiling edges with straight lines.  The edges in the tilings should really be arcs because in Poincare geometry the shortest distance between two points is a geodesics or circle arc.
+[Part 1](https://elfnor.com/2026-06-16-poincare-geometry-nodes-part-1.html)  
+[Part 2](https://elfnor.com/2026-06-16-poincare-geometry-nodes-part-2.html)
+
+[blend file](https://github.com/elfnor/blend_examples/blob/main/poincare_assets.blend)
+
+So far I made a tiling of the Poincaré Disk, but for simplicity I drew  the tiling edges with straight lines.  The edges in the tilings should really be arcs because in Poincaré geometry the shortest distance between two points is a geodesics or circle arc.
 
 I found it  easiest to replace the edges after constructing the tiling. I used two nested "For Element " loops. The outer one iterates over every face in the tiling, the inner one over every edge in the face. This duplicates calculations but it's fast enough, so no optimisation needed.
 
@@ -36,7 +41,7 @@ The full node group `p-tiling-arc-option` in the available blend file. has some 
 ![tiling group options](/images/2026-06-18/Pasted%20image%2020260609204134.png)
 
 
-`geodesics` draws a full  `HypLine` between the ideal points on the edge of the Poincare Disk (the unit circle) for every edge.
+`geodesics` draws a full  `HypLine` between the ideal points on the edge of the Poincaré Disk (the unit circle) for every edge.
 
 ![geodesics option](/_site/images/2026-06-18/Pasted%20image%2020260612160107.png)
 
@@ -46,7 +51,7 @@ The off centre options allow the polygon that starts the tiling to be displaced 
 
 ### `h-distance`
 
-The hyperbolic distance  is the shortest distance between two points in the Poincare Disk.  A derivation is given here - [GCT Measurement in Hyperbolic Geometry](https://mphitchman.com/geometry/section5-3.html)  that doesn't require finding the ideal points of the geodesic.  The result there is given in complex number notation.
+The hyperbolic distance  is the shortest distance between two points in the Poincaré Disk.  A derivation is given here - [GCT Measurement in Hyperbolic Geometry](https://mphitchman.com/geometry/section5-3.html)  that doesn't require finding the ideal points of the geodesic.  The result there is given in complex number notation.
 
 $$
 d_H(p, q) = |\ln{(\frac{|1-\overline{p}q|+|q-p|}{|1-\overline{p}q|-|q-p|})}|
@@ -77,7 +82,7 @@ For a hyperbolic circle all the points are an equal hyperbolic distance from the
 
 ![h-circle geogebra](/images/2026-06-18/Pasted%20image%2020260608173900.png)
 
-Distances from a point to the the origin of the Poincare Disk can be converted back and forth from  hyperbolic $d_H$ to Euclidean $d_E$  distances via
+Distances from a point to the the origin of the Poincaré Disk can be converted back and forth from  hyperbolic $d_H$ to Euclidean $d_E$  distances via
 
 $$
 d_H=|ln(\frac{1+d_E}{1-d_E})|
@@ -136,7 +141,7 @@ And the full  `off-center-polygon` group
 ![off center polygon node group](/images/2026-06-18/Pasted%20image%2020260608194139.png)
 
 
-This is incorporated into the `p-tiling` group,within the `p-tiling-arc-option` to produce Poincare tilings with an off centre polygon.
+This is incorporated into the `p-tiling` group,within the `p-tiling-arc-option` to produce Poincaré tilings with an off centre polygon.
 
 ![vertex centered tiling](/images/2026-06-18/Pasted%20image%2020260612160039.png)
 

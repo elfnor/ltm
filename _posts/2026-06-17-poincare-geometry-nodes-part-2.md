@@ -10,7 +10,7 @@ title: "Patterns in the Poincaré Plane - Geometry Nodes: Part 2"
 permalink: 2026-06-17-poincare-geometry-nodes-part-2.html
 ---
 
-Last post I covered drawing geodesic lines (they look like circle arcs) on the Poincare Disk. This time I'm going to cover drawing hyperbolic tilings. See this [blend file](https://github.com/elfnor/blend_examples/blob/main/poincare_assets.blend)  for the node groups and assets.
+Last post I covered drawing geodesic lines (they look like circle arcs) on the Poincaré Disk. This time I'm going to cover drawing hyperbolic tilings. See this [blend file](https://github.com/elfnor/blend_examples/blob/main/poincare_assets.blend)  for the node groups and assets.
 
 ## Circle Inversion
 
@@ -99,10 +99,10 @@ Next I wrap this up as a group that loops over all boundary edges, finds the adj
 
 ## Tiling
 
-Combining all these steps to create  a tiling of the Poincare Disk.
+Combining all these steps to create  a tiling of the Poincaré Disk.
 Recap 
 Groups created - names as in the accompanying blend file.
-- "geodesic" - find the centre and radius of the geodesic through two points on the Poincare Plane
+- "geodesic" - find the centre and radius of the geodesic through two points on the Poincaré Plane
 - "reflect-point-circle" - find the position of a point mirrored in a geodesic
 - "radius-center-n-gon" 
 - "mirror-adjacent-faces-poincare" - mirror - the adjacent face for all boundary edges
