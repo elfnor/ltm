@@ -221,7 +221,7 @@ The *Generative Art* node that uses this xml then acquires an extra input *md* w
 
 By varying the value of the *Integer* node it is very easy to produce a set of images to show each iteration of the pentaflake fractal.
 
-![pentaflake gif]({{ site.baseurl }}/images/pentaflake.gif)
+![pentaflake gif](/_site/images/pentaflake.gif)
 
 ------------------------------------------------------------------------
 

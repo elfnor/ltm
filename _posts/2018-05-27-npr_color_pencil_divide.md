@@ -109,7 +109,7 @@ The *Soft Light* mode would also be a good choice here. It doesn\'t have a sharp
 <a ><img src="{{ site.baseurl }}/images/soft_light_example.png" onmouseover="this.src='{{ site.baseurl }}/images/overlay_colors_example.png'" onmouseout="this.src='{{ site.baseurl }}/images/soft_light_example.png'" /></a>
 *soft light with gray scale texture and color swatches*{: .caption}
 
-![]({{ site.baseurl }}/images/soft_light_paper.png)
+![](/_site/images/soft_light_paper.png)
 *soft light with grey scale paper and color swatches*
 
 Anyway, after the digression in to the *Overlay* mode, here is the node diagram used to combine the pencil texture with the color image to get our final result.

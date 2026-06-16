@@ -18,7 +18,7 @@ There\'s several micro-python data-loggers [out there](http://wiki.micropython.o
 
 The box has been frankensteined from at least four things on thingiverse. The outer box is a resized version of [this RAMPS box](http://www.thingiverse.com/make:75833). The battery pack is from this [flexing battery holder](http://www.thingiverse.com/thing:456900) with the bottom cut off it. The pyboard tray is based on this [thing](http://www.thingiverse.com/thing:1373291) with a [coin cell holder](http://www.thingiverse.com/thing:267438) tacked on the end. The coin cell (CR1632, 3V) provides battery backup to keep the pyboard real time clock (RTC) going when the main battery pack or USB power are not connected.
 
-![circuit]({{ site.baseurl }}/images/datalogger_circuit.png)
+![circuit](/_site/images/datalogger_circuit.png)
 
 ## Construction
 

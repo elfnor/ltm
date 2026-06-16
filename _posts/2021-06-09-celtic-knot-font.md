@@ -39,7 +39,7 @@ Now see if you can produce this pattern (hint: "oooo" is a blank glyph).
 
 What about this one?
 
-![quiz 02](../images/2021-06-09/quiz_02.png)
+![quiz 02](/_site/images/2021-06-09/quiz_02.png)
 
 Now start adding "x" characters to the strings.
 

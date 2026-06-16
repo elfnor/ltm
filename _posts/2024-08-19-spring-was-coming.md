@@ -24,7 +24,7 @@ I've planted heaps more chillies, they were really successful last year. Some of
 
 But for now the snow is pretty cool.
 
-![snowy hills](images/2024-08-19/snowy_hills.png)
+![snowy hills](/_site/images/2024-08-19/snowy_hills.png)
 
 
 

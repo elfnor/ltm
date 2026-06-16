@@ -28,7 +28,7 @@ Apply a new (cycles) material to the surface and under color select \"Image Text
 
 In edit mode, select the whole mesh (A) and UV unwrap (U) the mesh selecting the \"Reset\" option.
 
-![uv unwrap]({{ site.baseurl }}/images/uv_unwrap.png)
+![uv unwrap](/_site/images/uv_unwrap.png)
 
 In a \"UV/image Editor\" view, all the faces in the tiling should have been mapped on top of each other to show one orange square. Link the \"kite_tile.png\" image to display it behind the faces.
 

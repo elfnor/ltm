@@ -67,7 +67,7 @@ Its easy to produce an equilateral triangle in Sverchok using the *Circle* node 
 </rules>
 ```
 
-![1st division]({{ site.baseurl }}/images/penrose_robs_tris3.png)
+![1st division](/_site/images/penrose_robs_tris3.png)
 
 Each triangle now needs to be subdivided. The *eisenxml* below subdivides the thin triangle into one smaller thin and one smaller fat triangle (rule *thin_tri_sub*). The fat triangle is divided into two smaller fat triangles and one smaller thin triangle (rule *fat_tri_sub*).
 

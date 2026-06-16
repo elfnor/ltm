@@ -22,7 +22,7 @@ Make sure you select the object and switch the view to \"Vertex Paint\" mode to 
 
 If instead we want to apply a separate color to each cube in the stack we need to reorder our list of colors. I\'m still working on understanding all the list manipulation nodes in Sverchok but I wrangled my list of 5 colors (one color per cube) using the \"List Match\" node. It takes a list of integers the same length as the number of vertices per cube and combines it (using the \'X-Ref\" option) with a list of 5 colors. Use the \"Viewer Text\" node to work out how the various options work
 
-![nodes for vertex color example 2]({{ site.baseurl }}/images/vertex_color_cube_example_02.png)
+![nodes for vertex color example 2](/_site/images/vertex_color_cube_example_02.png)
 
 The version of the \"Vertex Color\" node I\'m using is available [here](/downloads/colors.py). I\'ll do a pull request for it to be included in the master branch of Sverchok. With this node as well as being able to set the vertex color layer of an object I\'ve added the ability to read the colors. This is similar to the way the \"Vertex Weights\" node already works.
 

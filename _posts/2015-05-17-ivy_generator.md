@@ -21,6 +21,6 @@ In the meantime here are my tests. In the top image the ivy was grown (with no l
 
 ![ivy1]({{ site.baseurl }}/images/ivy_test24.png)
 
-![ivy1]({{ site.baseurl }}/images/ivy_test35.png)
+![ivy1](/_site/images/ivy_test35.png)
 
 ------------------------------------------------------------------------

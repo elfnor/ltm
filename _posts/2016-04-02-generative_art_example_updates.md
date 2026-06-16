@@ -22,7 +22,7 @@ I\'ve include the updated examples in my generative-art-examples [repo](https://
 
 ### Tree
 
-![tree]({{ site.baseurl }}/images/tree_example.png)  
+![tree](/_site/images/tree_example.png)  
 [eisenxml](https://github.com/elfnor/generative-art-examples/blob/master/tree.xml), [json](https://github.com/elfnor/generative-art-examples/blob/master/tree.json)
 
 ## Examples from [Structure Synth meets Sverchok - Mesh mode]({{ site.baseurl }}{% link _posts/2015-03-15-structure synth_meets_sverchok_02.md %})

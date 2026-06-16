@@ -51,7 +51,7 @@ A braided maze is a maze that has loops. If *braid* is set to zero there will be
 
 ![simple level]({{ site.baseurl }}/images/maze_2d_braid.png)
 
-![rendered level]({{ site.baseurl }}/images/maze__2D_simple_042.png)
+![rendered level](/_site/images/maze__2D_simple_042.png)
 
 For some mazes there may be no 4 way intersections (or for braid = 1, no ends), in this case you need to turn the display of ths object off or you\'ll get an out of place cross (or end) at the origin.
 

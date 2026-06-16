@@ -115,6 +115,6 @@ Click the small dark triangle on the *Shape Key* panel and choose the *New Shape
 
 Delete the original *Basis* key. Rename the shape key at the top of the list to *Basis*. This is optional but it might avoid you confusing yourself later (I\'m very good at doing stuff that confuses me later).
 
-![rename key]({{ site.baseurl }}/images/TUT_shape_keys_11.png)
+![rename key](/_site/images/TUT_shape_keys_11.png)
 
 ------------------------------------------------------------------------

@@ -19,6 +19,6 @@ With 19 V across the stripboard, the glass surface could reach 230 deg C after a
 
 So this looked perfect for a new use. A bit of experimenting with a controlled voltage power supply and a thermocouple showed I could get a consistent 30 to 35 deg C temperature at a constant 6 V without any need for a control circuit. Perfect for our new fosterlings. I swapped a car battery charger for the fancy power supply, wrapped the bed well in fleece (ducklings are messy) and installed it in the ducklings\' box. After a day of duckling satisfaction testing we built an insulated enclosure over half the bed to provide them with a choice of a warmer enclosed space.
 
-![ducklings]({{ site.baseurl }}/images/ducklings_crop_02.png)
+![ducklings](/_site/images/ducklings_crop_02.png)
 
 Result, Happy Ducklings.

@@ -33,7 +33,7 @@ Here are a couple of images produced using the XYZ Math Surface add-on.
 
 ## Twisted Torus
 
-![twisted torus]({{ site.baseurl }}/images/twisted_torus_02.png)
+![twisted torus](/_site/images/twisted_torus_02.png)
 
 ## Stereosphere
 

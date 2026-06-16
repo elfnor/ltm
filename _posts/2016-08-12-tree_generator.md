@@ -51,7 +51,7 @@ The node outputs:
 
 Here is the Sverchok node diagram to produce the tree in the top image. A spherical cloud of atractor points is produced using the random vector and scalar nodes on the left. The *Skin Mesher* node is used to give thickness to the trunk and branches. The leaves are produced by the *Mesh Instancer* node. This make copies of a fairly simple leaf object (see insert) that has a image texture with an alpha channel. The textures are from EugeneKiver on [blendswap](http://www.blendswap.com/blends/view/59269). The modifiers on the tree trunk need to be applied before the UV texturing will work.
 
-![sca tree nodes]({{ site.baseurl }}/images/sca_tree_nodes.png)
+![sca tree nodes](/_site/images/sca_tree_nodes.png)
 
 Here is another example (not so tree like) of what is possible with the Tree Generator.
 

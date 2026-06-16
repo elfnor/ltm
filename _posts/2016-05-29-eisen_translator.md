@@ -28,7 +28,7 @@ will produce a file `/path/to/file/totranslate.es.xml`
 
 Here\'s the original eisenscript and translated eisenxml for one of the creatures above.
 
-![ss_medusa]({{ site.baseurl }}/images/ss_medusa.png)
+![ss_medusa](/_site/images/ss_medusa.png)
 
     set md 25
 

@@ -11,7 +11,7 @@ permalink: Symmetry Tile with non-rectangular cells.html
 
 With the Symmetry Tile plug-in the user selects an area using the rectangle select tool, before running the plug-in. The plug-in then derives a cell to use to form the user\'s choice of symmetry pattern. For many of the symmetries that derived cell is the same as the selected rectangle. Some of the symmetries need a cell shape other than the rectangle. Those cell shapes and their relation to the user\'s rectangle are shown below, along with the symmetry groups that use that cell shape.
 
-![Derived Cells]({{ site.baseurl }}/images/derived_cells.png)
+![Derived Cells](/_site/images/derived_cells.png)
 
 **Square** - p4, p4g, pg (some)  
 **Equilateral Triangle** - p3m1, p6  

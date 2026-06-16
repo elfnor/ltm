@@ -33,7 +33,7 @@ I could have added a hand-painted specular map to add shine to the oily parts of
 
 Here's the skin shader:
 
-[![skin shader](../images/2021-05-17/skin_shader.png)](../images/2021-05-17/skin_shader_large.png)
+[![skin shader](../images/2021-05-17/skin_shader.png)](/_site/images/2021-05-17/skin_shader_large.png)
 
 Then there was a little more work on the road...
 

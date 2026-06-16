@@ -52,7 +52,7 @@ For instance we can shade our torus radially by calculating:
 
 These calculations can be done a number of ways. Here I have used the \"Normalize\" node to give the radius and two \"Math\" nodes to do the scaling.
 
-![torus radial color]({{ site.baseurl }}/images/torus_radial.png)
+![torus radial color](/_site/images/torus_radial.png)
 
 ## Object Pass Index
 

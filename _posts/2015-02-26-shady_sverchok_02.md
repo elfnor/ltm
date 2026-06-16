@@ -18,11 +18,11 @@ Using vertex colors is easiest if the Sverchok output is a single mesh. If after
 
 Vertex colors are normally applied by painting them on in \"Vertex Paint\" mode. To get them to show as painted in Blender cycles use a material as shown below. The \"Attribute\" node is found on the \"Input\" panel of the cycles nodes. The \"Name\" has to be set to the same as the name of the \"Vertex Colors\" layer found under the Objects Data panel.
 
-![vertex color in blender]({{ site.baseurl }}/images/vertex_colors_screen.png)
+![vertex color in blender](/_site/images/screen.png)
 
 Rather than paint on our colors we\'re going to assign them to the vertices using Blender python. Each vertex in each face has its own vertex color. This means a vertex can have several different colors, one for each face it\'s on. The following code snippet gives a different vertex color for each sub-element of a mesh. Say for instance we\'ve used a \"Matrix Iterate\" node to make 11 copies of a Box (10 iterations produces 11 copies). Then the code snippet will make all the vertices in each box the same color but each box will have a different color.
 
-![nested boxes nodes]({{ site.baseurl }}/images/nested_box_nodes.png)
+![nested boxes nodes](/_site/images/nested_box_nodes.png)
 
 ```python
 """

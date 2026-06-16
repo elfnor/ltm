@@ -51,7 +51,7 @@ These are all available as assets in the blend file.
 
 The first step in creating a tiling on the Poincaré Disk,  is to  draw a line (called a geodesic) through two points. In this non-euclidean geometry this is a circle arc that goes through the two points $(a_x, a_y)$, $(b_x, b_y)$ and is perpendicular to the unit circle at the edge of the disk.  If the geodesic goes through the origin, its a straight line diameter.
 
-![geodesic geogebra](/_site/images/2026-06-16/Pasted%20image%2020260609203929.png)
+![geodesic geogebra](/images/2026-06-16/Pasted%20image%2020260609203929.png)
 
 The `geodesic` node group returns the Euclidean centre and radius of the geodesic through two points, input as 3D vectors. If the two points are on a diameter the `Is diameter?` output is true,  In this case, the centre is set to (0.0, 0.0, 0.0) and the radius is large. The centre and radius are in Euclidean space so can be used to draw lines and segments  (see `HypLine` and `HypSegment` groups)
 
@@ -101,7 +101,7 @@ The Math Formula is a life saver for this kind of complicated maths.
 
 To draw the geodesic, The simplest is to translate a `Mesh Circle` using the `center` output of the `geodesic` node and scale using the `radius` output.
 
-![draw geodesic nodes](/_site/images/2026-06-16/Pasted%20image%2020260531170644.png)
+![draw geodesic nodes](/images/2026-06-16/Pasted%20image%2020260531170644.png)
 
 ![draw geodesic blender output](/images/2026-06-16/Pasted%20image%2020260510143552.png)
 

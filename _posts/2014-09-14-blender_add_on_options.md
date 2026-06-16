@@ -196,7 +196,7 @@ if __name__ == "__main__" :
     register() 
 ```
 
-![drop down 04]({{ site.baseurl }}/images/Screenshot-drop_down_04.png)
+![drop down 04](/_site/images/Screenshot-drop_down_04.png)
 
 The callback should return a list of tuples. The above example will update the list of objects every time the user changes the selection. This may not be what you want if the add-on adds lots of new objects to a scene. For the Copy2 add-on I wanted the list to only contain objects that were in the scene when the user started the add-on.
 

@@ -46,7 +46,7 @@ Using the matrices output allows a separate object to be placed at each location
 
 If the vertices are taken from an object in the scene the vertices can be repositioned in \"EDIT\" and the structure updated by going to \"OBJECT\" mode then clicking the \"Update Node Tree\" button.
 
-![GA tube nodes and render/screenshot]({{ site.baseurl }}/images/Fern.blend.png)
+![GA tube nodes and render/screenshot](/_site/images/Fern.blend.png)
 
 The output will not always be one mesh. If the rule set ends one \'arm\' and goes back to start another \'arm\' these two sub-parts will be separate meshes. Sometimes the mesh does not turn out how you would like. This can often be fixed by changing the rule set.
 
@@ -78,7 +78,7 @@ My first attempt at the Fern structure had this effect.
 </rules>
 ```
 
-![fern wrong]({{ site.baseurl }}/images/fern_wrong.blend.png)
+![fern wrong](/_site/images/fern_wrong.blend.png)
 
 The following xml produces the result I was after that\'s shown with the node diagram above.
 

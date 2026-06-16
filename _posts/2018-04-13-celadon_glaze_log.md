@@ -15,7 +15,7 @@ As I worked on developing a celadon glaze material, I annotated this log file wi
 ------------------------------------------------------------------------
 
 Reference image  
-![]({{ site.baseurl }}/images/celadon_glaze/celadon_vase_03.jpeg)
+![](/_site/images/celadon_glaze/celadon_vase_03.jpeg)
 
 Default material    
 
@@ -103,7 +103,7 @@ Pick the colors off reference image
 Render time: 0:00:20.231184   
 Not bad!
 
-![]({{ site.baseurl }}/images/celadon_glaze/celadon_vase_03.jpeg)  
+![](/_site/images/celadon_glaze/celadon_vase_03.jpeg)  
 
 Final node setup
 

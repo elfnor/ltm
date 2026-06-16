@@ -52,7 +52,7 @@ The final shape of the surface depends quite strongly on initial conditions. If 
 ![poincare tiling in sverchok]({{ site.baseurl }}/images/poincare_7-3_poked_cupped.png)
 
 ![soft body parameters]({{ site.baseurl }}/images/soft_body_parameters.png){: .floatright}
-![tiling unfurled]({{ site.baseurl }}/images/tiling_unfurled.png)
+![tiling unfurled](/_site/images/tiling_unfurled.png)
 
 Bake the result of this second set of outputs to give a mesh. Add a \"Soft Body\" modifier to the mesh. The parameters I\'ve found that produce the best results are shown in the screen capture on the right.
 

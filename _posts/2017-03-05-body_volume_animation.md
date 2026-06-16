@@ -38,7 +38,7 @@ My rendered version of the completed basic animal.
 
 I then added [Shape Keys](https://docs.blender.org/manual/en/dev/animation/shape_keys/introduction.html) to each mesh and then altered the volumes to match the form of a horse using the horse diagrams and images from the book.
 
-![rendered horse]({{ site.baseurl }}/images/horse_morph_05_550.png)
+![rendered horse](/_site/images/horse_morph_05_550.png)
 
 I then repeated this exercise modifying the basic animal to resemble a dog (see the image at the top).
 

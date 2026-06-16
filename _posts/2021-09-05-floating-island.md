@@ -15,7 +15,7 @@ This project started with a sketch my [partner]( https://techmonkeybusiness.com/
 
 I scanned and used the line art to practice with the colorize mask in Krita. [David Revoy's tutorial](https://www.youtube.com/watch?v=HQdx6H9BIGs) is great for this.
 
-[![krita colorize](../images/2021-09-05/krita-colorize-small.png)](../images/2021-09-05/krita-colorize-full.png)
+[![krita colorize](/_site/images/2021-09-05/krita-colorize-small.png)](../images/2021-09-05/krita-colorize-full.png)
 
 I enjoyed working in 2D and thought I'd build the basic rock and building outlines in Blender and go back to Krita for another paint over. But I must be more a 3D than a 2D artist, because I couldn't stop and modelled everything in Blender. This included modelling a plausible back half to the island. Many times I thought I couldn't match the 3D geometry to the 2D sketch, but the concept artist is also a mechanical engineer and I always found a solution that made sense within his world.
 

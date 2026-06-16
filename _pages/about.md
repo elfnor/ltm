@@ -5,7 +5,7 @@ permalink: /about/
 image: composite_540_full_focus_05.png
 ---
 
-![avatar]({{ site.baseurl }}/images/El_Avatar2_face_left.jpeg){: .floatright}
+![avatar](/_site/images/El_Avatar2_face_left.jpeg){: .floatright}
 
 The name of this blog came from a realisation I had growing up. Even when thing were hard, I felt I'd had a good week if I'd done something out of each of the following groups.
 

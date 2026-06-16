@@ -56,7 +56,7 @@ The *Clamp Overlay* and *Loop Slide* parameters are passed straight to the [beve
 
 *Outset* - if the walls are tapered the tapered part extends into the path area.
 
-![large mesh]({{ site.baseurl }}/images/stereosphere_022.png)
+![large mesh](/_site/images/stereosphere_022.png)
 
 ## Large meshes
 

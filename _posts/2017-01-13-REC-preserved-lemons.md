@@ -27,7 +27,7 @@ Leave to ferment in a warm place (20 °C to 30 °C) for about three weeks, the m
 
 After 3 weeks the lemon skins should have changed texture and be softer and tastier. Put a lid on the large jar and store in the fridge. The lemons should keep for months. Stir occasionally to keep the lemon pieces under the salty juice.
 
-![ferment lock]({{ site.baseurl }}/images/REC-ferment_air_lock.png)
+![ferment lock](/_site/images/REC-ferment_air_lock.png)
 
 ------------------------------------------------------------------------
 

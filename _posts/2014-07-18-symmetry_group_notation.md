@@ -22,7 +22,7 @@ It allows you to draw on a canvas that automatically completes the chosen symmet
 
 ## Kali
 
-![kali]({{ site.baseurl }}/images/kali.png)
+![kali](/_site/images/kali.png)
 
 This on-line Java applet can be used [here](http://www.scienceu.com/geometry/handson/kali/). Its much easier to do straight lines in this app. It uses the orbifold notation for the symmetry groups.
 

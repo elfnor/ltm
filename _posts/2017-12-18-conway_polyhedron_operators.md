@@ -59,7 +59,7 @@ The canonicalization can also be applied after each operator. In the example bel
 
 These Conway operators can be applied to any manifold (ie. a closed solid) mesh not just the platonic solids. They currently don\'t work on planar grids unless one applies a solidify node to the grid first.
 
-![conway_kg_hexa_grid]({{ site.baseurl }}/images/conway_kg_hexa_grid.png)
+![conway_kg_hexa_grid](/_site/images/conway_kg_hexa_grid.png)
 
 Other Sverchok nodes of course can be used interspersed with the Conway operators for other effects.
 

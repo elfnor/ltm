@@ -109,7 +109,7 @@ An easy way to confirm the shader is correct is to plug it into a volume shader.
 
 This fairly simple shader can be used to do some interesting things.
 
-![]({{ site.baseurl }}/images/blender_osl_shaders-fc058.png)
+![](/_site/images/blender_osl_shaders-fc058.png)
 *altering the mapping coordinates*
 
 ![]({{ site.baseurl }}/images/blender_osl_shaders-7ab75.png)

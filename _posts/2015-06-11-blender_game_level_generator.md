@@ -65,7 +65,7 @@ The Sverchok node diagram is a bit more complicated than for the Pipe Generator 
 
 ![node diagram]({{ site.baseurl }}/images/level_gen_demo_nodes.png)
 
-![simple level]({{ site.baseurl }}/images/level_gen_demo.blend1.png)
+![simple level](/_site/images/level_gen_demo.blend1.png)
 
 The \"Generative Art\" node processes the xml file to randomly add the different types of objects. The weights given with each version of the rule determine the frequency of each type of component. Increase the weight of the \"left\" and \"right\" version of the rules and the design will have many more bends. Changing the \"rseed\" value in the \"Generative Art\" node generates a different set of random numbers and will produce a different level design.
 
@@ -73,7 +73,7 @@ The processor dosen\'t know anything about where it previously placed objects so
 
 Seeing the demo worked well my partner set to work standardizing the Steely Taws components so they fitted on a regular grid. The demo above is based on a grid of 1 Blender unit, the game components have a standard size of 12 units long, x 4.25 units wide, and 3 units deep.
 
-![std components]({{ site.baseurl }}/images/STD_Components-sml.png)
+![std components](/_site/images/STD_Components-sml.png)
 
 The drop deck components are interesting as they make some paths one way only. This means the player can get stuck with no way back. Either follow up the auto level generation with some hand editing to make the game level playable or only use ramps (set the weight of the drops to zero). The ramps can be driven both up and down. To keep the level from always dropping or climbing make the sum of the weights of down components (drops and down ramps) equal to the weight of the up ramps.
 

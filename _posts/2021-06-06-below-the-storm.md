@@ -19,7 +19,7 @@ The underwater lighting is very simple, and followed this video [Tutorial-How to
 
 The water is just a cuboid with a principled volume shader for the water:
 
-![lighting setup](../images/2021-06-06/water_shader.png)
+![lighting setup](/_site/images/2021-06-06/water_shader.png)
 
 Then there's a plane with a wave texture on top of the water to give some transparent areas:
 

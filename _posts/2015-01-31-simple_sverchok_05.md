@@ -40,7 +40,7 @@ V3 = M \* V2
 
 and so on. This will stack the cubes nicely on top of each other. Since version 0.5.1.0 Sverchok has a \"Iterate Matrix Transform\" node that does this repeated matrix transform. Its currently in the Beta node panel.
 
-![matrix iterate pyramid sverchok]({{ site.baseurl }}/images/pyramid_interpolate_iterate_04.blend.png)
+![matrix iterate pyramid sverchok](/_site/images/pyramid_interpolate_iterate_04.blend.png)
 
 Adding rotations to the matrix used as input to the iterate node will quickly produce some interesting structures. Below is the node diagram for the structure in the image at the top of this post. The same structure is used as the default start up script for the [Structure Synth](http://structuresynth.sourceforge.net/) application. Many of the other examples provided with Structure Synth could be used as starting points for exploration with Sverchok.
 

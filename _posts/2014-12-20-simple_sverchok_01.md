@@ -60,7 +60,7 @@ Rotations affect the 3 x 3 top left corner of the matrix. If you\'re interested 
 
 To separate out the various parts of the transform matrix use the \"Matrix out\" node from the \"Matrix\" node set. This takes a matrix (or many matrices) and outputs separately the location, scale, rotation and angle represented by that transform matrix.
 
-![Matrix out node]({{ site.baseurl }}/images/centers_polygons1b.blend.png)
+![Matrix out node](/_site/images/centers_polygons1b.blend.png)
 
 The rotation output of the node is a list of three numbers which correspond to the X, Y, Z values of the rotation given in the transform panel of the 3D view when the \"Axis Angle\" display option is selected. The Angle output of the node is the W value (in degrees) from the transform panel. In the \"Axis Angle\" mode, X, Y, Z describe an axis and W describes a angle that the object is rotated about this axis.
 

@@ -43,7 +43,7 @@ The full node group `p-tiling-arc-option` in the available blend file. has some 
 
 `geodesics` draws a full  `HypLine` between the ideal points on the edge of the Poincaré Disk (the unit circle) for every edge.
 
-![geodesics option](/_site/images/2026-06-18/Pasted%20image%2020260612160107.png)
+![geodesics option](/images/2026-06-18/Pasted%20image%2020260612160107.png)
 
 The off centre options allow the polygon that starts the tiling to be displaced from the origin. Setting this up involved creating some more basic tools for working with hyperbolic geometry.
 - `h-distance`- the length of the geodesic between two points

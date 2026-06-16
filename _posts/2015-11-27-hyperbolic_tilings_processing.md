@@ -20,7 +20,7 @@ If you do want to run the sketch you\'ll need to [install Processing](https://pr
 
 Download a copy of the [Hyperbolic Coral](https://github.com/elfnor/hyperbolic_coral) files from github and unzip them somewhere. Run Processing and change the mode to Python. Open the file `hyperbolic_tiling.pyde` and create a new folder when prompted. Move a copy of `hyperbolic_tiling.py` into the same folder. Run the script and you should see a window displaying the tiling unfolding.
 
-![screenshot hyperbolic unfurling]({{ site.baseurl }}/images/processing_unfurl_ht_734.png)
+![screenshot hyperbolic unfurling](/_site/images/processing_unfurl_ht_734.png)
 
 There\'s no fancy interface for this. Edit the `p, q, layers` parameters in the `setup()` function and re run. The tilings are described with two numbers, `p` the number of sides to the polygons used and `q` the number of polygons that meet at each vertex. The number of `layers` describes how many rings of polygons to include. Each polygon face is divided into triangles and the polygons are not so obvious in the mesh.
 

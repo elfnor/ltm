@@ -65,7 +65,7 @@ We then feed this list into another \"Matrix In\" node, set the scale values and
 
 Another simple 3D fractal is the [Menger Sponge](http://en.wikipedia.org/wiki/Menger_sponge). The sponge (right) and its negative space (left) are shown below. The sponge and its negative would fit together to completely fill a cube.
 
-![menger sponge neagtive and positive]({{ site.baseurl }}/images/menger_sponge_06.png)
+![menger sponge neagtive and positive](/_site/images/menger_sponge_06.png)
 
 Looking at these, the negative sponge looks easier to build by copying. The basic underlying structure is shown below. The structure consists of ever smaller copies of the central cross. The cross can be made by extruding each face of a cube. The positions to copy to are given by the wire frame cube. This is made by deleting the faces from a cube and subdividing each edge. The cross should be three units across and the wire frame cube 2 units across.
 

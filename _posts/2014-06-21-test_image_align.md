@@ -28,7 +28,7 @@ The text then continues underneath the image.
 To float an image left or right so that the text flows around the image you can include a style in the attribute list after the image filename. Pelican automatically has the Attribute Lists extension to markdown enabled.
 
 ```text
-![avatar]({filename}/images/El_Avatar2_face_left.jpeg){: style="float:right; margin: 20px 20px"}
+![avatar](/_site/images/El_Avatar2_face_left.jpeg){: style="float:right; margin: 20px 20px"}
 ```
 
 produces this html:
@@ -39,7 +39,7 @@ produces this html:
 
 ------------------------------------------------------------------------
 
-![avatar]({{ site.baseurl }}/images/El_Avatar2_face_left.jpeg){: style=\"float:right; margin: 20px 20px\"}
+![avatar](/_site/images/El_Avatar2_face_left.jpeg){: style=\"float:right; margin: 20px 20px\"}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
@@ -75,12 +75,12 @@ Better practive would be to define a pair of styles in the `main.css` file:
 Then reference this in the markdown as follows:
 
 ```text
-![avatar]({filename}/images/El_Avatar2_face_left.jpeg){: .floatright}
+![avatar](/_site/images/El_Avatar2_face_left.jpeg){: .floatright}
 ```
 
 ------------------------------------------------------------------------
 
-![avatar]({{ site.baseurl }}/images/El_Avatar2_face_left.jpeg){: .floatright}
+![avatar](/_site/images/El_Avatar2_face_left.jpeg){: .floatright}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 

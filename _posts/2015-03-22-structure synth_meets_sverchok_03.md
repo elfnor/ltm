@@ -69,7 +69,7 @@ If you want to animate more than one parameter use index numbers (starting with 
 
 With multiple parameters a \"List Join\" node is used to make a list to use as the \"variables\" input of the \"GA_node\".
 
-![node diagram with list join]({{ site.baseurl }}/images/GA_node-variables_attributes.blend.png)
+![node diagram with list join](/_site/images/GA_node-variables_attributes.blend.png)
 
 If not enough variables are provided the last one is repeated as many times as required.
 

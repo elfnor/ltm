@@ -16,7 +16,7 @@ Here\'s the collection so far:
 
 The original cat is the grey and brown cat shown here. She was modeled in clay, burnished and saggar fired in an electric kiln.
 
-![raku cat]({{ site.baseurl }}/images/raku_cat.jpg)
+![raku cat](/_site/images/raku_cat.jpg)
 
 For a saggar firing the piece is placed inside a larger pot filled with sawdust, wood shavings and colourants such as copper sulphate and copper wire. The pot is sealed and fired in an electric kiln. This give a reducing atmosphere (not enough oxygen for clean burning). The colourants used in ceramics, produce different colours in a reducing atmosphere than they do in a normal electric kiln firing. The process produces a bit of smoke outside the kiln. The kiln I fired this in was in a garage on a school site so we got away with it. The kilns I use now are in a community arts facility inside a building and I can\'t do saggar firings there. I like the randomness of this type of process, the result isn\'t known until the piece is taken from the kiln. Pit firing and raku firing are other processes I enjoy for their random or serendipitous results.
 

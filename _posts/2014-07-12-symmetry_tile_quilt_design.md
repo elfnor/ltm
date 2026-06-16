@@ -41,7 +41,7 @@ Turn on the grid and \'snap to grid\' from the edit menu. Choose the pencil from
 Draw a square 120 X 120 pixels, and then some straight lines inside to make the seam lines on a basic block. You\'ll make more different patterns if your basic block is non-symmetric. The block on the left is non-symmetric. The block on the right would look the same if it was flipped or mirrored about the dotted blue line.
 
 
-![line blocks]({{ site.baseurl }}/images/two_cells_lines.png)
+![line blocks](/_site/images/two_cells_lines.png)
 
 Use the fill tool (bucket) to fill each piece with a colour or pattern. Once coloured in a symmetric block can become non-symmetric. The block on the right with the coloured fill, no longer looks the same if it is flipped or mirrored.
 

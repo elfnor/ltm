@@ -20,7 +20,7 @@ First of all you need to set up two basic elements a straight section and a bend
 
 Examples of straights and bends.
 
-![examples of straights and bends]({{ site.baseurl }}/images/straights_bends.png)
+![examples of straights and bends](/_site/images/straights_bends.png)
 
 Make sure any scaling done in object mode is applied (CTRL-A) to the object. Keep the number of vertices around the ends of the two elements the same for a smooth look. This will also enable the meshes to be nicely joined later if desired.
 

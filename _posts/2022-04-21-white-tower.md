@@ -33,7 +33,7 @@ Another approach is to filter the images used in the textures before rendering. 
 
 For example, in Krita I applied a G'MIC Dream Smooth and a Sketch filter to the main rock texture image. 
 
-![filtered texture](../images/2022-04-21/white_tower_texture_filter_crop.png)
+![filtered texture](/_site/images/2022-04-21/white_tower_texture_filter_crop.png)
 
 And here's the original rock on location at the local beach.
 

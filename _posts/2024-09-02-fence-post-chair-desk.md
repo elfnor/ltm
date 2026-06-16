@@ -34,7 +34,7 @@ The band of green paint has a crackle medium under it, but I don't think I put i
 
 And here it is in use. The monitors, laptop, keyboard and tablet are all held in place on the post via standard office workstation components.
 
-![sitting](images/2024-09-02/IMG_7153_01.jpg)
+![sitting](/_site/images/2024-09-02/IMG_7153_01.jpg)
 
 The arms are all adjustable and the desk can be used sitting as above, or standing as below.
 

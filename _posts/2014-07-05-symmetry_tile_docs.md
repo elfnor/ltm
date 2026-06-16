@@ -67,7 +67,7 @@ The p31m group uses a kite shape for the initial cell. The kite shares the recta
 
 The figure below illustrates this, with the user\'s rectangular selection shown as a dotted line and the derived initial cell as a solid line.
 
-![Derived Cells]({{ site.baseurl }}/images/derived_cells.png)
+![Derived Cells](/_site/images/derived_cells.png)
 
 ## Last 3 Symmetry group options
 
@@ -115,7 +115,7 @@ If the original cell is square then 90 degree rotations of copies of it can also
 
 The eight different variations of the original tile are shown here.
 
-![bdpq cells]({{ site.baseurl }}/images/bdpq_cells.png)
+![bdpq cells](/_site/images/bdpq_cells.png)
 
 The string can be arbitrarily long, but each row should have the same number of cells. The plug-in does not check to see whether the bdpq string is properly formed. Odd results will probably occur for odd strings.
 

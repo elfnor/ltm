@@ -35,12 +35,12 @@ If the markdown file is opened in an editor with in-line markdown images or mark
     Roughen diffuse
 
     **celadon_glaze_003** {2018-04-13 17:11}
-    ![](celadon_glaze_003.png)
+    ![](/_site/images/celadon_glaze/celadon_glaze_003.png)
     Render time: 0:00:20.356762
 
 The add-on is intended to be unobtrusive and deliberately doesn\'t prompt the user for a comment or automatically save the text file externally to Blender.
 
-![addon screen shot]({{ site.baseurl }}/images/auto_save_screenshot.png)
+![addon screen shot](/_site/images/auto_save_screenshot.png)
 
 On the first render with the Auto Save on Render add-on enabled, and \"with log file\" checked, the add-on will add a text-data-block called \"save log\" to the Blender file. To see this after the first render, use the \"Browse text to be linked\" drop down below the text editor to make the \"save log\" the active text block. Add any comments desired. To save a copy externally to Blender use the \"Text \> Save As\" menu. The default save name has been set to \"blendfilebasename_log.md\". This can be changed but the markdown file link format requires the log file be in the same folder as the auto-saved images.
 

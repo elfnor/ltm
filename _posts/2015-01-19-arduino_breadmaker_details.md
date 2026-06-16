@@ -48,7 +48,7 @@ We will need to design a system to record the heater, motor and thermistor signa
 
 A thermistor has two connections and is usually read by micro controller using a voltage divider circuit like one of these (the thermistor can either be between the pin and ground or between +5V and the pin):
 
-![thermistor read schematic]({{ site.baseurl }}/images/thermistor_read_schem.png)
+![thermistor read schematic](/_site/images/thermistor_read_schem.png)
 
 Checking the thermistor circuit shows pin 2 at +5V so we\'re looking at something like the left most schematic above. However the resistor on Pin 1 of the thermistor is connected to ground via a transistor. The base pin of this transistor is controlled via another micro controller pin. Below is a simplified schematic.
 

@@ -55,6 +55,6 @@ In  a large bowl over a pot of simmering water, combine egg yolks and sugar. Bea
 
 Serve the zabaglione over the marshmallows and some fruit salad, feijoas for preference. You could get really fancy and make moulds for the marshmallow by pressing real eggs into flour. Also, maybe you could use feijoa skins for moulds? I didn't try this and we just ate it piled on a plate.
 
-![as made](../images/2021-04-09/easter_eggs.jpg)
+![as made](/_site/images/2021-04-09/easter_eggs.jpg)
 
 This is a photo of the real thing as eaten. The top post was made quickly in Blender Eevee for fun.

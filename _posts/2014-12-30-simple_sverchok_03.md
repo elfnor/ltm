@@ -58,7 +58,7 @@ Unless its a plantation forest, our trees will look better with some variation i
 
 An aerial view of the landscape showing the random location and rotation of the objects.
 
-![aerial view of landscape]({{ site.baseurl }}/images/slope_greeble_09.png)
+![aerial view of landscape](/_site/images/slope_greeble_09.png)
 
 Download [blend file](/downloads/slope_greeble.blend)
 

@@ -18,7 +18,7 @@ We know from playing last time with the \"Matrix Out\" and the \"Text Viewer\" n
 
 A look around the nodes available finds a \"Scale\" node under Transforms and a \"Matrix Deform\" node under Matrix.
 
-![sverchok scale node and Matrix deform node]({{ site.baseurl }}/images/scale_matrix_nodes.png)
+![sverchok scale node and Matrix deform node](/_site/images/scale_matrix_nodes.png)
 
 The \"Scale\" node has vertices as inputs and outputs. This would be useful for scaling the vertices of a single object (think of working in \"EDIT\" mode) but isn\'t for working with the transform matrices (think of working in \"OBJECT\" mode).
 

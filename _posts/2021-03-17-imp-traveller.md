@@ -117,7 +117,7 @@ My reference for this was Tibetan lutes like this one.
 
 I blocked in the main shapes with subdivision modelling. I'm keeping to the proportions of the reference, even though I think the lute will need to be much shorter in the body to match the Imp.
 
-![](../images/2021-03-17/pack_sculpt_progress-e85295fb.png)
+![](/_site/images/2021-03-17/pack_sculpt_progress-e85295fb.png)
 
 I then worked mainly on the head and treated it as a character sculpt. Here I'm at about 380k faces. The teeth and eyes are separate objects.
 ![](../images/2021-03-17/pack_sculpt_progress-7fdaa628.png)

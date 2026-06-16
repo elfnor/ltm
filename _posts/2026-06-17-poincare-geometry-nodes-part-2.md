@@ -108,7 +108,7 @@ Groups created - names as in the accompanying blend file.
 - "mirror-adjacent-faces-poincare" - mirror - the adjacent face for all boundary edges
 
 
-![](Pasted%20image%2020260516221626.png)
+![tiling nodes](/images/2026-06-17/Pasted%20image%2020260516221626.png)
 
 ![7,3 poincare tiling straight edges](/images/2026-06-17/Pasted%20image%2020260612154550.png)
 
@@ -125,7 +125,7 @@ Lots of fun can be had by adding  triangulate, dual, and subdivide nodes to the 
 
 ![subdivide 3](/images/2026-06-17/Pasted%20image%2020260612154703.png)
 
-![subdivide 4](/_site/images/2026-06-17/Pasted%20image%2020260612154730.png)
+![subdivide 4](/images/2026-06-17/Pasted%20image%2020260612154730.png)
 
 
 This is related to [Conway Operators](https://elfnor.com/conway-polyhedron-operators-in-sverchok.html) which is another thing I've been playing with in Geometry Nodes. I'll write it up here eventually. 

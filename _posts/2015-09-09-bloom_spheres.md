@@ -100,7 +100,7 @@ The simplest way of doing something similar to this is to move each vertex side 
 
 Sverchok now has nodes to change the x, y, z coordinates of a vertex into polar coordinates and change them back again. Here we apply a sinusoidal offset to each vertex. The frequency of the sinusoid is varied by changing the `stop` value of the `Float Series` node. A multiple (or fraction) of $$\pi$$ is sensible. A `Float` entry node is used to change the amplitude of the sinusoid.
 
-![node bloom sphere vertex wobble]({{ site.baseurl }}/images/wobble_vertex_node_tree.png)
+![node bloom sphere vertex wobble](/_site/images/wobble_vertex_node_tree.png)
 
 ![animation]({{ site.baseurl }}/images/wobble_vertex.gif)
 

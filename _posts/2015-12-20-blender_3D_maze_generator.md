@@ -52,7 +52,7 @@ The lack of rails on the platforms above is a serious health and safety issue. T
 
 ![3D rail components]({{ site.baseurl }}/images/maze_3d_rail_components.png)
 
-![3D rail maze]({{ site.baseurl }}/images/maze_3d_rail_maze.png)
+![3D rail maze](/_site/images/maze_3d_rail_maze.png)
 
 The extra edge rail components could also be used to place windows in a house maze. The internal rail components (3, 4) would be walls in the rooms.
 

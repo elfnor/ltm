@@ -24,7 +24,7 @@ If instead of pentagons you use a seven sided polygon (septagon) for the central
 
 Another way to make a physical model of a hyperbolic plane is with crochet. [Dania Taimina](http://www.math.cornell.edu/~dtaimina/), a Latvian mathematician developed this and has a book with the great title [Crocheting Adventures with Hyperbolic Planes](http://www.amazon.com/Crocheting-Adventures-Hyperbolic-Planes-Taimina/dp/1568814526). This has inspired many projects world wide including this [crochet coral reef](http://crochetcoralreef.org/coral-reef-gallery.php).
 
-![hyperbolic crochet]({{ site.baseurl }}/images/reef1.jpg)
+![hyperbolic crochet](/_site/images/reef1.jpg)
 
 \"Crochet Coral and Anemone Garden\" with sea slug by Marianne Midelburg.
 Photos © The IFF by Alyssa Gorelick.

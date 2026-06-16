@@ -79,7 +79,7 @@ There is still some fuzziness between the shadow color and the main color on the
 
 ![]({{ site.baseurl }}/images/npr_compositing_shadow-4f80d.png)
 
-![]({{ site.baseurl }}/images/npr_compositing_shadow-9c194.png)
+![](/_site/images/npr_compositing_shadow-9c194.png)
 *using a color ramp to sharpen the edge of the shadow*
 
 A softer line can be achieved by increasing the size of the sun,
