@@ -1,8 +1,8 @@
 ---
 author: elfnor
-date: 2026-05-12 00:00
+date: 2026-06-17 00:00
 image:
-  path: images/2024-09-02/header-fence-post-chair-desk.jpg
+  path: images/2024-09-02/header-poincare-part-2.jpg
 layout: post
 tags:
   - blender
@@ -94,7 +94,8 @@ radius_center_n_gon(7, 3);
 
 Next I wrap this up as a group that loops over all boundary edges, finds the adjacent face and reflects it in the edge.
 
-![](Pasted%20image%2020260516222801.png)
+![mirror all boundary edges nodes](/images/2026-06-17/Pasted%20image%2020260516222801.png)
+
 
 ## Tiling
 
@@ -108,20 +109,23 @@ Groups created - names as in the accompanying blend file.
 
 
 ![](Pasted%20image%2020260516221626.png)
-![](Pasted%20image%2020260612154550.png)
+
+![7,3 poincare tiling straight edges](/images/2026-06-17/Pasted%20image%2020260612154550.png)
+
 
 For ease, the edges of the polygons are plotted as a straight lines. They should,  of course, be arcs. I'll look at replacing the edges with  geodesic segments in  Part 3 of this series.  In that post I'll also show how to move the start polygon away from the centre.
 ## Subdividing tiling
 
 Lots of fun can be had by adding  triangulate, dual, and subdivide nodes to the tiling output.
 
-![](Pasted%20image%2020260612154634.png)
+![subdivide 1](/images/2026-06-17/Pasted%20image%2020260612154634.png)
 
-![](Pasted%20image%2020260612154647.png)
 
-![](Pasted%20image%2020260612154703.png)
+![subdivide 2](/images/2026-06-17/Pasted%20image%2020260612154647.png)
 
-![](Pasted%20image%2020260612154730.png)
+![subdivide 3](/images/2026-06-17/Pasted%20image%2020260612154703.png)
+
+![subdivide 4](/images/2026-06-17/Pasted%20image%2020260612154730.png)
 
 
 This is related to [Conway Operators](https://elfnor.com/conway-polyhedron-operators-in-sverchok.html) which is another thing I've been playing with in Geometry Nodes. I'll write it up here eventually. 

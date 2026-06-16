@@ -2,7 +2,7 @@
 author: elfnor
 date: 2026-06-16 00:00
 image:
-  path: images/2024-09-02/header-fence-post-chair-desk.jpg
+  path: images/2026-06-16/header-poincare-part-1.jpg
 layout: post
 tags:
   - blender

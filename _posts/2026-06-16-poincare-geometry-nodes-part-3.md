@@ -1,6 +1,6 @@
 ---
 author: elfnor
-date: 2026-06-16 00:00
+date: 2026-06-18 00:00
 image:
   path: images/2024-09-02/header-fence-post-chair-desk.jpg
 layout: post
@@ -19,23 +19,27 @@ So far I made a tiling of the Poincare Disk, but for simplicity I drew  the tili
 I found it  easiest to replace the edges after constructing the tiling. I used two nested "For Element " loops. The outer one iterates over every face in the tiling, the inner one over every edge in the face. This duplicates calculations but it's fast enough, so no optimisation needed.
 
 Inner loop
-![](Pasted%20image%2020260603171356.png)
+
+![HypSegments inner loop nodes](/images/2026-06-18/Pasted%20image%2020260603171356.png)
 The inner loop is simple and just creates a `HypSegment` through the two points of each edge on the face.
 
 Outer  Loop
-![](Pasted%20image%2020260603171543.png)
+
+![outer loop HypSegments nodes](/images/2026-06-18/Pasted%20image%2020260603171543.png)
+
 
 The outer loop (optionally) fills the curve with an n-gon. The `Curve to Mesh` ` Merge by Distance` `Mesh to Curve` node sequence, merges the extra vertices at the face corners and sorts the vertices into sequential order. After that we replace the curves with a filled mesh circle with the appropriate number of vertices, then set the vertex position to that sampled from the curve.
 
-![](Pasted%20image%2020260612155417.png)
+![curved edge tiling](/images/2026-06-18/Pasted%20image%2020260612155417.png)
 
 The full node group `p-tiling-arc-option` in the available blend file. has some other draw options.
 
-![](Pasted%20image%2020260609204134.png)
+![tiling group options](/images/2026-06-18/Pasted%20image%2020260609204134.png)
+
 
 `geodesics` draws a full  `HypLine` between the ideal points on the edge of the Poincare Disk (the unit circle) for every edge.
 
-![](Pasted%20image%2020260612160107.png)
+![geodesics option](/images/2026-06-18/Pasted%20image%2020260612160107.png)
 
 The off centre options allow the polygon that starts the tiling to be displaced from the origin. Setting this up involved creating some more basic tools for working with hyperbolic geometry.
 - `h-distance`- the length of the geodesic between two points
@@ -66,13 +70,13 @@ ng h_distance(P: vec3, Q:vec3) -> hd: float{
 h_distance({0.5, 0, 0}, {0, 0.5, 0});
 ```
 
-![](Pasted%20image%2020260604171939.png)
+![h-distance node group](/images/2026-06-18/Pasted%20image%2020260604171939.png)
 
 ### `h-circle`
 
 For a hyperbolic circle all the points are an equal hyperbolic distance from the hyperbolic centre.  It can be drawn as an Euclidean circle with the Euclidean centre $B_E$ offset from the hyperbolic centre $B$ on a line toward the origin $O$. 
 
-![](Pasted%20image%2020260608173900.png)
+![h-circle geogebra](/images/2026-06-18/Pasted%20image%2020260608173900.png)
 
 Distances from a point to the the origin of the Poincare Disk can be converted back and forth from  hyperbolic $d_H$ to Euclidean $d_E$  distances via
 
@@ -114,7 +118,7 @@ B_E = \frac{e1+e2}{2}\frac{\overline{B}}{|B|}
 $$
 
 
-![](Pasted%20image%2020260608175401.png)
+![h-circle](/images/2026-06-18/Pasted%20image%2020260608175401.png)
 
 
 
@@ -123,25 +127,26 @@ Now I have the `h-circle` group, I can use it to find the perpendicular bisector
 
 The hyperbolic perpendicular bisector construction is analogous to the familiar Euclidean one.  Draw a circle centred on A through B, and another circle centred on B through A. Find the two intersections points of these circles. Draw a line though them.  
 
-![](Pasted%20image%2020260608194037.png)
+![perpendicular bisector geogebra](/images/2026-06-18/Pasted%20image%2020260608194037.png)
 
 
-![](Pasted%20image%2020260608193937.png)
+![perpendicular bisector nodes](/images/2026-06-18/Pasted%20image%2020260608193937.png)
 
 And the full  `off-center-polygon` group
-![](Pasted%20image%2020260608194139.png)
+
+![off center polygon node group](/images/2026-06-18/Pasted%20image%2020260608194139.png)
 
 
 This is incorporated into the `p-tiling` group,within the `p-tiling-arc-option` to produce Poincare tilings with an off centre polygon.
 
-![](Pasted%20image%2020260612160039.png)
+![vertex centered tiling](/images/2026-06-18/Pasted%20image%2020260612160039.png)
 
 
 The `off-center-polygon`  can also be used to draw other patterns.
 
 Here a hyperbolic line is drawn through the centre and each vertex of a polygon.
 
-![](Pasted%20image%2020260608201906.png)
+![polygon radials](/images/2026-06-18/Pasted%20image%2020260608201906.png)
 
 So that wraps this series for now. Although I have some ideas for hyperbolic solids in 3D ...
 
