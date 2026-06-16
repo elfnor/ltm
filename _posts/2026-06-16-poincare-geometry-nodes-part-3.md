@@ -8,6 +8,7 @@ tags:
   - blender
 title: "Patterns in the Poincaré Plane - Geometry Nodes: Part 3"
 permalink: 2026-06-16-poincare-geometry-nodes-part-3.html
+draft: true
 ---
 
 

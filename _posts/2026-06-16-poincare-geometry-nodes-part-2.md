@@ -8,6 +8,7 @@ tags:
   - blender
 title: "Patterns in the Poincaré Plane - Geometry Nodes: Part 2"
 permalink: 2026-06-16-poincare-geometry-nodes-part-2.html
+draft: true
 ---
 
 Last post I covered drawing geodesic lines (they look like circle arcs) on the Poincare Disk. This time I'm going to cover drawing hyperbolic tilings.

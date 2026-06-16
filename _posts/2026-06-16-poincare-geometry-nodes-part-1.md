@@ -8,6 +8,7 @@ tags:
   - blender
 title: "Patterns in the Poincaré Plane - Geometry Nodes: Part 1"
 permalink: 2026-06-16-poincare-geometry-nodes-part-1.html
+draft: true
 ---
 
 I've made several serious efforts to really learn the depths of Blender's Geometry Nodes. I was really into Sverchok for a while, but I've found Geometry Nodes harder. Maybe its the moving target as more nodes are added. Maybe without a scripting node I can't cheat and just wrap code in a node front end. I have a bit more time lately and I think I'm starting to make progress.
