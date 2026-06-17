@@ -154,7 +154,7 @@ Here a hyperbolic line is drawn through the centre and each vertex of a polygon.
 
 So that wraps this series for now. Although I have some ideas for hyperbolic solids in 3D ...
 
-All the hyperbolic tools can be found as assets in the provided blend file. Most of the pretty pictures are available in the "demos" collection in that file. There's also a "tests" collection, that has tests for the `h-circle` and `h-distance` groups. I needed to rewrite these two groups as I refined and simplified the maths. I wanted to find a way to use tests in a similar way that I would use with text code. 
+All the hyperbolic tools can be found as assets in the provided blend file. Most of the pretty pictures are available in the "demos" collection in that file. There's also a "tests" collection, that has tests for the `h-circle` and `h-distance` groups. I needed to rewrite these two groups as I refined and simplified the maths. I wanted to find a way to use tests in a similar way that I would use with text code.  I think this works.
 
 Overall, this was a great learning exercise. I've improved my ability to implement maths and geometry in Blender Geometry Nodes heaps. I feel I've got my fingers over the edge of the learning cliff and can now pull myself up. Hopefully, I'll document some more of this here on the blog.
 
