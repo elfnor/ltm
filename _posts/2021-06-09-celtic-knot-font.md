@@ -51,7 +51,7 @@ The full list of characters available is "hibox". "h" gives heads, and "b" beaks
 
 For designing patterns LibreOffice Calc is good with four characters or one glyph per cell. its useful in the design stage as you can see the character string in the input line at the same time as you can see the glyph in the cell. You can also easily edit glyph by glyph.
 
-![calc snapshot](../images/2021-06-09/calc_screenshot.png)
+![calc snapshot](/images/screenshot.png)
 
 The project's github repository includes a python script to produce patterns with particular dimensions and symmetries. It outputs a sting of characters to the terminal that can be pasted back into your text editor or used on a webpage.
 
