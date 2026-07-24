@@ -38,7 +38,7 @@ And here it is in use. The monitors, laptop, keyboard and tablet are all held in
 
 The arms are all adjustable and the desk can be used sitting as above, or standing as below.
 
-![standing](images/2024-09-02/IMG_7130.jpg)
+![standing](/_site/images/2024-09-02/IMG_7130.jpg)
 
 You can see i have a cable management problem and I've got some bits ordered to help tidy that up. The two monitors can be switched individually between the laptop (work) and the large CPU (graphics etc.) via  a couple of HDMI switches. I'm going to mount a single PD power supply that will power both monitors and the laptop. 
 

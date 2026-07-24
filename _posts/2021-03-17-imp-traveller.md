@@ -150,7 +150,7 @@ The rest of the lute was just poly modelling, with beziers for the strings.
 
 Again I probably went overboard on detail that won't be seen, but I'm doing this for fun... it's my time!
 
-![](../images/2021-03-17/pack_sculpt_progress-e2697945.png)
+![](/images/2021-03-17/pack_sculpt_progress-e2697945.png)
 
 Next, I need to get back to the Imp. probably the hair, but the eyes still need doing.
 

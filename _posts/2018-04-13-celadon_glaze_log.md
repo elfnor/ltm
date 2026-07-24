@@ -107,6 +107,6 @@ Not bad!
 
 Final node setup
 
-![]({{ site.baseurl }}/images/celadon_glaze/celadon_glaze_ss_03.png)  
+![](/_site/images/celadon_glaze/celadon_glaze_ss_03.png)  
 
 Could use a geometry pointedness input node to mix a lighter shade to give the look of a breaking glaze on sharp edges or play with a Voronoi texture for crazing.

@@ -40,7 +40,7 @@ To get a feel for the weird geometry where straight lines are circular arcs have
 I've divided this post into three parts. The node groups I'll describe in each post (blend file) are shown here.
 ![nodes part 1](/images/2026-06-16/Pasted%20image%2020260609202117.png)
 ![nodes part 2](/images/2026-06-16/Pasted%20image%2020260609202134.png)
-![nodes part 3](/images/2026-06-16/Pasted%20image%2020260609202202.png)
+![nodes part 3](/_site/images/2026-06-16/Pasted%20image%2020260609202202.png)
 
 These are all available as assets in the blend file.
 
